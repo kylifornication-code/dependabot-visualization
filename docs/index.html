@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dependabot Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+</head>
+<body>
+
+  <!-- ── Header ──────────────────────────────────────────────────────── -->
+  <header class="header">
+    <div class="header-inner">
+      <div class="header-title">
+        <!-- Shield icon -->
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+        </svg>
+        <h1>Dependabot Dashboard</h1>
+      </div>
+      <div class="header-meta">
+        <span id="health-badge" class="badge badge-muted">Loading…</span>
+        <span id="last-updated" class="last-updated"></span>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- ── Loading state ──────────────────────────────────────────────── -->
+    <div id="loading-state" class="state-box">
+      <div class="spinner"></div>
+      <p>Loading dashboard data…</p>
+    </div>
+
+    <!-- ── Error state ────────────────────────────────────────────────── -->
+    <div id="error-state" class="section hidden">
+      <div class="state-box">
+        <div class="state-icon">⚠️</div>
+        <p id="error-message"></p>
+        <p style="margin-top:12px;font-size:12px">
+          Run the GitHub Action manually via
+          <strong>Actions → Collect Dependabot Data → Run workflow</strong>,
+          then reload this page.
+        </p>
+      </div>
+    </div>
+
+    <!-- ── Dashboard content ──────────────────────────────────────────── -->
+    <div id="content" class="hidden">
+
+      <!-- Summary cards -->
+      <div id="summary-cards" class="summary-cards"></div>
+
+      <!-- Trend chart + Work estimate -->
+      <div class="panels">
+        <div class="panel">
+          <h2>
+            <!-- Chart icon -->
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/>
+            </svg>
+            Alert Trend
+          </h2>
+          <div class="chart-container">
+            <canvas id="trend-chart"></canvas>
+          </div>
+        </div>
+
+        <div class="panel">
+          <h2>
+            <!-- Clipboard icon -->
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2"/>
+              <rect x="9" y="3" width="6" height="4" rx="1" ry="1"/>
+            </svg>
+            Work Estimate
+          </h2>
+          <div id="work-estimate"></div>
+        </div>
+      </div>
+
+      <!-- Repo breakdown -->
+      <div class="section">
+        <div class="section-header">
+          <h2>
+            <!-- Folder icon -->
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/>
+            </svg>
+            Repositories
+            <span id="repo-count" class="count-chip">0</span>
+          </h2>
+          <p style="font-size:11px;color:var(--text-muted)">Sorted by risk · click column headers to re-sort</p>
+        </div>
+        <div class="table-wrap">
+          <table id="repos-table"></table>
+        </div>
+      </div>
+
+      <!-- Open PRs -->
+      <div class="section">
+        <div class="section-header">
+          <h2>
+            <!-- Git PR icon -->
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="18" cy="18" r="3"/>
+              <circle cx="6" cy="6" r="3"/>
+              <path d="M13 6h3a2 2 0 0 1 2 2v7"/>
+              <line x1="6" y1="9" x2="6" y2="21"/>
+            </svg>
+            Open PRs
+            <span id="pr-count" class="count-chip">0</span>
+          </h2>
+          <div class="filter-bar">
+            <input id="pr-search"  class="filter-input"  type="search" placeholder="Search by title or repo…">
+            <select id="repo-filter" class="filter-select"></select>
+          </div>
+        </div>
+        <div id="prs-list" class="pr-list"></div>
+      </div>
+
+    </div><!-- /content -->
+  </main>
+
+  <footer>
+    Data collected by GitHub Actions ·
+    <a href="https://docs.github.com/en/code-security/dependabot" target="_blank" rel="noopener">Dependabot docs</a> ·
+    Severity information omitted to protect against targeted exploitation
+  </footer>
+
+  <script src="dashboard.js"></script>
+</body>
+</html>
