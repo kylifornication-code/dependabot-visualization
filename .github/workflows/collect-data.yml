@@ -4,18 +4,18 @@ name: Collect Dependabot Data
 #
 # 1. Create a Personal Access Token at https://github.com/settings/tokens
 #    Required scopes:
-#      - repo          (read repo metadata and PRs)
+#      - repo             (read repo metadata and PRs)
 #      - security_events  (read Dependabot alerts)
-#      - read:org      (if you want to scan organization repos)
+#      - read:org         (if you want to scan organization repos)
 #
 # 2. Add it as a repository secret named GH_TOKEN
 #    Settings → Secrets and variables → Actions → New repository secret
 #
-# 3. Enable GitHub Pages for this repo:
-#    Settings → Pages → Source: Deploy from branch → Branch: main, /docs
+# 3. Enable GitHub Pages via GitHub Actions (not "Deploy from branch"):
+#    Settings → Pages → Source: GitHub Actions
 #
-# 4. (Optional) Set GITHUB_ORG secret/var if you want org-level alert scanning
-#    (faster and covers org repos your token might not list individually)
+# 4. (Optional) Set GITHUB_ORG as an Actions variable for org-level scanning:
+#    Settings → Secrets and variables → Actions → Variables → New variable
 #
 # ───────────────────────────────────────────────────────────────────────────
 
@@ -26,15 +26,22 @@ on:
   workflow_dispatch:
     inputs:
       org:
-        description: 'GitHub org to scan (overrides GITHUB_ORG secret)'
+        description: 'GitHub org to scan (overrides GITHUB_ORG variable)'
         required: false
 
 permissions:
-  contents: write   # needed to commit data files back to the repo
+  contents: write    # commit data files back to the repo
+  pages:    write    # deploy to GitHub Pages
+  id-token: write    # required by actions/deploy-pages for OIDC auth
+
+concurrency:
+  group: pages
+  cancel-in-progress: false   # don't cancel in-flight deploys mid-flight
 
 jobs:
+  # ── Job 1: collect data and commit history ────────────────────────────
   collect:
-    name: Collect & commit data
+    name: Collect data
     runs-on: ubuntu-latest
 
     steps:
@@ -49,19 +56,38 @@ jobs:
       - name: Collect Dependabot data
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
-          # Prefer manual input, fall back to org secret/variable
-          GITHUB_ORG: ${{ inputs.org || vars.GITHUB_ORG || secrets.GITHUB_ORG || '' }}
+          GITHUB_ORG: ${{ inputs.org || vars.GITHUB_ORG || '' }}
         run: node scripts/collect.mjs
 
-      - name: Commit and push updated data
+      - name: Commit updated data
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add docs/data/
-          # Only commit if there are actual changes
           if git diff --staged --quiet; then
             echo "No data changes — nothing to commit."
           else
             git commit -m "chore: dependabot snapshot $(date -u +%Y-%m-%d)"
             git push
           fi
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          # Upload the entire docs/ folder as the Pages site
+          path: docs/
+
+  # ── Job 2: deploy to GitHub Pages ─────────────────────────────────────
+  deploy:
+    name: Deploy to GitHub Pages
+    needs: collect
+    runs-on: ubuntu-latest
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+
+    steps:
+      - name: Deploy
+        id: deploy
+        uses: actions/deploy-pages@v4
