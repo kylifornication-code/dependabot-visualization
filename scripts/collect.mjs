@@ -248,7 +248,6 @@ async function main() {
     const repos = await paginate('/user/repos', {
       affiliation: 'owner,collaborator,organization_member',
       sort: 'updated',
-      type: 'all',
     });
 
     const scannable = repos.filter(r => {
