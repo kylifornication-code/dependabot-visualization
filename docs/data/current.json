@@ -1,0 +1,271 @@
+{
+  "generatedAt": "2026-03-27T00:41:58.163Z",
+  "summary": {
+    "totalAlerts": 3,
+    "bySeverity": {
+      "critical": 0,
+      "high": 1,
+      "medium": 1,
+      "low": 1,
+      "unknown": 0
+    },
+    "totalOpenPRs": 10,
+    "reposAffected": 1,
+    "reposWithPRs": 4,
+    "reposScanned": 4
+  },
+  "repos": [
+    {
+      "repo": "kylifornication-code/astro-career-walking-deck",
+      "name": "astro-career-walking-deck",
+      "owner": "kylifornication-code",
+      "isPrivate": false,
+      "language": "TypeScript",
+      "alertCounts": {
+        "critical": 0,
+        "high": 1,
+        "medium": 1,
+        "low": 1,
+        "unknown": 0
+      },
+      "totalAlerts": 3,
+      "openPRs": 1,
+      "prs": [
+        {
+          "number": 11,
+          "title": "Bump the npm_and_yarn group across 1 directory with 5 updates",
+          "createdAt": "2026-03-18T23:12:50Z",
+          "updatedAt": "2026-03-18T23:12:51Z",
+          "isDependabot": true,
+          "isSecurityUpdate": false,
+          "autoMergeEnabled": false,
+          "mergeable": null,
+          "mergeableState": "unknown",
+          "isDraft": false,
+          "labels": [
+            "dependencies",
+            "javascript"
+          ],
+          "url": "https://github.com/kylifornication-code/astro-career-walking-deck/pull/11"
+        }
+      ],
+      "ecosystems": [
+        "npm"
+      ],
+      "oldestAlert": "2026-03-26T09:19:53Z"
+    },
+    {
+      "repo": "Buffalo-Drinking-Game/buffalo-drinking-game",
+      "name": "buffalo-drinking-game",
+      "owner": "Buffalo-Drinking-Game",
+      "isPrivate": false,
+      "language": "TypeScript",
+      "alertCounts": {
+        "critical": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0,
+        "unknown": 0
+      },
+      "totalAlerts": 0,
+      "openPRs": 6,
+      "prs": [
+        {
+          "number": 7,
+          "title": "Bump @types/react from 19.2.13 to 19.2.14",
+          "createdAt": "2026-03-16T06:04:07Z",
+          "updatedAt": "2026-03-19T04:08:52Z",
+          "isDependabot": true,
+          "isSecurityUpdate": false,
+          "autoMergeEnabled": false,
+          "mergeable": null,
+          "mergeableState": "unknown",
+          "isDraft": false,
+          "labels": [
+            "dependencies",
+            "javascript"
+          ],
+          "url": "https://github.com/Buffalo-Drinking-Game/buffalo-drinking-game/pull/7"
+        },
+        {
+          "number": 11,
+          "title": "Bump @tailwindcss/vite from 4.2.1 to 4.2.2",
+          "createdAt": "2026-03-23T01:16:24Z",
+          "updatedAt": "2026-03-23T01:16:24Z",
+          "isDependabot": true,
+          "isSecurityUpdate": false,
+          "autoMergeEnabled": false,
+          "mergeable": null,
+          "mergeableState": "unknown",
+          "isDraft": false,
+          "labels": [
+            "dependencies",
+            "javascript"
+          ],
+          "url": "https://github.com/Buffalo-Drinking-Game/buffalo-drinking-game/pull/11"
+        },
+        {
+          "number": 12,
+          "title": "Bump tailwindcss from 4.2.1 to 4.2.2",
+          "createdAt": "2026-03-23T01:16:30Z",
+          "updatedAt": "2026-03-23T01:16:31Z",
+          "isDependabot": true,
+          "isSecurityUpdate": false,
+          "autoMergeEnabled": false,
+          "mergeable": null,
+          "mergeableState": "unknown",
+          "isDraft": false,
+          "labels": [
+            "dependencies",
+            "javascript"
+          ],
+          "url": "https://github.com/Buffalo-Drinking-Game/buffalo-drinking-game/pull/12"
+        },
+        {
+          "number": 13,
+          "title": "Bump framer-motion from 12.33.0 to 12.38.0",
+          "createdAt": "2026-03-23T01:16:39Z",
+          "updatedAt": "2026-03-23T01:16:40Z",
+          "isDependabot": true,
+          "isSecurityUpdate": false,
+          "autoMergeEnabled": false,
+          "mergeable": null,
+          "mergeableState": "unknown",
+          "isDraft": false,
+          "labels": [
+            "dependencies",
+            "javascript"
+          ],
+          "url": "https://github.com/Buffalo-Drinking-Game/buffalo-drinking-game/pull/13"
+        },
+        {
+          "number": 14,
+          "title": "Bump astro from 6.0.4 to 6.0.8",
+          "createdAt": "2026-03-23T01:16:52Z",
+          "updatedAt": "2026-03-26T02:40:40Z",
+          "isDependabot": true,
+          "isSecurityUpdate": false,
+          "autoMergeEnabled": false,
+          "mergeable": null,
+          "mergeableState": "unknown",
+          "isDraft": false,
+          "labels": [
+            "dependencies",
+            "javascript"
+          ],
+          "url": "https://github.com/Buffalo-Drinking-Game/buffalo-drinking-game/pull/14"
+        },
+        {
+          "number": 16,
+          "title": "Bump the npm_and_yarn group across 1 directory with 1 update",
+          "createdAt": "2026-03-26T02:39:59Z",
+          "updatedAt": "2026-03-26T02:40:00Z",
+          "isDependabot": true,
+          "isSecurityUpdate": false,
+          "autoMergeEnabled": false,
+          "mergeable": null,
+          "mergeableState": "unknown",
+          "isDraft": false,
+          "labels": [
+            "dependencies",
+            "javascript"
+          ],
+          "url": "https://github.com/Buffalo-Drinking-Game/buffalo-drinking-game/pull/16"
+        }
+      ],
+      "ecosystems": [],
+      "oldestAlert": null
+    },
+    {
+      "repo": "kylifornication-code/ncaa-wrestling-bracket",
+      "name": "ncaa-wrestling-bracket",
+      "owner": "kylifornication-code",
+      "isPrivate": false,
+      "language": "JavaScript",
+      "alertCounts": {
+        "critical": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0,
+        "unknown": 0
+      },
+      "totalAlerts": 0,
+      "openPRs": 1,
+      "prs": [
+        {
+          "number": 3,
+          "title": "Bump picomatch",
+          "createdAt": "2026-03-26T03:08:20Z",
+          "updatedAt": "2026-03-26T03:08:20Z",
+          "isDependabot": true,
+          "isSecurityUpdate": false,
+          "autoMergeEnabled": false,
+          "mergeable": null,
+          "mergeableState": "unknown",
+          "isDraft": false,
+          "labels": [
+            "dependencies",
+            "javascript"
+          ],
+          "url": "https://github.com/kylifornication-code/ncaa-wrestling-bracket/pull/3"
+        }
+      ],
+      "ecosystems": [],
+      "oldestAlert": null
+    },
+    {
+      "repo": "kylifornication-code/dependabot-demo",
+      "name": "dependabot-demo",
+      "owner": "kylifornication-code",
+      "isPrivate": false,
+      "language": "Ruby",
+      "alertCounts": {
+        "critical": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0,
+        "unknown": 0
+      },
+      "totalAlerts": 0,
+      "openPRs": 2,
+      "prs": [
+        {
+          "number": 9,
+          "title": "Bump actions/checkout from 3 to 4",
+          "createdAt": "2023-09-05T00:25:09Z",
+          "updatedAt": "2023-09-05T00:25:10Z",
+          "isDependabot": true,
+          "isSecurityUpdate": false,
+          "autoMergeEnabled": false,
+          "mergeable": null,
+          "mergeableState": "unknown",
+          "isDraft": false,
+          "labels": [
+            "dependencies",
+            "github_actions"
+          ],
+          "url": "https://github.com/kylifornication-code/dependabot-demo/pull/9"
+        },
+        {
+          "number": 10,
+          "title": "Bump actions/setup-java from 3 to 4",
+          "createdAt": "2023-11-30T00:59:48Z",
+          "updatedAt": "2023-11-30T00:59:49Z",
+          "isDependabot": true,
+          "isSecurityUpdate": false,
+          "autoMergeEnabled": false,
+          "mergeable": null,
+          "mergeableState": "unknown",
+          "isDraft": false,
+          "labels": [
+            "dependencies",
+            "github_actions"
+          ],
+          "url": "https://github.com/kylifornication-code/dependabot-demo/pull/10"
+        }
+      ],
+      "ecosystems": [],
+      "oldestAlert": null
+    }
+  ]
+}
