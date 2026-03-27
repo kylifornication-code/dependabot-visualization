@@ -67,6 +67,49 @@ async function apiFetch(path, params = {}) {
   return res.json();
 }
 
+/** Parse GitHub `Link` response header into rel → URL map. */
+function parseLinkHeader(linkHeader) {
+  const links = {};
+  if (!linkHeader) return links;
+  const re = /<([^>]+)>;\s*rel="([^"]+)"/g;
+  let m;
+  while ((m = re.exec(linkHeader)) !== null) links[m[2]] = m[1];
+  return links;
+}
+
+/**
+ * Cursor pagination (after / Link rel="next"). Required for Dependabot alerts —
+ * offset `page` pagination is not supported on those endpoints.
+ */
+async function paginateCursor(path, params = {}) {
+  const all = [];
+  let url = new URL(path.startsWith('http') ? path : `${API}${path}`);
+  for (const [k, v] of Object.entries({ ...params, per_page: 100 })) {
+    if (v !== undefined && v !== null) url.searchParams.set(k, String(v));
+  }
+
+  while (true) {
+    const res = await fetch(url.toString(), { headers: HEADERS });
+
+    if (res.status === 403) return all.length ? all : null;
+    if (res.status === 404) return null;
+    if (!res.ok) {
+      const body = await res.text().catch(() => '');
+      throw new Error(`GitHub API ${res.status} for ${url}: ${body.slice(0, 200)}`);
+    }
+
+    const data = await res.json();
+    if (!Array.isArray(data) || data.length === 0) break;
+    all.push(...data);
+
+    const next = parseLinkHeader(res.headers.get('link')).next;
+    if (!next) break;
+    url = new URL(next);
+    await new Promise(r => setTimeout(r, 200));
+  }
+  return all;
+}
+
 async function paginate(path, params = {}) {
   const all = [];
   let page = 1;
@@ -141,7 +184,7 @@ async function collectByRepo(repos) {
     process.stdout.write(`  ${owner}/${name} ... `);
 
     const [rawAlerts, rawPRs] = await Promise.all([
-      paginate(`/repos/${owner}/${name}/dependabot/alerts`, { state: 'open' }),
+      paginateCursor(`/repos/${owner}/${name}/dependabot/alerts`, { state: 'open' }),
       paginate(`/repos/${owner}/${name}/pulls`, { state: 'open' }),
     ]);
 
@@ -160,7 +203,7 @@ async function collectByRepo(repos) {
 
 async function collectByOrg(org) {
   console.log(`Fetching org-level alerts for ${org} ...`);
-  const rawAlerts = await paginate(`/orgs/${org}/dependabot/alerts`, { state: 'open' });
+  const rawAlerts = await paginateCursor(`/orgs/${org}/dependabot/alerts`, { state: 'open' });
 
   // Group alerts by repo
   const byRepo = new Map();
