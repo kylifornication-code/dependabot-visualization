@@ -111,34 +111,6 @@ a:hover { text-decoration: underline; }
   .last-updated { width: auto; text-align: left; }
 }
 
-.btn {
-  font-size: 0.8125rem;
-  font-weight: 600;
-  padding: 8px 14px;
-  border-radius: 8px;
-  border: 1px solid transparent;
-  cursor: pointer;
-  font-family: inherit;
-  transition: background 0.15s, border-color 0.15s;
-}
-
-.btn-primary {
-  background: var(--text-bright);
-  color: #fff;
-}
-.btn-primary:hover:not(:disabled) { background: #334155; }
-.btn-primary:disabled {
-  opacity: 0.45;
-  cursor: not-allowed;
-}
-
-.btn-ghost {
-  background: var(--bg-card);
-  border-color: var(--border-strong);
-  color: var(--text);
-}
-.btn-ghost:hover { background: var(--bg-page); }
-
 .icon-btn {
   width: 36px;
   height: 36px;

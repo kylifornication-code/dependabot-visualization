@@ -522,7 +522,6 @@ function wireEvents() {
   searchInput.addEventListener('input', onFilter);
   repoSelect.addEventListener('change', onFilter);
 
-  el('btn-refresh').addEventListener('click', () => window.location.reload());
   el('btn-reload-table').addEventListener('click', () => {
     renderRepoTable();
   });
