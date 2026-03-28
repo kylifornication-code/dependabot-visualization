@@ -585,6 +585,10 @@ td { padding: 12px 14px; vertical-align: middle; }
 .pill-blue     { color: var(--blue);     background: var(--blue-soft); }
 .pill-muted    { color: var(--text-muted); background: #f1f5f9; }
 
+.pill-compat-high { color: #15803d; background: #dcfce7; }
+.pill-compat-mid  { color: #a16207; background: #fef9c3; }
+.pill-compat-low  { color: #b91c1c; background: #fee2e2; }
+
 /* ── States ───────────────────────────────────────────────────────────────── */
 .state-box {
   padding: 48px 24px;

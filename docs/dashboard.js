@@ -30,24 +30,19 @@ const ECO_COLORS = {
   other: '#94a3b8',
 };
 
-const STATE_COLOR = {
-  clean: 'green',
-  dirty: 'red',
-  unstable: 'orange',
-  blocked: 'orange',
-  behind: 'blue',
-  draft: 'muted',
-  unknown: 'muted',
-};
-const STATE_LABEL = {
-  clean: 'Ready to merge',
-  dirty: 'Has conflicts',
-  unstable: 'CI failing',
-  blocked: 'Blocked',
-  behind: 'Behind base',
-  draft: 'Draft',
-  unknown: 'Checking…',
-};
+/** CSS class for Dependabot compatibility % (uses worst score when a range is shown). */
+function compatPillClass(pr) {
+  const n = pr.compatibilityMin;
+  if (n == null) return 'muted';
+  if (n >= 90) return 'compat-high';
+  if (n >= 70) return 'compat-mid';
+  return 'compat-low';
+}
+
+function compatPillLabel(pr) {
+  if (pr.compatibilityDisplay) return `Compat ${pr.compatibilityDisplay}`;
+  return 'No compatibility data';
+}
 
 function el(id) {
   return document.getElementById(id);
@@ -444,10 +439,11 @@ function renderPRList(filterText = '', filterRepo = '') {
 
   allPRs.sort((a, b) => {
     if (a.isSecurityUpdate !== b.isSecurityUpdate) return a.isSecurityUpdate ? -1 : 1;
-    const stateOrder = ['clean', 'behind', 'blocked', 'unstable', 'dirty', 'unknown', 'draft'];
-    const ai = stateOrder.indexOf(a.mergeableState ?? 'unknown');
-    const bi = stateOrder.indexOf(b.mergeableState ?? 'unknown');
-    if (ai !== bi) return ai - bi;
+    const ca = a.compatibilityMin;
+    const cb = b.compatibilityMin;
+    if (ca != null && cb != null && ca !== cb) return cb - ca;
+    if (ca != null && cb == null) return -1;
+    if (ca == null && cb != null) return 1;
     return a.createdAt.localeCompare(b.createdAt);
   });
 
@@ -468,10 +464,6 @@ function renderPRList(filterText = '', filterRepo = '') {
   }
 
   el('prs-list').innerHTML = filtered.map(pr => {
-    const state = pr.isDraft ? 'draft' : (pr.mergeableState ?? 'unknown');
-    const stateCol = STATE_COLOR[state] ?? 'muted';
-    const stateText = STATE_LABEL[state] ?? state;
-
     const badges = [
       pr.isSecurityUpdate ? pill('Security update', 'orange') : '',
       pr.autoMergeEnabled ? pill('Auto-merge on', 'green') : '',
@@ -492,7 +484,7 @@ function renderPRList(filterText = '', filterRepo = '') {
             <span class="pr-age">${age === 0 ? 'today' : `${age}d ago`}</span>
           </div>
         </div>
-        <div class="pr-status">${pill(stateText, stateCol)}</div>
+        <div class="pr-status">${pill(compatPillLabel(pr), compatPillClass(pr))}</div>
       </div>`;
   }).join('');
 

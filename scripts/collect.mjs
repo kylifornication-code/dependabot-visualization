@@ -5,7 +5,8 @@
  * Fetches open Dependabot alerts and related PRs across all repos the token
  * has access to. Sanitizes output so it is safe to publish on a public site:
  *   INCLUDED:  severity level, package ecosystem, package name, manifest path,
- *              PR status, PR merge state, age, labels
+ *              PR age, labels, Dependabot compatibility score (aggregate % from
+ *              public dependabot-badges.githubapp.com, same source as GitHub’s UI)
  *   EXCLUDED:  CVE IDs, GHSA IDs, advisory descriptions, CVSS scores,
  *              vulnerable version ranges, advisory references
  *
@@ -156,22 +157,191 @@ function isDependabotPR(pr) {
   return /^(Bump |bump |chore[\s([]deps|build[\s([]deps)/i.test(pr.title ?? '');
 }
 
-function sanitizePR(pr) {
+// ── Dependabot compatibility scores (public badge SVG, same as dependabot/fetch-metadata) ──
+
+const COMPAT_BADGE_RE = /https:\/\/dependabot-badges\.githubapp\.com\/badges\/compatibility_score\?[^\s)\]>"']+/gi;
+
+function sleep(ms) {
+  return new Promise(r => setTimeout(r, ms));
+}
+
+async function fetchCompatBadgeSvg(url) {
+  const res = await fetch(url, {
+    headers: { 'User-Agent': 'dependabot-dashboard-collector/1.0' },
+  });
+  if (!res.ok) return null;
+  return res.text();
+}
+
+function scoreFromCompatSvg(svg) {
+  const m = svg?.match(/compatibility:\s*(\d+)%/i);
+  return m ? parseInt(m[1], 10) : null;
+}
+
+function extractCompatBadgeUrls(body) {
+  if (!body) return [];
+  const found = body.match(COMPAT_BADGE_RE) ?? [];
+  return [...new Set(found)];
+}
+
+async function scoresFromBadgeUrls(urls) {
+  const scores = [];
+  for (const url of urls) {
+    const svg = await fetchCompatBadgeSvg(url);
+    const s = scoreFromCompatSvg(svg);
+    if (s != null && s > 0) scores.push(s);
+    await sleep(80);
+  }
+  return scores;
+}
+
+function ecosystemFromHeadRef(ref) {
+  if (!ref || ref.length < 11 || !ref.startsWith('dependabot')) return null;
+  const delim = ref[9];
+  const parts = ref.split(delim);
+  return parts[1] || null;
+}
+
+function extractYamlFrontMatter(message) {
+  const m = message.match(/^---\r?\n([\s\S]*?)\r?\n\.\.\.\r?\n/m);
+  return m ? m[1] : null;
+}
+
+function parseBumpLine(message) {
+  const m = message.match(/^Bumps (.+?) from (v?\S+) to (v?\S+)\.\s*$/m);
+  if (m) return { name: m[1].trim(), from: m[2].trim(), to: m[3].trim() };
+  const m2 = message.match(/^Update (.+?) requirement from \S*? ?(v?\S*) to \S*? ?(v?\S*)\s*$/m);
+  if (m2) return { name: m2[1].trim(), from: m2[2].trim(), to: m2[3].trim() };
+  return null;
+}
+
+function parseUpdatesLines(message) {
+  const map = new Map();
+  const re = /^Updates `([^`]+)`(?: from (\S+) )?to (\S+)\s*$/gm;
+  let x;
+  while ((x = re.exec(message)) !== null) {
+    map.set(x[1].trim(), { from: (x[2] || '').trim(), to: x[3].trim() });
+  }
+  return map;
+}
+
+function parseUpdatedDependenciesYaml(yml) {
+  const lines = yml.split(/\r?\n/);
+  const deps = [];
+  for (let i = 0; i < lines.length; i++) {
+    const lm = lines[i].match(/^\s*-\s*dependency-name:\s*(.+)$/);
+    if (!lm) continue;
+    const name = lm[1].trim();
+    let nextVersion = '';
+    for (let j = i + 1; j < Math.min(i + 20, lines.length); j++) {
+      const vm = lines[j].match(/^\s*dependency-version:\s*(.+)$/);
+      if (vm) {
+        nextVersion = vm[1].trim();
+        break;
+      }
+    }
+    if (name && nextVersion) deps.push({ name, nextVersion });
+  }
+  return deps;
+}
+
+function attachPrevVersions(deps, bump, updatesMap) {
+  for (const d of deps) {
+    const u = updatesMap.get(d.name);
+    if (u?.from) d.prevVersion = u.from;
+  }
+  if (deps.length === 1 && bump) {
+    const d0 = deps[0];
+    if (!d0.prevVersion) d0.prevVersion = bump.from;
+    if (!d0.nextVersion && bump.to) d0.nextVersion = bump.to;
+  }
+}
+
+async function scoresFromCommitMetadata(owner, name, pr) {
+  const commits = await apiFetch(`/repos/${owner}/${name}/pulls/${pr.number}/commits`, {});
+  const msg = commits?.[0]?.commit?.message;
+  if (!msg) return [];
+
+  const head = pr.head?.ref ?? '';
+  const pkgMgr = ecosystemFromHeadRef(head);
+  if (!pkgMgr) return [];
+
+  const yaml = extractYamlFrontMatter(msg);
+  const bump = parseBumpLine(msg);
+  const updatesMap = parseUpdatesLines(msg);
+
+  let deps = [];
+  if (yaml?.includes('updated-dependencies:')) {
+    deps = parseUpdatedDependenciesYaml(yaml);
+    attachPrevVersions(deps, bump, updatesMap);
+  }
+  if (deps.length === 0 && bump) {
+    deps = [{ name: bump.name, prevVersion: bump.from, nextVersion: bump.to }];
+  }
+
+  const scores = [];
+  for (const d of deps) {
+    if (!d.prevVersion || !d.nextVersion || !d.name) continue;
+    const q = new URLSearchParams({
+      'dependency-name': d.name,
+      'package-manager': pkgMgr,
+      'previous-version': d.prevVersion,
+      'new-version': d.nextVersion,
+    });
+    const url = `https://dependabot-badges.githubapp.com/badges/compatibility_score?${q}`;
+    const svg = await fetchCompatBadgeSvg(url);
+    const s = scoreFromCompatSvg(svg);
+    if (s != null && s > 0) scores.push(s);
+    await sleep(100);
+  }
+  return scores;
+}
+
+function summarizeCompatScores(scores) {
+  const valid = scores.filter(s => typeof s === 'number' && s > 0);
+  if (valid.length === 0) return { display: null, min: null, max: null };
+  const lo = Math.min(...valid);
+  const hi = Math.max(...valid);
+  if (lo === hi) return { display: `${lo}%`, min: lo, max: hi };
+  return { display: `${lo}–${hi}%`, min: lo, max: hi };
+}
+
+async function resolvePRCompatibility(owner, name, pr) {
+  const fromBody = await scoresFromBadgeUrls(extractCompatBadgeUrls(pr.body));
+  if (fromBody.length > 0) return summarizeCompatScores(fromBody);
+  const fromCommit = await scoresFromCommitMetadata(owner, name, pr);
+  return summarizeCompatScores(fromCommit);
+}
+
+function sanitizePR(pr, compat = { display: null, min: null, max: null }) {
   return {
     number: pr.number,
     title: pr.title ?? '',
     createdAt: pr.created_at,
     updatedAt: pr.updated_at,
     isDependabot: pr.user?.login === 'dependabot[bot]',
-    // Security updates fix a CVE; version bumps are routine maintenance
     isSecurityUpdate: pr.labels?.some(l => l.name === 'security') ?? false,
     autoMergeEnabled: pr.auto_merge != null,
-    mergeable: pr.mergeable ?? null,   // null = GitHub hasn't computed it yet
+    mergeable: pr.mergeable ?? null,
     mergeableState: pr.mergeable_state ?? 'unknown',
     isDraft: pr.draft ?? false,
     labels: (pr.labels ?? []).map(l => l.name),
     url: pr.html_url,
+    compatibilityDisplay: compat.display,
+    compatibilityMin: compat.min,
+    compatibilityMax: compat.max,
   };
+}
+
+async function enrichDependabotPRs(owner, name, rawPRs) {
+  const list = (rawPRs ?? []).filter(isDependabotPR);
+  const out = [];
+  for (const pr of list) {
+    const compat = await resolvePRCompatibility(owner, name, pr);
+    out.push(sanitizePR(pr, compat));
+    await sleep(40);
+  }
+  return out;
 }
 
 // ── Collection strategies ──────────────────────────────────────────────────
@@ -189,7 +359,7 @@ async function collectByRepo(repos) {
     ]);
 
     const alerts = (rawAlerts ?? []).map(sanitizeAlert);
-    const prs = (rawPRs ?? []).filter(isDependabotPR).map(sanitizePR);
+    const prs = await enrichDependabotPRs(owner, name, rawPRs);
 
     console.log(`${alerts.length} alerts, ${prs.length} PRs`);
 
@@ -222,7 +392,7 @@ async function collectByOrg(org) {
     const [owner, name] = fullName.split('/');
     process.stdout.write(`  ${fullName} ... `);
     const rawPRs = await paginate(`/repos/${owner}/${name}/pulls`, { state: 'open' });
-    entry.prs = (rawPRs ?? []).filter(isDependabotPR).map(sanitizePR);
+    entry.prs = await enrichDependabotPRs(owner, name, rawPRs);
     console.log(`${entry.alerts.length} alerts, ${entry.prs.length} PRs`);
     results.push({ owner, name, ...entry });
   }
