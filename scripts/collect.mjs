@@ -318,6 +318,14 @@ async function main() {
   const reposAffected  = repoData.filter(r => r.totalAlerts > 0).length;
   const reposWithPRs   = repoData.filter(r => r.openPRs > 0).length;
 
+  const byEcosystem = {};
+  for (const row of rawResults) {
+    for (const a of row.alerts ?? []) {
+      const eco = a.ecosystem && a.ecosystem !== 'unknown' ? a.ecosystem : 'other';
+      byEcosystem[eco] = (byEcosystem[eco] || 0) + 1;
+    }
+  }
+
   const generatedAt = new Date().toISOString();
   const date = generatedAt.split('T')[0];
 
@@ -326,6 +334,7 @@ async function main() {
     summary: {
       totalAlerts,
       bySeverity,
+      byEcosystem,
       totalOpenPRs,
       reposAffected,
       reposWithPRs,

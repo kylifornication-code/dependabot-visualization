@@ -3,24 +3,29 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dependabot Dashboard</title>
+  <title>Dependabot Alert Insights</title>
   <link rel="stylesheet" href="styles.css">
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
 </head>
 <body>
 
-  <!-- ── Header ──────────────────────────────────────────────────────── -->
   <header class="header">
     <div class="header-inner">
-      <div class="header-title">
-        <!-- Shield icon -->
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-          <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
-        </svg>
-        <h1>Dependabot Dashboard</h1>
+      <div class="header-brand">
+        <div class="header-title-row">
+          <span class="header-icon" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+            </svg>
+          </span>
+          <h1>Dependabot Alert Insights</h1>
+        </div>
+        <p class="header-subtitle">Track GitHub dependency security, vulnerabilities, and fixes with Dependabot insights.</p>
       </div>
-      <div class="header-meta">
+      <div class="header-actions">
         <span id="health-badge" class="badge badge-muted">Loading…</span>
+        <button type="button" class="btn btn-ghost" id="btn-refresh" title="Reload data">Refresh</button>
+        <button type="button" class="btn btn-primary" disabled title="Coming soon">+ Widget</button>
         <span id="last-updated" class="last-updated"></span>
       </div>
     </div>
@@ -28,18 +33,16 @@
 
   <main class="main">
 
-    <!-- ── Loading state ──────────────────────────────────────────────── -->
     <div id="loading-state" class="state-box">
       <div class="spinner"></div>
       <p>Loading dashboard data…</p>
     </div>
 
-    <!-- ── Error state ────────────────────────────────────────────────── -->
     <div id="error-state" class="section hidden">
       <div class="state-box">
         <div class="state-icon">⚠️</div>
         <p id="error-message"></p>
-        <p style="margin-top:12px;font-size:12px">
+        <p class="error-hint">
           Run the GitHub Action manually via
           <strong>Actions → Collect Dependabot Data → Run workflow</strong>,
           then reload this page.
@@ -47,87 +50,91 @@
       </div>
     </div>
 
-    <!-- ── Dashboard content ──────────────────────────────────────────── -->
     <div id="content" class="hidden">
 
-      <!-- Summary cards -->
-      <div id="summary-cards" class="summary-cards"></div>
+      <!-- Top: four insight cards (reference layout) -->
+      <section class="insights-top" aria-label="Summary insights">
+        <article class="insight-card insight-chart-card">
+          <h2 class="insight-card-title">Vulnerability by severity</h2>
+          <div class="donut-wrap">
+            <canvas id="chart-severity" aria-label="Severity distribution"></canvas>
+            <div class="donut-center"><span id="sev-total">0</span></div>
+          </div>
+          <ul id="legend-severity" class="donut-legend"></ul>
+        </article>
 
-      <!-- Trend chart + Work estimate -->
-      <div class="panels">
-        <div class="panel">
-          <h2>
-            <!-- Chart icon -->
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/>
-            </svg>
-            Alert Trend
-          </h2>
-          <div class="chart-container">
+        <article class="insight-card insight-metric insight-metric--positive">
+          <h2 class="insight-card-title">Fixed alerts</h2>
+          <p class="metric-tag">Great</p>
+          <p class="metric-value" id="fixed-count">—</p>
+          <p class="metric-hint" id="fixed-hint">Net reduction since last snapshot</p>
+        </article>
+
+        <article class="insight-card insight-metric insight-metric--risk">
+          <h2 class="insight-card-title">Open alerts</h2>
+          <p class="metric-tag">Needs attention</p>
+          <p class="metric-value" id="open-alerts-total">0</p>
+          <p class="metric-hint">Across scanned repositories</p>
+        </article>
+
+        <article class="insight-card insight-chart-card">
+          <h2 class="insight-card-title">Vulnerability by package manager</h2>
+          <div class="donut-wrap">
+            <canvas id="chart-ecosystem" aria-label="Ecosystem distribution"></canvas>
+            <div class="donut-center"><span id="eco-total">0</span></div>
+          </div>
+          <ul id="legend-ecosystem" class="donut-legend"></ul>
+        </article>
+      </section>
+
+      <div class="divider" role="presentation"></div>
+
+      <!-- Bottom: repo table + trend -->
+      <section class="insights-bottom" aria-label="Details and trends">
+        <article class="panel panel-table">
+          <div class="panel-toolbar">
+            <h2 class="panel-title">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+              Repos with unresolved alerts
+            </h2>
+            <div class="toolbar-actions">
+              <button type="button" class="icon-btn" id="btn-reload-table" title="Refresh">↻</button>
+            </div>
+          </div>
+          <div class="table-wrap">
+            <table id="repos-table"></table>
+          </div>
+          <footer class="panel-footer"><span id="repo-results-count">0</span> results</footer>
+        </article>
+
+        <article class="panel panel-chart">
+          <h2 class="panel-title">Open alerts over time</h2>
+          <p class="panel-subtitle">Total open Dependabot alerts per snapshot (CVSS is not collected for this dashboard)</p>
+          <div class="chart-container chart-container--trend">
             <canvas id="trend-chart"></canvas>
           </div>
-        </div>
+        </article>
+      </section>
 
-        <div class="panel">
-          <h2>
-            <!-- Clipboard icon -->
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2"/>
-              <rect x="9" y="3" width="6" height="4" rx="1" ry="1"/>
-            </svg>
-            Work Estimate
-          </h2>
-          <div id="work-estimate"></div>
-        </div>
-      </div>
-
-      <!-- Repo breakdown -->
-      <div class="section">
-        <div class="section-header">
-          <h2>
-            <!-- Folder icon -->
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/>
-            </svg>
-            Repositories
-            <span id="repo-count" class="count-chip">0</span>
-          </h2>
-          <p style="font-size:11px;color:var(--text-muted)">Sorted by risk · click column headers to re-sort</p>
-        </div>
-        <div class="table-wrap">
-          <table id="repos-table"></table>
-        </div>
-      </div>
-
-      <!-- Open PRs -->
-      <div class="section">
-        <div class="section-header">
-          <h2>
-            <!-- Git PR icon -->
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <circle cx="18" cy="18" r="3"/>
-              <circle cx="6" cy="6" r="3"/>
-              <path d="M13 6h3a2 2 0 0 1 2 2v7"/>
-              <line x1="6" y1="9" x2="6" y2="21"/>
-            </svg>
-            Open PRs
-            <span id="pr-count" class="count-chip">0</span>
-          </h2>
+      <details class="details-more">
+        <summary>Open Dependabot PRs</summary>
+        <div class="details-body">
           <div class="filter-bar">
-            <input id="pr-search"  class="filter-input"  type="search" placeholder="Search by title or repo…">
+            <input id="pr-search" class="filter-input" type="search" placeholder="Search by title or repo…">
             <select id="repo-filter" class="filter-select"></select>
+            <span id="pr-count" class="count-chip">0</span>
           </div>
+          <div id="prs-list" class="pr-list"></div>
         </div>
-        <div id="prs-list" class="pr-list"></div>
-      </div>
+      </details>
 
-    </div><!-- /content -->
+    </div>
   </main>
 
-  <footer>
+  <footer class="site-footer">
     Data collected by GitHub Actions ·
     <a href="https://docs.github.com/en/code-security/dependabot" target="_blank" rel="noopener">Dependabot docs</a> ·
-    Severity information omitted to protect against targeted exploitation
+    Advisory identifiers and CVSS are omitted from published data
   </footer>
 
   <script src="dashboard.js"></script>
