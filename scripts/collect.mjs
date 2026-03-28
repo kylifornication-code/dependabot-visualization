@@ -2,8 +2,9 @@
 /**
  * Dependabot Dashboard — Data Collector
  *
- * Fetches open Dependabot alerts and related PRs across all repos the token
- * has access to. Sanitizes output so it is safe to publish on a public site:
+ * Fetches open Dependabot alerts and related PRs for **public** repositories only
+ * (private repos are never scanned — safe to publish on a public site).
+ * Sanitizes output:
  *   INCLUDED:  severity level, package ecosystem, package name, manifest path,
  *              PR age, labels, Dependabot compatibility score (aggregate % from
  *              public dependabot-badges.githubapp.com, same source as GitHub’s UI)
@@ -18,6 +19,7 @@
  *   GITHUB_ORG      — If set, uses the org-level alerts endpoint (faster).
  *   SCAN_ALL_REPOS  — Set to "true" to include repos where you only have push
  *                     access (not admin). Default: admin/maintain only.
+ *                     (Still **public** repos only; private repos are always skipped.)
  */
 
 import { writeFileSync, mkdirSync, existsSync, readFileSync } from 'fs';
@@ -386,9 +388,15 @@ async function collectByOrg(org) {
     byRepo.get(key).alerts.push(sanitizeAlert(alert));
   }
 
-  // Fetch open PRs per affected repo
+  const orgEntries = [...byRepo.entries()].filter(([, entry]) => entry.repo?.private !== true);
+  const skippedPrivateOrg = byRepo.size - orgEntries.length;
+  if (skippedPrivateOrg > 0) {
+    console.log(`Skipping ${skippedPrivateOrg} private org repo(s) (public dashboard only).\n`);
+  }
+
+  // Fetch open PRs per affected public repo
   const results = [];
-  for (const [fullName, entry] of byRepo) {
+  for (const [fullName, entry] of orgEntries) {
     const [owner, name] = fullName.split('/');
     process.stdout.write(`  ${fullName} ... `);
     const rawPRs = await paginate(`/repos/${owner}/${name}/pulls`, { state: 'open' });
@@ -465,11 +473,13 @@ async function main() {
 
     const scannable = repos.filter(r => {
       if (r.archived) return false;
+      if (r.private) return false;
       if (SCAN_ALL) return true;
       return r.permissions?.admin || r.permissions?.maintain;
     });
 
-    console.log(`Found ${repos.length} repos total, scanning ${scannable.length}\n`);
+    const skippedPrivate = repos.filter(r => !r.archived && r.private && (SCAN_ALL || r.permissions?.admin || r.permissions?.maintain)).length;
+    console.log(`Found ${repos.length} repos total, scanning ${scannable.length} public repo(s)${skippedPrivate ? ` (skipped ${skippedPrivate} private)` : ''}\n`);
     rawResults = await collectByRepo(scannable);
   }
 

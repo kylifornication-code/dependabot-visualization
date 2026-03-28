@@ -17,6 +17,9 @@ name: Collect Dependabot Data
 # 4. (Optional) Set GITHUB_ORG as an Actions variable for org-level scanning:
 #    Settings → Secrets and variables → Actions → Variables → New variable
 #
+# Only **public** repositories are scanned; private repos are never included in
+# the published Pages data.
+#
 # ───────────────────────────────────────────────────────────────────────────
 
 on:
