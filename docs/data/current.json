@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-03-29T07:16:40.532Z",
+  "generatedAt": "2026-03-30T07:56:35.263Z",
   "summary": {
-    "totalAlerts": 4,
+    "totalAlerts": 5,
     "bySeverity": {
       "critical": 0,
       "high": 1,
-      "medium": 2,
+      "medium": 3,
       "low": 1,
       "unknown": 0
     },
     "byEcosystem": {
-      "npm": 4
+      "npm": 5
     },
     "totalOpenPRs": 10,
-    "reposAffected": 1,
+    "reposAffected": 2,
     "reposWithPRs": 4,
-    "reposScanned": 4
+    "reposScanned": 5
   },
   "repos": [
     {
@@ -59,6 +59,27 @@
         "npm"
       ],
       "oldestAlert": "2026-03-26T09:19:53Z"
+    },
+    {
+      "repo": "kylifornication-code/thedrizzle",
+      "name": "thedrizzle",
+      "owner": "kylifornication-code",
+      "isPrivate": false,
+      "language": "TypeScript",
+      "alertCounts": {
+        "critical": 0,
+        "high": 0,
+        "medium": 1,
+        "low": 0,
+        "unknown": 0
+      },
+      "totalAlerts": 1,
+      "openPRs": 0,
+      "prs": [],
+      "ecosystems": [
+        "npm"
+      ],
+      "oldestAlert": "2026-03-29T18:06:02Z"
     },
     {
       "repo": "Buffalo-Drinking-Game/buffalo-drinking-game",
@@ -112,9 +133,9 @@
             "javascript"
           ],
           "url": "https://github.com/Buffalo-Drinking-Game/buffalo-drinking-game/pull/11",
-          "compatibilityDisplay": "89%",
-          "compatibilityMin": 89,
-          "compatibilityMax": 89
+          "compatibilityDisplay": "90%",
+          "compatibilityMin": 90,
+          "compatibilityMax": 90
         },
         {
           "number": 12,
@@ -132,9 +153,9 @@
             "javascript"
           ],
           "url": "https://github.com/Buffalo-Drinking-Game/buffalo-drinking-game/pull/12",
-          "compatibilityDisplay": "87%",
-          "compatibilityMin": 87,
-          "compatibilityMax": 87
+          "compatibilityDisplay": "90%",
+          "compatibilityMin": 90,
+          "compatibilityMax": 90
         },
         {
           "number": 13,
@@ -292,9 +313,9 @@
             "github_actions"
           ],
           "url": "https://github.com/kylifornication-code/dependabot-demo/pull/10",
-          "compatibilityDisplay": "84%",
-          "compatibilityMin": 84,
-          "compatibilityMax": 84
+          "compatibilityDisplay": "87%",
+          "compatibilityMin": 87,
+          "compatibilityMax": 87
         }
       ],
       "ecosystems": [],
