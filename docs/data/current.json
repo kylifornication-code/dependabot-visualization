@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-03-30T07:56:35.263Z",
+  "generatedAt": "2026-03-31T07:41:40.525Z",
   "summary": {
-    "totalAlerts": 5,
+    "totalAlerts": 32,
     "bySeverity": {
       "critical": 0,
-      "high": 1,
-      "medium": 3,
-      "low": 1,
+      "high": 13,
+      "medium": 14,
+      "low": 5,
       "unknown": 0
     },
     "byEcosystem": {
-      "npm": 5
+      "npm": 32
     },
-    "totalOpenPRs": 10,
-    "reposAffected": 2,
-    "reposWithPRs": 4,
+    "totalOpenPRs": 11,
+    "reposAffected": 5,
+    "reposWithPRs": 5,
     "reposScanned": 5
   },
   "repos": [
@@ -26,12 +26,12 @@
       "language": "TypeScript",
       "alertCounts": {
         "critical": 0,
-        "high": 1,
-        "medium": 2,
-        "low": 1,
+        "high": 7,
+        "medium": 7,
+        "low": 5,
         "unknown": 0
       },
-      "totalAlerts": 4,
+      "totalAlerts": 19,
       "openPRs": 1,
       "prs": [
         {
@@ -58,28 +58,7 @@
       "ecosystems": [
         "npm"
       ],
-      "oldestAlert": "2026-03-26T09:19:53Z"
-    },
-    {
-      "repo": "kylifornication-code/thedrizzle",
-      "name": "thedrizzle",
-      "owner": "kylifornication-code",
-      "isPrivate": false,
-      "language": "TypeScript",
-      "alertCounts": {
-        "critical": 0,
-        "high": 0,
-        "medium": 1,
-        "low": 0,
-        "unknown": 0
-      },
-      "totalAlerts": 1,
-      "openPRs": 0,
-      "prs": [],
-      "ecosystems": [
-        "npm"
-      ],
-      "oldestAlert": "2026-03-29T18:06:02Z"
+      "oldestAlert": "2026-01-15T19:16:22Z"
     },
     {
       "repo": "Buffalo-Drinking-Game/buffalo-drinking-game",
@@ -89,12 +68,12 @@
       "language": "TypeScript",
       "alertCounts": {
         "critical": 0,
-        "high": 0,
-        "medium": 0,
+        "high": 2,
+        "medium": 2,
         "low": 0,
         "unknown": 0
       },
-      "totalAlerts": 0,
+      "totalAlerts": 4,
       "openPRs": 6,
       "prs": [
         {
@@ -133,9 +112,9 @@
             "javascript"
           ],
           "url": "https://github.com/Buffalo-Drinking-Game/buffalo-drinking-game/pull/11",
-          "compatibilityDisplay": "90%",
-          "compatibilityMin": 90,
-          "compatibilityMax": 90
+          "compatibilityDisplay": "89%",
+          "compatibilityMin": 89,
+          "compatibilityMax": 89
         },
         {
           "number": 12,
@@ -218,8 +197,10 @@
           "compatibilityMax": null
         }
       ],
-      "ecosystems": [],
-      "oldestAlert": null
+      "ecosystems": [
+        "npm"
+      ],
+      "oldestAlert": "2026-03-26T02:38:59Z"
     },
     {
       "repo": "kylifornication-code/ncaa-wrestling-bracket",
@@ -229,12 +210,12 @@
       "language": "JavaScript",
       "alertCounts": {
         "critical": 0,
-        "high": 0,
-        "medium": 0,
+        "high": 2,
+        "medium": 2,
         "low": 0,
         "unknown": 0
       },
-      "totalAlerts": 0,
+      "totalAlerts": 4,
       "openPRs": 1,
       "prs": [
         {
@@ -258,8 +239,52 @@
           "compatibilityMax": null
         }
       ],
-      "ecosystems": [],
-      "oldestAlert": null
+      "ecosystems": [
+        "npm"
+      ],
+      "oldestAlert": "2026-03-26T02:37:09Z"
+    },
+    {
+      "repo": "kylifornication-code/thedrizzle",
+      "name": "thedrizzle",
+      "owner": "kylifornication-code",
+      "isPrivate": false,
+      "language": "TypeScript",
+      "alertCounts": {
+        "critical": 0,
+        "high": 2,
+        "medium": 1,
+        "low": 0,
+        "unknown": 0
+      },
+      "totalAlerts": 3,
+      "openPRs": 1,
+      "prs": [
+        {
+          "number": 7,
+          "title": "Bump path-to-regexp from 0.1.12 to 0.1.13",
+          "createdAt": "2026-03-30T17:03:04Z",
+          "updatedAt": "2026-03-30T17:03:05Z",
+          "isDependabot": true,
+          "isSecurityUpdate": false,
+          "autoMergeEnabled": false,
+          "mergeable": null,
+          "mergeableState": "unknown",
+          "isDraft": false,
+          "labels": [
+            "dependencies",
+            "javascript"
+          ],
+          "url": "https://github.com/kylifornication-code/thedrizzle/pull/7",
+          "compatibilityDisplay": "82%",
+          "compatibilityMin": 82,
+          "compatibilityMax": 82
+        }
+      ],
+      "ecosystems": [
+        "npm"
+      ],
+      "oldestAlert": "2026-03-03T01:38:53Z"
     },
     {
       "repo": "kylifornication-code/dependabot-demo",
@@ -270,11 +295,11 @@
       "alertCounts": {
         "critical": 0,
         "high": 0,
-        "medium": 0,
+        "medium": 2,
         "low": 0,
         "unknown": 0
       },
-      "totalAlerts": 0,
+      "totalAlerts": 2,
       "openPRs": 2,
       "prs": [
         {
@@ -293,9 +318,9 @@
             "github_actions"
           ],
           "url": "https://github.com/kylifornication-code/dependabot-demo/pull/9",
-          "compatibilityDisplay": "89%",
-          "compatibilityMin": 89,
-          "compatibilityMax": 89
+          "compatibilityDisplay": "90%",
+          "compatibilityMin": 90,
+          "compatibilityMax": 90
         },
         {
           "number": 10,
@@ -313,13 +338,15 @@
             "github_actions"
           ],
           "url": "https://github.com/kylifornication-code/dependabot-demo/pull/10",
-          "compatibilityDisplay": "87%",
-          "compatibilityMin": 87,
-          "compatibilityMax": 87
+          "compatibilityDisplay": "86%",
+          "compatibilityMin": 86,
+          "compatibilityMax": 86
         }
       ],
-      "ecosystems": [],
-      "oldestAlert": null
+      "ecosystems": [
+        "npm"
+      ],
+      "oldestAlert": "2026-01-22T03:20:51Z"
     }
   ]
 }
