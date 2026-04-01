@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-03-31T07:41:40.525Z",
+  "generatedAt": "2026-04-01T07:46:26.428Z",
   "summary": {
-    "totalAlerts": 32,
+    "totalAlerts": 22,
     "bySeverity": {
       "critical": 0,
-      "high": 13,
-      "medium": 14,
-      "low": 5,
+      "high": 8,
+      "medium": 13,
+      "low": 1,
       "unknown": 0
     },
     "byEcosystem": {
-      "npm": 32
+      "npm": 22
     },
     "totalOpenPRs": 11,
     "reposAffected": 5,
@@ -26,19 +26,19 @@
       "language": "TypeScript",
       "alertCounts": {
         "critical": 0,
-        "high": 7,
-        "medium": 7,
-        "low": 5,
+        "high": 2,
+        "medium": 6,
+        "low": 1,
         "unknown": 0
       },
-      "totalAlerts": 19,
+      "totalAlerts": 9,
       "openPRs": 1,
       "prs": [
         {
-          "number": 11,
+          "number": 12,
           "title": "Bump the npm_and_yarn group across 1 directory with 5 updates",
-          "createdAt": "2026-03-18T23:12:50Z",
-          "updatedAt": "2026-03-18T23:12:51Z",
+          "createdAt": "2026-03-31T22:15:58Z",
+          "updatedAt": "2026-03-31T22:15:59Z",
           "isDependabot": true,
           "isSecurityUpdate": false,
           "autoMergeEnabled": false,
@@ -49,7 +49,7 @@
             "dependencies",
             "javascript"
           ],
-          "url": "https://github.com/kylifornication-code/astro-career-walking-deck/pull/11",
+          "url": "https://github.com/kylifornication-code/astro-career-walking-deck/pull/12",
           "compatibilityDisplay": null,
           "compatibilityMin": null,
           "compatibilityMax": null
@@ -58,7 +58,7 @@
       "ecosystems": [
         "npm"
       ],
-      "oldestAlert": "2026-01-15T19:16:22Z"
+      "oldestAlert": "2026-03-20T23:53:57Z"
     },
     {
       "repo": "Buffalo-Drinking-Game/buffalo-drinking-game",
@@ -92,9 +92,9 @@
             "javascript"
           ],
           "url": "https://github.com/Buffalo-Drinking-Game/buffalo-drinking-game/pull/7",
-          "compatibilityDisplay": "94%",
-          "compatibilityMin": 94,
-          "compatibilityMax": 94
+          "compatibilityDisplay": "95%",
+          "compatibilityMin": 95,
+          "compatibilityMax": 95
         },
         {
           "number": 11,
@@ -112,9 +112,9 @@
             "javascript"
           ],
           "url": "https://github.com/Buffalo-Drinking-Game/buffalo-drinking-game/pull/11",
-          "compatibilityDisplay": "89%",
-          "compatibilityMin": 89,
-          "compatibilityMax": 89
+          "compatibilityDisplay": "90%",
+          "compatibilityMin": 90,
+          "compatibilityMax": 90
         },
         {
           "number": 12,
@@ -132,9 +132,9 @@
             "javascript"
           ],
           "url": "https://github.com/Buffalo-Drinking-Game/buffalo-drinking-game/pull/12",
-          "compatibilityDisplay": "90%",
-          "compatibilityMin": 90,
-          "compatibilityMax": 90
+          "compatibilityDisplay": "91%",
+          "compatibilityMin": 91,
+          "compatibilityMax": 91
         },
         {
           "number": 13,
@@ -276,9 +276,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/thedrizzle/pull/7",
-          "compatibilityDisplay": "82%",
-          "compatibilityMin": 82,
-          "compatibilityMax": 82
+          "compatibilityDisplay": "83%",
+          "compatibilityMin": 83,
+          "compatibilityMax": 83
         }
       ],
       "ecosystems": [
@@ -318,9 +318,9 @@
             "github_actions"
           ],
           "url": "https://github.com/kylifornication-code/dependabot-demo/pull/9",
-          "compatibilityDisplay": "90%",
-          "compatibilityMin": 90,
-          "compatibilityMax": 90
+          "compatibilityDisplay": "89%",
+          "compatibilityMin": 89,
+          "compatibilityMax": 89
         },
         {
           "number": 10,
