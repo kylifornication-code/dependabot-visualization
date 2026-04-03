@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-02T07:26:07.393Z",
+  "generatedAt": "2026-04-03T07:22:44.037Z",
   "summary": {
     "totalAlerts": 22,
     "bySeverity": {
@@ -92,9 +92,9 @@
             "javascript"
           ],
           "url": "https://github.com/Buffalo-Drinking-Game/buffalo-drinking-game/pull/7",
-          "compatibilityDisplay": "94%",
-          "compatibilityMin": 94,
-          "compatibilityMax": 94
+          "compatibilityDisplay": "95%",
+          "compatibilityMin": 95,
+          "compatibilityMax": 95
         },
         {
           "number": 11,
@@ -112,9 +112,9 @@
             "javascript"
           ],
           "url": "https://github.com/Buffalo-Drinking-Game/buffalo-drinking-game/pull/11",
-          "compatibilityDisplay": "88%",
-          "compatibilityMin": 88,
-          "compatibilityMax": 88
+          "compatibilityDisplay": "86%",
+          "compatibilityMin": 86,
+          "compatibilityMax": 86
         },
         {
           "number": 12,
