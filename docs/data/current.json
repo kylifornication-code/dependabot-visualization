@@ -1,65 +1,23 @@
 {
-  "generatedAt": "2026-04-05T07:19:33.220Z",
+  "generatedAt": "2026-04-06T07:57:42.276Z",
   "summary": {
-    "totalAlerts": 28,
+    "totalAlerts": 18,
     "bySeverity": {
       "critical": 0,
-      "high": 12,
-      "medium": 15,
-      "low": 1,
+      "high": 9,
+      "medium": 9,
+      "low": 0,
       "unknown": 0
     },
     "byEcosystem": {
-      "npm": 28
+      "npm": 18
     },
-    "totalOpenPRs": 13,
-    "reposAffected": 6,
-    "reposWithPRs": 6,
-    "reposScanned": 6
+    "totalOpenPRs": 12,
+    "reposAffected": 5,
+    "reposWithPRs": 4,
+    "reposScanned": 5
   },
   "repos": [
-    {
-      "repo": "kylifornication-code/astro-career-walking-deck",
-      "name": "astro-career-walking-deck",
-      "owner": "kylifornication-code",
-      "isPrivate": false,
-      "language": "TypeScript",
-      "alertCounts": {
-        "critical": 0,
-        "high": 3,
-        "medium": 6,
-        "low": 1,
-        "unknown": 0
-      },
-      "totalAlerts": 10,
-      "openPRs": 1,
-      "prs": [
-        {
-          "number": 12,
-          "title": "Bump the npm_and_yarn group across 1 directory with 5 updates",
-          "createdAt": "2026-03-31T22:15:58Z",
-          "updatedAt": "2026-03-31T22:15:59Z",
-          "isDependabot": true,
-          "isSecurityUpdate": false,
-          "autoMergeEnabled": false,
-          "mergeable": null,
-          "mergeableState": "unknown",
-          "isDraft": false,
-          "labels": [
-            "dependencies",
-            "javascript"
-          ],
-          "url": "https://github.com/kylifornication-code/astro-career-walking-deck/pull/12",
-          "compatibilityDisplay": null,
-          "compatibilityMin": null,
-          "compatibilityMax": null
-        }
-      ],
-      "ecosystems": [
-        "npm"
-      ],
-      "oldestAlert": "2026-03-20T23:53:57Z"
-    },
     {
       "repo": "Buffalo-Drinking-Game/buffalo-drinking-game",
       "name": "buffalo-drinking-game",
@@ -92,9 +50,9 @@
             "javascript"
           ],
           "url": "https://github.com/Buffalo-Drinking-Game/buffalo-drinking-game/pull/7",
-          "compatibilityDisplay": "94%",
-          "compatibilityMin": 94,
-          "compatibilityMax": 94
+          "compatibilityDisplay": "93%",
+          "compatibilityMin": 93,
+          "compatibilityMax": 93
         },
         {
           "number": 11,
@@ -112,9 +70,9 @@
             "javascript"
           ],
           "url": "https://github.com/Buffalo-Drinking-Game/buffalo-drinking-game/pull/11",
-          "compatibilityDisplay": "86%",
-          "compatibilityMin": 86,
-          "compatibilityMax": 86
+          "compatibilityDisplay": "85%",
+          "compatibilityMin": 85,
+          "compatibilityMax": 85
         },
         {
           "number": 12,
@@ -132,9 +90,9 @@
             "javascript"
           ],
           "url": "https://github.com/Buffalo-Drinking-Game/buffalo-drinking-game/pull/12",
-          "compatibilityDisplay": "89%",
-          "compatibilityMin": 89,
-          "compatibilityMax": 89
+          "compatibilityDisplay": "90%",
+          "compatibilityMin": 90,
+          "compatibilityMax": 90
         },
         {
           "number": 13,
@@ -203,6 +161,108 @@
       "oldestAlert": "2026-03-26T02:38:59Z"
     },
     {
+      "repo": "kylifornication-code/dependabot-demo",
+      "name": "dependabot-demo",
+      "owner": "kylifornication-code",
+      "isPrivate": false,
+      "language": "Ruby",
+      "alertCounts": {
+        "critical": 0,
+        "high": 2,
+        "medium": 4,
+        "low": 0,
+        "unknown": 0
+      },
+      "totalAlerts": 6,
+      "openPRs": 4,
+      "prs": [
+        {
+          "number": 11,
+          "title": "Bump lodash from 4.17.21 to 4.18.1 in /javascript",
+          "createdAt": "2026-04-05T23:39:35Z",
+          "updatedAt": "2026-04-05T23:39:36Z",
+          "isDependabot": true,
+          "isSecurityUpdate": false,
+          "autoMergeEnabled": false,
+          "mergeable": null,
+          "mergeableState": "unknown",
+          "isDraft": false,
+          "labels": [
+            "dependencies",
+            "javascript"
+          ],
+          "url": "https://github.com/kylifornication-code/dependabot-demo/pull/11",
+          "compatibilityDisplay": "74%",
+          "compatibilityMin": 74,
+          "compatibilityMax": 74
+        },
+        {
+          "number": 12,
+          "title": "Bump actions/first-interaction from 1 to 3",
+          "createdAt": "2026-04-06T00:52:36Z",
+          "updatedAt": "2026-04-06T00:52:36Z",
+          "isDependabot": true,
+          "isSecurityUpdate": false,
+          "autoMergeEnabled": false,
+          "mergeable": null,
+          "mergeableState": "unknown",
+          "isDraft": false,
+          "labels": [
+            "dependencies",
+            "github_actions"
+          ],
+          "url": "https://github.com/kylifornication-code/dependabot-demo/pull/12",
+          "compatibilityDisplay": "83%",
+          "compatibilityMin": 83,
+          "compatibilityMax": 83
+        },
+        {
+          "number": 13,
+          "title": "Bump actions/checkout from 4 to 6",
+          "createdAt": "2026-04-06T00:52:39Z",
+          "updatedAt": "2026-04-06T00:52:40Z",
+          "isDependabot": true,
+          "isSecurityUpdate": false,
+          "autoMergeEnabled": false,
+          "mergeable": null,
+          "mergeableState": "unknown",
+          "isDraft": false,
+          "labels": [
+            "dependencies",
+            "github_actions"
+          ],
+          "url": "https://github.com/kylifornication-code/dependabot-demo/pull/13",
+          "compatibilityDisplay": "42%",
+          "compatibilityMin": 42,
+          "compatibilityMax": 42
+        },
+        {
+          "number": 14,
+          "title": "Bump actions/setup-java from 4 to 5",
+          "createdAt": "2026-04-06T00:52:42Z",
+          "updatedAt": "2026-04-06T00:52:42Z",
+          "isDependabot": true,
+          "isSecurityUpdate": false,
+          "autoMergeEnabled": false,
+          "mergeable": null,
+          "mergeableState": "unknown",
+          "isDraft": false,
+          "labels": [
+            "dependencies",
+            "github_actions"
+          ],
+          "url": "https://github.com/kylifornication-code/dependabot-demo/pull/14",
+          "compatibilityDisplay": "83%",
+          "compatibilityMin": 83,
+          "compatibilityMax": 83
+        }
+      ],
+      "ecosystems": [
+        "npm"
+      ],
+      "oldestAlert": "2026-01-22T03:20:51Z"
+    },
+    {
       "repo": "kylifornication-code/ncaa-wrestling-bracket",
       "name": "ncaa-wrestling-bracket",
       "owner": "kylifornication-code",
@@ -210,19 +270,19 @@
       "language": "JavaScript",
       "alertCounts": {
         "critical": 0,
-        "high": 3,
+        "high": 2,
         "medium": 2,
         "low": 0,
         "unknown": 0
       },
-      "totalAlerts": 5,
-      "openPRs": 2,
+      "totalAlerts": 4,
+      "openPRs": 1,
       "prs": [
         {
           "number": 3,
           "title": "Bump picomatch",
           "createdAt": "2026-03-26T03:08:20Z",
-          "updatedAt": "2026-03-26T03:08:20Z",
+          "updatedAt": "2026-04-06T02:33:59Z",
           "isDependabot": true,
           "isSecurityUpdate": false,
           "autoMergeEnabled": false,
@@ -237,26 +297,6 @@
           "compatibilityDisplay": null,
           "compatibilityMin": null,
           "compatibilityMax": null
-        },
-        {
-          "number": 4,
-          "title": "Bump defu from 6.1.4 to 6.1.6",
-          "createdAt": "2026-04-04T08:18:58Z",
-          "updatedAt": "2026-04-04T08:18:59Z",
-          "isDependabot": true,
-          "isSecurityUpdate": false,
-          "autoMergeEnabled": false,
-          "mergeable": null,
-          "mergeableState": "unknown",
-          "isDraft": false,
-          "labels": [
-            "dependencies",
-            "javascript"
-          ],
-          "url": "https://github.com/kylifornication-code/ncaa-wrestling-bracket/pull/4",
-          "compatibilityDisplay": "84%",
-          "compatibilityMin": 84,
-          "compatibilityMax": 84
         }
       ],
       "ecosystems": [
@@ -272,46 +312,25 @@
       "language": "TypeScript",
       "alertCounts": {
         "critical": 0,
-        "high": 2,
+        "high": 1,
         "medium": 1,
         "low": 0,
         "unknown": 0
       },
-      "totalAlerts": 3,
-      "openPRs": 1,
-      "prs": [
-        {
-          "number": 7,
-          "title": "Bump path-to-regexp from 0.1.12 to 0.1.13",
-          "createdAt": "2026-03-30T17:03:04Z",
-          "updatedAt": "2026-03-30T17:03:05Z",
-          "isDependabot": true,
-          "isSecurityUpdate": false,
-          "autoMergeEnabled": false,
-          "mergeable": null,
-          "mergeableState": "unknown",
-          "isDraft": false,
-          "labels": [
-            "dependencies",
-            "javascript"
-          ],
-          "url": "https://github.com/kylifornication-code/thedrizzle/pull/7",
-          "compatibilityDisplay": "83%",
-          "compatibilityMin": 83,
-          "compatibilityMax": 83
-        }
-      ],
+      "totalAlerts": 2,
+      "openPRs": 0,
+      "prs": [],
       "ecosystems": [
         "npm"
       ],
       "oldestAlert": "2026-03-03T01:38:53Z"
     },
     {
-      "repo": "kylifornication-code/lennys-podcast-recapper",
-      "name": "lennys-podcast-recapper",
+      "repo": "kylifornication-code/astro-career-walking-deck",
+      "name": "astro-career-walking-deck",
       "owner": "kylifornication-code",
       "isPrivate": false,
-      "language": "Astro",
+      "language": "TypeScript",
       "alertCounts": {
         "critical": 0,
         "high": 1,
@@ -323,10 +342,10 @@
       "openPRs": 1,
       "prs": [
         {
-          "number": 3,
-          "title": "Bump defu from 6.1.4 to 6.1.6",
-          "createdAt": "2026-04-04T08:19:16Z",
-          "updatedAt": "2026-04-04T08:19:17Z",
+          "number": 13,
+          "title": "Bump defu from 6.1.4 to 6.1.6 in the npm_and_yarn group across 1 directory",
+          "createdAt": "2026-04-06T03:49:11Z",
+          "updatedAt": "2026-04-06T03:49:11Z",
           "isDependabot": true,
           "isSecurityUpdate": false,
           "autoMergeEnabled": false,
@@ -337,69 +356,7 @@
             "dependencies",
             "javascript"
           ],
-          "url": "https://github.com/kylifornication-code/lennys-podcast-recapper/pull/3",
-          "compatibilityDisplay": "84%",
-          "compatibilityMin": 84,
-          "compatibilityMax": 84
-        }
-      ],
-      "ecosystems": [
-        "npm"
-      ],
-      "oldestAlert": "2026-04-04T08:18:17Z"
-    },
-    {
-      "repo": "kylifornication-code/dependabot-demo",
-      "name": "dependabot-demo",
-      "owner": "kylifornication-code",
-      "isPrivate": false,
-      "language": "Ruby",
-      "alertCounts": {
-        "critical": 0,
-        "high": 0,
-        "medium": 4,
-        "low": 0,
-        "unknown": 0
-      },
-      "totalAlerts": 4,
-      "openPRs": 2,
-      "prs": [
-        {
-          "number": 9,
-          "title": "Bump actions/checkout from 3 to 4",
-          "createdAt": "2023-09-05T00:25:09Z",
-          "updatedAt": "2023-09-05T00:25:10Z",
-          "isDependabot": true,
-          "isSecurityUpdate": false,
-          "autoMergeEnabled": false,
-          "mergeable": null,
-          "mergeableState": "unknown",
-          "isDraft": false,
-          "labels": [
-            "dependencies",
-            "github_actions"
-          ],
-          "url": "https://github.com/kylifornication-code/dependabot-demo/pull/9",
-          "compatibilityDisplay": "89%",
-          "compatibilityMin": 89,
-          "compatibilityMax": 89
-        },
-        {
-          "number": 10,
-          "title": "Bump actions/setup-java from 3 to 4",
-          "createdAt": "2023-11-30T00:59:48Z",
-          "updatedAt": "2023-11-30T00:59:49Z",
-          "isDependabot": true,
-          "isSecurityUpdate": false,
-          "autoMergeEnabled": false,
-          "mergeable": null,
-          "mergeableState": "unknown",
-          "isDraft": false,
-          "labels": [
-            "dependencies",
-            "github_actions"
-          ],
-          "url": "https://github.com/kylifornication-code/dependabot-demo/pull/10",
+          "url": "https://github.com/kylifornication-code/astro-career-walking-deck/pull/13",
           "compatibilityDisplay": "85%",
           "compatibilityMin": 85,
           "compatibilityMax": 85
@@ -408,7 +365,7 @@
       "ecosystems": [
         "npm"
       ],
-      "oldestAlert": "2026-01-22T03:20:51Z"
+      "oldestAlert": "2026-04-04T07:51:08Z"
     }
   ]
 }
