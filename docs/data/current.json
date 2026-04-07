@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-04-06T07:57:42.276Z",
+  "generatedAt": "2026-04-07T07:45:02.210Z",
   "summary": {
-    "totalAlerts": 18,
+    "totalAlerts": 25,
     "bySeverity": {
       "critical": 0,
-      "high": 9,
-      "medium": 9,
+      "high": 15,
+      "medium": 10,
       "low": 0,
       "unknown": 0
     },
     "byEcosystem": {
-      "npm": 18
+      "npm": 25
     },
-    "totalOpenPRs": 12,
-    "reposAffected": 5,
-    "reposWithPRs": 4,
-    "reposScanned": 5
+    "totalOpenPRs": 14,
+    "reposAffected": 6,
+    "reposWithPRs": 5,
+    "reposScanned": 6
   },
   "repos": [
     {
@@ -26,12 +26,12 @@
       "language": "TypeScript",
       "alertCounts": {
         "critical": 0,
-        "high": 3,
-        "medium": 2,
+        "high": 6,
+        "medium": 3,
         "low": 0,
         "unknown": 0
       },
-      "totalAlerts": 5,
+      "totalAlerts": 9,
       "openPRs": 6,
       "prs": [
         {
@@ -50,9 +50,9 @@
             "javascript"
           ],
           "url": "https://github.com/Buffalo-Drinking-Game/buffalo-drinking-game/pull/7",
-          "compatibilityDisplay": "93%",
-          "compatibilityMin": 93,
-          "compatibilityMax": 93
+          "compatibilityDisplay": "92%",
+          "compatibilityMin": 92,
+          "compatibilityMax": 92
         },
         {
           "number": 11,
@@ -70,9 +70,9 @@
             "javascript"
           ],
           "url": "https://github.com/Buffalo-Drinking-Game/buffalo-drinking-game/pull/11",
-          "compatibilityDisplay": "85%",
-          "compatibilityMin": 85,
-          "compatibilityMax": 85
+          "compatibilityDisplay": "87%",
+          "compatibilityMin": 87,
+          "compatibilityMax": 87
         },
         {
           "number": 12,
@@ -90,9 +90,9 @@
             "javascript"
           ],
           "url": "https://github.com/Buffalo-Drinking-Game/buffalo-drinking-game/pull/12",
-          "compatibilityDisplay": "90%",
-          "compatibilityMin": 90,
-          "compatibilityMax": 90
+          "compatibilityDisplay": "91%",
+          "compatibilityMin": 91,
+          "compatibilityMax": 91
         },
         {
           "number": 13,
@@ -161,6 +161,68 @@
       "oldestAlert": "2026-03-26T02:38:59Z"
     },
     {
+      "repo": "kylifornication-code/ncaa-wrestling-bracket",
+      "name": "ncaa-wrestling-bracket",
+      "owner": "kylifornication-code",
+      "isPrivate": false,
+      "language": "JavaScript",
+      "alertCounts": {
+        "critical": 0,
+        "high": 3,
+        "medium": 2,
+        "low": 0,
+        "unknown": 0
+      },
+      "totalAlerts": 5,
+      "openPRs": 2,
+      "prs": [
+        {
+          "number": 3,
+          "title": "Bump picomatch",
+          "createdAt": "2026-03-26T03:08:20Z",
+          "updatedAt": "2026-04-06T02:33:59Z",
+          "isDependabot": true,
+          "isSecurityUpdate": false,
+          "autoMergeEnabled": false,
+          "mergeable": null,
+          "mergeableState": "unknown",
+          "isDraft": false,
+          "labels": [
+            "dependencies",
+            "javascript"
+          ],
+          "url": "https://github.com/kylifornication-code/ncaa-wrestling-bracket/pull/3",
+          "compatibilityDisplay": null,
+          "compatibilityMin": null,
+          "compatibilityMax": null
+        },
+        {
+          "number": 5,
+          "title": "Bump vite from 6.4.1 to 6.4.2",
+          "createdAt": "2026-04-07T05:39:34Z",
+          "updatedAt": "2026-04-07T05:39:34Z",
+          "isDependabot": true,
+          "isSecurityUpdate": false,
+          "autoMergeEnabled": false,
+          "mergeable": null,
+          "mergeableState": "unknown",
+          "isDraft": false,
+          "labels": [
+            "dependencies",
+            "javascript"
+          ],
+          "url": "https://github.com/kylifornication-code/ncaa-wrestling-bracket/pull/5",
+          "compatibilityDisplay": "82%",
+          "compatibilityMin": 82,
+          "compatibilityMax": 82
+        }
+      ],
+      "ecosystems": [
+        "npm"
+      ],
+      "oldestAlert": "2026-03-26T02:37:09Z"
+    },
+    {
       "repo": "kylifornication-code/dependabot-demo",
       "name": "dependabot-demo",
       "owner": "kylifornication-code",
@@ -192,9 +254,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/dependabot-demo/pull/11",
-          "compatibilityDisplay": "74%",
-          "compatibilityMin": 74,
-          "compatibilityMax": 74
+          "compatibilityDisplay": "72%",
+          "compatibilityMin": 72,
+          "compatibilityMax": 72
         },
         {
           "number": 12,
@@ -212,9 +274,9 @@
             "github_actions"
           ],
           "url": "https://github.com/kylifornication-code/dependabot-demo/pull/12",
-          "compatibilityDisplay": "83%",
-          "compatibilityMin": 83,
-          "compatibilityMax": 83
+          "compatibilityDisplay": "82%",
+          "compatibilityMin": 82,
+          "compatibilityMax": 82
         },
         {
           "number": 13,
@@ -232,9 +294,9 @@
             "github_actions"
           ],
           "url": "https://github.com/kylifornication-code/dependabot-demo/pull/13",
-          "compatibilityDisplay": "42%",
-          "compatibilityMin": 42,
-          "compatibilityMax": 42
+          "compatibilityDisplay": "41%",
+          "compatibilityMin": 41,
+          "compatibilityMax": 41
         },
         {
           "number": 14,
@@ -263,26 +325,26 @@
       "oldestAlert": "2026-01-22T03:20:51Z"
     },
     {
-      "repo": "kylifornication-code/ncaa-wrestling-bracket",
-      "name": "ncaa-wrestling-bracket",
+      "repo": "kylifornication-code/astro-career-walking-deck",
+      "name": "astro-career-walking-deck",
       "owner": "kylifornication-code",
       "isPrivate": false,
-      "language": "JavaScript",
+      "language": "TypeScript",
       "alertCounts": {
         "critical": 0,
         "high": 2,
-        "medium": 2,
+        "medium": 0,
         "low": 0,
         "unknown": 0
       },
-      "totalAlerts": 4,
+      "totalAlerts": 2,
       "openPRs": 1,
       "prs": [
         {
-          "number": 3,
-          "title": "Bump picomatch",
-          "createdAt": "2026-03-26T03:08:20Z",
-          "updatedAt": "2026-04-06T02:33:59Z",
+          "number": 13,
+          "title": "Bump defu from 6.1.4 to 6.1.6 in the npm_and_yarn group across 1 directory",
+          "createdAt": "2026-04-06T03:49:11Z",
+          "updatedAt": "2026-04-06T03:49:11Z",
           "isDependabot": true,
           "isSecurityUpdate": false,
           "autoMergeEnabled": false,
@@ -293,16 +355,16 @@
             "dependencies",
             "javascript"
           ],
-          "url": "https://github.com/kylifornication-code/ncaa-wrestling-bracket/pull/3",
-          "compatibilityDisplay": null,
-          "compatibilityMin": null,
-          "compatibilityMax": null
+          "url": "https://github.com/kylifornication-code/astro-career-walking-deck/pull/13",
+          "compatibilityDisplay": "86%",
+          "compatibilityMin": 86,
+          "compatibilityMax": 86
         }
       ],
       "ecosystems": [
         "npm"
       ],
-      "oldestAlert": "2026-03-26T02:37:09Z"
+      "oldestAlert": "2026-04-04T07:51:08Z"
     },
     {
       "repo": "kylifornication-code/thedrizzle",
@@ -326,11 +388,11 @@
       "oldestAlert": "2026-03-03T01:38:53Z"
     },
     {
-      "repo": "kylifornication-code/astro-career-walking-deck",
-      "name": "astro-career-walking-deck",
+      "repo": "kylifornication-code/lennys-podcast-recapper",
+      "name": "lennys-podcast-recapper",
       "owner": "kylifornication-code",
       "isPrivate": false,
-      "language": "TypeScript",
+      "language": "Astro",
       "alertCounts": {
         "critical": 0,
         "high": 1,
@@ -342,10 +404,10 @@
       "openPRs": 1,
       "prs": [
         {
-          "number": 13,
-          "title": "Bump defu from 6.1.4 to 6.1.6 in the npm_and_yarn group across 1 directory",
-          "createdAt": "2026-04-06T03:49:11Z",
-          "updatedAt": "2026-04-06T03:49:11Z",
+          "number": 4,
+          "title": "Bump vite from 6.4.1 to 6.4.2",
+          "createdAt": "2026-04-07T05:40:47Z",
+          "updatedAt": "2026-04-07T05:40:48Z",
           "isDependabot": true,
           "isSecurityUpdate": false,
           "autoMergeEnabled": false,
@@ -356,16 +418,16 @@
             "dependencies",
             "javascript"
           ],
-          "url": "https://github.com/kylifornication-code/astro-career-walking-deck/pull/13",
-          "compatibilityDisplay": "85%",
-          "compatibilityMin": 85,
-          "compatibilityMax": 85
+          "url": "https://github.com/kylifornication-code/lennys-podcast-recapper/pull/4",
+          "compatibilityDisplay": "82%",
+          "compatibilityMin": 82,
+          "compatibilityMax": 82
         }
       ],
       "ecosystems": [
         "npm"
       ],
-      "oldestAlert": "2026-04-04T07:51:08Z"
+      "oldestAlert": "2026-04-07T05:39:31Z"
     }
   ]
 }
