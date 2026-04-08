@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-07T07:45:02.210Z",
+  "generatedAt": "2026-04-08T07:48:31.532Z",
   "summary": {
     "totalAlerts": 25,
     "bySeverity": {
@@ -50,9 +50,9 @@
             "javascript"
           ],
           "url": "https://github.com/Buffalo-Drinking-Game/buffalo-drinking-game/pull/7",
-          "compatibilityDisplay": "92%",
-          "compatibilityMin": 92,
-          "compatibilityMax": 92
+          "compatibilityDisplay": "93%",
+          "compatibilityMin": 93,
+          "compatibilityMax": 93
         },
         {
           "number": 11,
@@ -70,9 +70,9 @@
             "javascript"
           ],
           "url": "https://github.com/Buffalo-Drinking-Game/buffalo-drinking-game/pull/11",
-          "compatibilityDisplay": "87%",
-          "compatibilityMin": 87,
-          "compatibilityMax": 87
+          "compatibilityDisplay": "85%",
+          "compatibilityMin": 85,
+          "compatibilityMax": 85
         },
         {
           "number": 12,
@@ -90,9 +90,9 @@
             "javascript"
           ],
           "url": "https://github.com/Buffalo-Drinking-Game/buffalo-drinking-game/pull/12",
-          "compatibilityDisplay": "91%",
-          "compatibilityMin": 91,
-          "compatibilityMax": 91
+          "compatibilityDisplay": "90%",
+          "compatibilityMin": 90,
+          "compatibilityMax": 90
         },
         {
           "number": 13,
@@ -314,9 +314,9 @@
             "github_actions"
           ],
           "url": "https://github.com/kylifornication-code/dependabot-demo/pull/14",
-          "compatibilityDisplay": "83%",
-          "compatibilityMin": 83,
-          "compatibilityMax": 83
+          "compatibilityDisplay": "84%",
+          "compatibilityMin": 84,
+          "compatibilityMax": 84
         }
       ],
       "ecosystems": [
@@ -356,9 +356,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/astro-career-walking-deck/pull/13",
-          "compatibilityDisplay": "86%",
-          "compatibilityMin": 86,
-          "compatibilityMax": 86
+          "compatibilityDisplay": "85%",
+          "compatibilityMin": 85,
+          "compatibilityMax": 85
         }
       ],
       "ecosystems": [
