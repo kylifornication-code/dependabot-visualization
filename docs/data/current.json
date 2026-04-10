@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-04-09T07:51:07.666Z",
+  "generatedAt": "2026-04-10T07:54:37.509Z",
   "summary": {
-    "totalAlerts": 25,
+    "totalAlerts": 29,
     "bySeverity": {
       "critical": 0,
       "high": 15,
-      "medium": 10,
+      "medium": 14,
       "low": 0,
       "unknown": 0
     },
     "byEcosystem": {
-      "npm": 25
+      "npm": 29
     },
     "totalOpenPRs": 14,
     "reposAffected": 6,
@@ -27,11 +27,11 @@
       "alertCounts": {
         "critical": 0,
         "high": 6,
-        "medium": 3,
+        "medium": 4,
         "low": 0,
         "unknown": 0
       },
-      "totalAlerts": 9,
+      "totalAlerts": 10,
       "openPRs": 6,
       "prs": [
         {
@@ -50,9 +50,9 @@
             "javascript"
           ],
           "url": "https://github.com/Buffalo-Drinking-Game/buffalo-drinking-game/pull/7",
-          "compatibilityDisplay": "94%",
-          "compatibilityMin": 94,
-          "compatibilityMax": 94
+          "compatibilityDisplay": "92%",
+          "compatibilityMin": 92,
+          "compatibilityMax": 92
         },
         {
           "number": 11,
@@ -169,11 +169,11 @@
       "alertCounts": {
         "critical": 0,
         "high": 3,
-        "medium": 2,
+        "medium": 3,
         "low": 0,
         "unknown": 0
       },
-      "totalAlerts": 5,
+      "totalAlerts": 6,
       "openPRs": 2,
       "prs": [
         {
@@ -212,9 +212,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/ncaa-wrestling-bracket/pull/5",
-          "compatibilityDisplay": "81%",
-          "compatibilityMin": 81,
-          "compatibilityMax": 81
+          "compatibilityDisplay": "83%",
+          "compatibilityMin": 83,
+          "compatibilityMax": 83
         }
       ],
       "ecosystems": [
@@ -314,9 +314,9 @@
             "github_actions"
           ],
           "url": "https://github.com/kylifornication-code/dependabot-demo/pull/14",
-          "compatibilityDisplay": "84%",
-          "compatibilityMin": 84,
-          "compatibilityMax": 84
+          "compatibilityDisplay": "82%",
+          "compatibilityMin": 82,
+          "compatibilityMax": 82
         }
       ],
       "ecosystems": [
@@ -333,11 +333,11 @@
       "alertCounts": {
         "critical": 0,
         "high": 2,
-        "medium": 0,
+        "medium": 1,
         "low": 0,
         "unknown": 0
       },
-      "totalAlerts": 2,
+      "totalAlerts": 3,
       "openPRs": 1,
       "prs": [
         {
@@ -367,6 +367,48 @@
       "oldestAlert": "2026-04-04T07:51:08Z"
     },
     {
+      "repo": "kylifornication-code/lennys-podcast-recapper",
+      "name": "lennys-podcast-recapper",
+      "owner": "kylifornication-code",
+      "isPrivate": false,
+      "language": "Astro",
+      "alertCounts": {
+        "critical": 0,
+        "high": 1,
+        "medium": 1,
+        "low": 0,
+        "unknown": 0
+      },
+      "totalAlerts": 2,
+      "openPRs": 1,
+      "prs": [
+        {
+          "number": 4,
+          "title": "Bump vite from 6.4.1 to 6.4.2",
+          "createdAt": "2026-04-07T05:40:47Z",
+          "updatedAt": "2026-04-07T05:40:48Z",
+          "isDependabot": true,
+          "isSecurityUpdate": false,
+          "autoMergeEnabled": false,
+          "mergeable": null,
+          "mergeableState": "unknown",
+          "isDraft": false,
+          "labels": [
+            "dependencies",
+            "javascript"
+          ],
+          "url": "https://github.com/kylifornication-code/lennys-podcast-recapper/pull/4",
+          "compatibilityDisplay": "83%",
+          "compatibilityMin": 83,
+          "compatibilityMax": 83
+        }
+      ],
+      "ecosystems": [
+        "npm"
+      ],
+      "oldestAlert": "2026-04-07T05:39:31Z"
+    },
+    {
       "repo": "kylifornication-code/thedrizzle",
       "name": "thedrizzle",
       "owner": "kylifornication-code",
@@ -386,48 +428,6 @@
         "npm"
       ],
       "oldestAlert": "2026-03-03T01:38:53Z"
-    },
-    {
-      "repo": "kylifornication-code/lennys-podcast-recapper",
-      "name": "lennys-podcast-recapper",
-      "owner": "kylifornication-code",
-      "isPrivate": false,
-      "language": "Astro",
-      "alertCounts": {
-        "critical": 0,
-        "high": 1,
-        "medium": 0,
-        "low": 0,
-        "unknown": 0
-      },
-      "totalAlerts": 1,
-      "openPRs": 1,
-      "prs": [
-        {
-          "number": 4,
-          "title": "Bump vite from 6.4.1 to 6.4.2",
-          "createdAt": "2026-04-07T05:40:47Z",
-          "updatedAt": "2026-04-07T05:40:48Z",
-          "isDependabot": true,
-          "isSecurityUpdate": false,
-          "autoMergeEnabled": false,
-          "mergeable": null,
-          "mergeableState": "unknown",
-          "isDraft": false,
-          "labels": [
-            "dependencies",
-            "javascript"
-          ],
-          "url": "https://github.com/kylifornication-code/lennys-podcast-recapper/pull/4",
-          "compatibilityDisplay": "81%",
-          "compatibilityMin": 81,
-          "compatibilityMax": 81
-        }
-      ],
-      "ecosystems": [
-        "npm"
-      ],
-      "oldestAlert": "2026-04-07T05:39:31Z"
     }
   ]
 }
