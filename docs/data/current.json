@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-11T07:12:56.643Z",
+  "generatedAt": "2026-04-12T07:26:13.564Z",
   "summary": {
     "totalAlerts": 29,
     "bySeverity": {
@@ -50,9 +50,9 @@
             "javascript"
           ],
           "url": "https://github.com/Buffalo-Drinking-Game/buffalo-drinking-game/pull/7",
-          "compatibilityDisplay": "92%",
-          "compatibilityMin": 92,
-          "compatibilityMax": 92
+          "compatibilityDisplay": "91%",
+          "compatibilityMin": 91,
+          "compatibilityMax": 91
         },
         {
           "number": 11,
@@ -70,9 +70,9 @@
             "javascript"
           ],
           "url": "https://github.com/Buffalo-Drinking-Game/buffalo-drinking-game/pull/11",
-          "compatibilityDisplay": "86%",
-          "compatibilityMin": 86,
-          "compatibilityMax": 86
+          "compatibilityDisplay": "84%",
+          "compatibilityMin": 84,
+          "compatibilityMax": 84
         },
         {
           "number": 12,
@@ -90,9 +90,9 @@
             "javascript"
           ],
           "url": "https://github.com/Buffalo-Drinking-Game/buffalo-drinking-game/pull/12",
-          "compatibilityDisplay": "89%",
-          "compatibilityMin": 89,
-          "compatibilityMax": 89
+          "compatibilityDisplay": "87%",
+          "compatibilityMin": 87,
+          "compatibilityMax": 87
         },
         {
           "number": 13,
@@ -254,9 +254,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/dependabot-demo/pull/11",
-          "compatibilityDisplay": "71%",
-          "compatibilityMin": 71,
-          "compatibilityMax": 71
+          "compatibilityDisplay": "72%",
+          "compatibilityMin": 72,
+          "compatibilityMax": 72
         },
         {
           "number": 12,
@@ -294,9 +294,9 @@
             "github_actions"
           ],
           "url": "https://github.com/kylifornication-code/dependabot-demo/pull/13",
-          "compatibilityDisplay": "41%",
-          "compatibilityMin": 41,
-          "compatibilityMax": 41
+          "compatibilityDisplay": "40%",
+          "compatibilityMin": 40,
+          "compatibilityMax": 40
         },
         {
           "number": 14,
@@ -356,15 +356,36 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/astro-career-walking-deck/pull/13",
-          "compatibilityDisplay": "86%",
-          "compatibilityMin": 86,
-          "compatibilityMax": 86
+          "compatibilityDisplay": "84%",
+          "compatibilityMin": 84,
+          "compatibilityMax": 84
         }
       ],
       "ecosystems": [
         "npm"
       ],
       "oldestAlert": "2026-04-04T07:51:08Z"
+    },
+    {
+      "repo": "kylifornication-code/thedrizzle",
+      "name": "thedrizzle",
+      "owner": "kylifornication-code",
+      "isPrivate": false,
+      "language": "TypeScript",
+      "alertCounts": {
+        "critical": 0,
+        "high": 1,
+        "medium": 1,
+        "low": 0,
+        "unknown": 0
+      },
+      "totalAlerts": 2,
+      "openPRs": 0,
+      "prs": [],
+      "ecosystems": [
+        "npm"
+      ],
+      "oldestAlert": "2026-03-03T01:38:53Z"
     },
     {
       "repo": "kylifornication-code/lennys-podcast-recapper",
@@ -407,27 +428,6 @@
         "npm"
       ],
       "oldestAlert": "2026-04-07T05:39:31Z"
-    },
-    {
-      "repo": "kylifornication-code/thedrizzle",
-      "name": "thedrizzle",
-      "owner": "kylifornication-code",
-      "isPrivate": false,
-      "language": "TypeScript",
-      "alertCounts": {
-        "critical": 0,
-        "high": 1,
-        "medium": 1,
-        "low": 0,
-        "unknown": 0
-      },
-      "totalAlerts": 2,
-      "openPRs": 0,
-      "prs": [],
-      "ecosystems": [
-        "npm"
-      ],
-      "oldestAlert": "2026-03-03T01:38:53Z"
     }
   ]
 }
