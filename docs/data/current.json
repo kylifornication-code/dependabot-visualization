@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-13T08:17:58.944Z",
+  "generatedAt": "2026-04-13T23:28:03.465Z",
   "summary": {
     "totalAlerts": 16,
     "bySeverity": {
@@ -12,7 +12,7 @@
     "byEcosystem": {
       "npm": 16
     },
-    "totalOpenPRs": 7,
+    "totalOpenPRs": 3,
     "reposAffected": 3,
     "reposWithPRs": 2,
     "reposScanned": 3
@@ -32,73 +32,13 @@
         "unknown": 0
       },
       "totalAlerts": 10,
-      "openPRs": 6,
+      "openPRs": 2,
       "prs": [
-        {
-          "number": 7,
-          "title": "Bump @types/react from 19.2.13 to 19.2.14",
-          "createdAt": "2026-03-16T06:04:07Z",
-          "updatedAt": "2026-03-19T04:08:52Z",
-          "isDependabot": true,
-          "isSecurityUpdate": false,
-          "autoMergeEnabled": false,
-          "mergeable": null,
-          "mergeableState": "unknown",
-          "isDraft": false,
-          "labels": [
-            "dependencies",
-            "javascript"
-          ],
-          "url": "https://github.com/Buffalo-Drinking-Game/buffalo-drinking-game/pull/7",
-          "compatibilityDisplay": "91%",
-          "compatibilityMin": 91,
-          "compatibilityMax": 91
-        },
-        {
-          "number": 11,
-          "title": "Bump @tailwindcss/vite from 4.2.1 to 4.2.2",
-          "createdAt": "2026-03-23T01:16:24Z",
-          "updatedAt": "2026-03-23T01:16:24Z",
-          "isDependabot": true,
-          "isSecurityUpdate": false,
-          "autoMergeEnabled": false,
-          "mergeable": null,
-          "mergeableState": "unknown",
-          "isDraft": false,
-          "labels": [
-            "dependencies",
-            "javascript"
-          ],
-          "url": "https://github.com/Buffalo-Drinking-Game/buffalo-drinking-game/pull/11",
-          "compatibilityDisplay": "86%",
-          "compatibilityMin": 86,
-          "compatibilityMax": 86
-        },
-        {
-          "number": 12,
-          "title": "Bump tailwindcss from 4.2.1 to 4.2.2",
-          "createdAt": "2026-03-23T01:16:30Z",
-          "updatedAt": "2026-03-23T01:16:31Z",
-          "isDependabot": true,
-          "isSecurityUpdate": false,
-          "autoMergeEnabled": false,
-          "mergeable": null,
-          "mergeableState": "unknown",
-          "isDraft": false,
-          "labels": [
-            "dependencies",
-            "javascript"
-          ],
-          "url": "https://github.com/Buffalo-Drinking-Game/buffalo-drinking-game/pull/12",
-          "compatibilityDisplay": "88%",
-          "compatibilityMin": 88,
-          "compatibilityMax": 88
-        },
         {
           "number": 13,
           "title": "Bump framer-motion from 12.33.0 to 12.38.0",
           "createdAt": "2026-03-23T01:16:39Z",
-          "updatedAt": "2026-03-23T01:16:40Z",
+          "updatedAt": "2026-04-13T23:16:18Z",
           "isDependabot": true,
           "isSecurityUpdate": false,
           "autoMergeEnabled": false,
@@ -115,30 +55,10 @@
           "compatibilityMax": null
         },
         {
-          "number": 14,
-          "title": "Bump astro from 6.0.4 to 6.0.8",
-          "createdAt": "2026-03-23T01:16:52Z",
-          "updatedAt": "2026-03-26T02:40:40Z",
-          "isDependabot": true,
-          "isSecurityUpdate": false,
-          "autoMergeEnabled": false,
-          "mergeable": null,
-          "mergeableState": "unknown",
-          "isDraft": false,
-          "labels": [
-            "dependencies",
-            "javascript"
-          ],
-          "url": "https://github.com/Buffalo-Drinking-Game/buffalo-drinking-game/pull/14",
-          "compatibilityDisplay": "100%",
-          "compatibilityMin": 100,
-          "compatibilityMax": 100
-        },
-        {
           "number": 16,
           "title": "Bump the npm_and_yarn group across 1 directory with 1 update",
           "createdAt": "2026-03-26T02:39:59Z",
-          "updatedAt": "2026-03-26T02:40:00Z",
+          "updatedAt": "2026-04-13T23:15:34Z",
           "isDependabot": true,
           "isSecurityUpdate": false,
           "autoMergeEnabled": false,

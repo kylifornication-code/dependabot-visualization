@@ -1,6 +1,6 @@
 {
   "date": "2026-04-13",
-  "generatedAt": "2026-04-13T08:17:58.944Z",
+  "generatedAt": "2026-04-13T23:28:03.465Z",
   "totalAlerts": 16,
   "bySeverity": {
     "critical": 0,
@@ -9,6 +9,6 @@
     "low": 0,
     "unknown": 0
   },
-  "totalOpenPRs": 7,
+  "totalOpenPRs": 3,
   "reposAffected": 3
 }
