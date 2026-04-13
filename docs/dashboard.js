@@ -457,7 +457,7 @@ function renderPRList(filterText = '', filterRepo = '') {
   if (filtered.length === 0) {
     el('prs-list').innerHTML = `
       <div class="state-box" style="padding:24px 0">
-        <p>${allPRs.length === 0 ? 'No open Dependabot PRs found.' : 'No PRs match your filter.'}</p>
+        <p>${allPRs.length === 0 ? 'No open PRs found.' : 'No PRs match your filter.'}</p>
       </div>`;
     el('pr-count').textContent = '0';
     return;

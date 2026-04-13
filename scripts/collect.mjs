@@ -335,12 +335,15 @@ function sanitizePR(pr, compat = { display: null, min: null, max: null }) {
   };
 }
 
-async function enrichDependabotPRs(owner, name, rawPRs) {
-  const list = (rawPRs ?? []).filter(isDependabotPR);
+async function enrichAllPRs(owner, name, rawPRs) {
   const out = [];
-  for (const pr of list) {
-    const compat = await resolvePRCompatibility(owner, name, pr);
-    out.push(sanitizePR(pr, compat));
+  for (const pr of (rawPRs ?? [])) {
+    if (isDependabotPR(pr)) {
+      const compat = await resolvePRCompatibility(owner, name, pr);
+      out.push(sanitizePR(pr, compat));
+    } else {
+      out.push(sanitizePR(pr));
+    }
     await sleep(40);
   }
   return out;
@@ -361,7 +364,7 @@ async function collectByRepo(repos) {
     ]);
 
     const alerts = (rawAlerts ?? []).map(sanitizeAlert);
-    const prs = await enrichDependabotPRs(owner, name, rawPRs);
+    const prs = await enrichAllPRs(owner, name, rawPRs);
 
     console.log(`${alerts.length} alerts, ${prs.length} PRs`);
 
@@ -400,7 +403,7 @@ async function collectByOrg(org) {
     const [owner, name] = fullName.split('/');
     process.stdout.write(`  ${fullName} ... `);
     const rawPRs = await paginate(`/repos/${owner}/${name}/pulls`, { state: 'open' });
-    entry.prs = await enrichDependabotPRs(owner, name, rawPRs);
+    entry.prs = await enrichAllPRs(owner, name, rawPRs);
     console.log(`${entry.alerts.length} alerts, ${entry.prs.length} PRs`);
     results.push({ owner, name, ...entry });
   }
