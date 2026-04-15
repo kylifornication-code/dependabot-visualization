@@ -15,7 +15,9 @@ The collector is designed so the published site avoids leaking sensitive advisor
 | Path | Purpose |
 |------|---------|
 | `scripts/collect.mjs` | Fetches and aggregates data; requires `GH_TOKEN` or `GITHUB_TOKEN` |
+| `scripts/generate-obsidian.mjs` | Generates Obsidian markdown notes from collected data |
 | `docs/` | GitHub Pages site: HTML, CSS, JS, and `docs/data/*.json` |
+| `docs/obsidian-integration.md` | Full Obsidian setup guide |
 | `.github/workflows/collect-data.yml` | Scheduled + manual workflow: run collector, commit data, deploy Pages |
 
 ## Setup (GitHub Actions + Pages)
@@ -42,6 +44,28 @@ node scripts/collect.mjs
 ```
 
 Outputs are written to `docs/data/`.
+
+## Obsidian integration
+
+A companion script generates Obsidian-compatible markdown notes from the collected data — a `Dashboard.md` summary and one note per repo, all written into your vault under `Security/Dependabot/`.
+
+```bash
+# Default vault: ~/Documents/KJ Smoketower
+node scripts/generate-obsidian.mjs
+
+# Custom vault path
+OBSIDIAN_VAULT="/path/to/your/vault" node scripts/generate-obsidian.mjs
+```
+
+To refresh both data and notes in one command:
+
+```bash
+node scripts/collect.mjs && node scripts/generate-obsidian.mjs
+```
+
+The [Shell Commands](https://github.com/Taitava/obsidian-shellcommands) Obsidian plugin can run this directly from the command palette so you never need to leave the app.
+
+**→ See [docs/obsidian-integration.md](docs/obsidian-integration.md) for full setup instructions.**
 
 ## License
 
