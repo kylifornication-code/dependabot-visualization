@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-16T08:00:39.183Z",
+  "generatedAt": "2026-04-17T08:01:46.645Z",
   "summary": {
     "totalAlerts": 17,
     "bySeverity": {
@@ -120,7 +120,7 @@
           "number": 6,
           "title": "Bump dompurify from 3.3.3 to 3.4.0",
           "createdAt": "2026-04-16T03:48:23Z",
-          "updatedAt": "2026-04-16T03:48:23Z",
+          "updatedAt": "2026-04-16T19:09:13Z",
           "isDependabot": true,
           "isSecurityUpdate": false,
           "autoMergeEnabled": false,
@@ -132,9 +132,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/ncaa-wrestling-bracket/pull/6",
-          "compatibilityDisplay": "78%",
-          "compatibilityMin": 78,
-          "compatibilityMax": 78
+          "compatibilityDisplay": "79%",
+          "compatibilityMin": 79,
+          "compatibilityMax": 79
         }
       ],
       "ecosystems": [
