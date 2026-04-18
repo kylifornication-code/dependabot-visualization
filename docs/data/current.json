@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-04-17T08:01:46.645Z",
+  "generatedAt": "2026-04-18T07:21:45.883Z",
   "summary": {
-    "totalAlerts": 17,
+    "totalAlerts": 16,
     "bySeverity": {
       "critical": 0,
       "high": 9,
-      "medium": 8,
+      "medium": 7,
       "low": 0,
       "unknown": 0
     },
     "byEcosystem": {
-      "npm": 17
+      "npm": 16
     },
-    "totalOpenPRs": 4,
+    "totalOpenPRs": 3,
     "reposAffected": 3,
     "reposWithPRs": 2,
     "reposScanned": 3
@@ -89,12 +89,12 @@
       "alertCounts": {
         "critical": 0,
         "high": 2,
-        "medium": 3,
+        "medium": 2,
         "low": 0,
         "unknown": 0
       },
-      "totalAlerts": 5,
-      "openPRs": 2,
+      "totalAlerts": 4,
+      "openPRs": 1,
       "prs": [
         {
           "number": 3,
@@ -115,26 +115,6 @@
           "compatibilityDisplay": null,
           "compatibilityMin": null,
           "compatibilityMax": null
-        },
-        {
-          "number": 6,
-          "title": "Bump dompurify from 3.3.3 to 3.4.0",
-          "createdAt": "2026-04-16T03:48:23Z",
-          "updatedAt": "2026-04-16T19:09:13Z",
-          "isDependabot": true,
-          "isSecurityUpdate": false,
-          "autoMergeEnabled": false,
-          "mergeable": null,
-          "mergeableState": "unknown",
-          "isDraft": false,
-          "labels": [
-            "dependencies",
-            "javascript"
-          ],
-          "url": "https://github.com/kylifornication-code/ncaa-wrestling-bracket/pull/6",
-          "compatibilityDisplay": "79%",
-          "compatibilityMin": 79,
-          "compatibilityMax": 79
         }
       ],
       "ecosystems": [
