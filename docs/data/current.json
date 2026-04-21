@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-20T08:23:05.774Z",
+  "generatedAt": "2026-04-21T08:05:31.502Z",
   "summary": {
     "totalAlerts": 16,
     "bySeverity": {
@@ -78,7 +78,7 @@
           "number": 17,
           "title": "Bump @astrojs/react from 5.0.0 to 5.0.3",
           "createdAt": "2026-04-20T01:21:10Z",
-          "updatedAt": "2026-04-20T01:21:10Z",
+          "updatedAt": "2026-04-20T19:11:31Z",
           "isDependabot": true,
           "isSecurityUpdate": false,
           "autoMergeEnabled": false,
@@ -98,7 +98,7 @@
           "number": 18,
           "title": "Bump react-dom from 19.2.4 to 19.2.5",
           "createdAt": "2026-04-20T01:21:23Z",
-          "updatedAt": "2026-04-20T01:21:24Z",
+          "updatedAt": "2026-04-20T19:10:19Z",
           "isDependabot": true,
           "isSecurityUpdate": false,
           "autoMergeEnabled": false,
@@ -110,15 +110,15 @@
             "javascript"
           ],
           "url": "https://github.com/Buffalo-Drinking-Game/buffalo-drinking-game/pull/18",
-          "compatibilityDisplay": "76%",
-          "compatibilityMin": 76,
-          "compatibilityMax": 76
+          "compatibilityDisplay": "79%",
+          "compatibilityMin": 79,
+          "compatibilityMax": 79
         },
         {
           "number": 19,
           "title": "Bump astro from 6.0.8 to 6.1.8",
           "createdAt": "2026-04-20T01:21:38Z",
-          "updatedAt": "2026-04-20T01:21:39Z",
+          "updatedAt": "2026-04-20T19:09:06Z",
           "isDependabot": true,
           "isSecurityUpdate": false,
           "autoMergeEnabled": false,
@@ -130,9 +130,9 @@
             "javascript"
           ],
           "url": "https://github.com/Buffalo-Drinking-Game/buffalo-drinking-game/pull/19",
-          "compatibilityDisplay": null,
-          "compatibilityMin": null,
-          "compatibilityMax": null
+          "compatibilityDisplay": "100%",
+          "compatibilityMin": 100,
+          "compatibilityMax": 100
         }
       ],
       "ecosystems": [
