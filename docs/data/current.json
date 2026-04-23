@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-22T08:02:05.785Z",
+  "generatedAt": "2026-04-23T02:24:50.755Z",
   "summary": {
     "totalAlerts": 23,
     "bySeverity": {
@@ -110,9 +110,9 @@
             "javascript"
           ],
           "url": "https://github.com/Buffalo-Drinking-Game/buffalo-drinking-game/pull/18",
-          "compatibilityDisplay": "78%",
-          "compatibilityMin": 78,
-          "compatibilityMax": 78
+          "compatibilityDisplay": "80%",
+          "compatibilityMin": 80,
+          "compatibilityMax": 80
         },
         {
           "number": 19,
@@ -180,7 +180,7 @@
           "number": 7,
           "title": "Bump astro from 5.18.1 to 6.1.6",
           "createdAt": "2026-04-21T21:51:03Z",
-          "updatedAt": "2026-04-21T21:51:04Z",
+          "updatedAt": "2026-04-23T01:05:37Z",
           "isDependabot": true,
           "isSecurityUpdate": false,
           "autoMergeEnabled": false,
@@ -192,9 +192,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/ncaa-wrestling-bracket/pull/7",
-          "compatibilityDisplay": "39%",
-          "compatibilityMin": 39,
-          "compatibilityMax": 39
+          "compatibilityDisplay": "36%",
+          "compatibilityMin": 36,
+          "compatibilityMax": 36
         }
       ],
       "ecosystems": [
@@ -243,7 +243,7 @@
           "number": 5,
           "title": "Bump astro from 5.18.1 to 6.1.6",
           "createdAt": "2026-04-21T21:53:21Z",
-          "updatedAt": "2026-04-21T21:53:21Z",
+          "updatedAt": "2026-04-22T23:29:10Z",
           "isDependabot": true,
           "isSecurityUpdate": false,
           "autoMergeEnabled": false,
@@ -255,9 +255,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/lennys-podcast-recapper/pull/5",
-          "compatibilityDisplay": "39%",
-          "compatibilityMin": 39,
-          "compatibilityMax": 39
+          "compatibilityDisplay": "36%",
+          "compatibilityMin": 36,
+          "compatibilityMax": 36
         }
       ],
       "ecosystems": [
@@ -285,7 +285,7 @@
           "number": 15,
           "title": "Bump astro from 5.18.1 to 6.1.6 in the npm_and_yarn group across 1 directory",
           "createdAt": "2026-04-21T22:31:48Z",
-          "updatedAt": "2026-04-21T22:31:49Z",
+          "updatedAt": "2026-04-22T22:25:38Z",
           "isDependabot": true,
           "isSecurityUpdate": false,
           "autoMergeEnabled": false,
@@ -297,9 +297,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/astro-career-walking-deck/pull/15",
-          "compatibilityDisplay": "39%",
-          "compatibilityMin": 39,
-          "compatibilityMax": 39
+          "compatibilityDisplay": "36%",
+          "compatibilityMin": 36,
+          "compatibilityMax": 36
         }
       ],
       "ecosystems": [
