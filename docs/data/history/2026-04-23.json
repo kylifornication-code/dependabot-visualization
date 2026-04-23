@@ -1,11 +1,11 @@
 {
   "date": "2026-04-23",
-  "generatedAt": "2026-04-23T08:07:14.774Z",
-  "totalAlerts": 71,
+  "generatedAt": "2026-04-23T15:39:33.907Z",
+  "totalAlerts": 70,
   "bySeverity": {
     "critical": 2,
     "high": 27,
-    "medium": 34,
+    "medium": 33,
     "low": 8,
     "unknown": 0
   },

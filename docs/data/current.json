@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-04-23T08:07:14.774Z",
+  "generatedAt": "2026-04-23T15:39:33.907Z",
   "summary": {
-    "totalAlerts": 71,
+    "totalAlerts": 70,
     "bySeverity": {
       "critical": 2,
       "high": 27,
-      "medium": 34,
+      "medium": 33,
       "low": 8,
       "unknown": 0
     },
     "byEcosystem": {
-      "pip": 48,
-      "npm": 23
+      "npm": 22,
+      "pip": 48
     },
     "totalOpenPRs": 11,
     "reposAffected": 6,
-    "reposWithPRs": 6,
-    "reposScanned": 7
+    "reposWithPRs": 5,
+    "reposScanned": 6
   },
   "repos": [
     {
@@ -33,7 +33,7 @@
         "unknown": 0
       },
       "totalAlerts": 48,
-      "openPRs": 1,
+      "openPRs": 3,
       "prs": [
         {
           "number": 1,
@@ -54,6 +54,46 @@
           "compatibilityDisplay": null,
           "compatibilityMin": null,
           "compatibilityMax": null
+        },
+        {
+          "number": 3,
+          "title": "Bump pillow from 12.0.0 to 12.2.0",
+          "createdAt": "2026-04-23T08:07:30Z",
+          "updatedAt": "2026-04-23T08:07:31Z",
+          "isDependabot": true,
+          "isSecurityUpdate": false,
+          "autoMergeEnabled": false,
+          "mergeable": null,
+          "mergeableState": "unknown",
+          "isDraft": false,
+          "labels": [
+            "dependencies",
+            "python"
+          ],
+          "url": "https://github.com/kylifornication-code/training-requests/pull/3",
+          "compatibilityDisplay": "70%",
+          "compatibilityMin": 70,
+          "compatibilityMax": 70
+        },
+        {
+          "number": 2,
+          "title": "Bump requests from 2.31.0 to 2.33.0",
+          "createdAt": "2026-04-23T08:07:30Z",
+          "updatedAt": "2026-04-23T08:07:31Z",
+          "isDependabot": true,
+          "isSecurityUpdate": false,
+          "autoMergeEnabled": false,
+          "mergeable": null,
+          "mergeableState": "unknown",
+          "isDraft": false,
+          "labels": [
+            "dependencies",
+            "python"
+          ],
+          "url": "https://github.com/kylifornication-code/training-requests/pull/2",
+          "compatibilityDisplay": "75%",
+          "compatibilityMin": 75,
+          "compatibilityMax": 75
         }
       ],
       "ecosystems": [
@@ -70,18 +110,18 @@
       "alertCounts": {
         "critical": 0,
         "high": 6,
-        "medium": 5,
+        "medium": 4,
         "low": 0,
         "unknown": 0
       },
-      "totalAlerts": 11,
-      "openPRs": 5,
+      "totalAlerts": 10,
+      "openPRs": 4,
       "prs": [
         {
           "number": 13,
           "title": "Bump framer-motion from 12.33.0 to 12.38.0",
           "createdAt": "2026-03-23T01:16:39Z",
-          "updatedAt": "2026-04-13T23:16:18Z",
+          "updatedAt": "2026-04-23T15:37:40Z",
           "isDependabot": true,
           "isSecurityUpdate": false,
           "autoMergeEnabled": false,
@@ -101,7 +141,7 @@
           "number": 16,
           "title": "Bump the npm_and_yarn group across 1 directory with 1 update",
           "createdAt": "2026-03-26T02:39:59Z",
-          "updatedAt": "2026-04-13T23:15:34Z",
+          "updatedAt": "2026-04-23T15:38:59Z",
           "isDependabot": true,
           "isSecurityUpdate": false,
           "autoMergeEnabled": false,
@@ -141,7 +181,7 @@
           "number": 18,
           "title": "Bump react-dom from 19.2.4 to 19.2.5",
           "createdAt": "2026-04-20T01:21:23Z",
-          "updatedAt": "2026-04-20T19:10:19Z",
+          "updatedAt": "2026-04-23T15:39:02Z",
           "isDependabot": true,
           "isSecurityUpdate": false,
           "autoMergeEnabled": false,
@@ -153,29 +193,9 @@
             "javascript"
           ],
           "url": "https://github.com/Buffalo-Drinking-Game/buffalo-drinking-game/pull/18",
-          "compatibilityDisplay": "80%",
-          "compatibilityMin": 80,
-          "compatibilityMax": 80
-        },
-        {
-          "number": 19,
-          "title": "Bump astro from 6.0.8 to 6.1.8",
-          "createdAt": "2026-04-20T01:21:38Z",
-          "updatedAt": "2026-04-20T19:09:06Z",
-          "isDependabot": true,
-          "isSecurityUpdate": false,
-          "autoMergeEnabled": false,
-          "mergeable": null,
-          "mergeableState": "unknown",
-          "isDraft": false,
-          "labels": [
-            "dependencies",
-            "javascript"
-          ],
-          "url": "https://github.com/Buffalo-Drinking-Game/buffalo-drinking-game/pull/19",
-          "compatibilityDisplay": "97%",
-          "compatibilityMin": 97,
-          "compatibilityMax": 97
+          "compatibilityDisplay": null,
+          "compatibilityMin": null,
+          "compatibilityMax": null
         }
       ],
       "ecosystems": [
@@ -235,9 +255,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/ncaa-wrestling-bracket/pull/7",
-          "compatibilityDisplay": "38%",
-          "compatibilityMin": 38,
-          "compatibilityMax": 38
+          "compatibilityDisplay": "37%",
+          "compatibilityMin": 37,
+          "compatibilityMax": 37
         }
       ],
       "ecosystems": [
@@ -298,9 +318,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/lennys-podcast-recapper/pull/5",
-          "compatibilityDisplay": "38%",
-          "compatibilityMin": 38,
-          "compatibilityMax": 38
+          "compatibilityDisplay": "37%",
+          "compatibilityMin": 37,
+          "compatibilityMax": 37
         }
       ],
       "ecosystems": [
@@ -340,55 +360,15 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/astro-career-walking-deck/pull/15",
-          "compatibilityDisplay": "38%",
-          "compatibilityMin": 38,
-          "compatibilityMax": 38
+          "compatibilityDisplay": "37%",
+          "compatibilityMin": 37,
+          "compatibilityMax": 37
         }
       ],
       "ecosystems": [
         "npm"
       ],
       "oldestAlert": "2026-04-21T22:25:08Z"
-    },
-    {
-      "repo": "kylifornication-code/ai-fluency-for-teams",
-      "name": "ai-fluency-for-teams",
-      "owner": "kylifornication-code",
-      "isPrivate": false,
-      "language": "TypeScript",
-      "alertCounts": {
-        "critical": 0,
-        "high": 0,
-        "medium": 0,
-        "low": 0,
-        "unknown": 0
-      },
-      "totalAlerts": 0,
-      "openPRs": 1,
-      "prs": [
-        {
-          "number": 7,
-          "title": "Bump picomatch from 2.3.1 to 2.3.2",
-          "createdAt": "2026-04-23T03:22:06Z",
-          "updatedAt": "2026-04-23T04:51:15Z",
-          "isDependabot": true,
-          "isSecurityUpdate": false,
-          "autoMergeEnabled": false,
-          "mergeable": null,
-          "mergeableState": "unknown",
-          "isDraft": false,
-          "labels": [
-            "dependencies",
-            "javascript"
-          ],
-          "url": "https://github.com/kylifornication-code/ai-fluency-for-teams/pull/7",
-          "compatibilityDisplay": "84%",
-          "compatibilityMin": 84,
-          "compatibilityMax": 84
-        }
-      ],
-      "ecosystems": [],
-      "oldestAlert": null
     }
   ]
 }
