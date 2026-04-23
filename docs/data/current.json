@@ -1,23 +1,66 @@
 {
-  "generatedAt": "2026-04-23T02:24:50.755Z",
+  "generatedAt": "2026-04-23T08:07:14.774Z",
   "summary": {
-    "totalAlerts": 23,
+    "totalAlerts": 71,
     "bySeverity": {
-      "critical": 0,
-      "high": 9,
-      "medium": 14,
-      "low": 0,
+      "critical": 2,
+      "high": 27,
+      "medium": 34,
+      "low": 8,
       "unknown": 0
     },
     "byEcosystem": {
+      "pip": 48,
       "npm": 23
     },
-    "totalOpenPRs": 9,
-    "reposAffected": 5,
-    "reposWithPRs": 4,
-    "reposScanned": 5
+    "totalOpenPRs": 11,
+    "reposAffected": 6,
+    "reposWithPRs": 6,
+    "reposScanned": 7
   },
   "repos": [
+    {
+      "repo": "kylifornication-code/training-requests",
+      "name": "training-requests",
+      "owner": "kylifornication-code",
+      "isPrivate": false,
+      "language": "Python",
+      "alertCounts": {
+        "critical": 2,
+        "high": 18,
+        "medium": 20,
+        "low": 8,
+        "unknown": 0
+      },
+      "totalAlerts": 48,
+      "openPRs": 1,
+      "prs": [
+        {
+          "number": 1,
+          "title": "Bump django from 4.2.7 to 4.2.30",
+          "createdAt": "2026-04-23T07:24:53Z",
+          "updatedAt": "2026-04-23T07:24:54Z",
+          "isDependabot": true,
+          "isSecurityUpdate": false,
+          "autoMergeEnabled": false,
+          "mergeable": null,
+          "mergeableState": "unknown",
+          "isDraft": false,
+          "labels": [
+            "dependencies",
+            "python"
+          ],
+          "url": "https://github.com/kylifornication-code/training-requests/pull/1",
+          "compatibilityDisplay": null,
+          "compatibilityMin": null,
+          "compatibilityMax": null
+        }
+      ],
+      "ecosystems": [
+        "pip"
+      ],
+      "oldestAlert": "2026-04-23T06:48:54Z"
+    },
     {
       "repo": "Buffalo-Drinking-Game/buffalo-drinking-game",
       "name": "buffalo-drinking-game",
@@ -192,9 +235,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/ncaa-wrestling-bracket/pull/7",
-          "compatibilityDisplay": "36%",
-          "compatibilityMin": 36,
-          "compatibilityMax": 36
+          "compatibilityDisplay": "38%",
+          "compatibilityMin": 38,
+          "compatibilityMax": 38
         }
       ],
       "ecosystems": [
@@ -255,9 +298,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/lennys-podcast-recapper/pull/5",
-          "compatibilityDisplay": "36%",
-          "compatibilityMin": 36,
-          "compatibilityMax": 36
+          "compatibilityDisplay": "38%",
+          "compatibilityMin": 38,
+          "compatibilityMax": 38
         }
       ],
       "ecosystems": [
@@ -297,15 +340,55 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/astro-career-walking-deck/pull/15",
-          "compatibilityDisplay": "36%",
-          "compatibilityMin": 36,
-          "compatibilityMax": 36
+          "compatibilityDisplay": "38%",
+          "compatibilityMin": 38,
+          "compatibilityMax": 38
         }
       ],
       "ecosystems": [
         "npm"
       ],
       "oldestAlert": "2026-04-21T22:25:08Z"
+    },
+    {
+      "repo": "kylifornication-code/ai-fluency-for-teams",
+      "name": "ai-fluency-for-teams",
+      "owner": "kylifornication-code",
+      "isPrivate": false,
+      "language": "TypeScript",
+      "alertCounts": {
+        "critical": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0,
+        "unknown": 0
+      },
+      "totalAlerts": 0,
+      "openPRs": 1,
+      "prs": [
+        {
+          "number": 7,
+          "title": "Bump picomatch from 2.3.1 to 2.3.2",
+          "createdAt": "2026-04-23T03:22:06Z",
+          "updatedAt": "2026-04-23T04:51:15Z",
+          "isDependabot": true,
+          "isSecurityUpdate": false,
+          "autoMergeEnabled": false,
+          "mergeable": null,
+          "mergeableState": "unknown",
+          "isDraft": false,
+          "labels": [
+            "dependencies",
+            "javascript"
+          ],
+          "url": "https://github.com/kylifornication-code/ai-fluency-for-teams/pull/7",
+          "compatibilityDisplay": "84%",
+          "compatibilityMin": 84,
+          "compatibilityMax": 84
+        }
+      ],
+      "ecosystems": [],
+      "oldestAlert": null
     }
   ]
 }
