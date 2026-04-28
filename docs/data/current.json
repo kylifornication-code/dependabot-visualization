@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-27T08:38:55.923Z",
+  "generatedAt": "2026-04-28T08:37:15.772Z",
   "summary": {
     "totalAlerts": 70,
     "bySeverity": {
@@ -91,9 +91,9 @@
             "python"
           ],
           "url": "https://github.com/kylifornication-code/training-requests/pull/2",
-          "compatibilityDisplay": "76%",
-          "compatibilityMin": 76,
-          "compatibilityMax": 76
+          "compatibilityDisplay": "77%",
+          "compatibilityMin": 77,
+          "compatibilityMax": 77
         }
       ],
       "ecosystems": [
@@ -275,9 +275,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/ncaa-wrestling-bracket/pull/7",
-          "compatibilityDisplay": "37%",
-          "compatibilityMin": 37,
-          "compatibilityMax": 37
+          "compatibilityDisplay": "36%",
+          "compatibilityMin": 36,
+          "compatibilityMax": 36
         }
       ],
       "ecosystems": [
@@ -338,9 +338,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/lennys-podcast-recapper/pull/5",
-          "compatibilityDisplay": "37%",
-          "compatibilityMin": 37,
-          "compatibilityMax": 37
+          "compatibilityDisplay": "36%",
+          "compatibilityMin": 36,
+          "compatibilityMax": 36
         }
       ],
       "ecosystems": [
@@ -380,9 +380,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/astro-career-walking-deck/pull/15",
-          "compatibilityDisplay": "37%",
-          "compatibilityMin": 37,
-          "compatibilityMax": 37
+          "compatibilityDisplay": "36%",
+          "compatibilityMin": 36,
+          "compatibilityMax": 36
         }
       ],
       "ecosystems": [
