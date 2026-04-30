@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-29T08:30:07.426Z",
+  "generatedAt": "2026-04-30T08:33:08.673Z",
   "summary": {
     "totalAlerts": 21,
     "bySeverity": {
@@ -297,9 +297,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/lennys-podcast-recapper/pull/6",
-          "compatibilityDisplay": "72%",
-          "compatibilityMin": 72,
-          "compatibilityMax": 72
+          "compatibilityDisplay": "75%",
+          "compatibilityMin": 75,
+          "compatibilityMax": 75
         }
       ],
       "ecosystems": [
