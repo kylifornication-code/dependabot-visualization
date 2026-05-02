@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-05-01T08:23:00.995Z",
+  "generatedAt": "2026-05-02T07:55:32.411Z",
   "summary": {
-    "totalAlerts": 21,
+    "totalAlerts": 22,
     "bySeverity": {
       "critical": 0,
       "high": 9,
-      "medium": 12,
+      "medium": 13,
       "low": 0,
       "unknown": 0
     },
     "byEcosystem": {
-      "npm": 21
+      "npm": 22
     },
     "totalOpenPRs": 9,
     "reposAffected": 5,
@@ -192,9 +192,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/ncaa-wrestling-bracket/pull/7",
-          "compatibilityDisplay": "36%",
-          "compatibilityMin": 36,
-          "compatibilityMax": 36
+          "compatibilityDisplay": "35%",
+          "compatibilityMin": 35,
+          "compatibilityMax": 35
         }
       ],
       "ecosystems": [
@@ -211,11 +211,11 @@
       "alertCounts": {
         "critical": 0,
         "high": 1,
-        "medium": 1,
+        "medium": 2,
         "low": 0,
         "unknown": 0
       },
-      "totalAlerts": 2,
+      "totalAlerts": 3,
       "openPRs": 0,
       "prs": [],
       "ecosystems": [
@@ -255,9 +255,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/astro-career-walking-deck/pull/15",
-          "compatibilityDisplay": "36%",
-          "compatibilityMin": 36,
-          "compatibilityMax": 36
+          "compatibilityDisplay": "35%",
+          "compatibilityMin": 35,
+          "compatibilityMax": 35
         }
       ],
       "ecosystems": [
@@ -297,9 +297,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/lennys-podcast-recapper/pull/6",
-          "compatibilityDisplay": "75%",
-          "compatibilityMin": 75,
-          "compatibilityMax": 75
+          "compatibilityDisplay": "76%",
+          "compatibilityMin": 76,
+          "compatibilityMax": 76
         }
       ],
       "ecosystems": [
