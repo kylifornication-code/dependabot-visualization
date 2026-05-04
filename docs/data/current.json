@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-03T08:10:25.099Z",
+  "generatedAt": "2026-05-04T08:40:39.286Z",
   "summary": {
     "totalAlerts": 22,
     "bySeverity": {
@@ -110,9 +110,9 @@
             "javascript"
           ],
           "url": "https://github.com/Buffalo-Drinking-Game/buffalo-drinking-game/pull/20",
-          "compatibilityDisplay": "91%",
-          "compatibilityMin": 91,
-          "compatibilityMax": 91
+          "compatibilityDisplay": "90%",
+          "compatibilityMin": 90,
+          "compatibilityMax": 90
         },
         {
           "number": 21,
@@ -192,9 +192,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/ncaa-wrestling-bracket/pull/7",
-          "compatibilityDisplay": "35%",
-          "compatibilityMin": 35,
-          "compatibilityMax": 35
+          "compatibilityDisplay": "34%",
+          "compatibilityMin": 34,
+          "compatibilityMax": 34
         }
       ],
       "ecosystems": [
@@ -255,9 +255,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/astro-career-walking-deck/pull/15",
-          "compatibilityDisplay": "35%",
-          "compatibilityMin": 35,
-          "compatibilityMax": 35
+          "compatibilityDisplay": "34%",
+          "compatibilityMin": 34,
+          "compatibilityMax": 34
         }
       ],
       "ecosystems": [
@@ -297,9 +297,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/lennys-podcast-recapper/pull/6",
-          "compatibilityDisplay": "76%",
-          "compatibilityMin": 76,
-          "compatibilityMax": 76
+          "compatibilityDisplay": "77%",
+          "compatibilityMin": 77,
+          "compatibilityMax": 77
         }
       ],
       "ecosystems": [
