@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-05-05T08:22:37.064Z",
+  "generatedAt": "2026-05-06T08:38:50.478Z",
   "summary": {
-    "totalAlerts": 22,
+    "totalAlerts": 21,
     "bySeverity": {
       "critical": 0,
       "high": 9,
-      "medium": 13,
+      "medium": 12,
       "low": 0,
       "unknown": 0
     },
     "byEcosystem": {
-      "npm": 22
+      "npm": 21
     },
     "totalOpenPRs": 9,
     "reposAffected": 5,
@@ -211,11 +211,11 @@
       "alertCounts": {
         "critical": 0,
         "high": 1,
-        "medium": 2,
+        "medium": 1,
         "low": 0,
         "unknown": 0
       },
-      "totalAlerts": 3,
+      "totalAlerts": 2,
       "openPRs": 0,
       "prs": [],
       "ecosystems": [
@@ -297,9 +297,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/lennys-podcast-recapper/pull/6",
-          "compatibilityDisplay": "81%",
-          "compatibilityMin": 81,
-          "compatibilityMax": 81
+          "compatibilityDisplay": "79%",
+          "compatibilityMin": 79,
+          "compatibilityMax": 79
         }
       ],
       "ecosystems": [
