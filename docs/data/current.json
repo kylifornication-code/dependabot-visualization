@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-05-08T07:51:50.674Z",
+  "generatedAt": "2026-05-09T08:05:34.511Z",
   "summary": {
-    "totalAlerts": 21,
+    "totalAlerts": 23,
     "bySeverity": {
       "critical": 0,
-      "high": 9,
+      "high": 11,
       "medium": 12,
       "low": 0,
       "unknown": 0
     },
     "byEcosystem": {
-      "npm": 21
+      "npm": 23
     },
-    "totalOpenPRs": 9,
+    "totalOpenPRs": 10,
     "reposAffected": 5,
-    "reposWithPRs": 4,
+    "reposWithPRs": 5,
     "reposScanned": 5
   },
   "repos": [
@@ -141,6 +141,48 @@
       "oldestAlert": "2026-03-26T02:38:59Z"
     },
     {
+      "repo": "kylifornication-code/thedrizzle",
+      "name": "thedrizzle",
+      "owner": "kylifornication-code",
+      "isPrivate": false,
+      "language": "TypeScript",
+      "alertCounts": {
+        "critical": 0,
+        "high": 3,
+        "medium": 1,
+        "low": 0,
+        "unknown": 0
+      },
+      "totalAlerts": 4,
+      "openPRs": 1,
+      "prs": [
+        {
+          "number": 15,
+          "title": "Bump fast-uri from 3.1.0 to 3.1.2",
+          "createdAt": "2026-05-09T00:52:52Z",
+          "updatedAt": "2026-05-09T00:52:53Z",
+          "isDependabot": true,
+          "isSecurityUpdate": false,
+          "autoMergeEnabled": false,
+          "mergeable": null,
+          "mergeableState": "unknown",
+          "isDraft": false,
+          "labels": [
+            "dependencies",
+            "javascript"
+          ],
+          "url": "https://github.com/kylifornication-code/thedrizzle/pull/15",
+          "compatibilityDisplay": "81%",
+          "compatibilityMin": 81,
+          "compatibilityMax": 81
+        }
+      ],
+      "ecosystems": [
+        "npm"
+      ],
+      "oldestAlert": "2026-03-03T01:38:53Z"
+    },
+    {
       "repo": "kylifornication-code/ncaa-wrestling-bracket",
       "name": "ncaa-wrestling-bracket",
       "owner": "kylifornication-code",
@@ -192,36 +234,15 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/ncaa-wrestling-bracket/pull/7",
-          "compatibilityDisplay": "35%",
-          "compatibilityMin": 35,
-          "compatibilityMax": 35
+          "compatibilityDisplay": "33%",
+          "compatibilityMin": 33,
+          "compatibilityMax": 33
         }
       ],
       "ecosystems": [
         "npm"
       ],
       "oldestAlert": "2026-03-26T02:37:09Z"
-    },
-    {
-      "repo": "kylifornication-code/thedrizzle",
-      "name": "thedrizzle",
-      "owner": "kylifornication-code",
-      "isPrivate": false,
-      "language": "TypeScript",
-      "alertCounts": {
-        "critical": 0,
-        "high": 1,
-        "medium": 1,
-        "low": 0,
-        "unknown": 0
-      },
-      "totalAlerts": 2,
-      "openPRs": 0,
-      "prs": [],
-      "ecosystems": [
-        "npm"
-      ],
-      "oldestAlert": "2026-03-03T01:38:53Z"
     },
     {
       "repo": "kylifornication-code/astro-career-walking-deck",
@@ -255,9 +276,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/astro-career-walking-deck/pull/15",
-          "compatibilityDisplay": "35%",
-          "compatibilityMin": 35,
-          "compatibilityMax": 35
+          "compatibilityDisplay": "33%",
+          "compatibilityMin": 33,
+          "compatibilityMax": 33
         }
       ],
       "ecosystems": [
