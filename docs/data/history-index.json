@@ -617,7 +617,7 @@
   },
   {
     "date": "2026-05-10",
-    "generatedAt": "2026-05-10T08:19:51.799Z",
+    "generatedAt": "2026-05-10T15:57:55.761Z",
     "totalAlerts": 24,
     "bySeverity": {
       "critical": 0,
@@ -626,7 +626,7 @@
       "low": 0,
       "unknown": 0
     },
-    "totalOpenPRs": 11,
+    "totalOpenPRs": 7,
     "reposAffected": 5
   }
 ]

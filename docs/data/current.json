@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-10T08:19:51.799Z",
+  "generatedAt": "2026-05-10T15:57:55.761Z",
   "summary": {
     "totalAlerts": 24,
     "bySeverity": {
@@ -12,9 +12,9 @@
     "byEcosystem": {
       "npm": 24
     },
-    "totalOpenPRs": 11,
+    "totalOpenPRs": 7,
     "reposAffected": 5,
-    "reposWithPRs": 5,
+    "reposWithPRs": 4,
     "reposScanned": 5
   },
   "repos": [
@@ -32,7 +32,7 @@
         "unknown": 0
       },
       "totalAlerts": 10,
-      "openPRs": 5,
+      "openPRs": 3,
       "prs": [
         {
           "number": 13,
@@ -93,46 +93,6 @@
           "compatibilityDisplay": null,
           "compatibilityMin": null,
           "compatibilityMax": null
-        },
-        {
-          "number": 20,
-          "title": "Bump tailwindcss from 4.2.2 to 4.2.4",
-          "createdAt": "2026-04-27T01:21:58Z",
-          "updatedAt": "2026-04-27T01:21:58Z",
-          "isDependabot": true,
-          "isSecurityUpdate": false,
-          "autoMergeEnabled": false,
-          "mergeable": null,
-          "mergeableState": "unknown",
-          "isDraft": false,
-          "labels": [
-            "dependencies",
-            "javascript"
-          ],
-          "url": "https://github.com/Buffalo-Drinking-Game/buffalo-drinking-game/pull/20",
-          "compatibilityDisplay": "88%",
-          "compatibilityMin": 88,
-          "compatibilityMax": 88
-        },
-        {
-          "number": 21,
-          "title": "Bump @astrojs/react from 5.0.0 to 5.0.4",
-          "createdAt": "2026-04-27T01:22:22Z",
-          "updatedAt": "2026-04-28T21:22:25Z",
-          "isDependabot": true,
-          "isSecurityUpdate": false,
-          "autoMergeEnabled": false,
-          "mergeable": null,
-          "mergeableState": "unknown",
-          "isDraft": false,
-          "labels": [
-            "dependencies",
-            "javascript"
-          ],
-          "url": "https://github.com/Buffalo-Drinking-Game/buffalo-drinking-game/pull/21",
-          "compatibilityDisplay": null,
-          "compatibilityMin": null,
-          "compatibilityMax": null
         }
       ],
       "ecosystems": [
@@ -154,33 +114,13 @@
         "unknown": 0
       },
       "totalAlerts": 5,
-      "openPRs": 2,
+      "openPRs": 1,
       "prs": [
-        {
-          "number": 15,
-          "title": "Bump fast-uri from 3.1.0 to 3.1.2",
-          "createdAt": "2026-05-09T00:52:52Z",
-          "updatedAt": "2026-05-09T00:52:53Z",
-          "isDependabot": true,
-          "isSecurityUpdate": false,
-          "autoMergeEnabled": false,
-          "mergeable": null,
-          "mergeableState": "unknown",
-          "isDraft": false,
-          "labels": [
-            "dependencies",
-            "javascript"
-          ],
-          "url": "https://github.com/kylifornication-code/thedrizzle/pull/15",
-          "compatibilityDisplay": "82%",
-          "compatibilityMin": 82,
-          "compatibilityMax": 82
-        },
         {
           "number": 16,
           "title": "Bump @babel/plugin-transform-modules-systemjs from 7.28.5 to 7.29.4",
           "createdAt": "2026-05-09T17:27:16Z",
-          "updatedAt": "2026-05-09T17:27:17Z",
+          "updatedAt": "2026-05-10T15:49:09Z",
           "isDependabot": true,
           "isSecurityUpdate": false,
           "autoMergeEnabled": false,
@@ -254,9 +194,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/ncaa-wrestling-bracket/pull/7",
-          "compatibilityDisplay": "33%",
-          "compatibilityMin": 33,
-          "compatibilityMax": 33
+          "compatibilityDisplay": "34%",
+          "compatibilityMin": 34,
+          "compatibilityMax": 34
         }
       ],
       "ecosystems": [
@@ -296,9 +236,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/astro-career-walking-deck/pull/15",
-          "compatibilityDisplay": "33%",
-          "compatibilityMin": 33,
-          "compatibilityMax": 33
+          "compatibilityDisplay": "34%",
+          "compatibilityMin": 34,
+          "compatibilityMax": 34
         }
       ],
       "ecosystems": [
@@ -320,29 +260,8 @@
         "unknown": 0
       },
       "totalAlerts": 1,
-      "openPRs": 1,
-      "prs": [
-        {
-          "number": 6,
-          "title": "Bump postcss from 8.5.8 to 8.5.12",
-          "createdAt": "2026-04-29T00:40:37Z",
-          "updatedAt": "2026-04-29T00:40:38Z",
-          "isDependabot": true,
-          "isSecurityUpdate": false,
-          "autoMergeEnabled": false,
-          "mergeable": null,
-          "mergeableState": "unknown",
-          "isDraft": false,
-          "labels": [
-            "dependencies",
-            "javascript"
-          ],
-          "url": "https://github.com/kylifornication-code/lennys-podcast-recapper/pull/6",
-          "compatibilityDisplay": "81%",
-          "compatibilityMin": 81,
-          "compatibilityMax": 81
-        }
-      ],
+      "openPRs": 0,
+      "prs": [],
       "ecosystems": [
         "npm"
       ],
