@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-05-09T08:05:34.511Z",
+  "generatedAt": "2026-05-10T08:19:51.799Z",
   "summary": {
-    "totalAlerts": 23,
+    "totalAlerts": 24,
     "bySeverity": {
       "critical": 0,
-      "high": 11,
+      "high": 12,
       "medium": 12,
       "low": 0,
       "unknown": 0
     },
     "byEcosystem": {
-      "npm": 23
+      "npm": 24
     },
-    "totalOpenPRs": 10,
+    "totalOpenPRs": 11,
     "reposAffected": 5,
     "reposWithPRs": 5,
     "reposScanned": 5
@@ -148,13 +148,13 @@
       "language": "TypeScript",
       "alertCounts": {
         "critical": 0,
-        "high": 3,
+        "high": 4,
         "medium": 1,
         "low": 0,
         "unknown": 0
       },
-      "totalAlerts": 4,
-      "openPRs": 1,
+      "totalAlerts": 5,
+      "openPRs": 2,
       "prs": [
         {
           "number": 15,
@@ -172,6 +172,26 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/thedrizzle/pull/15",
+          "compatibilityDisplay": "82%",
+          "compatibilityMin": 82,
+          "compatibilityMax": 82
+        },
+        {
+          "number": 16,
+          "title": "Bump @babel/plugin-transform-modules-systemjs from 7.28.5 to 7.29.4",
+          "createdAt": "2026-05-09T17:27:16Z",
+          "updatedAt": "2026-05-09T17:27:17Z",
+          "isDependabot": true,
+          "isSecurityUpdate": false,
+          "autoMergeEnabled": false,
+          "mergeable": null,
+          "mergeableState": "unknown",
+          "isDraft": false,
+          "labels": [
+            "dependencies",
+            "javascript"
+          ],
+          "url": "https://github.com/kylifornication-code/thedrizzle/pull/16",
           "compatibilityDisplay": "81%",
           "compatibilityMin": 81,
           "compatibilityMax": 81
@@ -318,9 +338,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/lennys-podcast-recapper/pull/6",
-          "compatibilityDisplay": "82%",
-          "compatibilityMin": 82,
-          "compatibilityMax": 82
+          "compatibilityDisplay": "81%",
+          "compatibilityMin": 81,
+          "compatibilityMax": 81
         }
       ],
       "ecosystems": [
