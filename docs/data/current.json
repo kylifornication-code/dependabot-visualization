@@ -1,145 +1,23 @@
 {
-  "generatedAt": "2026-05-11T09:56:42.444Z",
+  "generatedAt": "2026-05-11T20:07:00.684Z",
   "summary": {
-    "totalAlerts": 24,
+    "totalAlerts": 15,
     "bySeverity": {
       "critical": 0,
-      "high": 12,
-      "medium": 12,
+      "high": 6,
+      "medium": 9,
       "low": 0,
       "unknown": 0
     },
     "byEcosystem": {
-      "npm": 24
+      "npm": 15
     },
-    "totalOpenPRs": 9,
+    "totalOpenPRs": 8,
     "reposAffected": 5,
     "reposWithPRs": 4,
     "reposScanned": 5
   },
   "repos": [
-    {
-      "repo": "Buffalo-Drinking-Game/buffalo-drinking-game",
-      "name": "buffalo-drinking-game",
-      "owner": "Buffalo-Drinking-Game",
-      "isPrivate": false,
-      "language": "TypeScript",
-      "alertCounts": {
-        "critical": 0,
-        "high": 6,
-        "medium": 4,
-        "low": 0,
-        "unknown": 0
-      },
-      "totalAlerts": 10,
-      "openPRs": 5,
-      "prs": [
-        {
-          "number": 13,
-          "title": "Bump framer-motion from 12.33.0 to 12.38.0",
-          "createdAt": "2026-03-23T01:16:39Z",
-          "updatedAt": "2026-04-23T15:37:40Z",
-          "isDependabot": true,
-          "isSecurityUpdate": false,
-          "autoMergeEnabled": false,
-          "mergeable": null,
-          "mergeableState": "unknown",
-          "isDraft": false,
-          "labels": [
-            "dependencies",
-            "javascript"
-          ],
-          "url": "https://github.com/Buffalo-Drinking-Game/buffalo-drinking-game/pull/13",
-          "compatibilityDisplay": null,
-          "compatibilityMin": null,
-          "compatibilityMax": null
-        },
-        {
-          "number": 16,
-          "title": "Bump the npm_and_yarn group across 1 directory with 1 update",
-          "createdAt": "2026-03-26T02:39:59Z",
-          "updatedAt": "2026-04-23T15:38:59Z",
-          "isDependabot": true,
-          "isSecurityUpdate": false,
-          "autoMergeEnabled": false,
-          "mergeable": null,
-          "mergeableState": "unknown",
-          "isDraft": false,
-          "labels": [
-            "dependencies",
-            "javascript"
-          ],
-          "url": "https://github.com/Buffalo-Drinking-Game/buffalo-drinking-game/pull/16",
-          "compatibilityDisplay": null,
-          "compatibilityMin": null,
-          "compatibilityMax": null
-        },
-        {
-          "number": 22,
-          "title": "Bump astro from 6.1.8 to 6.3.1",
-          "createdAt": "2026-05-11T01:26:58Z",
-          "updatedAt": "2026-05-11T01:26:58Z",
-          "isDependabot": true,
-          "isSecurityUpdate": false,
-          "autoMergeEnabled": false,
-          "mergeable": null,
-          "mergeableState": "unknown",
-          "isDraft": false,
-          "labels": [
-            "dependencies",
-            "javascript"
-          ],
-          "url": "https://github.com/Buffalo-Drinking-Game/buffalo-drinking-game/pull/22",
-          "compatibilityDisplay": "83%",
-          "compatibilityMin": 83,
-          "compatibilityMax": 83
-        },
-        {
-          "number": 23,
-          "title": "Bump @tailwindcss/vite from 4.2.2 to 4.3.0",
-          "createdAt": "2026-05-11T01:27:08Z",
-          "updatedAt": "2026-05-11T01:27:09Z",
-          "isDependabot": true,
-          "isSecurityUpdate": false,
-          "autoMergeEnabled": false,
-          "mergeable": null,
-          "mergeableState": "unknown",
-          "isDraft": false,
-          "labels": [
-            "dependencies",
-            "javascript"
-          ],
-          "url": "https://github.com/Buffalo-Drinking-Game/buffalo-drinking-game/pull/23",
-          "compatibilityDisplay": "78%",
-          "compatibilityMin": 78,
-          "compatibilityMax": 78
-        },
-        {
-          "number": 24,
-          "title": "Bump react-dom from 19.2.4 to 19.2.6",
-          "createdAt": "2026-05-11T01:27:22Z",
-          "updatedAt": "2026-05-11T01:27:23Z",
-          "isDependabot": true,
-          "isSecurityUpdate": false,
-          "autoMergeEnabled": false,
-          "mergeable": null,
-          "mergeableState": "unknown",
-          "isDraft": false,
-          "labels": [
-            "dependencies",
-            "javascript"
-          ],
-          "url": "https://github.com/Buffalo-Drinking-Game/buffalo-drinking-game/pull/24",
-          "compatibilityDisplay": "56%",
-          "compatibilityMin": 56,
-          "compatibilityMax": 56
-        }
-      ],
-      "ecosystems": [
-        "npm"
-      ],
-      "oldestAlert": "2026-03-26T02:38:59Z"
-    },
     {
       "repo": "kylifornication-code/thedrizzle",
       "name": "thedrizzle",
@@ -172,9 +50,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/thedrizzle/pull/16",
-          "compatibilityDisplay": "80%",
-          "compatibilityMin": 80,
-          "compatibilityMax": 80
+          "compatibilityDisplay": "83%",
+          "compatibilityMin": 83,
+          "compatibilityMax": 83
         }
       ],
       "ecosystems": [
@@ -234,9 +112,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/ncaa-wrestling-bracket/pull/7",
-          "compatibilityDisplay": "33%",
-          "compatibilityMin": 33,
-          "compatibilityMax": 33
+          "compatibilityDisplay": "32%",
+          "compatibilityMin": 32,
+          "compatibilityMax": 32
         }
       ],
       "ecosystems": [
@@ -276,15 +154,117 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/astro-career-walking-deck/pull/15",
-          "compatibilityDisplay": "33%",
-          "compatibilityMin": 33,
-          "compatibilityMax": 33
+          "compatibilityDisplay": "32%",
+          "compatibilityMin": 32,
+          "compatibilityMax": 32
         }
       ],
       "ecosystems": [
         "npm"
       ],
       "oldestAlert": "2026-04-21T22:25:08Z"
+    },
+    {
+      "repo": "Buffalo-Drinking-Game/buffalo-drinking-game",
+      "name": "buffalo-drinking-game",
+      "owner": "Buffalo-Drinking-Game",
+      "isPrivate": false,
+      "language": "TypeScript",
+      "alertCounts": {
+        "critical": 0,
+        "high": 0,
+        "medium": 1,
+        "low": 0,
+        "unknown": 0
+      },
+      "totalAlerts": 1,
+      "openPRs": 4,
+      "prs": [
+        {
+          "number": 13,
+          "title": "Bump framer-motion from 12.33.0 to 12.38.0",
+          "createdAt": "2026-03-23T01:16:39Z",
+          "updatedAt": "2026-04-23T15:37:40Z",
+          "isDependabot": true,
+          "isSecurityUpdate": false,
+          "autoMergeEnabled": false,
+          "mergeable": null,
+          "mergeableState": "unknown",
+          "isDraft": false,
+          "labels": [
+            "dependencies",
+            "javascript"
+          ],
+          "url": "https://github.com/Buffalo-Drinking-Game/buffalo-drinking-game/pull/13",
+          "compatibilityDisplay": null,
+          "compatibilityMin": null,
+          "compatibilityMax": null
+        },
+        {
+          "number": 16,
+          "title": "Bump the npm_and_yarn group across 1 directory with 1 update",
+          "createdAt": "2026-03-26T02:39:59Z",
+          "updatedAt": "2026-05-11T20:05:43Z",
+          "isDependabot": true,
+          "isSecurityUpdate": false,
+          "autoMergeEnabled": false,
+          "mergeable": null,
+          "mergeableState": "unknown",
+          "isDraft": false,
+          "labels": [
+            "dependencies",
+            "javascript"
+          ],
+          "url": "https://github.com/Buffalo-Drinking-Game/buffalo-drinking-game/pull/16",
+          "compatibilityDisplay": null,
+          "compatibilityMin": null,
+          "compatibilityMax": null
+        },
+        {
+          "number": 23,
+          "title": "Bump @tailwindcss/vite from 4.2.2 to 4.3.0",
+          "createdAt": "2026-05-11T01:27:08Z",
+          "updatedAt": "2026-05-11T20:06:00Z",
+          "isDependabot": true,
+          "isSecurityUpdate": false,
+          "autoMergeEnabled": false,
+          "mergeable": null,
+          "mergeableState": "unknown",
+          "isDraft": false,
+          "labels": [
+            "dependencies",
+            "javascript"
+          ],
+          "url": "https://github.com/Buffalo-Drinking-Game/buffalo-drinking-game/pull/23",
+          "compatibilityDisplay": "74%",
+          "compatibilityMin": 74,
+          "compatibilityMax": 74
+        },
+        {
+          "number": 24,
+          "title": "Bump react-dom from 19.2.4 to 19.2.6",
+          "createdAt": "2026-05-11T01:27:22Z",
+          "updatedAt": "2026-05-11T20:06:01Z",
+          "isDependabot": true,
+          "isSecurityUpdate": false,
+          "autoMergeEnabled": false,
+          "mergeable": null,
+          "mergeableState": "unknown",
+          "isDraft": false,
+          "labels": [
+            "dependencies",
+            "javascript"
+          ],
+          "url": "https://github.com/Buffalo-Drinking-Game/buffalo-drinking-game/pull/24",
+          "compatibilityDisplay": "58%",
+          "compatibilityMin": 58,
+          "compatibilityMax": 58
+        }
+      ],
+      "ecosystems": [
+        "npm"
+      ],
+      "oldestAlert": "2026-05-11T20:05:43Z"
     },
     {
       "repo": "kylifornication-code/lennys-podcast-recapper",
