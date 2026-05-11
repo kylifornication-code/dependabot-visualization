@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-10T15:57:55.761Z",
+  "generatedAt": "2026-05-11T09:56:42.444Z",
   "summary": {
     "totalAlerts": 24,
     "bySeverity": {
@@ -12,7 +12,7 @@
     "byEcosystem": {
       "npm": 24
     },
-    "totalOpenPRs": 7,
+    "totalOpenPRs": 9,
     "reposAffected": 5,
     "reposWithPRs": 4,
     "reposScanned": 5
@@ -32,7 +32,7 @@
         "unknown": 0
       },
       "totalAlerts": 10,
-      "openPRs": 3,
+      "openPRs": 5,
       "prs": [
         {
           "number": 13,
@@ -75,10 +75,10 @@
           "compatibilityMax": null
         },
         {
-          "number": 18,
-          "title": "Bump react-dom from 19.2.4 to 19.2.5",
-          "createdAt": "2026-04-20T01:21:23Z",
-          "updatedAt": "2026-04-23T15:39:02Z",
+          "number": 22,
+          "title": "Bump astro from 6.1.8 to 6.3.1",
+          "createdAt": "2026-05-11T01:26:58Z",
+          "updatedAt": "2026-05-11T01:26:58Z",
           "isDependabot": true,
           "isSecurityUpdate": false,
           "autoMergeEnabled": false,
@@ -89,10 +89,50 @@
             "dependencies",
             "javascript"
           ],
-          "url": "https://github.com/Buffalo-Drinking-Game/buffalo-drinking-game/pull/18",
-          "compatibilityDisplay": null,
-          "compatibilityMin": null,
-          "compatibilityMax": null
+          "url": "https://github.com/Buffalo-Drinking-Game/buffalo-drinking-game/pull/22",
+          "compatibilityDisplay": "83%",
+          "compatibilityMin": 83,
+          "compatibilityMax": 83
+        },
+        {
+          "number": 23,
+          "title": "Bump @tailwindcss/vite from 4.2.2 to 4.3.0",
+          "createdAt": "2026-05-11T01:27:08Z",
+          "updatedAt": "2026-05-11T01:27:09Z",
+          "isDependabot": true,
+          "isSecurityUpdate": false,
+          "autoMergeEnabled": false,
+          "mergeable": null,
+          "mergeableState": "unknown",
+          "isDraft": false,
+          "labels": [
+            "dependencies",
+            "javascript"
+          ],
+          "url": "https://github.com/Buffalo-Drinking-Game/buffalo-drinking-game/pull/23",
+          "compatibilityDisplay": "78%",
+          "compatibilityMin": 78,
+          "compatibilityMax": 78
+        },
+        {
+          "number": 24,
+          "title": "Bump react-dom from 19.2.4 to 19.2.6",
+          "createdAt": "2026-05-11T01:27:22Z",
+          "updatedAt": "2026-05-11T01:27:23Z",
+          "isDependabot": true,
+          "isSecurityUpdate": false,
+          "autoMergeEnabled": false,
+          "mergeable": null,
+          "mergeableState": "unknown",
+          "isDraft": false,
+          "labels": [
+            "dependencies",
+            "javascript"
+          ],
+          "url": "https://github.com/Buffalo-Drinking-Game/buffalo-drinking-game/pull/24",
+          "compatibilityDisplay": "56%",
+          "compatibilityMin": 56,
+          "compatibilityMax": 56
         }
       ],
       "ecosystems": [
@@ -132,9 +172,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/thedrizzle/pull/16",
-          "compatibilityDisplay": "81%",
-          "compatibilityMin": 81,
-          "compatibilityMax": 81
+          "compatibilityDisplay": "80%",
+          "compatibilityMin": 80,
+          "compatibilityMax": 80
         }
       ],
       "ecosystems": [
@@ -194,9 +234,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/ncaa-wrestling-bracket/pull/7",
-          "compatibilityDisplay": "34%",
-          "compatibilityMin": 34,
-          "compatibilityMax": 34
+          "compatibilityDisplay": "33%",
+          "compatibilityMin": 33,
+          "compatibilityMax": 33
         }
       ],
       "ecosystems": [
@@ -236,9 +276,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/astro-career-walking-deck/pull/15",
-          "compatibilityDisplay": "34%",
-          "compatibilityMin": 34,
-          "compatibilityMax": 34
+          "compatibilityDisplay": "33%",
+          "compatibilityMin": 33,
+          "compatibilityMax": 33
         }
       ],
       "ecosystems": [
