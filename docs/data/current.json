@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-05-12T08:50:50.610Z",
+  "generatedAt": "2026-05-12T19:26:00.281Z",
   "summary": {
-    "totalAlerts": 41,
+    "totalAlerts": 40,
     "bySeverity": {
       "critical": 0,
       "high": 19,
-      "medium": 18,
+      "medium": 17,
       "low": 4,
       "unknown": 0
     },
     "byEcosystem": {
-      "npm": 41
+      "npm": 40
     },
-    "totalOpenPRs": 9,
+    "totalOpenPRs": 8,
     "reposAffected": 6,
-    "reposWithPRs": 5,
+    "reposWithPRs": 4,
     "reposScanned": 6
   },
   "repos": [
@@ -69,34 +69,13 @@
       "alertCounts": {
         "critical": 0,
         "high": 3,
-        "medium": 2,
+        "medium": 1,
         "low": 0,
         "unknown": 0
       },
-      "totalAlerts": 5,
-      "openPRs": 1,
-      "prs": [
-        {
-          "number": 17,
-          "title": "Bump postcss from 8.5.6 to 8.5.14",
-          "createdAt": "2026-05-12T03:14:58Z",
-          "updatedAt": "2026-05-12T03:14:59Z",
-          "isDependabot": true,
-          "isSecurityUpdate": false,
-          "autoMergeEnabled": false,
-          "mergeable": null,
-          "mergeableState": "unknown",
-          "isDraft": false,
-          "labels": [
-            "dependencies",
-            "javascript"
-          ],
-          "url": "https://github.com/kylifornication-code/thedrizzle/pull/17",
-          "compatibilityDisplay": "87%",
-          "compatibilityMin": 87,
-          "compatibilityMax": 87
-        }
-      ],
+      "totalAlerts": 4,
+      "openPRs": 0,
+      "prs": [],
       "ecosystems": [
         "npm"
       ],
@@ -154,9 +133,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/ncaa-wrestling-bracket/pull/7",
-          "compatibilityDisplay": "32%",
-          "compatibilityMin": 32,
-          "compatibilityMax": 32
+          "compatibilityDisplay": "33%",
+          "compatibilityMin": 33,
+          "compatibilityMax": 33
         }
       ],
       "ecosystems": [
@@ -196,9 +175,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/astro-career-walking-deck/pull/15",
-          "compatibilityDisplay": "32%",
-          "compatibilityMin": 32,
-          "compatibilityMax": 32
+          "compatibilityDisplay": "33%",
+          "compatibilityMin": 33,
+          "compatibilityMax": 33
         }
       ],
       "ecosystems": [
@@ -266,7 +245,7 @@
           "number": 23,
           "title": "Bump @tailwindcss/vite from 4.2.2 to 4.3.0",
           "createdAt": "2026-05-11T01:27:08Z",
-          "updatedAt": "2026-05-11T20:07:24Z",
+          "updatedAt": "2026-05-12T19:25:07Z",
           "isDependabot": true,
           "isSecurityUpdate": false,
           "autoMergeEnabled": false,
@@ -286,7 +265,7 @@
           "number": 24,
           "title": "Bump react-dom from 19.2.4 to 19.2.6",
           "createdAt": "2026-05-11T01:27:22Z",
-          "updatedAt": "2026-05-11T20:07:18Z",
+          "updatedAt": "2026-05-12T19:24:19Z",
           "isDependabot": true,
           "isSecurityUpdate": false,
           "autoMergeEnabled": false,
