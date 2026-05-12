@@ -1,44 +1,44 @@
 {
-  "generatedAt": "2026-05-11T20:07:00.684Z",
+  "generatedAt": "2026-05-12T08:50:50.610Z",
   "summary": {
-    "totalAlerts": 15,
+    "totalAlerts": 41,
     "bySeverity": {
       "critical": 0,
-      "high": 6,
-      "medium": 9,
-      "low": 0,
+      "high": 19,
+      "medium": 18,
+      "low": 4,
       "unknown": 0
     },
     "byEcosystem": {
-      "npm": 15
+      "npm": 41
     },
-    "totalOpenPRs": 8,
-    "reposAffected": 5,
-    "reposWithPRs": 4,
-    "reposScanned": 5
+    "totalOpenPRs": 9,
+    "reposAffected": 6,
+    "reposWithPRs": 5,
+    "reposScanned": 6
   },
   "repos": [
     {
-      "repo": "kylifornication-code/thedrizzle",
-      "name": "thedrizzle",
+      "repo": "kylifornication-code/ai-fluency-for-teams",
+      "name": "ai-fluency-for-teams",
       "owner": "kylifornication-code",
       "isPrivate": false,
       "language": "TypeScript",
       "alertCounts": {
         "critical": 0,
-        "high": 4,
-        "medium": 1,
-        "low": 0,
+        "high": 14,
+        "medium": 8,
+        "low": 4,
         "unknown": 0
       },
-      "totalAlerts": 5,
+      "totalAlerts": 26,
       "openPRs": 1,
       "prs": [
         {
-          "number": 16,
-          "title": "Bump @babel/plugin-transform-modules-systemjs from 7.28.5 to 7.29.4",
-          "createdAt": "2026-05-09T17:27:16Z",
-          "updatedAt": "2026-05-10T15:49:09Z",
+          "number": 9,
+          "title": "Bump next from 16.2.4 to 16.2.6",
+          "createdAt": "2026-05-12T03:56:47Z",
+          "updatedAt": "2026-05-12T03:57:23Z",
           "isDependabot": true,
           "isSecurityUpdate": false,
           "autoMergeEnabled": false,
@@ -49,10 +49,52 @@
             "dependencies",
             "javascript"
           ],
-          "url": "https://github.com/kylifornication-code/thedrizzle/pull/16",
-          "compatibilityDisplay": "83%",
-          "compatibilityMin": 83,
-          "compatibilityMax": 83
+          "url": "https://github.com/kylifornication-code/ai-fluency-for-teams/pull/9",
+          "compatibilityDisplay": "80%",
+          "compatibilityMin": 80,
+          "compatibilityMax": 80
+        }
+      ],
+      "ecosystems": [
+        "npm"
+      ],
+      "oldestAlert": "2026-05-12T02:41:00Z"
+    },
+    {
+      "repo": "kylifornication-code/thedrizzle",
+      "name": "thedrizzle",
+      "owner": "kylifornication-code",
+      "isPrivate": false,
+      "language": "TypeScript",
+      "alertCounts": {
+        "critical": 0,
+        "high": 3,
+        "medium": 2,
+        "low": 0,
+        "unknown": 0
+      },
+      "totalAlerts": 5,
+      "openPRs": 1,
+      "prs": [
+        {
+          "number": 17,
+          "title": "Bump postcss from 8.5.6 to 8.5.14",
+          "createdAt": "2026-05-12T03:14:58Z",
+          "updatedAt": "2026-05-12T03:14:59Z",
+          "isDependabot": true,
+          "isSecurityUpdate": false,
+          "autoMergeEnabled": false,
+          "mergeable": null,
+          "mergeableState": "unknown",
+          "isDraft": false,
+          "labels": [
+            "dependencies",
+            "javascript"
+          ],
+          "url": "https://github.com/kylifornication-code/thedrizzle/pull/17",
+          "compatibilityDisplay": "87%",
+          "compatibilityMin": 87,
+          "compatibilityMax": 87
         }
       ],
       "ecosystems": [
@@ -224,7 +266,7 @@
           "number": 23,
           "title": "Bump @tailwindcss/vite from 4.2.2 to 4.3.0",
           "createdAt": "2026-05-11T01:27:08Z",
-          "updatedAt": "2026-05-11T20:06:00Z",
+          "updatedAt": "2026-05-11T20:07:24Z",
           "isDependabot": true,
           "isSecurityUpdate": false,
           "autoMergeEnabled": false,
@@ -236,15 +278,15 @@
             "javascript"
           ],
           "url": "https://github.com/Buffalo-Drinking-Game/buffalo-drinking-game/pull/23",
-          "compatibilityDisplay": "74%",
-          "compatibilityMin": 74,
-          "compatibilityMax": 74
+          "compatibilityDisplay": null,
+          "compatibilityMin": null,
+          "compatibilityMax": null
         },
         {
           "number": 24,
           "title": "Bump react-dom from 19.2.4 to 19.2.6",
           "createdAt": "2026-05-11T01:27:22Z",
-          "updatedAt": "2026-05-11T20:06:01Z",
+          "updatedAt": "2026-05-11T20:07:18Z",
           "isDependabot": true,
           "isSecurityUpdate": false,
           "autoMergeEnabled": false,
@@ -256,9 +298,9 @@
             "javascript"
           ],
           "url": "https://github.com/Buffalo-Drinking-Game/buffalo-drinking-game/pull/24",
-          "compatibilityDisplay": "58%",
-          "compatibilityMin": 58,
-          "compatibilityMax": 58
+          "compatibilityDisplay": null,
+          "compatibilityMin": null,
+          "compatibilityMax": null
         }
       ],
       "ecosystems": [
