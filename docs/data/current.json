@@ -1,26 +1,26 @@
 {
-  "generatedAt": "2026-05-12T19:26:00.281Z",
+  "generatedAt": "2026-05-13T08:55:05.969Z",
   "summary": {
-    "totalAlerts": 40,
+    "totalAlerts": 46,
     "bySeverity": {
       "critical": 0,
       "high": 19,
-      "medium": 17,
-      "low": 4,
+      "medium": 18,
+      "low": 9,
       "unknown": 0
     },
     "byEcosystem": {
-      "npm": 40
+      "npm": 46
     },
     "totalOpenPRs": 8,
-    "reposAffected": 6,
+    "reposAffected": 7,
     "reposWithPRs": 4,
-    "reposScanned": 6
+    "reposScanned": 7
   },
   "repos": [
     {
-      "repo": "kylifornication-code/ai-fluency-for-teams",
-      "name": "ai-fluency-for-teams",
+      "repo": "kylifornication-code/the-infosec-wheel",
+      "name": "the-infosec-wheel",
       "owner": "kylifornication-code",
       "isPrivate": false,
       "language": "TypeScript",
@@ -35,10 +35,10 @@
       "openPRs": 1,
       "prs": [
         {
-          "number": 9,
-          "title": "Bump next from 16.2.4 to 16.2.6",
-          "createdAt": "2026-05-12T03:56:47Z",
-          "updatedAt": "2026-05-12T03:57:23Z",
+          "number": 1,
+          "title": "build(deps): bump next from 16.2.3 to 16.2.6",
+          "createdAt": "2026-05-13T02:07:19Z",
+          "updatedAt": "2026-05-13T02:08:03Z",
           "isDependabot": true,
           "isSecurityUpdate": false,
           "autoMergeEnabled": false,
@@ -49,16 +49,16 @@
             "dependencies",
             "javascript"
           ],
-          "url": "https://github.com/kylifornication-code/ai-fluency-for-teams/pull/9",
-          "compatibilityDisplay": "80%",
-          "compatibilityMin": 80,
-          "compatibilityMax": 80
+          "url": "https://github.com/kylifornication-code/the-infosec-wheel/pull/1",
+          "compatibilityDisplay": "82%",
+          "compatibilityMin": 82,
+          "compatibilityMax": 82
         }
       ],
       "ecosystems": [
         "npm"
       ],
-      "oldestAlert": "2026-05-12T02:41:00Z"
+      "oldestAlert": "2026-05-13T00:26:28Z"
     },
     {
       "repo": "kylifornication-code/thedrizzle",
@@ -91,10 +91,10 @@
         "critical": 0,
         "high": 2,
         "medium": 4,
-        "low": 0,
+        "low": 2,
         "unknown": 0
       },
-      "totalAlerts": 6,
+      "totalAlerts": 8,
       "openPRs": 2,
       "prs": [
         {
@@ -153,10 +153,10 @@
         "critical": 0,
         "high": 0,
         "medium": 2,
-        "low": 0,
+        "low": 2,
         "unknown": 0
       },
-      "totalAlerts": 2,
+      "totalAlerts": 4,
       "openPRs": 1,
       "prs": [
         {
@@ -184,6 +184,48 @@
         "npm"
       ],
       "oldestAlert": "2026-04-21T22:25:08Z"
+    },
+    {
+      "repo": "kylifornication-code/lennys-podcast-recapper",
+      "name": "lennys-podcast-recapper",
+      "owner": "kylifornication-code",
+      "isPrivate": false,
+      "language": "Python",
+      "alertCounts": {
+        "critical": 0,
+        "high": 0,
+        "medium": 1,
+        "low": 1,
+        "unknown": 0
+      },
+      "totalAlerts": 2,
+      "openPRs": 0,
+      "prs": [],
+      "ecosystems": [
+        "npm"
+      ],
+      "oldestAlert": "2026-04-29T00:39:31Z"
+    },
+    {
+      "repo": "kylifornication-code/ai-fluency-for-teams",
+      "name": "ai-fluency-for-teams",
+      "owner": "kylifornication-code",
+      "isPrivate": false,
+      "language": "TypeScript",
+      "alertCounts": {
+        "critical": 0,
+        "high": 0,
+        "medium": 1,
+        "low": 0,
+        "unknown": 0
+      },
+      "totalAlerts": 1,
+      "openPRs": 0,
+      "prs": [],
+      "ecosystems": [
+        "npm"
+      ],
+      "oldestAlert": "2026-05-12T19:55:15Z"
     },
     {
       "repo": "Buffalo-Drinking-Game/buffalo-drinking-game",
@@ -286,27 +328,6 @@
         "npm"
       ],
       "oldestAlert": "2026-05-11T20:05:43Z"
-    },
-    {
-      "repo": "kylifornication-code/lennys-podcast-recapper",
-      "name": "lennys-podcast-recapper",
-      "owner": "kylifornication-code",
-      "isPrivate": false,
-      "language": "Python",
-      "alertCounts": {
-        "critical": 0,
-        "high": 0,
-        "medium": 1,
-        "low": 0,
-        "unknown": 0
-      },
-      "totalAlerts": 1,
-      "openPRs": 0,
-      "prs": [],
-      "ecosystems": [
-        "npm"
-      ],
-      "oldestAlert": "2026-04-29T00:39:31Z"
     }
   ]
 }
