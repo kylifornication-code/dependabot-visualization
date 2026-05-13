@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-13T08:55:05.969Z",
+  "generatedAt": "2026-05-13T19:15:52.935Z",
   "summary": {
     "totalAlerts": 46,
     "bySeverity": {
@@ -38,7 +38,7 @@
           "number": 1,
           "title": "build(deps): bump next from 16.2.3 to 16.2.6",
           "createdAt": "2026-05-13T02:07:19Z",
-          "updatedAt": "2026-05-13T02:08:03Z",
+          "updatedAt": "2026-05-13T19:14:26Z",
           "isDependabot": true,
           "isSecurityUpdate": false,
           "autoMergeEnabled": false,
@@ -118,10 +118,10 @@
           "compatibilityMax": null
         },
         {
-          "number": 7,
-          "title": "Bump astro from 5.18.1 to 6.1.6",
-          "createdAt": "2026-04-21T21:51:03Z",
-          "updatedAt": "2026-04-23T01:05:37Z",
+          "number": 8,
+          "title": "Bump astro from 5.18.1 to 6.1.10",
+          "createdAt": "2026-05-13T11:20:58Z",
+          "updatedAt": "2026-05-13T19:11:26Z",
           "isDependabot": true,
           "isSecurityUpdate": false,
           "autoMergeEnabled": false,
@@ -132,10 +132,10 @@
             "dependencies",
             "javascript"
           ],
-          "url": "https://github.com/kylifornication-code/ncaa-wrestling-bracket/pull/7",
-          "compatibilityDisplay": "33%",
-          "compatibilityMin": 33,
-          "compatibilityMax": 33
+          "url": "https://github.com/kylifornication-code/ncaa-wrestling-bracket/pull/8",
+          "compatibilityDisplay": "36%",
+          "compatibilityMin": 36,
+          "compatibilityMax": 36
         }
       ],
       "ecosystems": [
@@ -175,9 +175,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/astro-career-walking-deck/pull/15",
-          "compatibilityDisplay": "33%",
-          "compatibilityMin": 33,
-          "compatibilityMax": 33
+          "compatibilityDisplay": "39%",
+          "compatibilityMin": 39,
+          "compatibilityMax": 39
         }
       ],
       "ecosystems": [
