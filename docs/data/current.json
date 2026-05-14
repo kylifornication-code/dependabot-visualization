@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-14T08:47:38.343Z",
+  "generatedAt": "2026-05-14T19:13:16.387Z",
   "summary": {
     "totalAlerts": 46,
     "bySeverity": {
@@ -50,9 +50,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/the-infosec-wheel/pull/1",
-          "compatibilityDisplay": "83%",
-          "compatibilityMin": 83,
-          "compatibilityMax": 83
+          "compatibilityDisplay": "84%",
+          "compatibilityMin": 84,
+          "compatibilityMax": 84
         }
       ],
       "ecosystems": [
@@ -133,9 +133,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/ncaa-wrestling-bracket/pull/8",
-          "compatibilityDisplay": "39%",
-          "compatibilityMin": 39,
-          "compatibilityMax": 39
+          "compatibilityDisplay": "40%",
+          "compatibilityMin": 40,
+          "compatibilityMax": 40
         }
       ],
       "ecosystems": [
@@ -205,7 +205,7 @@
           "number": 7,
           "title": "Bump astro from 6.1.6 to 6.1.10",
           "createdAt": "2026-05-13T20:25:16Z",
-          "updatedAt": "2026-05-13T20:25:17Z",
+          "updatedAt": "2026-05-14T19:11:39Z",
           "isDependabot": true,
           "isSecurityUpdate": false,
           "autoMergeEnabled": false,
@@ -217,9 +217,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/lennys-podcast-recapper/pull/7",
-          "compatibilityDisplay": "89%",
-          "compatibilityMin": 89,
-          "compatibilityMax": 89
+          "compatibilityDisplay": "91%",
+          "compatibilityMin": 91,
+          "compatibilityMax": 91
         }
       ],
       "ecosystems": [
