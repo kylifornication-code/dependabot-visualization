@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-13T19:15:52.935Z",
+  "generatedAt": "2026-05-14T08:47:38.343Z",
   "summary": {
     "totalAlerts": 46,
     "bySeverity": {
@@ -12,9 +12,9 @@
     "byEcosystem": {
       "npm": 46
     },
-    "totalOpenPRs": 8,
+    "totalOpenPRs": 9,
     "reposAffected": 7,
-    "reposWithPRs": 4,
+    "reposWithPRs": 5,
     "reposScanned": 7
   },
   "repos": [
@@ -50,9 +50,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/the-infosec-wheel/pull/1",
-          "compatibilityDisplay": "82%",
-          "compatibilityMin": 82,
-          "compatibilityMax": 82
+          "compatibilityDisplay": "83%",
+          "compatibilityMin": 83,
+          "compatibilityMax": 83
         }
       ],
       "ecosystems": [
@@ -133,9 +133,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/ncaa-wrestling-bracket/pull/8",
-          "compatibilityDisplay": "36%",
-          "compatibilityMin": 36,
-          "compatibilityMax": 36
+          "compatibilityDisplay": "39%",
+          "compatibilityMin": 39,
+          "compatibilityMax": 39
         }
       ],
       "ecosystems": [
@@ -199,8 +199,29 @@
         "unknown": 0
       },
       "totalAlerts": 2,
-      "openPRs": 0,
-      "prs": [],
+      "openPRs": 1,
+      "prs": [
+        {
+          "number": 7,
+          "title": "Bump astro from 6.1.6 to 6.1.10",
+          "createdAt": "2026-05-13T20:25:16Z",
+          "updatedAt": "2026-05-13T20:25:17Z",
+          "isDependabot": true,
+          "isSecurityUpdate": false,
+          "autoMergeEnabled": false,
+          "mergeable": null,
+          "mergeableState": "unknown",
+          "isDraft": false,
+          "labels": [
+            "dependencies",
+            "javascript"
+          ],
+          "url": "https://github.com/kylifornication-code/lennys-podcast-recapper/pull/7",
+          "compatibilityDisplay": "89%",
+          "compatibilityMin": 89,
+          "compatibilityMax": 89
+        }
+      ],
       "ecosystems": [
         "npm"
       ],
