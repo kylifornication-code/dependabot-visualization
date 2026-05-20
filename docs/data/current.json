@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-19T10:00:36.000Z",
+  "generatedAt": "2026-05-20T06:26:42.258Z",
   "summary": {
     "totalAlerts": 50,
     "bySeverity": {
@@ -12,7 +12,7 @@
     "byEcosystem": {
       "npm": 50
     },
-    "totalOpenPRs": 12,
+    "totalOpenPRs": 11,
     "reposAffected": 7,
     "reposWithPRs": 5,
     "reposScanned": 7
@@ -112,9 +112,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/ncaa-wrestling-bracket/pull/8",
-          "compatibilityDisplay": "41%",
-          "compatibilityMin": 41,
-          "compatibilityMax": 41
+          "compatibilityDisplay": "40%",
+          "compatibilityMin": 40,
+          "compatibilityMax": 40
         },
         {
           "number": 9,
@@ -132,9 +132,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/ncaa-wrestling-bracket/pull/9",
-          "compatibilityDisplay": "83%",
-          "compatibilityMin": 83,
-          "compatibilityMax": 83
+          "compatibilityDisplay": "84%",
+          "compatibilityMin": 84,
+          "compatibilityMax": 84
         }
       ],
       "ecosystems": [
@@ -237,9 +237,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/lennys-podcast-recapper/pull/7",
-          "compatibilityDisplay": "93%",
-          "compatibilityMin": 93,
-          "compatibilityMax": 93
+          "compatibilityDisplay": "92%",
+          "compatibilityMin": 92,
+          "compatibilityMax": 92
         },
         {
           "number": 8,
@@ -257,9 +257,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/lennys-podcast-recapper/pull/8",
-          "compatibilityDisplay": "83%",
-          "compatibilityMin": 83,
-          "compatibilityMax": 83
+          "compatibilityDisplay": "84%",
+          "compatibilityMin": 84,
+          "compatibilityMax": 84
         }
       ],
       "ecosystems": [
@@ -281,7 +281,7 @@
         "unknown": 0
       },
       "totalAlerts": 2,
-      "openPRs": 5,
+      "openPRs": 4,
       "prs": [
         {
           "number": 13,
@@ -327,7 +327,7 @@
           "number": 23,
           "title": "Bump @tailwindcss/vite from 4.2.2 to 4.3.0",
           "createdAt": "2026-05-11T01:27:08Z",
-          "updatedAt": "2026-05-12T19:25:07Z",
+          "updatedAt": "2026-05-20T06:26:28Z",
           "isDependabot": true,
           "isSecurityUpdate": false,
           "autoMergeEnabled": false,
@@ -347,7 +347,7 @@
           "number": 24,
           "title": "Bump react-dom from 19.2.4 to 19.2.6",
           "createdAt": "2026-05-11T01:27:22Z",
-          "updatedAt": "2026-05-12T19:24:19Z",
+          "updatedAt": "2026-05-20T06:26:29Z",
           "isDependabot": true,
           "isSecurityUpdate": false,
           "autoMergeEnabled": false,
@@ -362,26 +362,6 @@
           "compatibilityDisplay": null,
           "compatibilityMin": null,
           "compatibilityMax": null
-        },
-        {
-          "number": 25,
-          "title": "Bump astro from 6.3.1 to 6.3.3",
-          "createdAt": "2026-05-18T01:43:24Z",
-          "updatedAt": "2026-05-18T01:43:24Z",
-          "isDependabot": true,
-          "isSecurityUpdate": false,
-          "autoMergeEnabled": false,
-          "mergeable": null,
-          "mergeableState": "unknown",
-          "isDraft": false,
-          "labels": [
-            "dependencies",
-            "javascript"
-          ],
-          "url": "https://github.com/Buffalo-Drinking-Game/buffalo-drinking-game/pull/25",
-          "compatibilityDisplay": "83%",
-          "compatibilityMin": 83,
-          "compatibilityMax": 83
         }
       ],
       "ecosystems": [
