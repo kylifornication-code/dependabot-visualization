@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-20T15:08:41.014Z",
+  "generatedAt": "2026-05-21T09:57:46.354Z",
   "summary": {
     "totalAlerts": 22,
     "bySeverity": {
@@ -50,9 +50,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/thedrizzle/pull/18",
-          "compatibilityDisplay": "78%",
-          "compatibilityMin": 78,
-          "compatibilityMax": 78
+          "compatibilityDisplay": "76%",
+          "compatibilityMin": 76,
+          "compatibilityMax": 76
         }
       ],
       "ecosystems": [
@@ -132,9 +132,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/ncaa-wrestling-bracket/pull/10",
-          "compatibilityDisplay": "65%",
-          "compatibilityMin": 65,
-          "compatibilityMax": 65
+          "compatibilityDisplay": "67%",
+          "compatibilityMin": 67,
+          "compatibilityMax": 67
         }
       ],
       "ecosystems": [
@@ -287,6 +287,27 @@
       "oldestAlert": "2026-05-11T20:05:43Z"
     },
     {
+      "repo": "kylifornication-code/the-infosec-wheel",
+      "name": "the-infosec-wheel",
+      "owner": "kylifornication-code",
+      "isPrivate": false,
+      "language": "TypeScript",
+      "alertCounts": {
+        "critical": 0,
+        "high": 0,
+        "medium": 1,
+        "low": 0,
+        "unknown": 0
+      },
+      "totalAlerts": 1,
+      "openPRs": 0,
+      "prs": [],
+      "ecosystems": [
+        "npm"
+      ],
+      "oldestAlert": "2026-05-20T15:06:28Z"
+    },
+    {
       "repo": "kylifornication-code/lennys-podcast-recapper",
       "name": "lennys-podcast-recapper",
       "owner": "kylifornication-code",
@@ -327,27 +348,6 @@
         "npm"
       ],
       "oldestAlert": "2026-05-12T19:55:15Z"
-    },
-    {
-      "repo": "kylifornication-code/the-infosec-wheel",
-      "name": "the-infosec-wheel",
-      "owner": "kylifornication-code",
-      "isPrivate": false,
-      "language": "TypeScript",
-      "alertCounts": {
-        "critical": 0,
-        "high": 0,
-        "medium": 1,
-        "low": 0,
-        "unknown": 0
-      },
-      "totalAlerts": 1,
-      "openPRs": 0,
-      "prs": [],
-      "ecosystems": [
-        "npm"
-      ],
-      "oldestAlert": "2026-05-20T15:06:28Z"
     }
   ]
 }
