@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-05-22T09:44:12.660Z",
+  "generatedAt": "2026-05-23T08:28:33.520Z",
   "summary": {
-    "totalAlerts": 21,
+    "totalAlerts": 23,
     "bySeverity": {
       "critical": 0,
       "high": 7,
-      "medium": 11,
+      "medium": 13,
       "low": 3,
       "unknown": 0
     },
     "byEcosystem": {
-      "npm": 21
+      "npm": 23
     },
     "totalOpenPRs": 9,
     "reposAffected": 7,
@@ -27,11 +27,11 @@
       "alertCounts": {
         "critical": 0,
         "high": 3,
-        "medium": 1,
+        "medium": 3,
         "low": 0,
         "unknown": 0
       },
-      "totalAlerts": 4,
+      "totalAlerts": 6,
       "openPRs": 1,
       "prs": [
         {
@@ -50,9 +50,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/thedrizzle/pull/18",
-          "compatibilityDisplay": "80%",
-          "compatibilityMin": 80,
-          "compatibilityMax": 80
+          "compatibilityDisplay": "79%",
+          "compatibilityMin": 79,
+          "compatibilityMax": 79
         }
       ],
       "ecosystems": [
@@ -112,9 +112,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/ncaa-wrestling-bracket/pull/8",
-          "compatibilityDisplay": "41%",
-          "compatibilityMin": 41,
-          "compatibilityMax": 41
+          "compatibilityDisplay": "42%",
+          "compatibilityMin": 42,
+          "compatibilityMax": 42
         },
         {
           "number": 10,
@@ -132,9 +132,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/ncaa-wrestling-bracket/pull/10",
-          "compatibilityDisplay": "73%",
-          "compatibilityMin": 73,
-          "compatibilityMax": 73
+          "compatibilityDisplay": "76%",
+          "compatibilityMin": 76,
+          "compatibilityMax": 76
         }
       ],
       "ecosystems": [
