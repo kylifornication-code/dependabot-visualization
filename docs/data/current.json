@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-05-23T08:28:33.520Z",
+  "generatedAt": "2026-05-24T08:41:39.573Z",
   "summary": {
-    "totalAlerts": 23,
+    "totalAlerts": 24,
     "bySeverity": {
       "critical": 0,
       "high": 7,
-      "medium": 13,
+      "medium": 14,
       "low": 3,
       "unknown": 0
     },
     "byEcosystem": {
-      "npm": 23
+      "npm": 24
     },
-    "totalOpenPRs": 9,
+    "totalOpenPRs": 10,
     "reposAffected": 7,
     "reposWithPRs": 4,
     "reposScanned": 7
@@ -27,12 +27,12 @@
       "alertCounts": {
         "critical": 0,
         "high": 3,
-        "medium": 3,
+        "medium": 4,
         "low": 0,
         "unknown": 0
       },
-      "totalAlerts": 6,
-      "openPRs": 1,
+      "totalAlerts": 7,
+      "openPRs": 2,
       "prs": [
         {
           "number": 18,
@@ -53,6 +53,26 @@
           "compatibilityDisplay": "79%",
           "compatibilityMin": 79,
           "compatibilityMax": 79
+        },
+        {
+          "number": 19,
+          "title": "Bump qs and express",
+          "createdAt": "2026-05-23T12:45:04Z",
+          "updatedAt": "2026-05-23T12:45:04Z",
+          "isDependabot": true,
+          "isSecurityUpdate": false,
+          "autoMergeEnabled": false,
+          "mergeable": null,
+          "mergeableState": "unknown",
+          "isDraft": false,
+          "labels": [
+            "dependencies",
+            "javascript"
+          ],
+          "url": "https://github.com/kylifornication-code/thedrizzle/pull/19",
+          "compatibilityDisplay": null,
+          "compatibilityMin": null,
+          "compatibilityMax": null
         }
       ],
       "ecosystems": [
@@ -132,9 +152,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/ncaa-wrestling-bracket/pull/10",
-          "compatibilityDisplay": "76%",
-          "compatibilityMin": 76,
-          "compatibilityMax": 76
+          "compatibilityDisplay": "77%",
+          "compatibilityMin": 77,
+          "compatibilityMax": 77
         }
       ],
       "ecosystems": [
