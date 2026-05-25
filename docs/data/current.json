@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-25T10:26:00.112Z",
+  "generatedAt": "2026-05-25T19:11:10.317Z",
   "summary": {
     "totalAlerts": 24,
     "bySeverity": {
@@ -132,9 +132,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/ncaa-wrestling-bracket/pull/10",
-          "compatibilityDisplay": "74%",
-          "compatibilityMin": 74,
-          "compatibilityMax": 74
+          "compatibilityDisplay": "73%",
+          "compatibilityMin": 73,
+          "compatibilityMax": 73
         }
       ],
       "ecosystems": [
@@ -264,7 +264,7 @@
           "number": 27,
           "title": "Bump framer-motion from 12.33.0 to 12.40.0",
           "createdAt": "2026-05-25T01:39:30Z",
-          "updatedAt": "2026-05-25T04:42:21Z",
+          "updatedAt": "2026-05-25T19:10:23Z",
           "isDependabot": true,
           "isSecurityUpdate": false,
           "autoMergeEnabled": false,
