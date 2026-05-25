@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-24T08:41:39.573Z",
+  "generatedAt": "2026-05-25T04:47:01.092Z",
   "summary": {
     "totalAlerts": 24,
     "bySeverity": {
@@ -12,7 +12,7 @@
     "byEcosystem": {
       "npm": 24
     },
-    "totalOpenPRs": 10,
+    "totalOpenPRs": 9,
     "reposAffected": 7,
     "reposWithPRs": 4,
     "reposScanned": 7
@@ -32,7 +32,7 @@
         "unknown": 0
       },
       "totalAlerts": 7,
-      "openPRs": 2,
+      "openPRs": 1,
       "prs": [
         {
           "number": 18,
@@ -53,26 +53,6 @@
           "compatibilityDisplay": "79%",
           "compatibilityMin": 79,
           "compatibilityMax": 79
-        },
-        {
-          "number": 19,
-          "title": "Bump qs and express",
-          "createdAt": "2026-05-23T12:45:04Z",
-          "updatedAt": "2026-05-23T12:45:04Z",
-          "isDependabot": true,
-          "isSecurityUpdate": false,
-          "autoMergeEnabled": false,
-          "mergeable": null,
-          "mergeableState": "unknown",
-          "isDraft": false,
-          "labels": [
-            "dependencies",
-            "javascript"
-          ],
-          "url": "https://github.com/kylifornication-code/thedrizzle/pull/19",
-          "compatibilityDisplay": null,
-          "compatibilityMin": null,
-          "compatibilityMax": null
         }
       ],
       "ecosystems": [
@@ -132,9 +112,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/ncaa-wrestling-bracket/pull/8",
-          "compatibilityDisplay": "42%",
-          "compatibilityMin": 42,
-          "compatibilityMax": 42
+          "compatibilityDisplay": "43%",
+          "compatibilityMin": 43,
+          "compatibilityMax": 43
         },
         {
           "number": 10,
@@ -221,26 +201,6 @@
       "openPRs": 4,
       "prs": [
         {
-          "number": 13,
-          "title": "Bump framer-motion from 12.33.0 to 12.38.0",
-          "createdAt": "2026-03-23T01:16:39Z",
-          "updatedAt": "2026-04-23T15:37:40Z",
-          "isDependabot": true,
-          "isSecurityUpdate": false,
-          "autoMergeEnabled": false,
-          "mergeable": null,
-          "mergeableState": "unknown",
-          "isDraft": false,
-          "labels": [
-            "dependencies",
-            "javascript"
-          ],
-          "url": "https://github.com/Buffalo-Drinking-Game/buffalo-drinking-game/pull/13",
-          "compatibilityDisplay": null,
-          "compatibilityMin": null,
-          "compatibilityMax": null
-        },
-        {
           "number": 16,
           "title": "Bump the npm_and_yarn group across 1 directory with 1 update",
           "createdAt": "2026-03-26T02:39:59Z",
@@ -264,7 +224,7 @@
           "number": 23,
           "title": "Bump @tailwindcss/vite from 4.2.2 to 4.3.0",
           "createdAt": "2026-05-11T01:27:08Z",
-          "updatedAt": "2026-05-20T06:26:28Z",
+          "updatedAt": "2026-05-25T04:42:22Z",
           "isDependabot": true,
           "isSecurityUpdate": false,
           "autoMergeEnabled": false,
@@ -284,7 +244,7 @@
           "number": 24,
           "title": "Bump react-dom from 19.2.4 to 19.2.6",
           "createdAt": "2026-05-11T01:27:22Z",
-          "updatedAt": "2026-05-20T06:26:29Z",
+          "updatedAt": "2026-05-25T04:42:19Z",
           "isDependabot": true,
           "isSecurityUpdate": false,
           "autoMergeEnabled": false,
@@ -296,6 +256,26 @@
             "javascript"
           ],
           "url": "https://github.com/Buffalo-Drinking-Game/buffalo-drinking-game/pull/24",
+          "compatibilityDisplay": null,
+          "compatibilityMin": null,
+          "compatibilityMax": null
+        },
+        {
+          "number": 27,
+          "title": "Bump framer-motion from 12.33.0 to 12.40.0",
+          "createdAt": "2026-05-25T01:39:30Z",
+          "updatedAt": "2026-05-25T04:42:21Z",
+          "isDependabot": true,
+          "isSecurityUpdate": false,
+          "autoMergeEnabled": false,
+          "mergeable": null,
+          "mergeableState": "unknown",
+          "isDraft": false,
+          "labels": [
+            "dependencies",
+            "javascript"
+          ],
+          "url": "https://github.com/Buffalo-Drinking-Game/buffalo-drinking-game/pull/27",
           "compatibilityDisplay": null,
           "compatibilityMin": null,
           "compatibilityMax": null
