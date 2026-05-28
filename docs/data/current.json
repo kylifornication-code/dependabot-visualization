@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-27T10:11:54.387Z",
+  "generatedAt": "2026-05-28T10:20:52.396Z",
   "summary": {
     "totalAlerts": 24,
     "bySeverity": {
@@ -50,9 +50,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/thedrizzle/pull/18",
-          "compatibilityDisplay": "82%",
-          "compatibilityMin": 82,
-          "compatibilityMax": 82
+          "compatibilityDisplay": "80%",
+          "compatibilityMin": 80,
+          "compatibilityMax": 80
         }
       ],
       "ecosystems": [
@@ -112,9 +112,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/ncaa-wrestling-bracket/pull/8",
-          "compatibilityDisplay": "43%",
-          "compatibilityMin": 43,
-          "compatibilityMax": 43
+          "compatibilityDisplay": "42%",
+          "compatibilityMin": 42,
+          "compatibilityMax": 42
         },
         {
           "number": 10,
@@ -174,9 +174,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/astro-career-walking-deck/pull/15",
-          "compatibilityDisplay": "40%",
-          "compatibilityMin": 40,
-          "compatibilityMax": 40
+          "compatibilityDisplay": "38%",
+          "compatibilityMin": 38,
+          "compatibilityMax": 38
         }
       ],
       "ecosystems": [
