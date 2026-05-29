@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-28T10:20:52.396Z",
+  "generatedAt": "2026-05-29T10:10:08.865Z",
   "summary": {
     "totalAlerts": 24,
     "bySeverity": {
@@ -12,7 +12,7 @@
     "byEcosystem": {
       "npm": 24
     },
-    "totalOpenPRs": 9,
+    "totalOpenPRs": 8,
     "reposAffected": 7,
     "reposWithPRs": 4,
     "reposScanned": 7
@@ -112,9 +112,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/ncaa-wrestling-bracket/pull/8",
-          "compatibilityDisplay": "42%",
-          "compatibilityMin": 42,
-          "compatibilityMax": 42
+          "compatibilityDisplay": "41%",
+          "compatibilityMin": 41,
+          "compatibilityMax": 41
         },
         {
           "number": 10,
@@ -132,9 +132,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/ncaa-wrestling-bracket/pull/10",
-          "compatibilityDisplay": "73%",
-          "compatibilityMin": 73,
-          "compatibilityMax": 73
+          "compatibilityDisplay": "72%",
+          "compatibilityMin": 72,
+          "compatibilityMax": 72
         }
       ],
       "ecosystems": [
@@ -198,28 +198,8 @@
         "unknown": 0
       },
       "totalAlerts": 2,
-      "openPRs": 4,
+      "openPRs": 3,
       "prs": [
-        {
-          "number": 16,
-          "title": "Bump the npm_and_yarn group across 1 directory with 1 update",
-          "createdAt": "2026-03-26T02:39:59Z",
-          "updatedAt": "2026-05-11T20:05:43Z",
-          "isDependabot": true,
-          "isSecurityUpdate": false,
-          "autoMergeEnabled": false,
-          "mergeable": null,
-          "mergeableState": "unknown",
-          "isDraft": false,
-          "labels": [
-            "dependencies",
-            "javascript"
-          ],
-          "url": "https://github.com/Buffalo-Drinking-Game/buffalo-drinking-game/pull/16",
-          "compatibilityDisplay": null,
-          "compatibilityMin": null,
-          "compatibilityMax": null
-        },
         {
           "number": 23,
           "title": "Bump @tailwindcss/vite from 4.2.2 to 4.3.0",
