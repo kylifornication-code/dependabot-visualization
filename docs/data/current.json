@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-30T08:37:14.435Z",
+  "generatedAt": "2026-05-31T09:16:17.748Z",
   "summary": {
     "totalAlerts": 26,
     "bySeverity": {
@@ -50,9 +50,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/thedrizzle/pull/18",
-          "compatibilityDisplay": "80%",
-          "compatibilityMin": 80,
-          "compatibilityMax": 80
+          "compatibilityDisplay": "79%",
+          "compatibilityMin": 79,
+          "compatibilityMax": 79
         }
       ],
       "ecosystems": [
