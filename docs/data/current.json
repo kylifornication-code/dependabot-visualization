@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-31T09:16:17.748Z",
+  "generatedAt": "2026-06-01T11:51:44.907Z",
   "summary": {
     "totalAlerts": 26,
     "bySeverity": {
@@ -12,7 +12,7 @@
     "byEcosystem": {
       "npm": 26
     },
-    "totalOpenPRs": 8,
+    "totalOpenPRs": 10,
     "reposAffected": 7,
     "reposWithPRs": 4,
     "reposScanned": 7
@@ -112,9 +112,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/ncaa-wrestling-bracket/pull/8",
-          "compatibilityDisplay": "43%",
-          "compatibilityMin": 43,
-          "compatibilityMax": 43
+          "compatibilityDisplay": "44%",
+          "compatibilityMin": 44,
+          "compatibilityMax": 44
         },
         {
           "number": 10,
@@ -132,9 +132,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/ncaa-wrestling-bracket/pull/10",
-          "compatibilityDisplay": "72%",
-          "compatibilityMin": 72,
-          "compatibilityMax": 72
+          "compatibilityDisplay": "75%",
+          "compatibilityMin": 75,
+          "compatibilityMax": 75
         }
       ],
       "ecosystems": [
@@ -174,9 +174,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/astro-career-walking-deck/pull/15",
-          "compatibilityDisplay": "37%",
-          "compatibilityMin": 37,
-          "compatibilityMax": 37
+          "compatibilityDisplay": "38%",
+          "compatibilityMin": 38,
+          "compatibilityMax": 38
         }
       ],
       "ecosystems": [
@@ -198,7 +198,7 @@
         "unknown": 0
       },
       "totalAlerts": 2,
-      "openPRs": 3,
+      "openPRs": 5,
       "prs": [
         {
           "number": 23,
@@ -259,6 +259,46 @@
           "compatibilityDisplay": null,
           "compatibilityMin": null,
           "compatibilityMax": null
+        },
+        {
+          "number": 28,
+          "title": "Bump tailwindcss from 4.2.2 to 4.3.0",
+          "createdAt": "2026-06-01T02:30:56Z",
+          "updatedAt": "2026-06-01T02:30:57Z",
+          "isDependabot": true,
+          "isSecurityUpdate": false,
+          "autoMergeEnabled": false,
+          "mergeable": null,
+          "mergeableState": "unknown",
+          "isDraft": false,
+          "labels": [
+            "dependencies",
+            "javascript"
+          ],
+          "url": "https://github.com/Buffalo-Drinking-Game/buffalo-drinking-game/pull/28",
+          "compatibilityDisplay": "79%",
+          "compatibilityMin": 79,
+          "compatibilityMax": 79
+        },
+        {
+          "number": 29,
+          "title": "Bump astro from 6.3.7 to 6.4.2",
+          "createdAt": "2026-06-01T02:31:07Z",
+          "updatedAt": "2026-06-01T02:31:08Z",
+          "isDependabot": true,
+          "isSecurityUpdate": false,
+          "autoMergeEnabled": false,
+          "mergeable": null,
+          "mergeableState": "unknown",
+          "isDraft": false,
+          "labels": [
+            "dependencies",
+            "javascript"
+          ],
+          "url": "https://github.com/Buffalo-Drinking-Game/buffalo-drinking-game/pull/29",
+          "compatibilityDisplay": "83%",
+          "compatibilityMin": 83,
+          "compatibilityMax": 83
         }
       ],
       "ecosystems": [
