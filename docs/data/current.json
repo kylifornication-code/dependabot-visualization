@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-02T19:08:26.240Z",
+  "generatedAt": "2026-06-03T11:19:12.327Z",
   "summary": {
     "totalAlerts": 25,
     "bySeverity": {
@@ -153,9 +153,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/astro-career-walking-deck/pull/15",
-          "compatibilityDisplay": "39%",
-          "compatibilityMin": 39,
-          "compatibilityMax": 39
+          "compatibilityDisplay": "40%",
+          "compatibilityMin": 40,
+          "compatibilityMax": 40
         }
       ],
       "ecosystems": [
