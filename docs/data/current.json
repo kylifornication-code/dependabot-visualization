@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-07T09:29:12.491Z",
+  "generatedAt": "2026-06-08T11:13:50.470Z",
   "summary": {
     "totalAlerts": 25,
     "bySeverity": {
@@ -12,9 +12,9 @@
     "byEcosystem": {
       "npm": 25
     },
-    "totalOpenPRs": 4,
+    "totalOpenPRs": 7,
     "reposAffected": 7,
-    "reposWithPRs": 2,
+    "reposWithPRs": 3,
     "reposScanned": 7
   },
   "repos": [
@@ -91,9 +91,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/ncaa-wrestling-bracket/pull/8",
-          "compatibilityDisplay": "46%",
-          "compatibilityMin": 46,
-          "compatibilityMax": 46
+          "compatibilityDisplay": "47%",
+          "compatibilityMin": 47,
+          "compatibilityMax": 47
         },
         {
           "number": 10,
@@ -177,8 +177,69 @@
         "unknown": 0
       },
       "totalAlerts": 2,
-      "openPRs": 0,
-      "prs": [],
+      "openPRs": 3,
+      "prs": [
+        {
+          "number": 30,
+          "title": "Bump astro from 6.4.2 to 6.4.4",
+          "createdAt": "2026-06-08T01:14:30Z",
+          "updatedAt": "2026-06-08T01:14:31Z",
+          "isDependabot": true,
+          "isSecurityUpdate": false,
+          "autoMergeEnabled": false,
+          "mergeable": null,
+          "mergeableState": "unknown",
+          "isDraft": false,
+          "labels": [
+            "dependencies",
+            "javascript"
+          ],
+          "url": "https://github.com/Buffalo-Drinking-Game/buffalo-drinking-game/pull/30",
+          "compatibilityDisplay": "78%",
+          "compatibilityMin": 78,
+          "compatibilityMax": 78
+        },
+        {
+          "number": 31,
+          "title": "Bump @types/react from 19.2.13 to 19.2.17",
+          "createdAt": "2026-06-08T01:14:37Z",
+          "updatedAt": "2026-06-08T01:14:38Z",
+          "isDependabot": true,
+          "isSecurityUpdate": false,
+          "autoMergeEnabled": false,
+          "mergeable": null,
+          "mergeableState": "unknown",
+          "isDraft": false,
+          "labels": [
+            "dependencies",
+            "javascript"
+          ],
+          "url": "https://github.com/Buffalo-Drinking-Game/buffalo-drinking-game/pull/31",
+          "compatibilityDisplay": null,
+          "compatibilityMin": null,
+          "compatibilityMax": null
+        },
+        {
+          "number": 32,
+          "title": "Bump @astrojs/react from 5.0.0 to 5.0.7",
+          "createdAt": "2026-06-08T01:14:49Z",
+          "updatedAt": "2026-06-08T01:14:50Z",
+          "isDependabot": true,
+          "isSecurityUpdate": false,
+          "autoMergeEnabled": false,
+          "mergeable": null,
+          "mergeableState": "unknown",
+          "isDraft": false,
+          "labels": [
+            "dependencies",
+            "javascript"
+          ],
+          "url": "https://github.com/Buffalo-Drinking-Game/buffalo-drinking-game/pull/32",
+          "compatibilityDisplay": null,
+          "compatibilityMin": null,
+          "compatibilityMax": null
+        }
+      ],
       "ecosystems": [
         "npm"
       ],
