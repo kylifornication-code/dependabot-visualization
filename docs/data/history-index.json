@@ -1062,5 +1062,19 @@
     },
     "totalOpenPRs": 7,
     "reposAffected": 7
+  },
+  {
+    "date": "2026-06-11",
+    "generatedAt": "2026-06-11T10:52:21.916Z",
+    "totalAlerts": 26,
+    "bySeverity": {
+      "critical": 1,
+      "high": 7,
+      "medium": 14,
+      "low": 4,
+      "unknown": 0
+    },
+    "totalOpenPRs": 8,
+    "reposAffected": 7
   }
 ]
