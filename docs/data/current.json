@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-06-11T10:52:21.916Z",
+  "generatedAt": "2026-06-12T10:26:21.260Z",
   "summary": {
-    "totalAlerts": 26,
+    "totalAlerts": 27,
     "bySeverity": {
       "critical": 1,
       "high": 7,
-      "medium": 14,
+      "medium": 15,
       "low": 4,
       "unknown": 0
     },
     "byEcosystem": {
-      "npm": 26
+      "npm": 27
     },
     "totalOpenPRs": 8,
     "reposAffected": 7,
@@ -27,11 +27,11 @@
       "alertCounts": {
         "critical": 1,
         "high": 3,
-        "medium": 4,
+        "medium": 5,
         "low": 1,
         "unknown": 0
       },
-      "totalAlerts": 9,
+      "totalAlerts": 10,
       "openPRs": 1,
       "prs": [
         {
@@ -50,9 +50,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/thedrizzle/pull/20",
-          "compatibilityDisplay": "78%",
-          "compatibilityMin": 78,
-          "compatibilityMax": 78
+          "compatibilityDisplay": "79%",
+          "compatibilityMin": 79,
+          "compatibilityMax": 79
         }
       ],
       "ecosystems": [
@@ -112,9 +112,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/ncaa-wrestling-bracket/pull/8",
-          "compatibilityDisplay": "47%",
-          "compatibilityMin": 47,
-          "compatibilityMax": 47
+          "compatibilityDisplay": "46%",
+          "compatibilityMin": 46,
+          "compatibilityMax": 46
         },
         {
           "number": 10,
@@ -132,9 +132,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/ncaa-wrestling-bracket/pull/10",
-          "compatibilityDisplay": "81%",
-          "compatibilityMin": 81,
-          "compatibilityMax": 81
+          "compatibilityDisplay": "82%",
+          "compatibilityMin": 82,
+          "compatibilityMax": 82
         }
       ],
       "ecosystems": [
@@ -174,9 +174,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/astro-career-walking-deck/pull/15",
-          "compatibilityDisplay": "40%",
-          "compatibilityMin": 40,
-          "compatibilityMax": 40
+          "compatibilityDisplay": "39%",
+          "compatibilityMin": 39,
+          "compatibilityMax": 39
         }
       ],
       "ecosystems": [
