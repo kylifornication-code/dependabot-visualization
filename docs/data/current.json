@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-06-12T10:26:21.260Z",
+  "generatedAt": "2026-06-13T09:28:43.370Z",
   "summary": {
-    "totalAlerts": 27,
+    "totalAlerts": 30,
     "bySeverity": {
       "critical": 1,
       "high": 7,
       "medium": 15,
-      "low": 4,
+      "low": 7,
       "unknown": 0
     },
     "byEcosystem": {
-      "npm": 27
+      "npm": 30
     },
-    "totalOpenPRs": 8,
+    "totalOpenPRs": 9,
     "reposAffected": 7,
     "reposWithPRs": 4,
     "reposScanned": 7
@@ -50,9 +50,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/thedrizzle/pull/20",
-          "compatibilityDisplay": "79%",
-          "compatibilityMin": 79,
-          "compatibilityMax": 79
+          "compatibilityDisplay": "78%",
+          "compatibilityMin": 78,
+          "compatibilityMax": 78
         }
       ],
       "ecosystems": [
@@ -70,10 +70,10 @@
         "critical": 0,
         "high": 2,
         "medium": 4,
-        "low": 1,
+        "low": 2,
         "unknown": 0
       },
-      "totalAlerts": 7,
+      "totalAlerts": 8,
       "openPRs": 3,
       "prs": [
         {
@@ -132,9 +132,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/ncaa-wrestling-bracket/pull/10",
-          "compatibilityDisplay": "82%",
-          "compatibilityMin": 82,
-          "compatibilityMax": 82
+          "compatibilityDisplay": "84%",
+          "compatibilityMin": 84,
+          "compatibilityMax": 84
         }
       ],
       "ecosystems": [
@@ -174,9 +174,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/astro-career-walking-deck/pull/15",
-          "compatibilityDisplay": "39%",
-          "compatibilityMin": 39,
-          "compatibilityMax": 39
+          "compatibilityDisplay": "41%",
+          "compatibilityMin": 41,
+          "compatibilityMax": 41
         }
       ],
       "ecosystems": [
@@ -194,11 +194,11 @@
         "critical": 0,
         "high": 1,
         "medium": 1,
-        "low": 0,
+        "low": 1,
         "unknown": 0
       },
-      "totalAlerts": 2,
-      "openPRs": 3,
+      "totalAlerts": 3,
+      "openPRs": 4,
       "prs": [
         {
           "number": 30,
@@ -216,9 +216,9 @@
             "javascript"
           ],
           "url": "https://github.com/Buffalo-Drinking-Game/buffalo-drinking-game/pull/30",
-          "compatibilityDisplay": "72%",
-          "compatibilityMin": 72,
-          "compatibilityMax": 72
+          "compatibilityDisplay": "79%",
+          "compatibilityMin": 79,
+          "compatibilityMax": 79
         },
         {
           "number": 31,
@@ -259,6 +259,26 @@
           "compatibilityDisplay": null,
           "compatibilityMin": null,
           "compatibilityMax": null
+        },
+        {
+          "number": 33,
+          "title": "Bump the npm_and_yarn group across 1 directory with 2 updates",
+          "createdAt": "2026-06-12T23:46:09Z",
+          "updatedAt": "2026-06-12T23:46:09Z",
+          "isDependabot": true,
+          "isSecurityUpdate": false,
+          "autoMergeEnabled": false,
+          "mergeable": null,
+          "mergeableState": "unknown",
+          "isDraft": false,
+          "labels": [
+            "dependencies",
+            "javascript"
+          ],
+          "url": "https://github.com/Buffalo-Drinking-Game/buffalo-drinking-game/pull/33",
+          "compatibilityDisplay": null,
+          "compatibilityMin": null,
+          "compatibilityMax": null
         }
       ],
       "ecosystems": [
@@ -276,10 +296,10 @@
         "critical": 0,
         "high": 0,
         "medium": 1,
-        "low": 0,
+        "low": 1,
         "unknown": 0
       },
-      "totalAlerts": 1,
+      "totalAlerts": 2,
       "openPRs": 0,
       "prs": [],
       "ecosystems": [
