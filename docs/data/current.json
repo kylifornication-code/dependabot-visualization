@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-06-13T09:28:43.370Z",
+  "generatedAt": "2026-06-14T09:50:15.547Z",
   "summary": {
-    "totalAlerts": 30,
+    "totalAlerts": 31,
     "bySeverity": {
       "critical": 1,
-      "high": 7,
+      "high": 8,
       "medium": 15,
       "low": 7,
       "unknown": 0
     },
     "byEcosystem": {
-      "npm": 30
+      "npm": 31
     },
     "totalOpenPRs": 9,
     "reposAffected": 7,
@@ -112,9 +112,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/ncaa-wrestling-bracket/pull/8",
-          "compatibilityDisplay": "46%",
-          "compatibilityMin": 46,
-          "compatibilityMax": 46
+          "compatibilityDisplay": "47%",
+          "compatibilityMin": 47,
+          "compatibilityMax": 47
         },
         {
           "number": 10,
@@ -150,12 +150,12 @@
       "language": "TypeScript",
       "alertCounts": {
         "critical": 0,
-        "high": 1,
+        "high": 2,
         "medium": 2,
         "low": 2,
         "unknown": 0
       },
-      "totalAlerts": 5,
+      "totalAlerts": 6,
       "openPRs": 1,
       "prs": [
         {
@@ -174,9 +174,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/astro-career-walking-deck/pull/15",
-          "compatibilityDisplay": "41%",
-          "compatibilityMin": 41,
-          "compatibilityMax": 41
+          "compatibilityDisplay": "42%",
+          "compatibilityMin": 42,
+          "compatibilityMax": 42
         }
       ],
       "ecosystems": [
@@ -216,9 +216,9 @@
             "javascript"
           ],
           "url": "https://github.com/Buffalo-Drinking-Game/buffalo-drinking-game/pull/30",
-          "compatibilityDisplay": "79%",
-          "compatibilityMin": 79,
-          "compatibilityMax": 79
+          "compatibilityDisplay": "77%",
+          "compatibilityMin": 77,
+          "compatibilityMax": 77
         },
         {
           "number": 31,
