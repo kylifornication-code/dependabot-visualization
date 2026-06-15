@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-06-14T09:50:15.547Z",
+  "generatedAt": "2026-06-15T12:36:43.388Z",
   "summary": {
-    "totalAlerts": 31,
+    "totalAlerts": 34,
     "bySeverity": {
       "critical": 1,
-      "high": 8,
+      "high": 11,
       "medium": 15,
       "low": 7,
       "unknown": 0
     },
     "byEcosystem": {
-      "npm": 31
+      "npm": 34
     },
-    "totalOpenPRs": 9,
+    "totalOpenPRs": 10,
     "reposAffected": 7,
     "reposWithPRs": 4,
     "reposScanned": 7
@@ -50,9 +50,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/thedrizzle/pull/20",
-          "compatibilityDisplay": "78%",
-          "compatibilityMin": 78,
-          "compatibilityMax": 78
+          "compatibilityDisplay": "80%",
+          "compatibilityMin": 80,
+          "compatibilityMax": 80
         }
       ],
       "ecosystems": [
@@ -68,12 +68,12 @@
       "language": "JavaScript",
       "alertCounts": {
         "critical": 0,
-        "high": 2,
+        "high": 3,
         "medium": 4,
         "low": 2,
         "unknown": 0
       },
-      "totalAlerts": 8,
+      "totalAlerts": 9,
       "openPRs": 3,
       "prs": [
         {
@@ -112,9 +112,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/ncaa-wrestling-bracket/pull/8",
-          "compatibilityDisplay": "47%",
-          "compatibilityMin": 47,
-          "compatibilityMax": 47
+          "compatibilityDisplay": "48%",
+          "compatibilityMin": 48,
+          "compatibilityMax": 48
         },
         {
           "number": 10,
@@ -132,9 +132,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/ncaa-wrestling-bracket/pull/10",
-          "compatibilityDisplay": "84%",
-          "compatibilityMin": 84,
-          "compatibilityMax": 84
+          "compatibilityDisplay": "82%",
+          "compatibilityMin": 82,
+          "compatibilityMax": 82
         }
       ],
       "ecosystems": [
@@ -174,9 +174,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/astro-career-walking-deck/pull/15",
-          "compatibilityDisplay": "42%",
-          "compatibilityMin": 42,
-          "compatibilityMax": 42
+          "compatibilityDisplay": "41%",
+          "compatibilityMin": 41,
+          "compatibilityMax": 41
         }
       ],
       "ecosystems": [
@@ -192,34 +192,14 @@
       "language": "TypeScript",
       "alertCounts": {
         "critical": 0,
-        "high": 1,
+        "high": 2,
         "medium": 1,
         "low": 1,
         "unknown": 0
       },
-      "totalAlerts": 3,
-      "openPRs": 4,
+      "totalAlerts": 4,
+      "openPRs": 5,
       "prs": [
-        {
-          "number": 30,
-          "title": "Bump astro from 6.4.2 to 6.4.4",
-          "createdAt": "2026-06-08T01:14:30Z",
-          "updatedAt": "2026-06-08T01:14:31Z",
-          "isDependabot": true,
-          "isSecurityUpdate": false,
-          "autoMergeEnabled": false,
-          "mergeable": null,
-          "mergeableState": "unknown",
-          "isDraft": false,
-          "labels": [
-            "dependencies",
-            "javascript"
-          ],
-          "url": "https://github.com/Buffalo-Drinking-Game/buffalo-drinking-game/pull/30",
-          "compatibilityDisplay": "77%",
-          "compatibilityMin": 77,
-          "compatibilityMax": 77
-        },
         {
           "number": 31,
           "title": "Bump @types/react from 19.2.13 to 19.2.17",
@@ -279,6 +259,46 @@
           "compatibilityDisplay": null,
           "compatibilityMin": null,
           "compatibilityMax": null
+        },
+        {
+          "number": 34,
+          "title": "Bump @tailwindcss/vite from 4.3.0 to 4.3.1",
+          "createdAt": "2026-06-15T01:14:44Z",
+          "updatedAt": "2026-06-15T01:14:45Z",
+          "isDependabot": true,
+          "isSecurityUpdate": false,
+          "autoMergeEnabled": false,
+          "mergeable": null,
+          "mergeableState": "unknown",
+          "isDraft": false,
+          "labels": [
+            "dependencies",
+            "javascript"
+          ],
+          "url": "https://github.com/Buffalo-Drinking-Game/buffalo-drinking-game/pull/34",
+          "compatibilityDisplay": "84%",
+          "compatibilityMin": 84,
+          "compatibilityMax": 84
+        },
+        {
+          "number": 35,
+          "title": "Bump astro from 6.4.2 to 6.4.6",
+          "createdAt": "2026-06-15T01:15:03Z",
+          "updatedAt": "2026-06-15T01:15:04Z",
+          "isDependabot": true,
+          "isSecurityUpdate": false,
+          "autoMergeEnabled": false,
+          "mergeable": null,
+          "mergeableState": "unknown",
+          "isDraft": false,
+          "labels": [
+            "dependencies",
+            "javascript"
+          ],
+          "url": "https://github.com/Buffalo-Drinking-Game/buffalo-drinking-game/pull/35",
+          "compatibilityDisplay": "80%",
+          "compatibilityMin": 80,
+          "compatibilityMax": 80
         }
       ],
       "ecosystems": [
@@ -294,12 +314,12 @@
       "language": "Python",
       "alertCounts": {
         "critical": 0,
-        "high": 0,
+        "high": 1,
         "medium": 1,
         "low": 1,
         "unknown": 0
       },
-      "totalAlerts": 2,
+      "totalAlerts": 3,
       "openPRs": 0,
       "prs": [],
       "ecosystems": [
