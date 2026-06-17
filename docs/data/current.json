@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-06-16T11:28:37.414Z",
+  "generatedAt": "2026-06-17T11:11:48.610Z",
   "summary": {
-    "totalAlerts": 34,
+    "totalAlerts": 36,
     "bySeverity": {
       "critical": 1,
       "high": 11,
       "medium": 15,
-      "low": 7,
+      "low": 9,
       "unknown": 0
     },
     "byEcosystem": {
-      "npm": 34
+      "npm": 36
     },
-    "totalOpenPRs": 10,
+    "totalOpenPRs": 12,
     "reposAffected": 7,
-    "reposWithPRs": 4,
+    "reposWithPRs": 5,
     "reposScanned": 7
   },
   "repos": [
@@ -50,9 +50,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/thedrizzle/pull/20",
-          "compatibilityDisplay": "79%",
-          "compatibilityMin": 79,
-          "compatibilityMax": 79
+          "compatibilityDisplay": "80%",
+          "compatibilityMin": 80,
+          "compatibilityMax": 80
         }
       ],
       "ecosystems": [
@@ -70,11 +70,11 @@
         "critical": 0,
         "high": 3,
         "medium": 4,
-        "low": 2,
+        "low": 3,
         "unknown": 0
       },
-      "totalAlerts": 9,
-      "openPRs": 3,
+      "totalAlerts": 10,
+      "openPRs": 4,
       "prs": [
         {
           "number": 3,
@@ -135,6 +135,26 @@
           "compatibilityDisplay": "83%",
           "compatibilityMin": 83,
           "compatibilityMax": 83
+        },
+        {
+          "number": 11,
+          "title": "Bump dompurify from 3.4.0 to 3.4.10",
+          "createdAt": "2026-06-17T05:24:46Z",
+          "updatedAt": "2026-06-17T05:24:46Z",
+          "isDependabot": true,
+          "isSecurityUpdate": false,
+          "autoMergeEnabled": false,
+          "mergeable": null,
+          "mergeableState": "unknown",
+          "isDraft": false,
+          "labels": [
+            "dependencies",
+            "javascript"
+          ],
+          "url": "https://github.com/kylifornication-code/ncaa-wrestling-bracket/pull/11",
+          "compatibilityDisplay": "81%",
+          "compatibilityMin": 81,
+          "compatibilityMax": 81
         }
       ],
       "ecosystems": [
@@ -174,9 +194,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/astro-career-walking-deck/pull/15",
-          "compatibilityDisplay": "42%",
-          "compatibilityMin": 42,
-          "compatibilityMax": 42
+          "compatibilityDisplay": "43%",
+          "compatibilityMin": 43,
+          "compatibilityMax": 43
         }
       ],
       "ecosystems": [
@@ -276,9 +296,9 @@
             "javascript"
           ],
           "url": "https://github.com/Buffalo-Drinking-Game/buffalo-drinking-game/pull/34",
-          "compatibilityDisplay": "84%",
-          "compatibilityMin": 84,
-          "compatibilityMax": 84
+          "compatibilityDisplay": "83%",
+          "compatibilityMin": 83,
+          "compatibilityMax": 83
         },
         {
           "number": 35,
@@ -296,9 +316,9 @@
             "javascript"
           ],
           "url": "https://github.com/Buffalo-Drinking-Game/buffalo-drinking-game/pull/35",
-          "compatibilityDisplay": "73%",
-          "compatibilityMin": 73,
-          "compatibilityMax": 73
+          "compatibilityDisplay": "83%",
+          "compatibilityMin": 83,
+          "compatibilityMax": 83
         }
       ],
       "ecosystems": [
@@ -328,6 +348,48 @@
       "oldestAlert": "2026-04-29T00:39:31Z"
     },
     {
+      "repo": "kylifornication-code/ai-fluency-for-teams",
+      "name": "ai-fluency-for-teams",
+      "owner": "kylifornication-code",
+      "isPrivate": false,
+      "language": "TypeScript",
+      "alertCounts": {
+        "critical": 0,
+        "high": 0,
+        "medium": 1,
+        "low": 1,
+        "unknown": 0
+      },
+      "totalAlerts": 2,
+      "openPRs": 1,
+      "prs": [
+        {
+          "number": 10,
+          "title": "Bump dompurify from 3.4.1 to 3.4.10",
+          "createdAt": "2026-06-17T07:24:28Z",
+          "updatedAt": "2026-06-17T07:25:07Z",
+          "isDependabot": true,
+          "isSecurityUpdate": false,
+          "autoMergeEnabled": false,
+          "mergeable": null,
+          "mergeableState": "unknown",
+          "isDraft": false,
+          "labels": [
+            "dependencies",
+            "javascript"
+          ],
+          "url": "https://github.com/kylifornication-code/ai-fluency-for-teams/pull/10",
+          "compatibilityDisplay": "80%",
+          "compatibilityMin": 80,
+          "compatibilityMax": 80
+        }
+      ],
+      "ecosystems": [
+        "npm"
+      ],
+      "oldestAlert": "2026-05-12T19:55:15Z"
+    },
+    {
       "repo": "kylifornication-code/the-infosec-wheel",
       "name": "the-infosec-wheel",
       "owner": "kylifornication-code",
@@ -347,27 +409,6 @@
         "npm"
       ],
       "oldestAlert": "2026-05-20T15:06:28Z"
-    },
-    {
-      "repo": "kylifornication-code/ai-fluency-for-teams",
-      "name": "ai-fluency-for-teams",
-      "owner": "kylifornication-code",
-      "isPrivate": false,
-      "language": "TypeScript",
-      "alertCounts": {
-        "critical": 0,
-        "high": 0,
-        "medium": 1,
-        "low": 0,
-        "unknown": 0
-      },
-      "totalAlerts": 1,
-      "openPRs": 0,
-      "prs": [],
-      "ecosystems": [
-        "npm"
-      ],
-      "oldestAlert": "2026-05-12T19:55:15Z"
     }
   ]
 }
