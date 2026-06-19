@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-18T10:42:09.961Z",
+  "generatedAt": "2026-06-19T10:52:41.058Z",
   "summary": {
     "totalAlerts": 48,
     "bySeverity": {
@@ -50,9 +50,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/thedrizzle/pull/20",
-          "compatibilityDisplay": "81%",
-          "compatibilityMin": 81,
-          "compatibilityMax": 81
+          "compatibilityDisplay": "80%",
+          "compatibilityMin": 80,
+          "compatibilityMax": 80
         }
       ],
       "ecosystems": [
@@ -112,9 +112,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/ncaa-wrestling-bracket/pull/8",
-          "compatibilityDisplay": "48%",
-          "compatibilityMin": 48,
-          "compatibilityMax": 48
+          "compatibilityDisplay": "47%",
+          "compatibilityMin": 47,
+          "compatibilityMax": 47
         },
         {
           "number": 10,
@@ -152,9 +152,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/ncaa-wrestling-bracket/pull/12",
-          "compatibilityDisplay": "75%",
-          "compatibilityMin": 75,
-          "compatibilityMax": 75
+          "compatibilityDisplay": "73%",
+          "compatibilityMin": 73,
+          "compatibilityMax": 73
         }
       ],
       "ecosystems": [
@@ -296,9 +296,9 @@
             "javascript"
           ],
           "url": "https://github.com/Buffalo-Drinking-Game/buffalo-drinking-game/pull/34",
-          "compatibilityDisplay": "83%",
-          "compatibilityMin": 83,
-          "compatibilityMax": 83
+          "compatibilityDisplay": "81%",
+          "compatibilityMin": 81,
+          "compatibilityMax": 81
         },
         {
           "number": 35,
@@ -316,9 +316,9 @@
             "javascript"
           ],
           "url": "https://github.com/Buffalo-Drinking-Game/buffalo-drinking-game/pull/35",
-          "compatibilityDisplay": "79%",
-          "compatibilityMin": 79,
-          "compatibilityMax": 79
+          "compatibilityDisplay": "86%",
+          "compatibilityMin": 86,
+          "compatibilityMax": 86
         }
       ],
       "ecosystems": [
@@ -379,9 +379,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/ai-fluency-for-teams/pull/11",
-          "compatibilityDisplay": "78%",
-          "compatibilityMin": 78,
-          "compatibilityMax": 78
+          "compatibilityDisplay": "77%",
+          "compatibilityMin": 77,
+          "compatibilityMax": 77
         }
       ],
       "ecosystems": [
