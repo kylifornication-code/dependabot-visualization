@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-06-19T10:52:41.058Z",
+  "generatedAt": "2026-06-20T09:30:41.546Z",
   "summary": {
-    "totalAlerts": 48,
+    "totalAlerts": 64,
     "bySeverity": {
       "critical": 1,
-      "high": 11,
-      "medium": 23,
+      "high": 20,
+      "medium": 30,
       "low": 13,
       "unknown": 0
     },
     "byEcosystem": {
-      "npm": 48
+      "npm": 64
     },
-    "totalOpenPRs": 12,
+    "totalOpenPRs": 14,
     "reposAffected": 7,
-    "reposWithPRs": 5,
+    "reposWithPRs": 6,
     "reposScanned": 7
   },
   "repos": [
@@ -27,12 +27,12 @@
       "alertCounts": {
         "critical": 1,
         "high": 3,
-        "medium": 5,
+        "medium": 6,
         "low": 1,
         "unknown": 0
       },
-      "totalAlerts": 10,
-      "openPRs": 1,
+      "totalAlerts": 11,
+      "openPRs": 2,
       "prs": [
         {
           "number": 20,
@@ -50,9 +50,29 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/thedrizzle/pull/20",
-          "compatibilityDisplay": "80%",
-          "compatibilityMin": 80,
-          "compatibilityMax": 80
+          "compatibilityDisplay": "79%",
+          "compatibilityMin": 79,
+          "compatibilityMax": 79
+        },
+        {
+          "number": 21,
+          "title": "Bump launch-editor from 2.12.0 to 2.14.1",
+          "createdAt": "2026-06-19T14:12:30Z",
+          "updatedAt": "2026-06-19T14:12:30Z",
+          "isDependabot": true,
+          "isSecurityUpdate": false,
+          "autoMergeEnabled": false,
+          "mergeable": null,
+          "mergeableState": "unknown",
+          "isDraft": false,
+          "labels": [
+            "dependencies",
+            "javascript"
+          ],
+          "url": "https://github.com/kylifornication-code/thedrizzle/pull/21",
+          "compatibilityDisplay": "82%",
+          "compatibilityMin": 82,
+          "compatibilityMax": 82
         }
       ],
       "ecosystems": [
@@ -68,12 +88,12 @@
       "language": "JavaScript",
       "alertCounts": {
         "critical": 0,
-        "high": 3,
-        "medium": 8,
+        "high": 6,
+        "medium": 10,
         "low": 5,
         "unknown": 0
       },
-      "totalAlerts": 16,
+      "totalAlerts": 21,
       "openPRs": 4,
       "prs": [
         {
@@ -95,26 +115,6 @@
           "compatibilityDisplay": null,
           "compatibilityMin": null,
           "compatibilityMax": null
-        },
-        {
-          "number": 8,
-          "title": "Bump astro from 5.18.1 to 6.1.10",
-          "createdAt": "2026-05-13T11:20:58Z",
-          "updatedAt": "2026-05-13T19:11:26Z",
-          "isDependabot": true,
-          "isSecurityUpdate": false,
-          "autoMergeEnabled": false,
-          "mergeable": null,
-          "mergeableState": "unknown",
-          "isDraft": false,
-          "labels": [
-            "dependencies",
-            "javascript"
-          ],
-          "url": "https://github.com/kylifornication-code/ncaa-wrestling-bracket/pull/8",
-          "compatibilityDisplay": "47%",
-          "compatibilityMin": 47,
-          "compatibilityMax": 47
         },
         {
           "number": 10,
@@ -155,6 +155,26 @@
           "compatibilityDisplay": "73%",
           "compatibilityMin": 73,
           "compatibilityMax": 73
+        },
+        {
+          "number": 13,
+          "title": "Bump astro from 5.18.1 to 6.4.6",
+          "createdAt": "2026-06-20T03:47:17Z",
+          "updatedAt": "2026-06-20T03:47:18Z",
+          "isDependabot": true,
+          "isSecurityUpdate": false,
+          "autoMergeEnabled": false,
+          "mergeable": null,
+          "mergeableState": "unknown",
+          "isDraft": false,
+          "labels": [
+            "dependencies",
+            "javascript"
+          ],
+          "url": "https://github.com/kylifornication-code/ncaa-wrestling-bracket/pull/13",
+          "compatibilityDisplay": "42%",
+          "compatibilityMin": 42,
+          "compatibilityMax": 42
         }
       ],
       "ecosystems": [
@@ -170,12 +190,12 @@
       "language": "TypeScript",
       "alertCounts": {
         "critical": 0,
-        "high": 2,
-        "medium": 2,
+        "high": 5,
+        "medium": 4,
         "low": 2,
         "unknown": 0
       },
-      "totalAlerts": 6,
+      "totalAlerts": 11,
       "openPRs": 1,
       "prs": [
         {
@@ -194,15 +214,57 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/astro-career-walking-deck/pull/15",
-          "compatibilityDisplay": "42%",
-          "compatibilityMin": 42,
-          "compatibilityMax": 42
+          "compatibilityDisplay": "40%",
+          "compatibilityMin": 40,
+          "compatibilityMax": 40
         }
       ],
       "ecosystems": [
         "npm"
       ],
       "oldestAlert": "2026-04-21T22:25:08Z"
+    },
+    {
+      "repo": "kylifornication-code/lennys-podcast-recapper",
+      "name": "lennys-podcast-recapper",
+      "owner": "kylifornication-code",
+      "isPrivate": false,
+      "language": "Python",
+      "alertCounts": {
+        "critical": 0,
+        "high": 3,
+        "medium": 2,
+        "low": 1,
+        "unknown": 0
+      },
+      "totalAlerts": 6,
+      "openPRs": 1,
+      "prs": [
+        {
+          "number": 9,
+          "title": "Bump astro from 6.1.10 to 6.4.6",
+          "createdAt": "2026-06-20T05:55:42Z",
+          "updatedAt": "2026-06-20T05:55:43Z",
+          "isDependabot": true,
+          "isSecurityUpdate": false,
+          "autoMergeEnabled": false,
+          "mergeable": null,
+          "mergeableState": "unknown",
+          "isDraft": false,
+          "labels": [
+            "dependencies",
+            "javascript"
+          ],
+          "url": "https://github.com/kylifornication-code/lennys-podcast-recapper/pull/9",
+          "compatibilityDisplay": "78%",
+          "compatibilityMin": 78,
+          "compatibilityMax": 78
+        }
+      ],
+      "ecosystems": [
+        "npm"
+      ],
+      "oldestAlert": "2026-04-29T00:39:31Z"
     },
     {
       "repo": "Buffalo-Drinking-Game/buffalo-drinking-game",
@@ -212,12 +274,12 @@
       "language": "TypeScript",
       "alertCounts": {
         "critical": 0,
-        "high": 2,
-        "medium": 1,
+        "high": 3,
+        "medium": 2,
         "low": 1,
         "unknown": 0
       },
-      "totalAlerts": 4,
+      "totalAlerts": 6,
       "openPRs": 5,
       "prs": [
         {
@@ -296,9 +358,9 @@
             "javascript"
           ],
           "url": "https://github.com/Buffalo-Drinking-Game/buffalo-drinking-game/pull/34",
-          "compatibilityDisplay": "81%",
-          "compatibilityMin": 81,
-          "compatibilityMax": 81
+          "compatibilityDisplay": "83%",
+          "compatibilityMin": 83,
+          "compatibilityMax": 83
         },
         {
           "number": 35,
@@ -316,36 +378,15 @@
             "javascript"
           ],
           "url": "https://github.com/Buffalo-Drinking-Game/buffalo-drinking-game/pull/35",
-          "compatibilityDisplay": "86%",
-          "compatibilityMin": 86,
-          "compatibilityMax": 86
+          "compatibilityDisplay": "69%",
+          "compatibilityMin": 69,
+          "compatibilityMax": 69
         }
       ],
       "ecosystems": [
         "npm"
       ],
       "oldestAlert": "2026-05-11T20:05:43Z"
-    },
-    {
-      "repo": "kylifornication-code/lennys-podcast-recapper",
-      "name": "lennys-podcast-recapper",
-      "owner": "kylifornication-code",
-      "isPrivate": false,
-      "language": "Python",
-      "alertCounts": {
-        "critical": 0,
-        "high": 1,
-        "medium": 1,
-        "low": 1,
-        "unknown": 0
-      },
-      "totalAlerts": 3,
-      "openPRs": 0,
-      "prs": [],
-      "ecosystems": [
-        "npm"
-      ],
-      "oldestAlert": "2026-04-29T00:39:31Z"
     },
     {
       "repo": "kylifornication-code/ai-fluency-for-teams",
@@ -379,9 +420,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/ai-fluency-for-teams/pull/11",
-          "compatibilityDisplay": "77%",
-          "compatibilityMin": 77,
-          "compatibilityMax": 77
+          "compatibilityDisplay": "78%",
+          "compatibilityMin": 78,
+          "compatibilityMax": 78
         }
       ],
       "ecosystems": [
