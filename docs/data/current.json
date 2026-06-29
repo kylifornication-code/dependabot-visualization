@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-06-28T09:24:56.068Z",
+  "generatedAt": "2026-06-29T11:18:35.803Z",
   "summary": {
-    "totalAlerts": 70,
+    "totalAlerts": 75,
     "bySeverity": {
       "critical": 1,
       "high": 22,
-      "medium": 34,
+      "medium": 39,
       "low": 13,
       "unknown": 0
     },
     "byEcosystem": {
-      "npm": 70
+      "npm": 75
     },
-    "totalOpenPRs": 15,
+    "totalOpenPRs": 18,
     "reposAffected": 7,
-    "reposWithPRs": 6,
+    "reposWithPRs": 7,
     "reposScanned": 7
   },
   "repos": [
@@ -27,11 +27,11 @@
       "alertCounts": {
         "critical": 1,
         "high": 5,
-        "medium": 6,
+        "medium": 7,
         "low": 1,
         "unknown": 0
       },
-      "totalAlerts": 13,
+      "totalAlerts": 14,
       "openPRs": 3,
       "prs": [
         {
@@ -50,9 +50,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/thedrizzle/pull/20",
-          "compatibilityDisplay": "80%",
-          "compatibilityMin": 80,
-          "compatibilityMax": 80
+          "compatibilityDisplay": "81%",
+          "compatibilityMin": 81,
+          "compatibilityMax": 81
         },
         {
           "number": 21,
@@ -109,12 +109,12 @@
       "alertCounts": {
         "critical": 0,
         "high": 6,
-        "medium": 11,
+        "medium": 12,
         "low": 5,
         "unknown": 0
       },
-      "totalAlerts": 22,
-      "openPRs": 4,
+      "totalAlerts": 23,
+      "openPRs": 5,
       "prs": [
         {
           "number": 3,
@@ -172,9 +172,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/ncaa-wrestling-bracket/pull/12",
-          "compatibilityDisplay": "74%",
-          "compatibilityMin": 74,
-          "compatibilityMax": 74
+          "compatibilityDisplay": "73%",
+          "compatibilityMin": 73,
+          "compatibilityMax": 73
         },
         {
           "number": 13,
@@ -195,6 +195,26 @@
           "compatibilityDisplay": "39%",
           "compatibilityMin": 39,
           "compatibilityMax": 39
+        },
+        {
+          "number": 14,
+          "title": "Bump js-yaml from 4.1.1 to 4.3.0",
+          "createdAt": "2026-06-29T09:40:42Z",
+          "updatedAt": "2026-06-29T09:40:43Z",
+          "isDependabot": true,
+          "isSecurityUpdate": false,
+          "autoMergeEnabled": false,
+          "mergeable": null,
+          "mergeableState": "unknown",
+          "isDraft": false,
+          "labels": [
+            "dependencies",
+            "javascript"
+          ],
+          "url": "https://github.com/kylifornication-code/ncaa-wrestling-bracket/pull/14",
+          "compatibilityDisplay": "89%",
+          "compatibilityMin": 89,
+          "compatibilityMax": 89
         }
       ],
       "ecosystems": [
@@ -211,11 +231,11 @@
       "alertCounts": {
         "critical": 0,
         "high": 5,
-        "medium": 4,
+        "medium": 5,
         "low": 2,
         "unknown": 0
       },
-      "totalAlerts": 11,
+      "totalAlerts": 12,
       "openPRs": 1,
       "prs": [
         {
@@ -253,12 +273,12 @@
       "alertCounts": {
         "critical": 0,
         "high": 3,
-        "medium": 3,
+        "medium": 4,
         "low": 1,
         "unknown": 0
       },
-      "totalAlerts": 7,
-      "openPRs": 1,
+      "totalAlerts": 8,
+      "openPRs": 2,
       "prs": [
         {
           "number": 9,
@@ -276,9 +296,29 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/lennys-podcast-recapper/pull/9",
-          "compatibilityDisplay": "76%",
-          "compatibilityMin": 76,
-          "compatibilityMax": 76
+          "compatibilityDisplay": "77%",
+          "compatibilityMin": 77,
+          "compatibilityMax": 77
+        },
+        {
+          "number": 10,
+          "title": "Bump js-yaml from 4.1.1 to 4.3.0",
+          "createdAt": "2026-06-29T04:55:55Z",
+          "updatedAt": "2026-06-29T04:55:55Z",
+          "isDependabot": true,
+          "isSecurityUpdate": false,
+          "autoMergeEnabled": false,
+          "mergeable": null,
+          "mergeableState": "unknown",
+          "isDraft": false,
+          "labels": [
+            "dependencies",
+            "javascript"
+          ],
+          "url": "https://github.com/kylifornication-code/lennys-podcast-recapper/pull/10",
+          "compatibilityDisplay": "89%",
+          "compatibilityMin": 89,
+          "compatibilityMax": 89
         }
       ],
       "ecosystems": [
@@ -378,9 +418,9 @@
             "javascript"
           ],
           "url": "https://github.com/Buffalo-Drinking-Game/buffalo-drinking-game/pull/34",
-          "compatibilityDisplay": "84%",
-          "compatibilityMin": 84,
-          "compatibilityMax": 84
+          "compatibilityDisplay": "82%",
+          "compatibilityMin": 82,
+          "compatibilityMax": 82
         },
         {
           "number": 35,
@@ -398,9 +438,9 @@
             "javascript"
           ],
           "url": "https://github.com/Buffalo-Drinking-Game/buffalo-drinking-game/pull/35",
-          "compatibilityDisplay": "72%",
-          "compatibilityMin": 72,
-          "compatibilityMax": 72
+          "compatibilityDisplay": "73%",
+          "compatibilityMin": 73,
+          "compatibilityMax": 73
         }
       ],
       "ecosystems": [
@@ -440,9 +480,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/ai-fluency-for-teams/pull/11",
-          "compatibilityDisplay": "74%",
-          "compatibilityMin": 74,
-          "compatibilityMax": 74
+          "compatibilityDisplay": "75%",
+          "compatibilityMin": 75,
+          "compatibilityMax": 75
         }
       ],
       "ecosystems": [
@@ -459,13 +499,34 @@
       "alertCounts": {
         "critical": 0,
         "high": 0,
-        "medium": 1,
+        "medium": 2,
         "low": 0,
         "unknown": 0
       },
-      "totalAlerts": 1,
-      "openPRs": 0,
-      "prs": [],
+      "totalAlerts": 2,
+      "openPRs": 1,
+      "prs": [
+        {
+          "number": 2,
+          "title": "build(deps-dev): bump js-yaml from 4.1.1 to 4.3.0",
+          "createdAt": "2026-06-29T06:12:44Z",
+          "updatedAt": "2026-06-29T06:13:19Z",
+          "isDependabot": true,
+          "isSecurityUpdate": false,
+          "autoMergeEnabled": false,
+          "mergeable": null,
+          "mergeableState": "unknown",
+          "isDraft": false,
+          "labels": [
+            "dependencies",
+            "javascript"
+          ],
+          "url": "https://github.com/kylifornication-code/the-infosec-wheel/pull/2",
+          "compatibilityDisplay": "89%",
+          "compatibilityMin": 89,
+          "compatibilityMax": 89
+        }
+      ],
       "ecosystems": [
         "npm"
       ],
