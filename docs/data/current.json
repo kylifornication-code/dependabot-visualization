@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-06-29T11:18:35.803Z",
+  "generatedAt": "2026-06-30T09:55:33.624Z",
   "summary": {
     "totalAlerts": 75,
     "bySeverity": {
       "critical": 1,
-      "high": 22,
-      "medium": 39,
-      "low": 13,
+      "high": 23,
+      "medium": 34,
+      "low": 17,
       "unknown": 0
     },
     "byEcosystem": {
@@ -27,8 +27,8 @@
       "alertCounts": {
         "critical": 1,
         "high": 5,
-        "medium": 7,
-        "low": 1,
+        "medium": 6,
+        "low": 2,
         "unknown": 0
       },
       "totalAlerts": 14,
@@ -50,9 +50,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/thedrizzle/pull/20",
-          "compatibilityDisplay": "81%",
-          "compatibilityMin": 81,
-          "compatibilityMax": 81
+          "compatibilityDisplay": "82%",
+          "compatibilityMin": 82,
+          "compatibilityMax": 82
         },
         {
           "number": 21,
@@ -70,9 +70,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/thedrizzle/pull/21",
-          "compatibilityDisplay": "83%",
-          "compatibilityMin": 83,
-          "compatibilityMax": 83
+          "compatibilityDisplay": "84%",
+          "compatibilityMin": 84,
+          "compatibilityMax": 84
         },
         {
           "number": 22,
@@ -109,11 +109,11 @@
       "alertCounts": {
         "critical": 0,
         "high": 6,
-        "medium": 12,
+        "medium": 11,
         "low": 5,
         "unknown": 0
       },
-      "totalAlerts": 23,
+      "totalAlerts": 22,
       "openPRs": 5,
       "prs": [
         {
@@ -152,9 +152,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/ncaa-wrestling-bracket/pull/10",
-          "compatibilityDisplay": "82%",
-          "compatibilityMin": 82,
-          "compatibilityMax": 82
+          "compatibilityDisplay": "81%",
+          "compatibilityMin": 81,
+          "compatibilityMax": 81
         },
         {
           "number": 12,
@@ -230,12 +230,12 @@
       "language": "TypeScript",
       "alertCounts": {
         "critical": 0,
-        "high": 5,
-        "medium": 5,
-        "low": 2,
+        "high": 6,
+        "medium": 4,
+        "low": 3,
         "unknown": 0
       },
-      "totalAlerts": 12,
+      "totalAlerts": 13,
       "openPRs": 1,
       "prs": [
         {
@@ -265,68 +265,6 @@
       "oldestAlert": "2026-04-21T22:25:08Z"
     },
     {
-      "repo": "kylifornication-code/lennys-podcast-recapper",
-      "name": "lennys-podcast-recapper",
-      "owner": "kylifornication-code",
-      "isPrivate": false,
-      "language": "Python",
-      "alertCounts": {
-        "critical": 0,
-        "high": 3,
-        "medium": 4,
-        "low": 1,
-        "unknown": 0
-      },
-      "totalAlerts": 8,
-      "openPRs": 2,
-      "prs": [
-        {
-          "number": 9,
-          "title": "Bump astro from 6.1.10 to 6.4.6",
-          "createdAt": "2026-06-20T05:55:42Z",
-          "updatedAt": "2026-06-20T05:55:43Z",
-          "isDependabot": true,
-          "isSecurityUpdate": false,
-          "autoMergeEnabled": false,
-          "mergeable": null,
-          "mergeableState": "unknown",
-          "isDraft": false,
-          "labels": [
-            "dependencies",
-            "javascript"
-          ],
-          "url": "https://github.com/kylifornication-code/lennys-podcast-recapper/pull/9",
-          "compatibilityDisplay": "77%",
-          "compatibilityMin": 77,
-          "compatibilityMax": 77
-        },
-        {
-          "number": 10,
-          "title": "Bump js-yaml from 4.1.1 to 4.3.0",
-          "createdAt": "2026-06-29T04:55:55Z",
-          "updatedAt": "2026-06-29T04:55:55Z",
-          "isDependabot": true,
-          "isSecurityUpdate": false,
-          "autoMergeEnabled": false,
-          "mergeable": null,
-          "mergeableState": "unknown",
-          "isDraft": false,
-          "labels": [
-            "dependencies",
-            "javascript"
-          ],
-          "url": "https://github.com/kylifornication-code/lennys-podcast-recapper/pull/10",
-          "compatibilityDisplay": "89%",
-          "compatibilityMin": 89,
-          "compatibilityMax": 89
-        }
-      ],
-      "ecosystems": [
-        "npm"
-      ],
-      "oldestAlert": "2026-04-29T00:39:31Z"
-    },
-    {
       "repo": "Buffalo-Drinking-Game/buffalo-drinking-game",
       "name": "buffalo-drinking-game",
       "owner": "Buffalo-Drinking-Game",
@@ -336,10 +274,10 @@
         "critical": 0,
         "high": 3,
         "medium": 3,
-        "low": 1,
+        "low": 2,
         "unknown": 0
       },
-      "totalAlerts": 7,
+      "totalAlerts": 8,
       "openPRs": 5,
       "prs": [
         {
@@ -418,9 +356,9 @@
             "javascript"
           ],
           "url": "https://github.com/Buffalo-Drinking-Game/buffalo-drinking-game/pull/34",
-          "compatibilityDisplay": "82%",
-          "compatibilityMin": 82,
-          "compatibilityMax": 82
+          "compatibilityDisplay": "83%",
+          "compatibilityMin": 83,
+          "compatibilityMax": 83
         },
         {
           "number": 35,
@@ -438,15 +376,77 @@
             "javascript"
           ],
           "url": "https://github.com/Buffalo-Drinking-Game/buffalo-drinking-game/pull/35",
-          "compatibilityDisplay": "73%",
-          "compatibilityMin": 73,
-          "compatibilityMax": 73
+          "compatibilityDisplay": "71%",
+          "compatibilityMin": 71,
+          "compatibilityMax": 71
         }
       ],
       "ecosystems": [
         "npm"
       ],
       "oldestAlert": "2026-05-11T20:05:43Z"
+    },
+    {
+      "repo": "kylifornication-code/lennys-podcast-recapper",
+      "name": "lennys-podcast-recapper",
+      "owner": "kylifornication-code",
+      "isPrivate": false,
+      "language": "Python",
+      "alertCounts": {
+        "critical": 0,
+        "high": 3,
+        "medium": 3,
+        "low": 1,
+        "unknown": 0
+      },
+      "totalAlerts": 7,
+      "openPRs": 2,
+      "prs": [
+        {
+          "number": 9,
+          "title": "Bump astro from 6.1.10 to 6.4.6",
+          "createdAt": "2026-06-20T05:55:42Z",
+          "updatedAt": "2026-06-20T05:55:43Z",
+          "isDependabot": true,
+          "isSecurityUpdate": false,
+          "autoMergeEnabled": false,
+          "mergeable": null,
+          "mergeableState": "unknown",
+          "isDraft": false,
+          "labels": [
+            "dependencies",
+            "javascript"
+          ],
+          "url": "https://github.com/kylifornication-code/lennys-podcast-recapper/pull/9",
+          "compatibilityDisplay": "76%",
+          "compatibilityMin": 76,
+          "compatibilityMax": 76
+        },
+        {
+          "number": 10,
+          "title": "Bump js-yaml from 4.1.1 to 4.3.0",
+          "createdAt": "2026-06-29T04:55:55Z",
+          "updatedAt": "2026-06-29T04:55:55Z",
+          "isDependabot": true,
+          "isSecurityUpdate": false,
+          "autoMergeEnabled": false,
+          "mergeable": null,
+          "mergeableState": "unknown",
+          "isDraft": false,
+          "labels": [
+            "dependencies",
+            "javascript"
+          ],
+          "url": "https://github.com/kylifornication-code/lennys-podcast-recapper/pull/10",
+          "compatibilityDisplay": "89%",
+          "compatibilityMin": 89,
+          "compatibilityMax": 89
+        }
+      ],
+      "ecosystems": [
+        "npm"
+      ],
+      "oldestAlert": "2026-04-29T00:39:31Z"
     },
     {
       "repo": "kylifornication-code/ai-fluency-for-teams",
@@ -480,9 +480,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/ai-fluency-for-teams/pull/11",
-          "compatibilityDisplay": "75%",
-          "compatibilityMin": 75,
-          "compatibilityMax": 75
+          "compatibilityDisplay": "72%",
+          "compatibilityMin": 72,
+          "compatibilityMax": 72
         }
       ],
       "ecosystems": [
@@ -499,8 +499,8 @@
       "alertCounts": {
         "critical": 0,
         "high": 0,
-        "medium": 2,
-        "low": 0,
+        "medium": 1,
+        "low": 1,
         "unknown": 0
       },
       "totalAlerts": 2,
