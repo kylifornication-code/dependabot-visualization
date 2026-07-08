@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-07T09:56:37.717Z",
+  "generatedAt": "2026-07-08T08:40:44.454Z",
   "summary": {
     "totalAlerts": 81,
     "bySeverity": {
@@ -212,9 +212,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/ncaa-wrestling-bracket/pull/13",
-          "compatibilityDisplay": "40%",
-          "compatibilityMin": 40,
-          "compatibilityMax": 40
+          "compatibilityDisplay": "41%",
+          "compatibilityMin": 41,
+          "compatibilityMax": 41
         },
         {
           "number": 14,
@@ -232,9 +232,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/ncaa-wrestling-bracket/pull/14",
-          "compatibilityDisplay": "88%",
-          "compatibilityMin": 88,
-          "compatibilityMax": 88
+          "compatibilityDisplay": "89%",
+          "compatibilityMin": 89,
+          "compatibilityMax": 89
         },
         {
           "number": 15,
@@ -294,9 +294,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/astro-career-walking-deck/pull/15",
-          "compatibilityDisplay": "40%",
-          "compatibilityMin": 40,
-          "compatibilityMax": 40
+          "compatibilityDisplay": "39%",
+          "compatibilityMin": 39,
+          "compatibilityMax": 39
         }
       ],
       "ecosystems": [
@@ -416,9 +416,9 @@
             "javascript"
           ],
           "url": "https://github.com/Buffalo-Drinking-Game/buffalo-drinking-game/pull/35",
-          "compatibilityDisplay": "71%",
-          "compatibilityMin": 71,
-          "compatibilityMax": 71
+          "compatibilityDisplay": "73%",
+          "compatibilityMin": 73,
+          "compatibilityMax": 73
         }
       ],
       "ecosystems": [
@@ -478,9 +478,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/lennys-podcast-recapper/pull/10",
-          "compatibilityDisplay": "88%",
-          "compatibilityMin": 88,
-          "compatibilityMax": 88
+          "compatibilityDisplay": "89%",
+          "compatibilityMin": 89,
+          "compatibilityMax": 89
         }
       ],
       "ecosystems": [
@@ -520,9 +520,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/ai-fluency-for-teams/pull/11",
-          "compatibilityDisplay": "71%",
-          "compatibilityMin": 71,
-          "compatibilityMax": 71
+          "compatibilityDisplay": "72%",
+          "compatibilityMin": 72,
+          "compatibilityMax": 72
         }
       ],
       "ecosystems": [
@@ -562,9 +562,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/the-infosec-wheel/pull/2",
-          "compatibilityDisplay": "88%",
-          "compatibilityMin": 88,
-          "compatibilityMax": 88
+          "compatibilityDisplay": "89%",
+          "compatibilityMin": 89,
+          "compatibilityMax": 89
         }
       ],
       "ecosystems": [
