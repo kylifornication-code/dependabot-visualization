@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-07-16T08:26:03.345Z",
+  "generatedAt": "2026-07-17T08:22:20.237Z",
   "summary": {
-    "totalAlerts": 87,
+    "totalAlerts": 89,
     "bySeverity": {
-      "critical": 1,
+      "critical": 2,
       "high": 24,
-      "medium": 44,
+      "medium": 45,
       "low": 18,
       "unknown": 0
     },
     "byEcosystem": {
-      "npm": 87
+      "npm": 89
     },
-    "totalOpenPRs": 21,
+    "totalOpenPRs": 22,
     "reposAffected": 7,
     "reposWithPRs": 7,
     "reposScanned": 7
@@ -25,14 +25,14 @@
       "isPrivate": false,
       "language": "TypeScript",
       "alertCounts": {
-        "critical": 1,
+        "critical": 2,
         "high": 5,
-        "medium": 10,
+        "medium": 11,
         "low": 2,
         "unknown": 0
       },
-      "totalAlerts": 18,
-      "openPRs": 4,
+      "totalAlerts": 20,
+      "openPRs": 5,
       "prs": [
         {
           "number": 20,
@@ -110,9 +110,29 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/thedrizzle/pull/23",
-          "compatibilityDisplay": "86%",
-          "compatibilityMin": 86,
-          "compatibilityMax": 86
+          "compatibilityDisplay": "84%",
+          "compatibilityMin": 84,
+          "compatibilityMax": 84
+        },
+        {
+          "number": 24,
+          "title": "Bump websocket-driver from 0.7.4 to 0.7.5",
+          "createdAt": "2026-07-16T21:19:52Z",
+          "updatedAt": "2026-07-16T21:19:53Z",
+          "isDependabot": true,
+          "isSecurityUpdate": false,
+          "autoMergeEnabled": false,
+          "mergeable": null,
+          "mergeableState": "unknown",
+          "isDraft": false,
+          "labels": [
+            "dependencies",
+            "javascript"
+          ],
+          "url": "https://github.com/kylifornication-code/thedrizzle/pull/24",
+          "compatibilityDisplay": "83%",
+          "compatibilityMin": 83,
+          "compatibilityMax": 83
         }
       ],
       "ecosystems": [
@@ -172,9 +192,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/ncaa-wrestling-bracket/pull/10",
-          "compatibilityDisplay": "83%",
-          "compatibilityMin": 83,
-          "compatibilityMax": 83
+          "compatibilityDisplay": "84%",
+          "compatibilityMin": 84,
+          "compatibilityMax": 84
         },
         {
           "number": 12,
@@ -212,9 +232,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/ncaa-wrestling-bracket/pull/13",
-          "compatibilityDisplay": "37%",
-          "compatibilityMin": 37,
-          "compatibilityMax": 37
+          "compatibilityDisplay": "38%",
+          "compatibilityMin": 38,
+          "compatibilityMax": 38
         },
         {
           "number": 14,
@@ -252,9 +272,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/ncaa-wrestling-bracket/pull/15",
-          "compatibilityDisplay": "80%",
-          "compatibilityMin": 80,
-          "compatibilityMax": 80
+          "compatibilityDisplay": "81%",
+          "compatibilityMin": 81,
+          "compatibilityMax": 81
         }
       ],
       "ecosystems": [
@@ -294,9 +314,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/astro-career-walking-deck/pull/15",
-          "compatibilityDisplay": "37%",
-          "compatibilityMin": 37,
-          "compatibilityMax": 37
+          "compatibilityDisplay": "38%",
+          "compatibilityMin": 38,
+          "compatibilityMax": 38
         }
       ],
       "ecosystems": [
@@ -396,9 +416,9 @@
             "javascript"
           ],
           "url": "https://github.com/Buffalo-Drinking-Game/buffalo-drinking-game/pull/34",
-          "compatibilityDisplay": "84%",
-          "compatibilityMin": 84,
-          "compatibilityMax": 84
+          "compatibilityDisplay": "85%",
+          "compatibilityMin": 85,
+          "compatibilityMax": 85
         },
         {
           "number": 35,
@@ -416,9 +436,9 @@
             "javascript"
           ],
           "url": "https://github.com/Buffalo-Drinking-Game/buffalo-drinking-game/pull/35",
-          "compatibilityDisplay": "74%",
-          "compatibilityMin": 74,
-          "compatibilityMax": 74
+          "compatibilityDisplay": "71%",
+          "compatibilityMin": 71,
+          "compatibilityMax": 71
         }
       ],
       "ecosystems": [
