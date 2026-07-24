@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-07-23T08:41:40.161Z",
+  "generatedAt": "2026-07-24T08:37:37.226Z",
   "summary": {
-    "totalAlerts": 130,
+    "totalAlerts": 135,
     "bySeverity": {
       "critical": 2,
-      "high": 37,
+      "high": 42,
       "medium": 65,
       "low": 26,
       "unknown": 0
     },
     "byEcosystem": {
-      "npm": 117,
+      "npm": 122,
       "pip": 13
     },
-    "totalOpenPRs": 25,
+    "totalOpenPRs": 27,
     "reposAffected": 8,
     "reposWithPRs": 8,
     "reposScanned": 8
@@ -27,12 +27,12 @@
       "language": "TypeScript",
       "alertCounts": {
         "critical": 2,
-        "high": 5,
+        "high": 6,
         "medium": 11,
         "low": 2,
         "unknown": 0
       },
-      "totalAlerts": 20,
+      "totalAlerts": 21,
       "openPRs": 5,
       "prs": [
         {
@@ -51,9 +51,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/thedrizzle/pull/20",
-          "compatibilityDisplay": "80%",
-          "compatibilityMin": 80,
-          "compatibilityMax": 80
+          "compatibilityDisplay": "81%",
+          "compatibilityMin": 81,
+          "compatibilityMax": 81
         },
         {
           "number": 21,
@@ -111,9 +111,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/thedrizzle/pull/23",
-          "compatibilityDisplay": "83%",
-          "compatibilityMin": 83,
-          "compatibilityMax": 83
+          "compatibilityDisplay": "86%",
+          "compatibilityMin": 86,
+          "compatibilityMax": 86
         },
         {
           "number": 24,
@@ -131,9 +131,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/thedrizzle/pull/24",
-          "compatibilityDisplay": "86%",
-          "compatibilityMin": 86,
-          "compatibilityMax": 86
+          "compatibilityDisplay": "84%",
+          "compatibilityMin": 84,
+          "compatibilityMax": 84
         }
       ],
       "ecosystems": [
@@ -173,9 +173,9 @@
             "python"
           ],
           "url": "https://github.com/kylifornication-code/training-requests/pull/6",
-          "compatibilityDisplay": "84%",
-          "compatibilityMin": 84,
-          "compatibilityMax": 84
+          "compatibilityDisplay": "85%",
+          "compatibilityMin": 85,
+          "compatibilityMax": 85
         }
       ],
       "ecosystems": [
@@ -191,13 +191,13 @@
       "language": "JavaScript",
       "alertCounts": {
         "critical": 0,
-        "high": 7,
+        "high": 8,
         "medium": 17,
         "low": 7,
         "unknown": 0
       },
-      "totalAlerts": 31,
-      "openPRs": 6,
+      "totalAlerts": 32,
+      "openPRs": 7,
       "prs": [
         {
           "number": 3,
@@ -235,9 +235,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/ncaa-wrestling-bracket/pull/10",
-          "compatibilityDisplay": "83%",
-          "compatibilityMin": 83,
-          "compatibilityMax": 83
+          "compatibilityDisplay": "84%",
+          "compatibilityMin": 84,
+          "compatibilityMax": 84
         },
         {
           "number": 12,
@@ -295,9 +295,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/ncaa-wrestling-bracket/pull/15",
-          "compatibilityDisplay": "80%",
-          "compatibilityMin": 80,
-          "compatibilityMax": 80
+          "compatibilityDisplay": "82%",
+          "compatibilityMin": 82,
+          "compatibilityMax": 82
         },
         {
           "number": 16,
@@ -315,9 +315,29 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/ncaa-wrestling-bracket/pull/16",
-          "compatibilityDisplay": "39%",
-          "compatibilityMin": 39,
-          "compatibilityMax": 39
+          "compatibilityDisplay": "36%",
+          "compatibilityMin": 36,
+          "compatibilityMax": 36
+        },
+        {
+          "number": 17,
+          "title": "Bump svgo from 4.0.1 to 4.0.2",
+          "createdAt": "2026-07-24T02:16:18Z",
+          "updatedAt": "2026-07-24T02:16:19Z",
+          "isDependabot": true,
+          "isSecurityUpdate": false,
+          "autoMergeEnabled": false,
+          "mergeable": null,
+          "mergeableState": "unknown",
+          "isDraft": false,
+          "labels": [
+            "dependencies",
+            "javascript"
+          ],
+          "url": "https://github.com/kylifornication-code/ncaa-wrestling-bracket/pull/17",
+          "compatibilityDisplay": "84%",
+          "compatibilityMin": 84,
+          "compatibilityMax": 84
         }
       ],
       "ecosystems": [
@@ -333,12 +353,12 @@
       "language": "TypeScript",
       "alertCounts": {
         "critical": 0,
-        "high": 6,
+        "high": 7,
         "medium": 10,
         "low": 5,
         "unknown": 0
       },
-      "totalAlerts": 21,
+      "totalAlerts": 22,
       "openPRs": 1,
       "prs": [
         {
@@ -357,9 +377,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/astro-career-walking-deck/pull/15",
-          "compatibilityDisplay": "38%",
-          "compatibilityMin": 38,
-          "compatibilityMax": 38
+          "compatibilityDisplay": "39%",
+          "compatibilityMin": 39,
+          "compatibilityMax": 39
         }
       ],
       "ecosystems": [
@@ -375,13 +395,13 @@
       "language": "Python",
       "alertCounts": {
         "critical": 0,
-        "high": 4,
+        "high": 5,
         "medium": 8,
         "low": 3,
         "unknown": 0
       },
-      "totalAlerts": 15,
-      "openPRs": 4,
+      "totalAlerts": 16,
+      "openPRs": 5,
       "prs": [
         {
           "number": 10,
@@ -439,9 +459,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/lennys-podcast-recapper/pull/12",
-          "compatibilityDisplay": "70%",
-          "compatibilityMin": 70,
-          "compatibilityMax": 70
+          "compatibilityDisplay": "68%",
+          "compatibilityMin": 68,
+          "compatibilityMax": 68
         },
         {
           "number": 13,
@@ -459,9 +479,29 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/lennys-podcast-recapper/pull/13",
-          "compatibilityDisplay": "74%",
-          "compatibilityMin": 74,
-          "compatibilityMax": 74
+          "compatibilityDisplay": "75%",
+          "compatibilityMin": 75,
+          "compatibilityMax": 75
+        },
+        {
+          "number": 14,
+          "title": "Bump svgo from 4.0.1 to 4.0.2",
+          "createdAt": "2026-07-24T05:01:39Z",
+          "updatedAt": "2026-07-24T05:01:39Z",
+          "isDependabot": true,
+          "isSecurityUpdate": false,
+          "autoMergeEnabled": false,
+          "mergeable": null,
+          "mergeableState": "unknown",
+          "isDraft": false,
+          "labels": [
+            "dependencies",
+            "javascript"
+          ],
+          "url": "https://github.com/kylifornication-code/lennys-podcast-recapper/pull/14",
+          "compatibilityDisplay": "84%",
+          "compatibilityMin": 84,
+          "compatibilityMax": 84
         }
       ],
       "ecosystems": [
@@ -477,12 +517,12 @@
       "language": "TypeScript",
       "alertCounts": {
         "critical": 0,
-        "high": 3,
+        "high": 4,
         "medium": 7,
         "low": 4,
         "unknown": 0
       },
-      "totalAlerts": 14,
+      "totalAlerts": 15,
       "openPRs": 5,
       "prs": [
         {
@@ -561,9 +601,9 @@
             "javascript"
           ],
           "url": "https://github.com/Buffalo-Drinking-Game/buffalo-drinking-game/pull/34",
-          "compatibilityDisplay": "85%",
-          "compatibilityMin": 85,
-          "compatibilityMax": 85
+          "compatibilityDisplay": "84%",
+          "compatibilityMin": 84,
+          "compatibilityMax": 84
         },
         {
           "number": 35,
@@ -581,9 +621,9 @@
             "javascript"
           ],
           "url": "https://github.com/Buffalo-Drinking-Game/buffalo-drinking-game/pull/35",
-          "compatibilityDisplay": "73%",
-          "compatibilityMin": 73,
-          "compatibilityMax": 73
+          "compatibilityDisplay": "76%",
+          "compatibilityMin": 76,
+          "compatibilityMax": 76
         }
       ],
       "ecosystems": [
