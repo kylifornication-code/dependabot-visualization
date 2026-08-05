@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-08-04T08:50:09.077Z",
+  "generatedAt": "2026-08-05T08:47:29.542Z",
   "summary": {
-    "totalAlerts": 205,
+    "totalAlerts": 206,
     "bySeverity": {
       "critical": 2,
-      "high": 91,
+      "high": 92,
       "medium": 83,
       "low": 29,
       "unknown": 0
     },
     "byEcosystem": {
-      "npm": 192,
+      "npm": 193,
       "pip": 13
     },
     "totalOpenPRs": 33,
@@ -27,12 +27,12 @@
       "language": "TypeScript",
       "alertCounts": {
         "critical": 2,
-        "high": 13,
+        "high": 14,
         "medium": 13,
         "low": 3,
         "unknown": 0
       },
-      "totalAlerts": 31,
+      "totalAlerts": 32,
       "openPRs": 8,
       "prs": [
         {
@@ -91,29 +91,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/thedrizzle/pull/24",
-          "compatibilityDisplay": "83%",
-          "compatibilityMin": 83,
-          "compatibilityMax": 83
-        },
-        {
-          "number": 25,
-          "title": "Bump fast-uri from 3.1.0 to 3.1.4",
-          "createdAt": "2026-07-25T02:52:57Z",
-          "updatedAt": "2026-07-25T02:52:58Z",
-          "isDependabot": true,
-          "isSecurityUpdate": false,
-          "autoMergeEnabled": false,
-          "mergeable": null,
-          "mergeableState": "unknown",
-          "isDraft": false,
-          "labels": [
-            "dependencies",
-            "javascript"
-          ],
-          "url": "https://github.com/kylifornication-code/thedrizzle/pull/25",
-          "compatibilityDisplay": "76%",
-          "compatibilityMin": 76,
-          "compatibilityMax": 76
+          "compatibilityDisplay": "85%",
+          "compatibilityMin": 85,
+          "compatibilityMax": 85
         },
         {
           "number": 26,
@@ -151,9 +131,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/thedrizzle/pull/27",
-          "compatibilityDisplay": "80%",
-          "compatibilityMin": 80,
-          "compatibilityMax": 80
+          "compatibilityDisplay": "74%",
+          "compatibilityMin": 74,
+          "compatibilityMax": 74
         },
         {
           "number": 28,
@@ -191,9 +171,29 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/thedrizzle/pull/29",
-          "compatibilityDisplay": "81%",
-          "compatibilityMin": 81,
-          "compatibilityMax": 81
+          "compatibilityDisplay": "80%",
+          "compatibilityMin": 80,
+          "compatibilityMax": 80
+        },
+        {
+          "number": 30,
+          "title": "Bump fast-uri from 3.1.0 to 3.1.5",
+          "createdAt": "2026-08-05T06:38:54Z",
+          "updatedAt": "2026-08-05T06:38:54Z",
+          "isDependabot": true,
+          "isSecurityUpdate": false,
+          "autoMergeEnabled": false,
+          "mergeable": null,
+          "mergeableState": "unknown",
+          "isDraft": false,
+          "labels": [
+            "dependencies",
+            "javascript"
+          ],
+          "url": "https://github.com/kylifornication-code/thedrizzle/pull/30",
+          "compatibilityDisplay": "71%",
+          "compatibilityMin": 71,
+          "compatibilityMax": 71
         }
       ],
       "ecosystems": [
@@ -253,9 +253,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/ai-fluency-for-teams/pull/13",
-          "compatibilityDisplay": "80%",
-          "compatibilityMin": 80,
-          "compatibilityMax": 80
+          "compatibilityDisplay": "77%",
+          "compatibilityMin": 77,
+          "compatibilityMax": 77
         },
         {
           "number": 14,
@@ -273,9 +273,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/ai-fluency-for-teams/pull/14",
-          "compatibilityDisplay": "78%",
-          "compatibilityMin": 78,
-          "compatibilityMax": 78
+          "compatibilityDisplay": "79%",
+          "compatibilityMin": 79,
+          "compatibilityMax": 79
         }
       ],
       "ecosystems": [
@@ -335,9 +335,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/the-infosec-wheel/pull/3",
-          "compatibilityDisplay": "78%",
-          "compatibilityMin": 78,
-          "compatibilityMax": 78
+          "compatibilityDisplay": "79%",
+          "compatibilityMin": 79,
+          "compatibilityMax": 79
         }
       ],
       "ecosystems": [
@@ -417,9 +417,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/ncaa-wrestling-bracket/pull/15",
-          "compatibilityDisplay": "83%",
-          "compatibilityMin": 83,
-          "compatibilityMax": 83
+          "compatibilityDisplay": "82%",
+          "compatibilityMin": 82,
+          "compatibilityMax": 82
         },
         {
           "number": 17,
@@ -437,9 +437,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/ncaa-wrestling-bracket/pull/17",
-          "compatibilityDisplay": "82%",
-          "compatibilityMin": 82,
-          "compatibilityMax": 82
+          "compatibilityDisplay": "83%",
+          "compatibilityMin": 83,
+          "compatibilityMax": 83
         },
         {
           "number": 18,
@@ -457,9 +457,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/ncaa-wrestling-bracket/pull/18",
-          "compatibilityDisplay": "72%",
-          "compatibilityMin": 72,
-          "compatibilityMax": 72
+          "compatibilityDisplay": "71%",
+          "compatibilityMin": 71,
+          "compatibilityMax": 71
         },
         {
           "number": 19,
@@ -497,9 +497,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/ncaa-wrestling-bracket/pull/20",
-          "compatibilityDisplay": "82%",
-          "compatibilityMin": 82,
-          "compatibilityMax": 82
+          "compatibilityDisplay": "81%",
+          "compatibilityMin": 81,
+          "compatibilityMax": 81
         }
       ],
       "ecosystems": [
@@ -539,9 +539,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/astro-career-walking-deck/pull/15",
-          "compatibilityDisplay": "35%",
-          "compatibilityMin": 35,
-          "compatibilityMax": 35
+          "compatibilityDisplay": "37%",
+          "compatibilityMin": 37,
+          "compatibilityMax": 37
         }
       ],
       "ecosystems": [
@@ -663,9 +663,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/lennys-podcast-recapper/pull/13",
-          "compatibilityDisplay": "84%",
-          "compatibilityMin": 84,
-          "compatibilityMax": 84
+          "compatibilityDisplay": "87%",
+          "compatibilityMin": 87,
+          "compatibilityMax": 87
         },
         {
           "number": 14,
@@ -683,9 +683,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/lennys-podcast-recapper/pull/14",
-          "compatibilityDisplay": "82%",
-          "compatibilityMin": 82,
-          "compatibilityMax": 82
+          "compatibilityDisplay": "83%",
+          "compatibilityMin": 83,
+          "compatibilityMax": 83
         },
         {
           "number": 15,
@@ -723,9 +723,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/lennys-podcast-recapper/pull/16",
-          "compatibilityDisplay": "82%",
-          "compatibilityMin": 82,
-          "compatibilityMax": 82
+          "compatibilityDisplay": "81%",
+          "compatibilityMin": 81,
+          "compatibilityMax": 81
         }
       ],
       "ecosystems": [
@@ -845,9 +845,9 @@
             "javascript"
           ],
           "url": "https://github.com/Buffalo-Drinking-Game/buffalo-drinking-game/pull/35",
-          "compatibilityDisplay": "76%",
-          "compatibilityMin": 76,
-          "compatibilityMax": 76
+          "compatibilityDisplay": "78%",
+          "compatibilityMin": 78,
+          "compatibilityMax": 78
         }
       ],
       "ecosystems": [
