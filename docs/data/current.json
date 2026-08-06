@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T08:47:29.542Z",
+  "generatedAt": "2026-08-06T08:49:12.071Z",
   "summary": {
     "totalAlerts": 206,
     "bySeverity": {
@@ -51,9 +51,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/thedrizzle/pull/21",
-          "compatibilityDisplay": "81%",
-          "compatibilityMin": 81,
-          "compatibilityMax": 81
+          "compatibilityDisplay": "80%",
+          "compatibilityMin": 80,
+          "compatibilityMax": 80
         },
         {
           "number": 22,
@@ -111,9 +111,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/thedrizzle/pull/26",
-          "compatibilityDisplay": "76%",
-          "compatibilityMin": 76,
-          "compatibilityMax": 76
+          "compatibilityDisplay": "75%",
+          "compatibilityMin": 75,
+          "compatibilityMax": 75
         },
         {
           "number": 27,
@@ -131,9 +131,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/thedrizzle/pull/27",
-          "compatibilityDisplay": "74%",
-          "compatibilityMin": 74,
-          "compatibilityMax": 74
+          "compatibilityDisplay": "77%",
+          "compatibilityMin": 77,
+          "compatibilityMax": 77
         },
         {
           "number": 28,
@@ -151,9 +151,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/thedrizzle/pull/28",
-          "compatibilityDisplay": "86%",
-          "compatibilityMin": 86,
-          "compatibilityMax": 86
+          "compatibilityDisplay": "85%",
+          "compatibilityMin": 85,
+          "compatibilityMax": 85
         },
         {
           "number": 29,
@@ -171,9 +171,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/thedrizzle/pull/29",
-          "compatibilityDisplay": "80%",
-          "compatibilityMin": 80,
-          "compatibilityMax": 80
+          "compatibilityDisplay": "81%",
+          "compatibilityMin": 81,
+          "compatibilityMax": 81
         },
         {
           "number": 30,
@@ -253,9 +253,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/ai-fluency-for-teams/pull/13",
-          "compatibilityDisplay": "77%",
-          "compatibilityMin": 77,
-          "compatibilityMax": 77
+          "compatibilityDisplay": "78%",
+          "compatibilityMin": 78,
+          "compatibilityMax": 78
         },
         {
           "number": 14,
@@ -273,9 +273,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/ai-fluency-for-teams/pull/14",
-          "compatibilityDisplay": "79%",
-          "compatibilityMin": 79,
-          "compatibilityMax": 79
+          "compatibilityDisplay": "77%",
+          "compatibilityMin": 77,
+          "compatibilityMax": 77
         }
       ],
       "ecosystems": [
@@ -335,9 +335,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/the-infosec-wheel/pull/3",
-          "compatibilityDisplay": "79%",
-          "compatibilityMin": 79,
-          "compatibilityMax": 79
+          "compatibilityDisplay": "77%",
+          "compatibilityMin": 77,
+          "compatibilityMax": 77
         }
       ],
       "ecosystems": [
@@ -581,9 +581,9 @@
             "python"
           ],
           "url": "https://github.com/kylifornication-code/training-requests/pull/6",
-          "compatibilityDisplay": "87%",
-          "compatibilityMin": 87,
-          "compatibilityMax": 87
+          "compatibilityDisplay": "86%",
+          "compatibilityMin": 86,
+          "compatibilityMax": 86
         }
       ],
       "ecosystems": [
@@ -663,9 +663,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/lennys-podcast-recapper/pull/13",
-          "compatibilityDisplay": "87%",
-          "compatibilityMin": 87,
-          "compatibilityMax": 87
+          "compatibilityDisplay": "84%",
+          "compatibilityMin": 84,
+          "compatibilityMax": 84
         },
         {
           "number": 14,
@@ -845,9 +845,9 @@
             "javascript"
           ],
           "url": "https://github.com/Buffalo-Drinking-Game/buffalo-drinking-game/pull/35",
-          "compatibilityDisplay": "78%",
-          "compatibilityMin": 78,
-          "compatibilityMax": 78
+          "compatibilityDisplay": "82%",
+          "compatibilityMin": 82,
+          "compatibilityMax": 82
         }
       ],
       "ecosystems": [
