@@ -1,14 +1,14 @@
 {
   "date": "2026-08-07",
-  "generatedAt": "2026-08-07T07:35:52.945Z",
-  "totalAlerts": 154,
+  "generatedAt": "2026-08-07T15:33:38.057Z",
+  "totalAlerts": 127,
   "bySeverity": {
     "critical": 0,
-    "high": 68,
-    "medium": 61,
-    "low": 25,
+    "high": 55,
+    "medium": 51,
+    "low": 21,
     "unknown": 0
   },
-  "totalOpenPRs": 23,
+  "totalOpenPRs": 17,
   "reposAffected": 7
 }
