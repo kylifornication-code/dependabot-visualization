@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-08-07T06:44:32.301Z",
+  "generatedAt": "2026-08-07T07:35:52.945Z",
   "summary": {
-    "totalAlerts": 170,
+    "totalAlerts": 154,
     "bySeverity": {
       "critical": 0,
-      "high": 76,
-      "medium": 69,
+      "high": 68,
+      "medium": 61,
       "low": 25,
       "unknown": 0
     },
     "byEcosystem": {
-      "npm": 170
+      "npm": 154
     },
-    "totalOpenPRs": 21,
+    "totalOpenPRs": 23,
     "reposAffected": 7,
     "reposWithPRs": 7,
     "reposScanned": 7
@@ -161,150 +161,6 @@
       "oldestAlert": "2026-03-03T01:38:53Z"
     },
     {
-      "repo": "kylifornication-code/ai-fluency-for-teams",
-      "name": "ai-fluency-for-teams",
-      "owner": "kylifornication-code",
-      "isPrivate": false,
-      "language": "TypeScript",
-      "alertCounts": {
-        "critical": 0,
-        "high": 14,
-        "medium": 16,
-        "low": 5,
-        "unknown": 0
-      },
-      "totalAlerts": 35,
-      "openPRs": 3,
-      "prs": [
-        {
-          "number": 12,
-          "title": "Bump js-yaml from 4.1.1 to 4.3.0",
-          "createdAt": "2026-07-10T08:32:10Z",
-          "updatedAt": "2026-08-07T05:50:47Z",
-          "isDependabot": true,
-          "isSecurityUpdate": false,
-          "autoMergeEnabled": false,
-          "mergeable": null,
-          "mergeableState": "unknown",
-          "isDraft": false,
-          "labels": [
-            "dependencies",
-            "javascript"
-          ],
-          "url": "https://github.com/kylifornication-code/ai-fluency-for-teams/pull/12",
-          "compatibilityDisplay": "90%",
-          "compatibilityMin": 90,
-          "compatibilityMax": 90
-        },
-        {
-          "number": 13,
-          "title": "Bump dompurify from 3.4.1 to 3.4.12",
-          "createdAt": "2026-07-24T18:39:16Z",
-          "updatedAt": "2026-07-24T18:39:59Z",
-          "isDependabot": true,
-          "isSecurityUpdate": false,
-          "autoMergeEnabled": false,
-          "mergeable": null,
-          "mergeableState": "unknown",
-          "isDraft": false,
-          "labels": [
-            "dependencies",
-            "javascript"
-          ],
-          "url": "https://github.com/kylifornication-code/ai-fluency-for-teams/pull/13",
-          "compatibilityDisplay": "78%",
-          "compatibilityMin": 78,
-          "compatibilityMax": 78
-        },
-        {
-          "number": 15,
-          "title": "Bump postcss and next",
-          "createdAt": "2026-08-06T23:58:35Z",
-          "updatedAt": "2026-08-07T05:31:03Z",
-          "isDependabot": true,
-          "isSecurityUpdate": false,
-          "autoMergeEnabled": false,
-          "mergeable": null,
-          "mergeableState": "unknown",
-          "isDraft": false,
-          "labels": [
-            "dependencies",
-            "javascript"
-          ],
-          "url": "https://github.com/kylifornication-code/ai-fluency-for-teams/pull/15",
-          "compatibilityDisplay": null,
-          "compatibilityMin": null,
-          "compatibilityMax": null
-        }
-      ],
-      "ecosystems": [
-        "npm"
-      ],
-      "oldestAlert": "2026-05-12T19:55:15Z"
-    },
-    {
-      "repo": "kylifornication-code/the-infosec-wheel",
-      "name": "the-infosec-wheel",
-      "owner": "kylifornication-code",
-      "isPrivate": false,
-      "language": "TypeScript",
-      "alertCounts": {
-        "critical": 0,
-        "high": 14,
-        "medium": 11,
-        "low": 1,
-        "unknown": 0
-      },
-      "totalAlerts": 26,
-      "openPRs": 2,
-      "prs": [
-        {
-          "number": 2,
-          "title": "build(deps-dev): bump js-yaml from 4.1.1 to 4.3.0",
-          "createdAt": "2026-06-29T06:12:44Z",
-          "updatedAt": "2026-08-07T05:51:43Z",
-          "isDependabot": true,
-          "isSecurityUpdate": false,
-          "autoMergeEnabled": false,
-          "mergeable": null,
-          "mergeableState": "unknown",
-          "isDraft": false,
-          "labels": [
-            "dependencies",
-            "javascript"
-          ],
-          "url": "https://github.com/kylifornication-code/the-infosec-wheel/pull/2",
-          "compatibilityDisplay": "90%",
-          "compatibilityMin": 90,
-          "compatibilityMax": 90
-        },
-        {
-          "number": 3,
-          "title": "build(deps): bump next from 16.2.6 to 16.2.11",
-          "createdAt": "2026-07-28T06:37:56Z",
-          "updatedAt": "2026-07-28T06:38:33Z",
-          "isDependabot": true,
-          "isSecurityUpdate": false,
-          "autoMergeEnabled": false,
-          "mergeable": null,
-          "mergeableState": "unknown",
-          "isDraft": false,
-          "labels": [
-            "dependencies",
-            "javascript"
-          ],
-          "url": "https://github.com/kylifornication-code/the-infosec-wheel/pull/3",
-          "compatibilityDisplay": "79%",
-          "compatibilityMin": 79,
-          "compatibilityMax": 79
-        }
-      ],
-      "ecosystems": [
-        "npm"
-      ],
-      "oldestAlert": "2026-05-20T15:06:28Z"
-    },
-    {
       "repo": "kylifornication-code/astro-career-walking-deck",
       "name": "astro-career-walking-deck",
       "owner": "kylifornication-code",
@@ -345,6 +201,190 @@
         "npm"
       ],
       "oldestAlert": "2026-04-21T22:25:08Z"
+    },
+    {
+      "repo": "kylifornication-code/ai-fluency-for-teams",
+      "name": "ai-fluency-for-teams",
+      "owner": "kylifornication-code",
+      "isPrivate": false,
+      "language": "TypeScript",
+      "alertCounts": {
+        "critical": 0,
+        "high": 10,
+        "medium": 12,
+        "low": 5,
+        "unknown": 0
+      },
+      "totalAlerts": 27,
+      "openPRs": 4,
+      "prs": [
+        {
+          "number": 13,
+          "title": "Bump dompurify from 3.4.1 to 3.4.12",
+          "createdAt": "2026-07-24T18:39:16Z",
+          "updatedAt": "2026-07-24T18:39:59Z",
+          "isDependabot": true,
+          "isSecurityUpdate": false,
+          "autoMergeEnabled": false,
+          "mergeable": null,
+          "mergeableState": "unknown",
+          "isDraft": false,
+          "labels": [
+            "dependencies",
+            "javascript"
+          ],
+          "url": "https://github.com/kylifornication-code/ai-fluency-for-teams/pull/13",
+          "compatibilityDisplay": "78%",
+          "compatibilityMin": 78,
+          "compatibilityMax": 78
+        },
+        {
+          "number": 15,
+          "title": "Bump postcss and next",
+          "createdAt": "2026-08-06T23:58:35Z",
+          "updatedAt": "2026-08-07T05:31:03Z",
+          "isDependabot": true,
+          "isSecurityUpdate": false,
+          "autoMergeEnabled": false,
+          "mergeable": null,
+          "mergeableState": "unknown",
+          "isDraft": false,
+          "labels": [
+            "dependencies",
+            "javascript"
+          ],
+          "url": "https://github.com/kylifornication-code/ai-fluency-for-teams/pull/15",
+          "compatibilityDisplay": null,
+          "compatibilityMin": null,
+          "compatibilityMax": null
+        },
+        {
+          "number": 16,
+          "title": "Bump brace-expansion",
+          "createdAt": "2026-08-07T07:00:30Z",
+          "updatedAt": "2026-08-07T07:01:11Z",
+          "isDependabot": true,
+          "isSecurityUpdate": false,
+          "autoMergeEnabled": false,
+          "mergeable": null,
+          "mergeableState": "unknown",
+          "isDraft": false,
+          "labels": [
+            "dependencies",
+            "javascript"
+          ],
+          "url": "https://github.com/kylifornication-code/ai-fluency-for-teams/pull/16",
+          "compatibilityDisplay": null,
+          "compatibilityMin": null,
+          "compatibilityMax": null
+        },
+        {
+          "number": 17,
+          "title": "Bump js-yaml from 4.3.0 to 4.3.1",
+          "createdAt": "2026-08-07T07:00:32Z",
+          "updatedAt": "2026-08-07T07:01:48Z",
+          "isDependabot": true,
+          "isSecurityUpdate": false,
+          "autoMergeEnabled": false,
+          "mergeable": null,
+          "mergeableState": "unknown",
+          "isDraft": false,
+          "labels": [
+            "dependencies",
+            "javascript"
+          ],
+          "url": "https://github.com/kylifornication-code/ai-fluency-for-teams/pull/17",
+          "compatibilityDisplay": "81%",
+          "compatibilityMin": 81,
+          "compatibilityMax": 81
+        }
+      ],
+      "ecosystems": [
+        "npm"
+      ],
+      "oldestAlert": "2026-05-12T19:55:15Z"
+    },
+    {
+      "repo": "kylifornication-code/the-infosec-wheel",
+      "name": "the-infosec-wheel",
+      "owner": "kylifornication-code",
+      "isPrivate": false,
+      "language": "TypeScript",
+      "alertCounts": {
+        "critical": 0,
+        "high": 10,
+        "medium": 7,
+        "low": 1,
+        "unknown": 0
+      },
+      "totalAlerts": 18,
+      "openPRs": 3,
+      "prs": [
+        {
+          "number": 4,
+          "title": "build(deps): bump brace-expansion",
+          "createdAt": "2026-08-07T07:02:10Z",
+          "updatedAt": "2026-08-07T07:02:56Z",
+          "isDependabot": true,
+          "isSecurityUpdate": false,
+          "autoMergeEnabled": false,
+          "mergeable": null,
+          "mergeableState": "unknown",
+          "isDraft": false,
+          "labels": [
+            "dependencies",
+            "javascript"
+          ],
+          "url": "https://github.com/kylifornication-code/the-infosec-wheel/pull/4",
+          "compatibilityDisplay": null,
+          "compatibilityMin": null,
+          "compatibilityMax": null
+        },
+        {
+          "number": 5,
+          "title": "build(deps): bump postcss and next",
+          "createdAt": "2026-08-07T07:02:24Z",
+          "updatedAt": "2026-08-07T07:03:26Z",
+          "isDependabot": true,
+          "isSecurityUpdate": false,
+          "autoMergeEnabled": false,
+          "mergeable": null,
+          "mergeableState": "unknown",
+          "isDraft": false,
+          "labels": [
+            "dependencies",
+            "javascript"
+          ],
+          "url": "https://github.com/kylifornication-code/the-infosec-wheel/pull/5",
+          "compatibilityDisplay": null,
+          "compatibilityMin": null,
+          "compatibilityMax": null
+        },
+        {
+          "number": 6,
+          "title": "build(deps-dev): bump js-yaml from 4.3.0 to 4.3.1",
+          "createdAt": "2026-08-07T07:02:31Z",
+          "updatedAt": "2026-08-07T07:03:49Z",
+          "isDependabot": true,
+          "isSecurityUpdate": false,
+          "autoMergeEnabled": false,
+          "mergeable": null,
+          "mergeableState": "unknown",
+          "isDraft": false,
+          "labels": [
+            "dependencies",
+            "javascript"
+          ],
+          "url": "https://github.com/kylifornication-code/the-infosec-wheel/pull/6",
+          "compatibilityDisplay": "81%",
+          "compatibilityMin": 81,
+          "compatibilityMax": 81
+        }
+      ],
+      "ecosystems": [
+        "npm"
+      ],
+      "oldestAlert": "2026-05-20T15:06:28Z"
     },
     {
       "repo": "kylifornication-code/ncaa-wrestling-bracket",
@@ -398,9 +438,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/ncaa-wrestling-bracket/pull/18",
-          "compatibilityDisplay": "72%",
-          "compatibilityMin": 72,
-          "compatibilityMax": 72
+          "compatibilityDisplay": "73%",
+          "compatibilityMin": 73,
+          "compatibilityMax": 73
         },
         {
           "number": 21,
@@ -418,9 +458,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/ncaa-wrestling-bracket/pull/21",
-          "compatibilityDisplay": "72%",
-          "compatibilityMin": 72,
-          "compatibilityMax": 72
+          "compatibilityDisplay": "73%",
+          "compatibilityMin": 73,
+          "compatibilityMax": 73
         },
         {
           "number": 22,
@@ -438,9 +478,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/ncaa-wrestling-bracket/pull/22",
-          "compatibilityDisplay": "20%",
-          "compatibilityMin": 20,
-          "compatibilityMax": 20
+          "compatibilityDisplay": "22%",
+          "compatibilityMin": 22,
+          "compatibilityMax": 22
         }
       ],
       "ecosystems": [
@@ -562,15 +602,15 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/lennys-podcast-recapper/pull/17",
-          "compatibilityDisplay": "72%",
-          "compatibilityMin": 72,
-          "compatibilityMax": 72
+          "compatibilityDisplay": "73%",
+          "compatibilityMin": 73,
+          "compatibilityMax": 73
         },
         {
           "number": 18,
           "title": "Bump astro from 6.1.10 to 7.1.1",
           "createdAt": "2026-08-07T06:06:41Z",
-          "updatedAt": "2026-08-07T06:06:41Z",
+          "updatedAt": "2026-08-07T06:56:42Z",
           "isDependabot": true,
           "isSecurityUpdate": false,
           "autoMergeEnabled": false,

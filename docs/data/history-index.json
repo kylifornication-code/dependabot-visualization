@@ -1863,16 +1863,16 @@
   },
   {
     "date": "2026-08-07",
-    "generatedAt": "2026-08-07T06:44:32.301Z",
-    "totalAlerts": 170,
+    "generatedAt": "2026-08-07T07:35:52.945Z",
+    "totalAlerts": 154,
     "bySeverity": {
       "critical": 0,
-      "high": 76,
-      "medium": 69,
+      "high": 68,
+      "medium": 61,
       "low": 25,
       "unknown": 0
     },
-    "totalOpenPRs": 21,
+    "totalOpenPRs": 23,
     "reposAffected": 7
   }
 ]
