@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-07T18:21:51.207Z",
+  "generatedAt": "2026-08-07T19:25:04.175Z",
   "summary": {
     "totalAlerts": 125,
     "bySeverity": {
@@ -50,9 +50,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/astro-career-walking-deck/pull/15",
-          "compatibilityDisplay": "38%",
-          "compatibilityMin": 38,
-          "compatibilityMax": 38
+          "compatibilityDisplay": "39%",
+          "compatibilityMin": 39,
+          "compatibilityMax": 39
         }
       ],
       "ecosystems": [
@@ -80,7 +80,7 @@
           "number": 15,
           "title": "Bump postcss and next",
           "createdAt": "2026-08-06T23:58:35Z",
-          "updatedAt": "2026-08-07T05:31:03Z",
+          "updatedAt": "2026-08-07T19:22:53Z",
           "isDependabot": true,
           "isSecurityUpdate": false,
           "autoMergeEnabled": false,
@@ -120,7 +120,7 @@
           "number": 18,
           "title": "Bump dompurify from 3.4.1 to 3.4.13",
           "createdAt": "2026-08-07T18:16:38Z",
-          "updatedAt": "2026-08-07T18:17:22Z",
+          "updatedAt": "2026-08-07T19:20:26Z",
           "isDependabot": true,
           "isSecurityUpdate": false,
           "autoMergeEnabled": false,
@@ -224,7 +224,7 @@
           "number": 32,
           "title": "Bump js-yaml from 3.14.2 to 3.15.1",
           "createdAt": "2026-08-07T06:02:11Z",
-          "updatedAt": "2026-08-07T06:02:12Z",
+          "updatedAt": "2026-08-07T19:23:26Z",
           "isDependabot": true,
           "isSecurityUpdate": false,
           "autoMergeEnabled": false,
@@ -388,7 +388,7 @@
           "number": 23,
           "title": "Bump esbuild and astro",
           "createdAt": "2026-08-07T14:38:39Z",
-          "updatedAt": "2026-08-07T18:13:50Z",
+          "updatedAt": "2026-08-07T19:21:40Z",
           "isDependabot": true,
           "isSecurityUpdate": false,
           "autoMergeEnabled": false,
