@@ -1,22 +1,21 @@
 {
-  "generatedAt": "2026-08-07T05:54:04.201Z",
+  "generatedAt": "2026-08-07T06:44:32.301Z",
   "summary": {
-    "totalAlerts": 208,
+    "totalAlerts": 170,
     "bySeverity": {
-      "critical": 2,
-      "high": 92,
-      "medium": 85,
-      "low": 29,
+      "critical": 0,
+      "high": 76,
+      "medium": 69,
+      "low": 25,
       "unknown": 0
     },
     "byEcosystem": {
-      "npm": 195,
-      "pip": 13
+      "npm": 170
     },
-    "totalOpenPRs": 33,
-    "reposAffected": 8,
-    "reposWithPRs": 8,
-    "reposScanned": 8
+    "totalOpenPRs": 21,
+    "reposAffected": 7,
+    "reposWithPRs": 7,
+    "reposScanned": 7
   },
   "repos": [
     {
@@ -26,40 +25,20 @@
       "isPrivate": false,
       "language": "TypeScript",
       "alertCounts": {
-        "critical": 2,
-        "high": 14,
-        "medium": 13,
-        "low": 3,
+        "critical": 0,
+        "high": 17,
+        "medium": 11,
+        "low": 2,
         "unknown": 0
       },
-      "totalAlerts": 32,
-      "openPRs": 8,
+      "totalAlerts": 30,
+      "openPRs": 6,
       "prs": [
-        {
-          "number": 21,
-          "title": "Bump launch-editor from 2.12.0 to 2.14.1",
-          "createdAt": "2026-06-19T14:12:30Z",
-          "updatedAt": "2026-08-07T05:52:05Z",
-          "isDependabot": true,
-          "isSecurityUpdate": false,
-          "autoMergeEnabled": false,
-          "mergeable": null,
-          "mergeableState": "unknown",
-          "isDraft": false,
-          "labels": [
-            "dependencies",
-            "javascript"
-          ],
-          "url": "https://github.com/kylifornication-code/thedrizzle/pull/21",
-          "compatibilityDisplay": "81%",
-          "compatibilityMin": 81,
-          "compatibilityMax": 81
-        },
         {
           "number": 22,
           "title": "Bump ws",
           "createdAt": "2026-06-23T06:58:31Z",
-          "updatedAt": "2026-08-07T05:48:18Z",
+          "updatedAt": "2026-08-07T06:01:21Z",
           "isDependabot": true,
           "isSecurityUpdate": false,
           "autoMergeEnabled": false,
@@ -76,30 +55,10 @@
           "compatibilityMax": null
         },
         {
-          "number": 24,
-          "title": "Bump websocket-driver from 0.7.4 to 0.7.5",
-          "createdAt": "2026-07-16T21:19:52Z",
-          "updatedAt": "2026-08-07T05:50:34Z",
-          "isDependabot": true,
-          "isSecurityUpdate": false,
-          "autoMergeEnabled": false,
-          "mergeable": null,
-          "mergeableState": "unknown",
-          "isDraft": false,
-          "labels": [
-            "dependencies",
-            "javascript"
-          ],
-          "url": "https://github.com/kylifornication-code/thedrizzle/pull/24",
-          "compatibilityDisplay": "84%",
-          "compatibilityMin": 84,
-          "compatibilityMax": 84
-        },
-        {
           "number": 26,
-          "title": "Bump shell-quote from 1.8.3 to 1.10.0",
+          "title": "Bump shell-quote from 1.8.4 to 1.10.0",
           "createdAt": "2026-07-25T16:18:19Z",
-          "updatedAt": "2026-07-25T16:18:19Z",
+          "updatedAt": "2026-08-07T06:11:23Z",
           "isDependabot": true,
           "isSecurityUpdate": false,
           "autoMergeEnabled": false,
@@ -111,15 +70,15 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/thedrizzle/pull/26",
-          "compatibilityDisplay": "77%",
-          "compatibilityMin": 77,
-          "compatibilityMax": 77
+          "compatibilityDisplay": null,
+          "compatibilityMin": null,
+          "compatibilityMax": null
         },
         {
           "number": 27,
           "title": "Bump webpack-dev-server from 5.2.4 to 5.2.6",
           "createdAt": "2026-07-27T16:55:20Z",
-          "updatedAt": "2026-07-27T16:55:21Z",
+          "updatedAt": "2026-08-07T06:11:29Z",
           "isDependabot": true,
           "isSecurityUpdate": false,
           "autoMergeEnabled": false,
@@ -131,49 +90,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/thedrizzle/pull/27",
-          "compatibilityDisplay": "77%",
-          "compatibilityMin": 77,
-          "compatibilityMax": 77
-        },
-        {
-          "number": 28,
-          "title": "Bump body-parser from 1.20.4 to 1.20.6",
-          "createdAt": "2026-07-29T03:01:36Z",
-          "updatedAt": "2026-08-07T05:49:30Z",
-          "isDependabot": true,
-          "isSecurityUpdate": false,
-          "autoMergeEnabled": false,
-          "mergeable": null,
-          "mergeableState": "unknown",
-          "isDraft": false,
-          "labels": [
-            "dependencies",
-            "javascript"
-          ],
-          "url": "https://github.com/kylifornication-code/thedrizzle/pull/28",
-          "compatibilityDisplay": "86%",
-          "compatibilityMin": 86,
-          "compatibilityMax": 86
-        },
-        {
-          "number": 29,
-          "title": "Bump postcss from 8.5.14 to 8.5.25",
-          "createdAt": "2026-08-02T07:49:43Z",
-          "updatedAt": "2026-08-07T05:48:46Z",
-          "isDependabot": true,
-          "isSecurityUpdate": false,
-          "autoMergeEnabled": false,
-          "mergeable": null,
-          "mergeableState": "unknown",
-          "isDraft": false,
-          "labels": [
-            "dependencies",
-            "javascript"
-          ],
-          "url": "https://github.com/kylifornication-code/thedrizzle/pull/29",
-          "compatibilityDisplay": "81%",
-          "compatibilityMin": 81,
-          "compatibilityMax": 81
+          "compatibilityDisplay": null,
+          "compatibilityMin": null,
+          "compatibilityMax": null
         },
         {
           "number": 30,
@@ -194,6 +113,46 @@
           "compatibilityDisplay": "72%",
           "compatibilityMin": 72,
           "compatibilityMax": 72
+        },
+        {
+          "number": 31,
+          "title": "Bump brace-expansion from 1.1.13 to 1.1.18",
+          "createdAt": "2026-08-07T06:01:47Z",
+          "updatedAt": "2026-08-07T06:01:47Z",
+          "isDependabot": true,
+          "isSecurityUpdate": false,
+          "autoMergeEnabled": false,
+          "mergeable": null,
+          "mergeableState": "unknown",
+          "isDraft": false,
+          "labels": [
+            "dependencies",
+            "javascript"
+          ],
+          "url": "https://github.com/kylifornication-code/thedrizzle/pull/31",
+          "compatibilityDisplay": "79%",
+          "compatibilityMin": 79,
+          "compatibilityMax": 79
+        },
+        {
+          "number": 32,
+          "title": "Bump js-yaml from 3.14.2 to 3.15.1",
+          "createdAt": "2026-08-07T06:02:11Z",
+          "updatedAt": "2026-08-07T06:02:12Z",
+          "isDependabot": true,
+          "isSecurityUpdate": false,
+          "autoMergeEnabled": false,
+          "mergeable": null,
+          "mergeableState": "unknown",
+          "isDraft": false,
+          "labels": [
+            "dependencies",
+            "javascript"
+          ],
+          "url": "https://github.com/kylifornication-code/thedrizzle/pull/32",
+          "compatibilityDisplay": "56%",
+          "compatibilityMin": 56,
+          "compatibilityMax": 56
         }
       ],
       "ecosystems": [
@@ -335,177 +294,15 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/the-infosec-wheel/pull/3",
-          "compatibilityDisplay": "80%",
-          "compatibilityMin": 80,
-          "compatibilityMax": 80
+          "compatibilityDisplay": "79%",
+          "compatibilityMin": 79,
+          "compatibilityMax": 79
         }
       ],
       "ecosystems": [
         "npm"
       ],
       "oldestAlert": "2026-05-20T15:06:28Z"
-    },
-    {
-      "repo": "kylifornication-code/ncaa-wrestling-bracket",
-      "name": "ncaa-wrestling-bracket",
-      "owner": "kylifornication-code",
-      "isPrivate": false,
-      "language": "JavaScript",
-      "alertCounts": {
-        "critical": 0,
-        "high": 12,
-        "medium": 17,
-        "low": 8,
-        "unknown": 0
-      },
-      "totalAlerts": 37,
-      "openPRs": 7,
-      "prs": [
-        {
-          "number": 3,
-          "title": "Bump picomatch",
-          "createdAt": "2026-03-26T03:08:20Z",
-          "updatedAt": "2026-05-20T15:04:03Z",
-          "isDependabot": true,
-          "isSecurityUpdate": false,
-          "autoMergeEnabled": false,
-          "mergeable": null,
-          "mergeableState": "unknown",
-          "isDraft": false,
-          "labels": [
-            "dependencies",
-            "javascript"
-          ],
-          "url": "https://github.com/kylifornication-code/ncaa-wrestling-bracket/pull/3",
-          "compatibilityDisplay": null,
-          "compatibilityMin": null,
-          "compatibilityMax": null
-        },
-        {
-          "number": 14,
-          "title": "Bump js-yaml from 4.1.1 to 4.3.0",
-          "createdAt": "2026-06-29T09:40:42Z",
-          "updatedAt": "2026-08-07T05:51:09Z",
-          "isDependabot": true,
-          "isSecurityUpdate": false,
-          "autoMergeEnabled": false,
-          "mergeable": null,
-          "mergeableState": "unknown",
-          "isDraft": false,
-          "labels": [
-            "dependencies",
-            "javascript"
-          ],
-          "url": "https://github.com/kylifornication-code/ncaa-wrestling-bracket/pull/14",
-          "compatibilityDisplay": "90%",
-          "compatibilityMin": 90,
-          "compatibilityMax": 90
-        },
-        {
-          "number": 15,
-          "title": "Bump vite from 6.4.2 to 6.4.3",
-          "createdAt": "2026-06-30T10:57:22Z",
-          "updatedAt": "2026-08-07T05:50:59Z",
-          "isDependabot": true,
-          "isSecurityUpdate": false,
-          "autoMergeEnabled": false,
-          "mergeable": null,
-          "mergeableState": "unknown",
-          "isDraft": false,
-          "labels": [
-            "dependencies",
-            "javascript"
-          ],
-          "url": "https://github.com/kylifornication-code/ncaa-wrestling-bracket/pull/15",
-          "compatibilityDisplay": "81%",
-          "compatibilityMin": 81,
-          "compatibilityMax": 81
-        },
-        {
-          "number": 17,
-          "title": "Bump svgo from 4.0.1 to 4.0.2",
-          "createdAt": "2026-07-24T02:16:18Z",
-          "updatedAt": "2026-08-07T05:50:00Z",
-          "isDependabot": true,
-          "isSecurityUpdate": false,
-          "autoMergeEnabled": false,
-          "mergeable": null,
-          "mergeableState": "unknown",
-          "isDraft": false,
-          "labels": [
-            "dependencies",
-            "javascript"
-          ],
-          "url": "https://github.com/kylifornication-code/ncaa-wrestling-bracket/pull/17",
-          "compatibilityDisplay": "82%",
-          "compatibilityMin": 82,
-          "compatibilityMax": 82
-        },
-        {
-          "number": 18,
-          "title": "Bump dompurify from 3.4.0 to 3.4.12",
-          "createdAt": "2026-07-24T15:45:44Z",
-          "updatedAt": "2026-07-24T15:45:45Z",
-          "isDependabot": true,
-          "isSecurityUpdate": false,
-          "autoMergeEnabled": false,
-          "mergeable": null,
-          "mergeableState": "unknown",
-          "isDraft": false,
-          "labels": [
-            "dependencies",
-            "javascript"
-          ],
-          "url": "https://github.com/kylifornication-code/ncaa-wrestling-bracket/pull/18",
-          "compatibilityDisplay": "73%",
-          "compatibilityMin": 73,
-          "compatibilityMax": 73
-        },
-        {
-          "number": 19,
-          "title": "Bump sharp and astro",
-          "createdAt": "2026-07-26T04:29:06Z",
-          "updatedAt": "2026-08-07T05:31:48Z",
-          "isDependabot": true,
-          "isSecurityUpdate": false,
-          "autoMergeEnabled": false,
-          "mergeable": null,
-          "mergeableState": "unknown",
-          "isDraft": false,
-          "labels": [
-            "dependencies",
-            "javascript"
-          ],
-          "url": "https://github.com/kylifornication-code/ncaa-wrestling-bracket/pull/19",
-          "compatibilityDisplay": null,
-          "compatibilityMin": null,
-          "compatibilityMax": null
-        },
-        {
-          "number": 20,
-          "title": "Bump postcss from 8.5.8 to 8.5.25",
-          "createdAt": "2026-07-31T20:54:20Z",
-          "updatedAt": "2026-08-07T05:49:22Z",
-          "isDependabot": true,
-          "isSecurityUpdate": false,
-          "autoMergeEnabled": false,
-          "mergeable": null,
-          "mergeableState": "unknown",
-          "isDraft": false,
-          "labels": [
-            "dependencies",
-            "javascript"
-          ],
-          "url": "https://github.com/kylifornication-code/ncaa-wrestling-bracket/pull/20",
-          "compatibilityDisplay": "82%",
-          "compatibilityMin": 82,
-          "compatibilityMax": 82
-        }
-      ],
-      "ecosystems": [
-        "npm"
-      ],
-      "oldestAlert": "2026-03-26T02:37:09Z"
     },
     {
       "repo": "kylifornication-code/astro-career-walking-deck",
@@ -550,68 +347,26 @@
       "oldestAlert": "2026-04-21T22:25:08Z"
     },
     {
-      "repo": "kylifornication-code/training-requests",
-      "name": "training-requests",
+      "repo": "kylifornication-code/ncaa-wrestling-bracket",
+      "name": "ncaa-wrestling-bracket",
       "owner": "kylifornication-code",
       "isPrivate": false,
-      "language": "Python",
+      "language": "JavaScript",
       "alertCounts": {
         "critical": 0,
-        "high": 10,
-        "medium": 3,
-        "low": 0,
+        "high": 7,
+        "medium": 12,
+        "low": 7,
         "unknown": 0
       },
-      "totalAlerts": 13,
-      "openPRs": 1,
+      "totalAlerts": 26,
+      "openPRs": 4,
       "prs": [
         {
-          "number": 6,
-          "title": "Bump pillow from 12.2.0 to 12.3.0",
-          "createdAt": "2026-07-21T11:40:26Z",
-          "updatedAt": "2026-08-07T05:50:12Z",
-          "isDependabot": true,
-          "isSecurityUpdate": false,
-          "autoMergeEnabled": false,
-          "mergeable": null,
-          "mergeableState": "unknown",
-          "isDraft": false,
-          "labels": [
-            "dependencies",
-            "python"
-          ],
-          "url": "https://github.com/kylifornication-code/training-requests/pull/6",
-          "compatibilityDisplay": "86%",
-          "compatibilityMin": 86,
-          "compatibilityMax": 86
-        }
-      ],
-      "ecosystems": [
-        "pip"
-      ],
-      "oldestAlert": "2026-07-21T11:39:34Z"
-    },
-    {
-      "repo": "kylifornication-code/lennys-podcast-recapper",
-      "name": "lennys-podcast-recapper",
-      "owner": "kylifornication-code",
-      "isPrivate": false,
-      "language": "Python",
-      "alertCounts": {
-        "critical": 0,
-        "high": 8,
-        "medium": 8,
-        "low": 3,
-        "unknown": 0
-      },
-      "totalAlerts": 19,
-      "openPRs": 6,
-      "prs": [
-        {
-          "number": 10,
-          "title": "Bump js-yaml from 4.1.1 to 4.3.0",
-          "createdAt": "2026-06-29T04:55:55Z",
-          "updatedAt": "2026-08-07T05:51:54Z",
+          "number": 3,
+          "title": "Bump picomatch",
+          "createdAt": "2026-03-26T03:08:20Z",
+          "updatedAt": "2026-05-20T15:04:03Z",
           "isDependabot": true,
           "isSecurityUpdate": false,
           "autoMergeEnabled": false,
@@ -622,36 +377,16 @@
             "dependencies",
             "javascript"
           ],
-          "url": "https://github.com/kylifornication-code/lennys-podcast-recapper/pull/10",
-          "compatibilityDisplay": "90%",
-          "compatibilityMin": 90,
-          "compatibilityMax": 90
-        },
-        {
-          "number": 11,
-          "title": "Bump esbuild and astro",
-          "createdAt": "2026-07-20T21:38:17Z",
-          "updatedAt": "2026-08-07T05:32:02Z",
-          "isDependabot": true,
-          "isSecurityUpdate": false,
-          "autoMergeEnabled": false,
-          "mergeable": null,
-          "mergeableState": "unknown",
-          "isDraft": false,
-          "labels": [
-            "dependencies",
-            "javascript"
-          ],
-          "url": "https://github.com/kylifornication-code/lennys-podcast-recapper/pull/11",
+          "url": "https://github.com/kylifornication-code/ncaa-wrestling-bracket/pull/3",
           "compatibilityDisplay": null,
           "compatibilityMin": null,
           "compatibilityMax": null
         },
         {
-          "number": 13,
-          "title": "Bump vite from 7.3.2 to 7.3.6",
-          "createdAt": "2026-07-20T21:38:26Z",
-          "updatedAt": "2026-08-07T05:50:23Z",
+          "number": 18,
+          "title": "Bump dompurify from 3.4.0 to 3.4.12",
+          "createdAt": "2026-07-24T15:45:44Z",
+          "updatedAt": "2026-07-24T15:45:45Z",
           "isDependabot": true,
           "isSecurityUpdate": false,
           "autoMergeEnabled": false,
@@ -662,16 +397,16 @@
             "dependencies",
             "javascript"
           ],
-          "url": "https://github.com/kylifornication-code/lennys-podcast-recapper/pull/13",
-          "compatibilityDisplay": "85%",
-          "compatibilityMin": 85,
-          "compatibilityMax": 85
+          "url": "https://github.com/kylifornication-code/ncaa-wrestling-bracket/pull/18",
+          "compatibilityDisplay": "72%",
+          "compatibilityMin": 72,
+          "compatibilityMax": 72
         },
         {
-          "number": 14,
-          "title": "Bump svgo from 4.0.1 to 4.0.2",
-          "createdAt": "2026-07-24T05:01:39Z",
-          "updatedAt": "2026-08-07T05:49:46Z",
+          "number": 21,
+          "title": "Bump js-yaml from 4.1.1 to 4.3.1",
+          "createdAt": "2026-08-07T06:05:44Z",
+          "updatedAt": "2026-08-07T06:05:45Z",
           "isDependabot": true,
           "isSecurityUpdate": false,
           "autoMergeEnabled": false,
@@ -682,16 +417,16 @@
             "dependencies",
             "javascript"
           ],
-          "url": "https://github.com/kylifornication-code/lennys-podcast-recapper/pull/14",
-          "compatibilityDisplay": "82%",
-          "compatibilityMin": 82,
-          "compatibilityMax": 82
+          "url": "https://github.com/kylifornication-code/ncaa-wrestling-bracket/pull/21",
+          "compatibilityDisplay": "72%",
+          "compatibilityMin": 72,
+          "compatibilityMax": 72
         },
         {
-          "number": 15,
-          "title": "Bump sharp and astro",
-          "createdAt": "2026-07-26T06:57:05Z",
-          "updatedAt": "2026-08-07T05:31:33Z",
+          "number": 22,
+          "title": "Bump astro from 5.18.1 to 7.1.1",
+          "createdAt": "2026-08-07T06:07:23Z",
+          "updatedAt": "2026-08-07T06:07:24Z",
           "isDependabot": true,
           "isSecurityUpdate": false,
           "autoMergeEnabled": false,
@@ -702,36 +437,16 @@
             "dependencies",
             "javascript"
           ],
-          "url": "https://github.com/kylifornication-code/lennys-podcast-recapper/pull/15",
-          "compatibilityDisplay": null,
-          "compatibilityMin": null,
-          "compatibilityMax": null
-        },
-        {
-          "number": 16,
-          "title": "Bump postcss from 8.5.8 to 8.5.25",
-          "createdAt": "2026-08-01T00:51:32Z",
-          "updatedAt": "2026-08-07T05:49:08Z",
-          "isDependabot": true,
-          "isSecurityUpdate": false,
-          "autoMergeEnabled": false,
-          "mergeable": null,
-          "mergeableState": "unknown",
-          "isDraft": false,
-          "labels": [
-            "dependencies",
-            "javascript"
-          ],
-          "url": "https://github.com/kylifornication-code/lennys-podcast-recapper/pull/16",
-          "compatibilityDisplay": "82%",
-          "compatibilityMin": 82,
-          "compatibilityMax": 82
+          "url": "https://github.com/kylifornication-code/ncaa-wrestling-bracket/pull/22",
+          "compatibilityDisplay": "20%",
+          "compatibilityMin": 20,
+          "compatibilityMax": 20
         }
       ],
       "ecosystems": [
         "npm"
       ],
-      "oldestAlert": "2026-04-29T00:39:31Z"
+      "oldestAlert": "2026-03-26T02:37:09Z"
     },
     {
       "repo": "Buffalo-Drinking-Game/buffalo-drinking-game",
@@ -741,19 +456,19 @@
       "language": "TypeScript",
       "alertCounts": {
         "critical": 0,
-        "high": 8,
-        "medium": 7,
-        "low": 4,
+        "high": 7,
+        "medium": 5,
+        "low": 3,
         "unknown": 0
       },
-      "totalAlerts": 19,
-      "openPRs": 5,
+      "totalAlerts": 15,
+      "openPRs": 3,
       "prs": [
         {
           "number": 31,
           "title": "Bump @types/react from 19.2.13 to 19.2.17",
           "createdAt": "2026-06-08T01:14:37Z",
-          "updatedAt": "2026-08-07T04:53:16Z",
+          "updatedAt": "2026-08-07T05:56:37Z",
           "isDependabot": true,
           "isSecurityUpdate": false,
           "autoMergeEnabled": false,
@@ -773,7 +488,7 @@
           "number": 32,
           "title": "Bump @astrojs/react from 5.0.0 to 5.0.7",
           "createdAt": "2026-06-08T01:14:49Z",
-          "updatedAt": "2026-08-07T04:52:49Z",
+          "updatedAt": "2026-08-07T05:56:39Z",
           "isDependabot": true,
           "isSecurityUpdate": false,
           "autoMergeEnabled": false,
@@ -793,7 +508,7 @@
           "number": 33,
           "title": "Bump the npm_and_yarn group across 1 directory with 2 updates",
           "createdAt": "2026-06-12T23:46:09Z",
-          "updatedAt": "2026-08-07T04:51:02Z",
+          "updatedAt": "2026-08-07T05:56:40Z",
           "isDependabot": true,
           "isSecurityUpdate": false,
           "autoMergeEnabled": false,
@@ -808,52 +523,74 @@
           "compatibilityDisplay": null,
           "compatibilityMin": null,
           "compatibilityMax": null
-        },
-        {
-          "number": 34,
-          "title": "Bump @tailwindcss/vite from 4.3.0 to 4.3.1",
-          "createdAt": "2026-06-15T01:14:44Z",
-          "updatedAt": "2026-08-07T05:52:16Z",
-          "isDependabot": true,
-          "isSecurityUpdate": false,
-          "autoMergeEnabled": false,
-          "mergeable": null,
-          "mergeableState": "unknown",
-          "isDraft": false,
-          "labels": [
-            "dependencies",
-            "javascript"
-          ],
-          "url": "https://github.com/Buffalo-Drinking-Game/buffalo-drinking-game/pull/34",
-          "compatibilityDisplay": "84%",
-          "compatibilityMin": 84,
-          "compatibilityMax": 84
-        },
-        {
-          "number": 35,
-          "title": "Bump astro from 6.4.2 to 6.4.6",
-          "createdAt": "2026-06-15T01:15:03Z",
-          "updatedAt": "2026-08-07T04:51:45Z",
-          "isDependabot": true,
-          "isSecurityUpdate": false,
-          "autoMergeEnabled": false,
-          "mergeable": null,
-          "mergeableState": "unknown",
-          "isDraft": false,
-          "labels": [
-            "dependencies",
-            "javascript"
-          ],
-          "url": "https://github.com/Buffalo-Drinking-Game/buffalo-drinking-game/pull/35",
-          "compatibilityDisplay": "80%",
-          "compatibilityMin": 80,
-          "compatibilityMax": 80
         }
       ],
       "ecosystems": [
         "npm"
       ],
       "oldestAlert": "2026-05-11T20:05:43Z"
+    },
+    {
+      "repo": "kylifornication-code/lennys-podcast-recapper",
+      "name": "lennys-podcast-recapper",
+      "owner": "kylifornication-code",
+      "isPrivate": false,
+      "language": "Python",
+      "alertCounts": {
+        "critical": 0,
+        "high": 5,
+        "medium": 4,
+        "low": 2,
+        "unknown": 0
+      },
+      "totalAlerts": 11,
+      "openPRs": 2,
+      "prs": [
+        {
+          "number": 17,
+          "title": "Bump js-yaml from 4.1.1 to 4.3.1",
+          "createdAt": "2026-08-07T06:05:20Z",
+          "updatedAt": "2026-08-07T06:05:21Z",
+          "isDependabot": true,
+          "isSecurityUpdate": false,
+          "autoMergeEnabled": false,
+          "mergeable": null,
+          "mergeableState": "unknown",
+          "isDraft": false,
+          "labels": [
+            "dependencies",
+            "javascript"
+          ],
+          "url": "https://github.com/kylifornication-code/lennys-podcast-recapper/pull/17",
+          "compatibilityDisplay": "72%",
+          "compatibilityMin": 72,
+          "compatibilityMax": 72
+        },
+        {
+          "number": 18,
+          "title": "Bump astro from 6.1.10 to 7.1.1",
+          "createdAt": "2026-08-07T06:06:41Z",
+          "updatedAt": "2026-08-07T06:06:41Z",
+          "isDependabot": true,
+          "isSecurityUpdate": false,
+          "autoMergeEnabled": false,
+          "mergeable": null,
+          "mergeableState": "unknown",
+          "isDraft": false,
+          "labels": [
+            "dependencies",
+            "javascript"
+          ],
+          "url": "https://github.com/kylifornication-code/lennys-podcast-recapper/pull/18",
+          "compatibilityDisplay": null,
+          "compatibilityMin": null,
+          "compatibilityMax": null
+        }
+      ],
+      "ecosystems": [
+        "npm"
+      ],
+      "oldestAlert": "2026-06-12T22:32:16Z"
     }
   ]
 }
