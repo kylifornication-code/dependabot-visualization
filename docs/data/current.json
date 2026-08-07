@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-08-07T18:03:30.052Z",
+  "generatedAt": "2026-08-07T18:21:51.207Z",
   "summary": {
-    "totalAlerts": 127,
+    "totalAlerts": 125,
     "bySeverity": {
       "critical": 0,
-      "high": 55,
-      "medium": 51,
+      "high": 52,
+      "medium": 52,
       "low": 21,
       "unknown": 0
     },
     "byEcosystem": {
-      "npm": 127
+      "npm": 125
     },
-    "totalOpenPRs": 17,
+    "totalOpenPRs": 14,
     "reposAffected": 7,
     "reposWithPRs": 7,
     "reposScanned": 7
@@ -68,34 +68,14 @@
       "language": "TypeScript",
       "alertCounts": {
         "critical": 0,
-        "high": 10,
-        "medium": 12,
+        "high": 9,
+        "medium": 13,
         "low": 5,
         "unknown": 0
       },
       "totalAlerts": 27,
-      "openPRs": 4,
+      "openPRs": 3,
       "prs": [
-        {
-          "number": 13,
-          "title": "Bump dompurify from 3.4.1 to 3.4.12",
-          "createdAt": "2026-07-24T18:39:16Z",
-          "updatedAt": "2026-07-24T18:39:59Z",
-          "isDependabot": true,
-          "isSecurityUpdate": false,
-          "autoMergeEnabled": false,
-          "mergeable": null,
-          "mergeableState": "unknown",
-          "isDraft": false,
-          "labels": [
-            "dependencies",
-            "javascript"
-          ],
-          "url": "https://github.com/kylifornication-code/ai-fluency-for-teams/pull/13",
-          "compatibilityDisplay": "80%",
-          "compatibilityMin": 80,
-          "compatibilityMax": 80
-        },
         {
           "number": 15,
           "title": "Bump postcss and next",
@@ -120,7 +100,7 @@
           "number": 16,
           "title": "Bump brace-expansion",
           "createdAt": "2026-08-07T07:00:30Z",
-          "updatedAt": "2026-08-07T07:01:11Z",
+          "updatedAt": "2026-08-07T18:12:27Z",
           "isDependabot": true,
           "isSecurityUpdate": false,
           "autoMergeEnabled": false,
@@ -137,10 +117,10 @@
           "compatibilityMax": null
         },
         {
-          "number": 17,
-          "title": "Bump js-yaml from 4.3.0 to 4.3.1",
-          "createdAt": "2026-08-07T07:00:32Z",
-          "updatedAt": "2026-08-07T07:01:48Z",
+          "number": 18,
+          "title": "Bump dompurify from 3.4.1 to 3.4.13",
+          "createdAt": "2026-08-07T18:16:38Z",
+          "updatedAt": "2026-08-07T18:17:22Z",
           "isDependabot": true,
           "isSecurityUpdate": false,
           "autoMergeEnabled": false,
@@ -151,10 +131,10 @@
             "dependencies",
             "javascript"
           ],
-          "url": "https://github.com/kylifornication-code/ai-fluency-for-teams/pull/17",
-          "compatibilityDisplay": "83%",
-          "compatibilityMin": 83,
-          "compatibilityMax": 83
+          "url": "https://github.com/kylifornication-code/ai-fluency-for-teams/pull/18",
+          "compatibilityDisplay": null,
+          "compatibilityMin": null,
+          "compatibilityMax": null
         }
       ],
       "ecosystems": [
@@ -170,19 +150,19 @@
       "language": "TypeScript",
       "alertCounts": {
         "critical": 0,
-        "high": 10,
+        "high": 9,
         "medium": 7,
         "low": 1,
         "unknown": 0
       },
-      "totalAlerts": 18,
-      "openPRs": 3,
+      "totalAlerts": 17,
+      "openPRs": 2,
       "prs": [
         {
           "number": 4,
           "title": "build(deps): bump brace-expansion",
           "createdAt": "2026-08-07T07:02:10Z",
-          "updatedAt": "2026-08-07T07:02:56Z",
+          "updatedAt": "2026-08-07T18:11:53Z",
           "isDependabot": true,
           "isSecurityUpdate": false,
           "autoMergeEnabled": false,
@@ -202,7 +182,7 @@
           "number": 5,
           "title": "build(deps): bump postcss and next",
           "createdAt": "2026-08-07T07:02:24Z",
-          "updatedAt": "2026-08-07T07:03:26Z",
+          "updatedAt": "2026-08-07T18:13:04Z",
           "isDependabot": true,
           "isSecurityUpdate": false,
           "autoMergeEnabled": false,
@@ -217,26 +197,6 @@
           "compatibilityDisplay": null,
           "compatibilityMin": null,
           "compatibilityMax": null
-        },
-        {
-          "number": 6,
-          "title": "build(deps-dev): bump js-yaml from 4.3.0 to 4.3.1",
-          "createdAt": "2026-08-07T07:02:31Z",
-          "updatedAt": "2026-08-07T07:03:49Z",
-          "isDependabot": true,
-          "isSecurityUpdate": false,
-          "autoMergeEnabled": false,
-          "mergeable": null,
-          "mergeableState": "unknown",
-          "isDraft": false,
-          "labels": [
-            "dependencies",
-            "javascript"
-          ],
-          "url": "https://github.com/kylifornication-code/the-infosec-wheel/pull/6",
-          "compatibilityDisplay": "83%",
-          "compatibilityMin": 83,
-          "compatibilityMax": 83
         }
       ],
       "ecosystems": [
@@ -252,13 +212,13 @@
       "language": "TypeScript",
       "alertCounts": {
         "critical": 0,
-        "high": 8,
+        "high": 7,
         "medium": 8,
         "low": 2,
         "unknown": 0
       },
-      "totalAlerts": 18,
-      "openPRs": 3,
+      "totalAlerts": 17,
+      "openPRs": 2,
       "prs": [
         {
           "number": 32,
@@ -281,30 +241,10 @@
           "compatibilityMax": 58
         },
         {
-          "number": 33,
-          "title": "Bump svgo from 3.3.3 to 3.3.4",
-          "createdAt": "2026-08-07T14:35:17Z",
-          "updatedAt": "2026-08-07T14:35:18Z",
-          "isDependabot": true,
-          "isSecurityUpdate": false,
-          "autoMergeEnabled": false,
-          "mergeable": null,
-          "mergeableState": "unknown",
-          "isDraft": false,
-          "labels": [
-            "dependencies",
-            "javascript"
-          ],
-          "url": "https://github.com/kylifornication-code/thedrizzle/pull/33",
-          "compatibilityDisplay": "82%",
-          "compatibilityMin": 82,
-          "compatibilityMax": 82
-        },
-        {
           "number": 34,
           "title": "Bump ws",
           "createdAt": "2026-08-07T14:38:55Z",
-          "updatedAt": "2026-08-07T14:38:56Z",
+          "updatedAt": "2026-08-07T18:11:14Z",
           "isDependabot": true,
           "isSecurityUpdate": false,
           "autoMergeEnabled": false,
@@ -448,7 +388,7 @@
           "number": 23,
           "title": "Bump esbuild and astro",
           "createdAt": "2026-08-07T14:38:39Z",
-          "updatedAt": "2026-08-07T14:38:40Z",
+          "updatedAt": "2026-08-07T18:13:50Z",
           "isDependabot": true,
           "isSecurityUpdate": false,
           "autoMergeEnabled": false,
