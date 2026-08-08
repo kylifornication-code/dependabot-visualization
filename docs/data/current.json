@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-07T19:25:04.175Z",
+  "generatedAt": "2026-08-08T07:05:08.454Z",
   "summary": {
     "totalAlerts": 125,
     "bySeverity": {
@@ -50,9 +50,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/astro-career-walking-deck/pull/15",
-          "compatibilityDisplay": "39%",
-          "compatibilityMin": 39,
-          "compatibilityMax": 39
+          "compatibilityDisplay": "38%",
+          "compatibilityMin": 38,
+          "compatibilityMax": 38
         }
       ],
       "ecosystems": [
@@ -236,9 +236,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/thedrizzle/pull/32",
-          "compatibilityDisplay": "58%",
-          "compatibilityMin": 58,
-          "compatibilityMax": 58
+          "compatibilityDisplay": "50%",
+          "compatibilityMin": 50,
+          "compatibilityMax": 50
         },
         {
           "number": 34,
