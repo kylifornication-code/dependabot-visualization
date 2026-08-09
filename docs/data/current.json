@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-08-08T07:05:08.454Z",
+  "generatedAt": "2026-08-09T07:07:29.866Z",
   "summary": {
-    "totalAlerts": 125,
+    "totalAlerts": 117,
     "bySeverity": {
       "critical": 0,
-      "high": 52,
-      "medium": 52,
-      "low": 21,
+      "high": 54,
+      "medium": 46,
+      "low": 17,
       "unknown": 0
     },
     "byEcosystem": {
-      "npm": 125
+      "npm": 117
     },
-    "totalOpenPRs": 14,
+    "totalOpenPRs": 13,
     "reposAffected": 7,
     "reposWithPRs": 7,
     "reposScanned": 7
@@ -68,19 +68,19 @@
       "language": "TypeScript",
       "alertCounts": {
         "critical": 0,
-        "high": 9,
-        "medium": 13,
-        "low": 5,
+        "high": 11,
+        "medium": 7,
+        "low": 1,
         "unknown": 0
       },
-      "totalAlerts": 27,
+      "totalAlerts": 19,
       "openPRs": 3,
       "prs": [
         {
           "number": 15,
           "title": "Bump postcss and next",
           "createdAt": "2026-08-06T23:58:35Z",
-          "updatedAt": "2026-08-07T19:22:53Z",
+          "updatedAt": "2026-08-09T00:26:57Z",
           "isDependabot": true,
           "isSecurityUpdate": false,
           "autoMergeEnabled": false,
@@ -100,7 +100,7 @@
           "number": 16,
           "title": "Bump brace-expansion",
           "createdAt": "2026-08-07T07:00:30Z",
-          "updatedAt": "2026-08-07T18:12:27Z",
+          "updatedAt": "2026-08-09T00:29:14Z",
           "isDependabot": true,
           "isSecurityUpdate": false,
           "autoMergeEnabled": false,
@@ -117,10 +117,10 @@
           "compatibilityMax": null
         },
         {
-          "number": 18,
-          "title": "Bump dompurify from 3.4.1 to 3.4.13",
-          "createdAt": "2026-08-07T18:16:38Z",
-          "updatedAt": "2026-08-07T19:20:26Z",
+          "number": 19,
+          "title": "Bump nanoid from 3.3.11 to 3.3.18",
+          "createdAt": "2026-08-09T00:59:36Z",
+          "updatedAt": "2026-08-09T01:00:16Z",
           "isDependabot": true,
           "isSecurityUpdate": false,
           "autoMergeEnabled": false,
@@ -131,10 +131,10 @@
             "dependencies",
             "javascript"
           ],
-          "url": "https://github.com/kylifornication-code/ai-fluency-for-teams/pull/18",
-          "compatibilityDisplay": null,
-          "compatibilityMin": null,
-          "compatibilityMax": null
+          "url": "https://github.com/kylifornication-code/ai-fluency-for-teams/pull/19",
+          "compatibilityDisplay": "70%",
+          "compatibilityMin": 70,
+          "compatibilityMax": 70
         }
       ],
       "ecosystems": [
@@ -162,7 +162,7 @@
           "number": 4,
           "title": "build(deps): bump brace-expansion",
           "createdAt": "2026-08-07T07:02:10Z",
-          "updatedAt": "2026-08-07T18:11:53Z",
+          "updatedAt": "2026-08-09T00:28:39Z",
           "isDependabot": true,
           "isSecurityUpdate": false,
           "autoMergeEnabled": false,
@@ -182,7 +182,7 @@
           "number": 5,
           "title": "build(deps): bump postcss and next",
           "createdAt": "2026-08-07T07:02:24Z",
-          "updatedAt": "2026-08-07T18:13:04Z",
+          "updatedAt": "2026-08-09T00:30:33Z",
           "isDependabot": true,
           "isSecurityUpdate": false,
           "autoMergeEnabled": false,
@@ -224,7 +224,7 @@
           "number": 32,
           "title": "Bump js-yaml from 3.14.2 to 3.15.1",
           "createdAt": "2026-08-07T06:02:11Z",
-          "updatedAt": "2026-08-07T19:23:26Z",
+          "updatedAt": "2026-08-09T00:27:32Z",
           "isDependabot": true,
           "isSecurityUpdate": false,
           "autoMergeEnabled": false,
@@ -236,9 +236,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/thedrizzle/pull/32",
-          "compatibilityDisplay": "50%",
-          "compatibilityMin": 50,
-          "compatibilityMax": 50
+          "compatibilityDisplay": "53%",
+          "compatibilityMin": 53,
+          "compatibilityMax": 53
         },
         {
           "number": 34,
@@ -280,28 +280,8 @@
         "unknown": 0
       },
       "totalAlerts": 15,
-      "openPRs": 3,
+      "openPRs": 2,
       "prs": [
-        {
-          "number": 31,
-          "title": "Bump @types/react from 19.2.13 to 19.2.17",
-          "createdAt": "2026-06-08T01:14:37Z",
-          "updatedAt": "2026-08-07T05:56:37Z",
-          "isDependabot": true,
-          "isSecurityUpdate": false,
-          "autoMergeEnabled": false,
-          "mergeable": null,
-          "mergeableState": "unknown",
-          "isDraft": false,
-          "labels": [
-            "dependencies",
-            "javascript"
-          ],
-          "url": "https://github.com/Buffalo-Drinking-Game/buffalo-drinking-game/pull/31",
-          "compatibilityDisplay": null,
-          "compatibilityMin": null,
-          "compatibilityMax": null
-        },
         {
           "number": 32,
           "title": "Bump @astrojs/react from 5.0.0 to 5.0.7",
@@ -388,7 +368,7 @@
           "number": 23,
           "title": "Bump esbuild and astro",
           "createdAt": "2026-08-07T14:38:39Z",
-          "updatedAt": "2026-08-07T19:21:40Z",
+          "updatedAt": "2026-08-09T00:25:47Z",
           "isDependabot": true,
           "isSecurityUpdate": false,
           "autoMergeEnabled": false,
