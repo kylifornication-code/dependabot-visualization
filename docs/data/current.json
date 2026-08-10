@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-08-09T19:52:04.638Z",
+  "generatedAt": "2026-08-10T07:56:20.007Z",
   "summary": {
-    "totalAlerts": 118,
+    "totalAlerts": 120,
     "bySeverity": {
       "critical": 0,
-      "high": 54,
+      "high": 56,
       "medium": 47,
       "low": 17,
       "unknown": 0
     },
     "byEcosystem": {
-      "npm": 118
+      "npm": 120
     },
-    "totalOpenPRs": 14,
+    "totalOpenPRs": 17,
     "reposAffected": 7,
     "reposWithPRs": 7,
     "reposScanned": 7
@@ -50,9 +50,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/astro-career-walking-deck/pull/15",
-          "compatibilityDisplay": "39%",
-          "compatibilityMin": 39,
-          "compatibilityMax": 39
+          "compatibilityDisplay": "40%",
+          "compatibilityMin": 40,
+          "compatibilityMax": 40
         }
       ],
       "ecosystems": [
@@ -132,15 +132,77 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/ai-fluency-for-teams/pull/19",
-          "compatibilityDisplay": "67%",
-          "compatibilityMin": 67,
-          "compatibilityMax": 67
+          "compatibilityDisplay": "78%",
+          "compatibilityMin": 78,
+          "compatibilityMax": 78
         }
       ],
       "ecosystems": [
         "npm"
       ],
       "oldestAlert": "2026-05-12T19:55:15Z"
+    },
+    {
+      "repo": "kylifornication-code/thedrizzle",
+      "name": "thedrizzle",
+      "owner": "kylifornication-code",
+      "isPrivate": false,
+      "language": "TypeScript",
+      "alertCounts": {
+        "critical": 0,
+        "high": 9,
+        "medium": 8,
+        "low": 2,
+        "unknown": 0
+      },
+      "totalAlerts": 19,
+      "openPRs": 2,
+      "prs": [
+        {
+          "number": 32,
+          "title": "Bump js-yaml from 3.14.2 to 3.15.1",
+          "createdAt": "2026-08-07T06:02:11Z",
+          "updatedAt": "2026-08-09T00:27:32Z",
+          "isDependabot": true,
+          "isSecurityUpdate": false,
+          "autoMergeEnabled": false,
+          "mergeable": null,
+          "mergeableState": "unknown",
+          "isDraft": false,
+          "labels": [
+            "dependencies",
+            "javascript"
+          ],
+          "url": "https://github.com/kylifornication-code/thedrizzle/pull/32",
+          "compatibilityDisplay": "58%",
+          "compatibilityMin": 58,
+          "compatibilityMax": 58
+        },
+        {
+          "number": 34,
+          "title": "Bump ws",
+          "createdAt": "2026-08-07T14:38:55Z",
+          "updatedAt": "2026-08-07T18:11:14Z",
+          "isDependabot": true,
+          "isSecurityUpdate": false,
+          "autoMergeEnabled": false,
+          "mergeable": null,
+          "mergeableState": "unknown",
+          "isDraft": false,
+          "labels": [
+            "dependencies",
+            "javascript"
+          ],
+          "url": "https://github.com/kylifornication-code/thedrizzle/pull/34",
+          "compatibilityDisplay": null,
+          "compatibilityMin": null,
+          "compatibilityMax": null
+        }
+      ],
+      "ecosystems": [
+        "npm"
+      ],
+      "oldestAlert": "2026-03-03T01:38:53Z"
     },
     {
       "repo": "kylifornication-code/the-infosec-wheel",
@@ -205,68 +267,6 @@
       "oldestAlert": "2026-05-20T15:06:28Z"
     },
     {
-      "repo": "kylifornication-code/thedrizzle",
-      "name": "thedrizzle",
-      "owner": "kylifornication-code",
-      "isPrivate": false,
-      "language": "TypeScript",
-      "alertCounts": {
-        "critical": 0,
-        "high": 7,
-        "medium": 8,
-        "low": 2,
-        "unknown": 0
-      },
-      "totalAlerts": 17,
-      "openPRs": 2,
-      "prs": [
-        {
-          "number": 32,
-          "title": "Bump js-yaml from 3.14.2 to 3.15.1",
-          "createdAt": "2026-08-07T06:02:11Z",
-          "updatedAt": "2026-08-09T00:27:32Z",
-          "isDependabot": true,
-          "isSecurityUpdate": false,
-          "autoMergeEnabled": false,
-          "mergeable": null,
-          "mergeableState": "unknown",
-          "isDraft": false,
-          "labels": [
-            "dependencies",
-            "javascript"
-          ],
-          "url": "https://github.com/kylifornication-code/thedrizzle/pull/32",
-          "compatibilityDisplay": "56%",
-          "compatibilityMin": 56,
-          "compatibilityMax": 56
-        },
-        {
-          "number": 34,
-          "title": "Bump ws",
-          "createdAt": "2026-08-07T14:38:55Z",
-          "updatedAt": "2026-08-07T18:11:14Z",
-          "isDependabot": true,
-          "isSecurityUpdate": false,
-          "autoMergeEnabled": false,
-          "mergeable": null,
-          "mergeableState": "unknown",
-          "isDraft": false,
-          "labels": [
-            "dependencies",
-            "javascript"
-          ],
-          "url": "https://github.com/kylifornication-code/thedrizzle/pull/34",
-          "compatibilityDisplay": null,
-          "compatibilityMin": null,
-          "compatibilityMax": null
-        }
-      ],
-      "ecosystems": [
-        "npm"
-      ],
-      "oldestAlert": "2026-03-03T01:38:53Z"
-    },
-    {
       "repo": "Buffalo-Drinking-Game/buffalo-drinking-game",
       "name": "buffalo-drinking-game",
       "owner": "Buffalo-Drinking-Game",
@@ -280,28 +280,8 @@
         "unknown": 0
       },
       "totalAlerts": 15,
-      "openPRs": 2,
+      "openPRs": 5,
       "prs": [
-        {
-          "number": 32,
-          "title": "Bump @astrojs/react from 5.0.0 to 5.0.7",
-          "createdAt": "2026-06-08T01:14:49Z",
-          "updatedAt": "2026-08-07T05:56:39Z",
-          "isDependabot": true,
-          "isSecurityUpdate": false,
-          "autoMergeEnabled": false,
-          "mergeable": null,
-          "mergeableState": "unknown",
-          "isDraft": false,
-          "labels": [
-            "dependencies",
-            "javascript"
-          ],
-          "url": "https://github.com/Buffalo-Drinking-Game/buffalo-drinking-game/pull/32",
-          "compatibilityDisplay": null,
-          "compatibilityMin": null,
-          "compatibilityMax": null
-        },
         {
           "number": 33,
           "title": "Bump the npm_and_yarn group across 1 directory with 2 updates",
@@ -318,6 +298,86 @@
             "javascript"
           ],
           "url": "https://github.com/Buffalo-Drinking-Game/buffalo-drinking-game/pull/33",
+          "compatibilityDisplay": null,
+          "compatibilityMin": null,
+          "compatibilityMax": null
+        },
+        {
+          "number": 36,
+          "title": "Bump @tailwindcss/vite from 4.3.1 to 4.3.3",
+          "createdAt": "2026-08-10T01:12:59Z",
+          "updatedAt": "2026-08-10T01:13:00Z",
+          "isDependabot": true,
+          "isSecurityUpdate": false,
+          "autoMergeEnabled": false,
+          "mergeable": null,
+          "mergeableState": "unknown",
+          "isDraft": false,
+          "labels": [
+            "dependencies",
+            "javascript"
+          ],
+          "url": "https://github.com/Buffalo-Drinking-Game/buffalo-drinking-game/pull/36",
+          "compatibilityDisplay": "85%",
+          "compatibilityMin": 85,
+          "compatibilityMax": 85
+        },
+        {
+          "number": 37,
+          "title": "Bump framer-motion from 12.40.0 to 13.0.0",
+          "createdAt": "2026-08-10T01:13:06Z",
+          "updatedAt": "2026-08-10T01:13:07Z",
+          "isDependabot": true,
+          "isSecurityUpdate": false,
+          "autoMergeEnabled": false,
+          "mergeable": null,
+          "mergeableState": "unknown",
+          "isDraft": false,
+          "labels": [
+            "dependencies",
+            "javascript"
+          ],
+          "url": "https://github.com/Buffalo-Drinking-Game/buffalo-drinking-game/pull/37",
+          "compatibilityDisplay": null,
+          "compatibilityMin": null,
+          "compatibilityMax": null
+        },
+        {
+          "number": 38,
+          "title": "Bump react and @types/react",
+          "createdAt": "2026-08-10T01:13:17Z",
+          "updatedAt": "2026-08-10T01:13:18Z",
+          "isDependabot": true,
+          "isSecurityUpdate": false,
+          "autoMergeEnabled": false,
+          "mergeable": null,
+          "mergeableState": "unknown",
+          "isDraft": false,
+          "labels": [
+            "dependencies",
+            "javascript"
+          ],
+          "url": "https://github.com/Buffalo-Drinking-Game/buffalo-drinking-game/pull/38",
+          "compatibilityDisplay": null,
+          "compatibilityMin": null,
+          "compatibilityMax": null
+        },
+        {
+          "number": 39,
+          "title": "Bump @astrojs/react from 5.0.0 to 6.0.2",
+          "createdAt": "2026-08-10T01:13:59Z",
+          "updatedAt": "2026-08-10T01:14:00Z",
+          "isDependabot": true,
+          "isSecurityUpdate": false,
+          "autoMergeEnabled": false,
+          "mergeable": null,
+          "mergeableState": "unknown",
+          "isDraft": false,
+          "labels": [
+            "dependencies",
+            "javascript"
+          ],
+          "url": "https://github.com/Buffalo-Drinking-Game/buffalo-drinking-game/pull/39",
           "compatibilityDisplay": null,
           "compatibilityMin": null,
           "compatibilityMax": null
@@ -400,9 +460,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/ncaa-wrestling-bracket/pull/24",
-          "compatibilityDisplay": "80%",
-          "compatibilityMin": 80,
-          "compatibilityMax": 80
+          "compatibilityDisplay": "81%",
+          "compatibilityMin": 81,
+          "compatibilityMax": 81
         }
       ],
       "ecosystems": [
