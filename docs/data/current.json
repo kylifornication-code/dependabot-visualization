@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-08-12T07:43:20.560Z",
+  "generatedAt": "2026-08-13T07:45:22.455Z",
   "summary": {
-    "totalAlerts": 134,
+    "totalAlerts": 135,
     "bySeverity": {
       "critical": 0,
-      "high": 63,
+      "high": 64,
       "medium": 50,
       "low": 21,
       "unknown": 0
     },
     "byEcosystem": {
-      "npm": 128,
+      "npm": 129,
       "pip": 6
     },
     "totalOpenPRs": 17,
@@ -51,9 +51,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/astro-career-walking-deck/pull/15",
-          "compatibilityDisplay": "43%",
-          "compatibilityMin": 43,
-          "compatibilityMax": 43
+          "compatibilityDisplay": "42%",
+          "compatibilityMin": 42,
+          "compatibilityMax": 42
         }
       ],
       "ecosystems": [
@@ -133,9 +133,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/the-infosec-wheel/pull/7",
-          "compatibilityDisplay": "83%",
-          "compatibilityMin": 83,
-          "compatibilityMax": 83
+          "compatibilityDisplay": "82%",
+          "compatibilityMin": 82,
+          "compatibilityMax": 82
         }
       ],
       "ecosystems": [
@@ -175,9 +175,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/thedrizzle/pull/32",
-          "compatibilityDisplay": "78%",
-          "compatibilityMin": 78,
-          "compatibilityMax": 78
+          "compatibilityDisplay": "81%",
+          "compatibilityMin": 81,
+          "compatibilityMax": 81
         },
         {
           "number": 34,
@@ -441,9 +441,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/ncaa-wrestling-bracket/pull/24",
-          "compatibilityDisplay": "79%",
-          "compatibilityMin": 79,
-          "compatibilityMax": 79
+          "compatibilityDisplay": "78%",
+          "compatibilityMin": 78,
+          "compatibilityMax": 78
         }
       ],
       "ecosystems": [
@@ -459,12 +459,12 @@
       "language": "Python",
       "alertCounts": {
         "critical": 0,
-        "high": 3,
+        "high": 4,
         "medium": 3,
         "low": 2,
         "unknown": 0
       },
-      "totalAlerts": 8,
+      "totalAlerts": 9,
       "openPRs": 1,
       "prs": [
         {
@@ -525,9 +525,9 @@
             "python"
           ],
           "url": "https://github.com/kylifornication-code/training-requests/pull/7",
-          "compatibilityDisplay": "64%",
-          "compatibilityMin": 64,
-          "compatibilityMax": 64
+          "compatibilityDisplay": "60%",
+          "compatibilityMin": 60,
+          "compatibilityMax": 60
         }
       ],
       "ecosystems": [
