@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-08-13T07:45:22.455Z",
+  "generatedAt": "2026-08-14T07:42:52.192Z",
   "summary": {
-    "totalAlerts": 135,
+    "totalAlerts": 129,
     "bySeverity": {
       "critical": 0,
-      "high": 64,
+      "high": 58,
       "medium": 50,
       "low": 21,
       "unknown": 0
     },
     "byEcosystem": {
-      "npm": 129,
+      "npm": 123,
       "pip": 6
     },
     "totalOpenPRs": 17,
@@ -27,12 +27,12 @@
       "language": "TypeScript",
       "alertCounts": {
         "critical": 0,
-        "high": 15,
+        "high": 14,
         "medium": 11,
         "low": 5,
         "unknown": 0
       },
-      "totalAlerts": 31,
+      "totalAlerts": 30,
       "openPRs": 1,
       "prs": [
         {
@@ -51,9 +51,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/astro-career-walking-deck/pull/15",
-          "compatibilityDisplay": "42%",
-          "compatibilityMin": 42,
-          "compatibilityMax": 42
+          "compatibilityDisplay": "43%",
+          "compatibilityMin": 43,
+          "compatibilityMax": 43
         }
       ],
       "ecosystems": [
@@ -69,12 +69,12 @@
       "language": "TypeScript",
       "alertCounts": {
         "critical": 0,
-        "high": 11,
+        "high": 10,
         "medium": 7,
         "low": 1,
         "unknown": 0
       },
-      "totalAlerts": 19,
+      "totalAlerts": 18,
       "openPRs": 3,
       "prs": [
         {
@@ -151,12 +151,12 @@
       "language": "TypeScript",
       "alertCounts": {
         "critical": 0,
-        "high": 10,
+        "high": 9,
         "medium": 8,
         "low": 2,
         "unknown": 0
       },
-      "totalAlerts": 20,
+      "totalAlerts": 19,
       "openPRs": 2,
       "prs": [
         {
@@ -275,12 +275,12 @@
       "language": "TypeScript",
       "alertCounts": {
         "critical": 0,
-        "high": 9,
+        "high": 8,
         "medium": 5,
         "low": 3,
         "unknown": 0
       },
-      "totalAlerts": 17,
+      "totalAlerts": 16,
       "openPRs": 4,
       "prs": [
         {
@@ -377,12 +377,12 @@
       "language": "JavaScript",
       "alertCounts": {
         "critical": 0,
-        "high": 6,
+        "high": 5,
         "medium": 7,
         "low": 3,
         "unknown": 0
       },
-      "totalAlerts": 16,
+      "totalAlerts": 15,
       "openPRs": 3,
       "prs": [
         {
@@ -441,9 +441,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/ncaa-wrestling-bracket/pull/24",
-          "compatibilityDisplay": "78%",
-          "compatibilityMin": 78,
-          "compatibilityMax": 78
+          "compatibilityDisplay": "77%",
+          "compatibilityMin": 77,
+          "compatibilityMax": 77
         }
       ],
       "ecosystems": [
@@ -459,12 +459,12 @@
       "language": "Python",
       "alertCounts": {
         "critical": 0,
-        "high": 4,
+        "high": 3,
         "medium": 3,
         "low": 2,
         "unknown": 0
       },
-      "totalAlerts": 9,
+      "totalAlerts": 8,
       "openPRs": 1,
       "prs": [
         {
@@ -525,9 +525,9 @@
             "python"
           ],
           "url": "https://github.com/kylifornication-code/training-requests/pull/7",
-          "compatibilityDisplay": "60%",
-          "compatibilityMin": 60,
-          "compatibilityMax": 60
+          "compatibilityDisplay": "62%",
+          "compatibilityMin": 62,
+          "compatibilityMax": 62
         }
       ],
       "ecosystems": [
