@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T06:50:45.439Z",
+  "generatedAt": "2026-08-16T06:52:20.869Z",
   "summary": {
     "totalAlerts": 129,
     "bySeverity": {
@@ -51,9 +51,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/astro-career-walking-deck/pull/15",
-          "compatibilityDisplay": "43%",
-          "compatibilityMin": 43,
-          "compatibilityMax": 43
+          "compatibilityDisplay": "41%",
+          "compatibilityMin": 41,
+          "compatibilityMax": 41
         }
       ],
       "ecosystems": [
@@ -133,9 +133,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/the-infosec-wheel/pull/7",
-          "compatibilityDisplay": "83%",
-          "compatibilityMin": 83,
-          "compatibilityMax": 83
+          "compatibilityDisplay": "87%",
+          "compatibilityMin": 87,
+          "compatibilityMax": 87
         }
       ],
       "ecosystems": [
@@ -175,9 +175,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/thedrizzle/pull/32",
-          "compatibilityDisplay": "81%",
-          "compatibilityMin": 81,
-          "compatibilityMax": 81
+          "compatibilityDisplay": "79%",
+          "compatibilityMin": 79,
+          "compatibilityMax": 79
         },
         {
           "number": 34,
@@ -525,9 +525,9 @@
             "python"
           ],
           "url": "https://github.com/kylifornication-code/training-requests/pull/7",
-          "compatibilityDisplay": "60%",
-          "compatibilityMin": 60,
-          "compatibilityMax": 60
+          "compatibilityDisplay": "56%",
+          "compatibilityMin": 56,
+          "compatibilityMax": 56
         }
       ],
       "ecosystems": [
