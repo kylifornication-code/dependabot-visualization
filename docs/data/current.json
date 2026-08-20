@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-08-19T06:56:39.888Z",
+  "generatedAt": "2026-08-20T06:57:17.675Z",
   "summary": {
-    "totalAlerts": 135,
+    "totalAlerts": 137,
     "bySeverity": {
       "critical": 0,
       "high": 64,
-      "medium": 50,
+      "medium": 52,
       "low": 21,
       "unknown": 0
     },
     "byEcosystem": {
-      "npm": 129,
+      "npm": 131,
       "pip": 6
     },
     "totalOpenPRs": 18,
@@ -70,11 +70,11 @@
       "alertCounts": {
         "critical": 0,
         "high": 11,
-        "medium": 7,
+        "medium": 8,
         "low": 1,
         "unknown": 0
       },
-      "totalAlerts": 19,
+      "totalAlerts": 20,
       "openPRs": 3,
       "prs": [
         {
@@ -175,9 +175,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/thedrizzle/pull/32",
-          "compatibilityDisplay": "77%",
-          "compatibilityMin": 77,
-          "compatibilityMax": 77
+          "compatibilityDisplay": "78%",
+          "compatibilityMin": 78,
+          "compatibilityMax": 78
         },
         {
           "number": 34,
@@ -214,11 +214,11 @@
       "alertCounts": {
         "critical": 0,
         "high": 9,
-        "medium": 7,
+        "medium": 8,
         "low": 1,
         "unknown": 0
       },
-      "totalAlerts": 17,
+      "totalAlerts": 18,
       "openPRs": 2,
       "prs": [
         {
@@ -545,9 +545,9 @@
             "python"
           ],
           "url": "https://github.com/kylifornication-code/training-requests/pull/7",
-          "compatibilityDisplay": "58%",
-          "compatibilityMin": 58,
-          "compatibilityMax": 58
+          "compatibilityDisplay": "66%",
+          "compatibilityMin": 66,
+          "compatibilityMax": 66
         }
       ],
       "ecosystems": [
