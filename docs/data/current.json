@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T07:12:45.726Z",
+  "generatedAt": "2026-08-25T06:59:54.528Z",
   "summary": {
     "totalAlerts": 143,
     "bySeverity": {
@@ -461,9 +461,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/ncaa-wrestling-bracket/pull/24",
-          "compatibilityDisplay": "78%",
-          "compatibilityMin": 78,
-          "compatibilityMax": 78
+          "compatibilityDisplay": "76%",
+          "compatibilityMin": 76,
+          "compatibilityMax": 76
         }
       ],
       "ecosystems": [
@@ -545,9 +545,9 @@
             "python"
           ],
           "url": "https://github.com/kylifornication-code/training-requests/pull/7",
-          "compatibilityDisplay": "55%",
-          "compatibilityMin": 55,
-          "compatibilityMax": 55
+          "compatibilityDisplay": "52%",
+          "compatibilityMin": 52,
+          "compatibilityMax": 52
         }
       ],
       "ecosystems": [
