@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-27T17:34:26.089Z",
+  "generatedAt": "2026-08-28T18:31:58.787Z",
   "summary": {
     "totalAlerts": 140,
     "bySeverity": {
@@ -51,9 +51,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/astro-career-walking-deck/pull/15",
-          "compatibilityDisplay": "42%",
-          "compatibilityMin": 42,
-          "compatibilityMax": 42
+          "compatibilityDisplay": "44%",
+          "compatibilityMin": 44,
+          "compatibilityMax": 44
         }
       ],
       "ecosystems": [
@@ -93,9 +93,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/thedrizzle/pull/32",
-          "compatibilityDisplay": "78%",
-          "compatibilityMin": 78,
-          "compatibilityMax": 78
+          "compatibilityDisplay": "77%",
+          "compatibilityMin": 77,
+          "compatibilityMax": 77
         },
         {
           "number": 34,
@@ -359,9 +359,9 @@
             "javascript"
           ],
           "url": "https://github.com/Buffalo-Drinking-Game/buffalo-drinking-game/pull/41",
-          "compatibilityDisplay": "67%",
-          "compatibilityMin": 67,
-          "compatibilityMax": 67
+          "compatibilityDisplay": "80%",
+          "compatibilityMin": 80,
+          "compatibilityMax": 80
         }
       ],
       "ecosystems": [
@@ -441,9 +441,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/ncaa-wrestling-bracket/pull/24",
-          "compatibilityDisplay": "77%",
-          "compatibilityMin": 77,
-          "compatibilityMax": 77
+          "compatibilityDisplay": "75%",
+          "compatibilityMin": 75,
+          "compatibilityMax": 75
         }
       ],
       "ecosystems": [
@@ -525,9 +525,9 @@
             "python"
           ],
           "url": "https://github.com/kylifornication-code/training-requests/pull/7",
-          "compatibilityDisplay": "55%",
-          "compatibilityMin": 55,
-          "compatibilityMax": 55
+          "compatibilityDisplay": "57%",
+          "compatibilityMin": 57,
+          "compatibilityMax": 57
         }
       ],
       "ecosystems": [
