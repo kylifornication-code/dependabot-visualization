@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-29T12:36:32.925Z",
+  "generatedAt": "2026-08-30T11:46:02.927Z",
   "summary": {
     "totalAlerts": 140,
     "bySeverity": {
@@ -359,9 +359,9 @@
             "javascript"
           ],
           "url": "https://github.com/Buffalo-Drinking-Game/buffalo-drinking-game/pull/41",
-          "compatibilityDisplay": "67%",
-          "compatibilityMin": 67,
-          "compatibilityMax": 67
+          "compatibilityDisplay": "80%",
+          "compatibilityMin": 80,
+          "compatibilityMax": 80
         }
       ],
       "ecosystems": [
@@ -441,9 +441,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/ncaa-wrestling-bracket/pull/24",
-          "compatibilityDisplay": "76%",
-          "compatibilityMin": 76,
-          "compatibilityMax": 76
+          "compatibilityDisplay": "75%",
+          "compatibilityMin": 75,
+          "compatibilityMax": 75
         }
       ],
       "ecosystems": [
