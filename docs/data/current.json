@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-30T11:46:02.927Z",
+  "generatedAt": "2026-08-31T13:28:55.232Z",
   "summary": {
     "totalAlerts": 140,
     "bySeverity": {
@@ -51,9 +51,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/astro-career-walking-deck/pull/15",
-          "compatibilityDisplay": "43%",
-          "compatibilityMin": 43,
-          "compatibilityMax": 43
+          "compatibilityDisplay": "42%",
+          "compatibilityMin": 42,
+          "compatibilityMax": 42
         }
       ],
       "ecosystems": [
@@ -93,9 +93,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/thedrizzle/pull/32",
-          "compatibilityDisplay": "78%",
-          "compatibilityMin": 78,
-          "compatibilityMax": 78
+          "compatibilityDisplay": "77%",
+          "compatibilityMin": 77,
+          "compatibilityMax": 77
         },
         {
           "number": 34,
@@ -347,7 +347,7 @@
           "number": 41,
           "title": "Bump framer-motion from 12.40.0 to 13.1.0",
           "createdAt": "2026-08-17T01:14:47Z",
-          "updatedAt": "2026-08-17T01:14:48Z",
+          "updatedAt": "2026-08-31T09:28:20Z",
           "isDependabot": true,
           "isSecurityUpdate": false,
           "autoMergeEnabled": false,
@@ -359,9 +359,9 @@
             "javascript"
           ],
           "url": "https://github.com/Buffalo-Drinking-Game/buffalo-drinking-game/pull/41",
-          "compatibilityDisplay": "80%",
-          "compatibilityMin": 80,
-          "compatibilityMax": 80
+          "compatibilityDisplay": "83%",
+          "compatibilityMin": 83,
+          "compatibilityMax": 83
         }
       ],
       "ecosystems": [
@@ -525,9 +525,9 @@
             "python"
           ],
           "url": "https://github.com/kylifornication-code/training-requests/pull/7",
-          "compatibilityDisplay": "54%",
-          "compatibilityMin": 54,
-          "compatibilityMax": 54
+          "compatibilityDisplay": "50%",
+          "compatibilityMin": 50,
+          "compatibilityMax": 50
         }
       ],
       "ecosystems": [
