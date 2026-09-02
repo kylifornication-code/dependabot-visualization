@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-09-01T11:32:17.312Z",
+  "generatedAt": "2026-09-02T11:07:30.821Z",
   "summary": {
-    "totalAlerts": 140,
+    "totalAlerts": 141,
     "bySeverity": {
       "critical": 0,
       "high": 62,
       "medium": 53,
-      "low": 25,
+      "low": 26,
       "unknown": 0
     },
     "byEcosystem": {
-      "npm": 128,
+      "npm": 129,
       "pip": 12
     },
-    "totalOpenPRs": 17,
+    "totalOpenPRs": 18,
     "reposAffected": 8,
     "reposWithPRs": 8,
     "reposScanned": 8
@@ -71,11 +71,11 @@
         "critical": 0,
         "high": 10,
         "medium": 8,
-        "low": 2,
+        "low": 3,
         "unknown": 0
       },
-      "totalAlerts": 20,
-      "openPRs": 2,
+      "totalAlerts": 21,
+      "openPRs": 3,
       "prs": [
         {
           "number": 32,
@@ -93,9 +93,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/thedrizzle/pull/32",
-          "compatibilityDisplay": "78%",
-          "compatibilityMin": 78,
-          "compatibilityMax": 78
+          "compatibilityDisplay": "76%",
+          "compatibilityMin": 76,
+          "compatibilityMax": 76
         },
         {
           "number": 34,
@@ -113,6 +113,26 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/thedrizzle/pull/34",
+          "compatibilityDisplay": null,
+          "compatibilityMin": null,
+          "compatibilityMax": null
+        },
+        {
+          "number": 35,
+          "title": "Bump postcss-selector-parser",
+          "createdAt": "2026-09-01T23:54:44Z",
+          "updatedAt": "2026-09-01T23:54:45Z",
+          "isDependabot": true,
+          "isSecurityUpdate": false,
+          "autoMergeEnabled": false,
+          "mergeable": null,
+          "mergeableState": "unknown",
+          "isDraft": false,
+          "labels": [
+            "dependencies",
+            "javascript"
+          ],
+          "url": "https://github.com/kylifornication-code/thedrizzle/pull/35",
           "compatibilityDisplay": null,
           "compatibilityMin": null,
           "compatibilityMax": null
@@ -359,9 +379,9 @@
             "javascript"
           ],
           "url": "https://github.com/Buffalo-Drinking-Game/buffalo-drinking-game/pull/41",
-          "compatibilityDisplay": "83%",
-          "compatibilityMin": 83,
-          "compatibilityMax": 83
+          "compatibilityDisplay": "86%",
+          "compatibilityMin": 86,
+          "compatibilityMax": 86
         }
       ],
       "ecosystems": [
@@ -441,9 +461,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/ncaa-wrestling-bracket/pull/24",
-          "compatibilityDisplay": "76%",
-          "compatibilityMin": 76,
-          "compatibilityMax": 76
+          "compatibilityDisplay": "78%",
+          "compatibilityMin": 78,
+          "compatibilityMax": 78
         }
       ],
       "ecosystems": [
@@ -525,9 +545,9 @@
             "python"
           ],
           "url": "https://github.com/kylifornication-code/training-requests/pull/7",
-          "compatibilityDisplay": "48%",
-          "compatibilityMin": 48,
-          "compatibilityMax": 48
+          "compatibilityDisplay": "51%",
+          "compatibilityMin": 51,
+          "compatibilityMax": 51
         }
       ],
       "ecosystems": [
