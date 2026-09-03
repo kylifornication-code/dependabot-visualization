@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-09-02T11:07:30.821Z",
+  "generatedAt": "2026-09-03T11:04:39.744Z",
   "summary": {
-    "totalAlerts": 141,
+    "totalAlerts": 146,
     "bySeverity": {
       "critical": 0,
-      "high": 62,
-      "medium": 53,
-      "low": 26,
+      "high": 64,
+      "medium": 54,
+      "low": 28,
       "unknown": 0
     },
     "byEcosystem": {
-      "npm": 129,
+      "npm": 134,
       "pip": 12
     },
-    "totalOpenPRs": 18,
+    "totalOpenPRs": 19,
     "reposAffected": 8,
     "reposWithPRs": 8,
     "reposScanned": 8
@@ -29,10 +29,10 @@
         "critical": 0,
         "high": 15,
         "medium": 11,
-        "low": 5,
+        "low": 6,
         "unknown": 0
       },
-      "totalAlerts": 31,
+      "totalAlerts": 32,
       "openPRs": 1,
       "prs": [
         {
@@ -51,9 +51,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/astro-career-walking-deck/pull/15",
-          "compatibilityDisplay": "40%",
-          "compatibilityMin": 40,
-          "compatibilityMax": 40
+          "compatibilityDisplay": "39%",
+          "compatibilityMin": 39,
+          "compatibilityMax": 39
         }
       ],
       "ecosystems": [
@@ -69,13 +69,13 @@
       "language": "TypeScript",
       "alertCounts": {
         "critical": 0,
-        "high": 10,
-        "medium": 8,
-        "low": 3,
+        "high": 12,
+        "medium": 9,
+        "low": 4,
         "unknown": 0
       },
-      "totalAlerts": 21,
-      "openPRs": 3,
+      "totalAlerts": 25,
+      "openPRs": 4,
       "prs": [
         {
           "number": 32,
@@ -93,9 +93,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/thedrizzle/pull/32",
-          "compatibilityDisplay": "76%",
-          "compatibilityMin": 76,
-          "compatibilityMax": 76
+          "compatibilityDisplay": "77%",
+          "compatibilityMin": 77,
+          "compatibilityMax": 77
         },
         {
           "number": 34,
@@ -136,6 +136,26 @@
           "compatibilityDisplay": null,
           "compatibilityMin": null,
           "compatibilityMax": null
+        },
+        {
+          "number": 36,
+          "title": "Bump fast-uri from 3.1.5 to 3.1.7",
+          "createdAt": "2026-09-03T02:35:19Z",
+          "updatedAt": "2026-09-03T02:35:20Z",
+          "isDependabot": true,
+          "isSecurityUpdate": false,
+          "autoMergeEnabled": false,
+          "mergeable": null,
+          "mergeableState": "unknown",
+          "isDraft": false,
+          "labels": [
+            "dependencies",
+            "javascript"
+          ],
+          "url": "https://github.com/kylifornication-code/thedrizzle/pull/36",
+          "compatibilityDisplay": "90%",
+          "compatibilityMin": 90,
+          "compatibilityMax": 90
         }
       ],
       "ecosystems": [
@@ -461,9 +481,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/ncaa-wrestling-bracket/pull/24",
-          "compatibilityDisplay": "78%",
-          "compatibilityMin": 78,
-          "compatibilityMax": 78
+          "compatibilityDisplay": "79%",
+          "compatibilityMin": 79,
+          "compatibilityMax": 79
         }
       ],
       "ecosystems": [
@@ -545,9 +565,9 @@
             "python"
           ],
           "url": "https://github.com/kylifornication-code/training-requests/pull/7",
-          "compatibilityDisplay": "51%",
-          "compatibilityMin": 51,
-          "compatibilityMax": 51
+          "compatibilityDisplay": "55%",
+          "compatibilityMin": 55,
+          "compatibilityMax": 55
         }
       ],
       "ecosystems": [
