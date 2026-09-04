@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-09-03T11:04:39.744Z",
+  "generatedAt": "2026-09-04T11:05:34.763Z",
   "summary": {
-    "totalAlerts": 146,
+    "totalAlerts": 151,
     "bySeverity": {
       "critical": 0,
-      "high": 64,
-      "medium": 54,
+      "high": 66,
+      "medium": 57,
       "low": 28,
       "unknown": 0
     },
     "byEcosystem": {
-      "npm": 134,
+      "npm": 139,
       "pip": 12
     },
-    "totalOpenPRs": 19,
+    "totalOpenPRs": 22,
     "reposAffected": 8,
     "reposWithPRs": 8,
     "reposScanned": 8
@@ -51,9 +51,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/astro-career-walking-deck/pull/15",
-          "compatibilityDisplay": "39%",
-          "compatibilityMin": 39,
-          "compatibilityMax": 39
+          "compatibilityDisplay": "42%",
+          "compatibilityMin": 42,
+          "compatibilityMax": 42
         }
       ],
       "ecosystems": [
@@ -69,12 +69,12 @@
       "language": "TypeScript",
       "alertCounts": {
         "critical": 0,
-        "high": 12,
+        "high": 14,
         "medium": 9,
         "low": 4,
         "unknown": 0
       },
-      "totalAlerts": 25,
+      "totalAlerts": 27,
       "openPRs": 4,
       "prs": [
         {
@@ -93,9 +93,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/thedrizzle/pull/32",
-          "compatibilityDisplay": "77%",
-          "compatibilityMin": 77,
-          "compatibilityMax": 77
+          "compatibilityDisplay": "75%",
+          "compatibilityMin": 75,
+          "compatibilityMax": 75
         },
         {
           "number": 34,
@@ -153,9 +153,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/thedrizzle/pull/36",
-          "compatibilityDisplay": "90%",
-          "compatibilityMin": 90,
-          "compatibilityMax": 90
+          "compatibilityDisplay": "89%",
+          "compatibilityMin": 89,
+          "compatibilityMax": 89
         }
       ],
       "ecosystems": [
@@ -172,12 +172,12 @@
       "alertCounts": {
         "critical": 0,
         "high": 9,
-        "medium": 8,
+        "medium": 9,
         "low": 1,
         "unknown": 0
       },
-      "totalAlerts": 18,
-      "openPRs": 2,
+      "totalAlerts": 19,
+      "openPRs": 3,
       "prs": [
         {
           "number": 15,
@@ -218,6 +218,26 @@
           "compatibilityDisplay": null,
           "compatibilityMin": null,
           "compatibilityMax": null
+        },
+        {
+          "number": 20,
+          "title": "Bump fflate from 0.8.2 to 0.8.3",
+          "createdAt": "2026-09-03T21:47:59Z",
+          "updatedAt": "2026-09-03T21:48:45Z",
+          "isDependabot": true,
+          "isSecurityUpdate": false,
+          "autoMergeEnabled": false,
+          "mergeable": null,
+          "mergeableState": "unknown",
+          "isDraft": false,
+          "labels": [
+            "dependencies",
+            "javascript"
+          ],
+          "url": "https://github.com/kylifornication-code/ai-fluency-for-teams/pull/20",
+          "compatibilityDisplay": "78%",
+          "compatibilityMin": 78,
+          "compatibilityMax": 78
         }
       ],
       "ecosystems": [
@@ -234,12 +254,12 @@
       "alertCounts": {
         "critical": 0,
         "high": 9,
-        "medium": 7,
+        "medium": 8,
         "low": 1,
         "unknown": 0
       },
-      "totalAlerts": 17,
-      "openPRs": 2,
+      "totalAlerts": 18,
+      "openPRs": 3,
       "prs": [
         {
           "number": 4,
@@ -280,6 +300,26 @@
           "compatibilityDisplay": null,
           "compatibilityMin": null,
           "compatibilityMax": null
+        },
+        {
+          "number": 8,
+          "title": "build(deps-dev): bump @humanfs/node from 0.16.7 to 0.16.8",
+          "createdAt": "2026-09-03T17:05:06Z",
+          "updatedAt": "2026-09-03T17:05:33Z",
+          "isDependabot": true,
+          "isSecurityUpdate": false,
+          "autoMergeEnabled": false,
+          "mergeable": null,
+          "mergeableState": "unknown",
+          "isDraft": false,
+          "labels": [
+            "dependencies",
+            "javascript"
+          ],
+          "url": "https://github.com/kylifornication-code/the-infosec-wheel/pull/8",
+          "compatibilityDisplay": "85%",
+          "compatibilityMin": 85,
+          "compatibilityMax": 85
         }
       ],
       "ecosystems": [
@@ -418,12 +458,12 @@
       "alertCounts": {
         "critical": 0,
         "high": 6,
-        "medium": 7,
+        "medium": 8,
         "low": 3,
         "unknown": 0
       },
-      "totalAlerts": 16,
-      "openPRs": 3,
+      "totalAlerts": 17,
+      "openPRs": 4,
       "prs": [
         {
           "number": 3,
@@ -484,6 +524,26 @@
           "compatibilityDisplay": "79%",
           "compatibilityMin": 79,
           "compatibilityMax": 79
+        },
+        {
+          "number": 25,
+          "title": "Bump fflate from 0.8.2 to 0.8.3",
+          "createdAt": "2026-09-03T21:45:01Z",
+          "updatedAt": "2026-09-03T21:45:02Z",
+          "isDependabot": true,
+          "isSecurityUpdate": false,
+          "autoMergeEnabled": false,
+          "mergeable": null,
+          "mergeableState": "unknown",
+          "isDraft": false,
+          "labels": [
+            "dependencies",
+            "javascript"
+          ],
+          "url": "https://github.com/kylifornication-code/ncaa-wrestling-bracket/pull/25",
+          "compatibilityDisplay": "78%",
+          "compatibilityMin": 78,
+          "compatibilityMax": 78
         }
       ],
       "ecosystems": [
@@ -565,9 +625,9 @@
             "python"
           ],
           "url": "https://github.com/kylifornication-code/training-requests/pull/7",
-          "compatibilityDisplay": "55%",
-          "compatibilityMin": 55,
-          "compatibilityMax": 55
+          "compatibilityDisplay": "51%",
+          "compatibilityMin": 51,
+          "compatibilityMax": 51
         }
       ],
       "ecosystems": [
