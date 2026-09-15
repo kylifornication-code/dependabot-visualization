@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-09-15T11:34:59.140Z",
+  "generatedAt": "2026-09-15T15:11:54.874Z",
   "summary": {
-    "totalAlerts": 223,
+    "totalAlerts": 193,
     "bySeverity": {
-      "critical": 16,
-      "high": 100,
-      "medium": 77,
+      "critical": 12,
+      "high": 83,
+      "medium": 68,
       "low": 30,
       "unknown": 0
     },
     "byEcosystem": {
-      "npm": 211,
+      "npm": 181,
       "pip": 12
     },
-    "totalOpenPRs": 43,
+    "totalOpenPRs": 34,
     "reposAffected": 8,
     "reposWithPRs": 8,
     "reposScanned": 8
@@ -131,9 +131,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/ai-fluency-for-teams/pull/22",
-          "compatibilityDisplay": "92%",
-          "compatibilityMin": 92,
-          "compatibilityMax": 92
+          "compatibilityDisplay": "90%",
+          "compatibilityMin": 90,
+          "compatibilityMax": 90
         },
         {
           "number": 23,
@@ -180,168 +180,6 @@
         "npm"
       ],
       "oldestAlert": "2026-05-12T19:55:15Z"
-    },
-    {
-      "repo": "kylifornication-code/the-infosec-wheel",
-      "name": "the-infosec-wheel",
-      "owner": "kylifornication-code",
-      "isPrivate": false,
-      "language": "TypeScript",
-      "alertCounts": {
-        "critical": 4,
-        "high": 12,
-        "medium": 9,
-        "low": 1,
-        "unknown": 0
-      },
-      "totalAlerts": 26,
-      "openPRs": 7,
-      "prs": [
-        {
-          "number": 4,
-          "title": "build(deps): bump brace-expansion",
-          "createdAt": "2026-08-07T07:02:10Z",
-          "updatedAt": "2026-08-09T00:28:39Z",
-          "isDependabot": true,
-          "isSecurityUpdate": false,
-          "autoMergeEnabled": false,
-          "mergeable": null,
-          "mergeableState": "unknown",
-          "isDraft": false,
-          "labels": [
-            "dependencies",
-            "javascript"
-          ],
-          "url": "https://github.com/kylifornication-code/the-infosec-wheel/pull/4",
-          "compatibilityDisplay": null,
-          "compatibilityMin": null,
-          "compatibilityMax": null
-        },
-        {
-          "number": 5,
-          "title": "build(deps): bump postcss and next",
-          "createdAt": "2026-08-07T07:02:24Z",
-          "updatedAt": "2026-08-27T14:51:37Z",
-          "isDependabot": true,
-          "isSecurityUpdate": false,
-          "autoMergeEnabled": false,
-          "mergeable": null,
-          "mergeableState": "unknown",
-          "isDraft": false,
-          "labels": [
-            "dependencies",
-            "javascript"
-          ],
-          "url": "https://github.com/kylifornication-code/the-infosec-wheel/pull/5",
-          "compatibilityDisplay": null,
-          "compatibilityMin": null,
-          "compatibilityMax": null
-        },
-        {
-          "number": 8,
-          "title": "build(deps-dev): bump @humanfs/node from 0.16.7 to 0.16.8",
-          "createdAt": "2026-09-03T17:05:06Z",
-          "updatedAt": "2026-09-03T17:05:33Z",
-          "isDependabot": true,
-          "isSecurityUpdate": false,
-          "autoMergeEnabled": false,
-          "mergeable": null,
-          "mergeableState": "unknown",
-          "isDraft": false,
-          "labels": [
-            "dependencies",
-            "javascript"
-          ],
-          "url": "https://github.com/kylifornication-code/the-infosec-wheel/pull/8",
-          "compatibilityDisplay": "85%",
-          "compatibilityMin": 85,
-          "compatibilityMax": 85
-        },
-        {
-          "number": 9,
-          "title": "build(deps-dev): bump browserslist from 4.28.2 to 4.28.9",
-          "createdAt": "2026-09-07T09:25:12Z",
-          "updatedAt": "2026-09-07T09:25:39Z",
-          "isDependabot": true,
-          "isSecurityUpdate": false,
-          "autoMergeEnabled": false,
-          "mergeable": null,
-          "mergeableState": "unknown",
-          "isDraft": false,
-          "labels": [
-            "dependencies",
-            "javascript"
-          ],
-          "url": "https://github.com/kylifornication-code/the-infosec-wheel/pull/9",
-          "compatibilityDisplay": "88%",
-          "compatibilityMin": 88,
-          "compatibilityMax": 88
-        },
-        {
-          "number": 10,
-          "title": "build(deps): bump baseline-browser-mapping from 2.10.18 to 2.11.22",
-          "createdAt": "2026-09-10T22:31:42Z",
-          "updatedAt": "2026-09-10T22:32:08Z",
-          "isDependabot": true,
-          "isSecurityUpdate": false,
-          "autoMergeEnabled": false,
-          "mergeable": null,
-          "mergeableState": "unknown",
-          "isDraft": false,
-          "labels": [
-            "dependencies",
-            "javascript"
-          ],
-          "url": "https://github.com/kylifornication-code/the-infosec-wheel/pull/10",
-          "compatibilityDisplay": "80%",
-          "compatibilityMin": 80,
-          "compatibilityMax": 80
-        },
-        {
-          "number": 11,
-          "title": "build(deps): bump sharp and next",
-          "createdAt": "2026-09-11T04:20:48Z",
-          "updatedAt": "2026-09-11T04:21:19Z",
-          "isDependabot": true,
-          "isSecurityUpdate": false,
-          "autoMergeEnabled": false,
-          "mergeable": null,
-          "mergeableState": "unknown",
-          "isDraft": false,
-          "labels": [
-            "dependencies",
-            "javascript"
-          ],
-          "url": "https://github.com/kylifornication-code/the-infosec-wheel/pull/11",
-          "compatibilityDisplay": null,
-          "compatibilityMin": null,
-          "compatibilityMax": null
-        },
-        {
-          "number": 12,
-          "title": "build(deps-dev): bump js-yaml from 4.3.1 to 4.3.2",
-          "createdAt": "2026-09-13T05:56:49Z",
-          "updatedAt": "2026-09-13T05:57:10Z",
-          "isDependabot": true,
-          "isSecurityUpdate": false,
-          "autoMergeEnabled": false,
-          "mergeable": null,
-          "mergeableState": "unknown",
-          "isDraft": false,
-          "labels": [
-            "dependencies",
-            "javascript"
-          ],
-          "url": "https://github.com/kylifornication-code/the-infosec-wheel/pull/12",
-          "compatibilityDisplay": "86%",
-          "compatibilityMin": 86,
-          "compatibilityMax": 86
-        }
-      ],
-      "ecosystems": [
-        "npm"
-      ],
-      "oldestAlert": "2026-05-20T15:06:28Z"
     },
     {
       "repo": "kylifornication-code/astro-career-walking-deck",
@@ -465,7 +303,7 @@
           "number": 40,
           "title": "Bump react-dom and @types/react-dom",
           "createdAt": "2026-08-17T01:14:20Z",
-          "updatedAt": "2026-08-17T01:14:21Z",
+          "updatedAt": "2026-09-15T15:01:41Z",
           "isDependabot": true,
           "isSecurityUpdate": false,
           "autoMergeEnabled": false,
@@ -508,19 +346,101 @@
       "oldestAlert": "2026-05-11T20:05:43Z"
     },
     {
+      "repo": "kylifornication-code/the-infosec-wheel",
+      "name": "the-infosec-wheel",
+      "owner": "kylifornication-code",
+      "isPrivate": false,
+      "language": "TypeScript",
+      "alertCounts": {
+        "critical": 2,
+        "high": 10,
+        "medium": 7,
+        "low": 1,
+        "unknown": 0
+      },
+      "totalAlerts": 20,
+      "openPRs": 3,
+      "prs": [
+        {
+          "number": 4,
+          "title": "build(deps): bump brace-expansion",
+          "createdAt": "2026-08-07T07:02:10Z",
+          "updatedAt": "2026-09-15T15:05:42Z",
+          "isDependabot": true,
+          "isSecurityUpdate": false,
+          "autoMergeEnabled": false,
+          "mergeable": null,
+          "mergeableState": "unknown",
+          "isDraft": false,
+          "labels": [
+            "dependencies",
+            "javascript"
+          ],
+          "url": "https://github.com/kylifornication-code/the-infosec-wheel/pull/4",
+          "compatibilityDisplay": null,
+          "compatibilityMin": null,
+          "compatibilityMax": null
+        },
+        {
+          "number": 5,
+          "title": "build(deps): bump postcss and next",
+          "createdAt": "2026-08-07T07:02:24Z",
+          "updatedAt": "2026-09-15T15:05:43Z",
+          "isDependabot": true,
+          "isSecurityUpdate": false,
+          "autoMergeEnabled": false,
+          "mergeable": null,
+          "mergeableState": "unknown",
+          "isDraft": false,
+          "labels": [
+            "dependencies",
+            "javascript"
+          ],
+          "url": "https://github.com/kylifornication-code/the-infosec-wheel/pull/5",
+          "compatibilityDisplay": null,
+          "compatibilityMin": null,
+          "compatibilityMax": null
+        },
+        {
+          "number": 11,
+          "title": "build(deps): bump sharp and next",
+          "createdAt": "2026-09-11T04:20:48Z",
+          "updatedAt": "2026-09-15T15:03:05Z",
+          "isDependabot": true,
+          "isSecurityUpdate": false,
+          "autoMergeEnabled": false,
+          "mergeable": null,
+          "mergeableState": "unknown",
+          "isDraft": false,
+          "labels": [
+            "dependencies",
+            "javascript"
+          ],
+          "url": "https://github.com/kylifornication-code/the-infosec-wheel/pull/11",
+          "compatibilityDisplay": null,
+          "compatibilityMin": null,
+          "compatibilityMax": null
+        }
+      ],
+      "ecosystems": [
+        "npm"
+      ],
+      "oldestAlert": "2026-05-20T15:06:28Z"
+    },
+    {
       "repo": "kylifornication-code/ncaa-wrestling-bracket",
       "name": "ncaa-wrestling-bracket",
       "owner": "kylifornication-code",
       "isPrivate": false,
       "language": "JavaScript",
       "alertCounts": {
-        "critical": 2,
-        "high": 10,
-        "medium": 11,
+        "critical": 1,
+        "high": 9,
+        "medium": 10,
         "low": 3,
         "unknown": 0
       },
-      "totalAlerts": 26,
+      "totalAlerts": 23,
       "openPRs": 8,
       "prs": [
         {
@@ -547,7 +467,7 @@
           "number": 23,
           "title": "Bump esbuild and astro",
           "createdAt": "2026-08-07T14:38:39Z",
-          "updatedAt": "2026-08-09T00:25:47Z",
+          "updatedAt": "2026-09-15T15:07:37Z",
           "isDependabot": true,
           "isSecurityUpdate": false,
           "autoMergeEnabled": false,
@@ -567,7 +487,7 @@
           "number": 24,
           "title": "Bump dompurify from 3.4.12 to 3.4.13",
           "createdAt": "2026-08-09T12:34:19Z",
-          "updatedAt": "2026-08-11T19:17:26Z",
+          "updatedAt": "2026-09-15T15:07:38Z",
           "isDependabot": true,
           "isSecurityUpdate": false,
           "autoMergeEnabled": false,
@@ -619,9 +539,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/ncaa-wrestling-bracket/pull/26",
-          "compatibilityDisplay": "83%",
-          "compatibilityMin": 83,
-          "compatibilityMax": 83
+          "compatibilityDisplay": "81%",
+          "compatibilityMin": 81,
+          "compatibilityMax": 81
         },
         {
           "number": 28,
@@ -647,7 +567,7 @@
           "number": 29,
           "title": "Bump sharp and astro",
           "createdAt": "2026-09-11T02:39:45Z",
-          "updatedAt": "2026-09-11T02:39:45Z",
+          "updatedAt": "2026-09-15T15:02:45Z",
           "isDependabot": true,
           "isSecurityUpdate": false,
           "autoMergeEnabled": false,
@@ -664,10 +584,10 @@
           "compatibilityMax": null
         },
         {
-          "number": 30,
-          "title": "Bump js-yaml from 4.3.1 to 4.3.2",
-          "createdAt": "2026-09-13T05:53:43Z",
-          "updatedAt": "2026-09-13T05:53:43Z",
+          "number": 31,
+          "title": "Bump nanoid from 3.3.16 to 3.3.19",
+          "createdAt": "2026-09-15T15:07:50Z",
+          "updatedAt": "2026-09-15T15:07:51Z",
           "isDependabot": true,
           "isSecurityUpdate": false,
           "autoMergeEnabled": false,
@@ -678,10 +598,10 @@
             "dependencies",
             "javascript"
           ],
-          "url": "https://github.com/kylifornication-code/ncaa-wrestling-bracket/pull/30",
-          "compatibilityDisplay": "86%",
-          "compatibilityMin": 86,
-          "compatibilityMax": 86
+          "url": "https://github.com/kylifornication-code/ncaa-wrestling-bracket/pull/31",
+          "compatibilityDisplay": "79%",
+          "compatibilityMin": 79,
+          "compatibilityMax": 79
         }
       ],
       "ecosystems": [
@@ -696,13 +616,13 @@
       "isPrivate": false,
       "language": "Python",
       "alertCounts": {
-        "critical": 2,
-        "high": 8,
-        "medium": 6,
+        "critical": 1,
+        "high": 7,
+        "medium": 5,
         "low": 2,
         "unknown": 0
       },
-      "totalAlerts": 18,
+      "totalAlerts": 15,
       "openPRs": 4,
       "prs": [
         {
@@ -721,9 +641,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/lennys-podcast-recapper/pull/19",
-          "compatibilityDisplay": "83%",
-          "compatibilityMin": 83,
-          "compatibilityMax": 83
+          "compatibilityDisplay": "81%",
+          "compatibilityMin": 81,
+          "compatibilityMax": 81
         },
         {
           "number": 21,
@@ -749,7 +669,7 @@
           "number": 22,
           "title": "Bump sharp and astro",
           "createdAt": "2026-09-11T03:19:35Z",
-          "updatedAt": "2026-09-11T03:19:35Z",
+          "updatedAt": "2026-09-15T15:03:25Z",
           "isDependabot": true,
           "isSecurityUpdate": false,
           "autoMergeEnabled": false,
@@ -766,10 +686,10 @@
           "compatibilityMax": null
         },
         {
-          "number": 23,
-          "title": "Bump js-yaml from 4.3.1 to 4.3.2",
-          "createdAt": "2026-09-13T05:54:00Z",
-          "updatedAt": "2026-09-13T05:54:00Z",
+          "number": 24,
+          "title": "Bump nanoid from 3.3.16 to 3.3.19",
+          "createdAt": "2026-09-15T15:07:36Z",
+          "updatedAt": "2026-09-15T15:07:37Z",
           "isDependabot": true,
           "isSecurityUpdate": false,
           "autoMergeEnabled": false,
@@ -780,10 +700,10 @@
             "dependencies",
             "javascript"
           ],
-          "url": "https://github.com/kylifornication-code/lennys-podcast-recapper/pull/23",
-          "compatibilityDisplay": "86%",
-          "compatibilityMin": 86,
-          "compatibilityMax": 86
+          "url": "https://github.com/kylifornication-code/lennys-podcast-recapper/pull/24",
+          "compatibilityDisplay": "79%",
+          "compatibilityMin": 79,
+          "compatibilityMax": 79
         }
       ],
       "ecosystems": [
@@ -799,19 +719,19 @@
       "language": "TypeScript",
       "alertCounts": {
         "critical": 0,
-        "high": 19,
-        "medium": 13,
+        "high": 6,
+        "medium": 8,
         "low": 6,
         "unknown": 0
       },
-      "totalAlerts": 38,
-      "openPRs": 10,
+      "totalAlerts": 20,
+      "openPRs": 5,
       "prs": [
         {
           "number": 34,
           "title": "Bump ws",
           "createdAt": "2026-08-07T14:38:55Z",
-          "updatedAt": "2026-08-07T18:11:14Z",
+          "updatedAt": "2026-09-15T15:05:17Z",
           "isDependabot": true,
           "isSecurityUpdate": false,
           "autoMergeEnabled": false,
@@ -831,7 +751,7 @@
           "number": 35,
           "title": "Bump postcss-selector-parser",
           "createdAt": "2026-09-01T23:54:44Z",
-          "updatedAt": "2026-09-01T23:54:45Z",
+          "updatedAt": "2026-09-15T15:02:24Z",
           "isDependabot": true,
           "isSecurityUpdate": false,
           "autoMergeEnabled": false,
@@ -848,50 +768,10 @@
           "compatibilityMax": null
         },
         {
-          "number": 36,
-          "title": "Bump fast-uri from 3.1.5 to 3.1.7",
-          "createdAt": "2026-09-03T02:35:19Z",
-          "updatedAt": "2026-09-03T02:35:20Z",
-          "isDependabot": true,
-          "isSecurityUpdate": false,
-          "autoMergeEnabled": false,
-          "mergeable": null,
-          "mergeableState": "unknown",
-          "isDraft": false,
-          "labels": [
-            "dependencies",
-            "javascript"
-          ],
-          "url": "https://github.com/kylifornication-code/thedrizzle/pull/36",
-          "compatibilityDisplay": "91%",
-          "compatibilityMin": 91,
-          "compatibilityMax": 91
-        },
-        {
-          "number": 37,
-          "title": "Bump browserslist from 4.28.1 to 4.28.9",
-          "createdAt": "2026-09-07T01:09:20Z",
-          "updatedAt": "2026-09-07T01:09:20Z",
-          "isDependabot": true,
-          "isSecurityUpdate": false,
-          "autoMergeEnabled": false,
-          "mergeable": null,
-          "mergeableState": "unknown",
-          "isDraft": false,
-          "labels": [
-            "dependencies",
-            "javascript"
-          ],
-          "url": "https://github.com/kylifornication-code/thedrizzle/pull/37",
-          "compatibilityDisplay": "83%",
-          "compatibilityMin": 83,
-          "compatibilityMax": 83
-        },
-        {
           "number": 38,
           "title": "Bump @ai-sdk/provider-utils, @ai-sdk/react and ai",
           "createdAt": "2026-09-08T18:09:38Z",
-          "updatedAt": "2026-09-08T18:09:38Z",
+          "updatedAt": "2026-09-15T15:11:21Z",
           "isDependabot": true,
           "isSecurityUpdate": false,
           "autoMergeEnabled": false,
@@ -906,46 +786,6 @@
           "compatibilityDisplay": null,
           "compatibilityMin": null,
           "compatibilityMax": null
-        },
-        {
-          "number": 39,
-          "title": "Bump svgo from 3.3.4 to 3.3.5",
-          "createdAt": "2026-09-09T23:46:05Z",
-          "updatedAt": "2026-09-09T23:46:06Z",
-          "isDependabot": true,
-          "isSecurityUpdate": false,
-          "autoMergeEnabled": false,
-          "mergeable": null,
-          "mergeableState": "unknown",
-          "isDraft": false,
-          "labels": [
-            "dependencies",
-            "javascript"
-          ],
-          "url": "https://github.com/kylifornication-code/thedrizzle/pull/39",
-          "compatibilityDisplay": "83%",
-          "compatibilityMin": 83,
-          "compatibilityMax": 83
-        },
-        {
-          "number": 40,
-          "title": "Bump baseline-browser-mapping from 2.9.15 to 2.11.21",
-          "createdAt": "2026-09-10T06:29:48Z",
-          "updatedAt": "2026-09-10T06:29:49Z",
-          "isDependabot": true,
-          "isSecurityUpdate": false,
-          "autoMergeEnabled": false,
-          "mergeable": null,
-          "mergeableState": "unknown",
-          "isDraft": false,
-          "labels": [
-            "dependencies",
-            "javascript"
-          ],
-          "url": "https://github.com/kylifornication-code/thedrizzle/pull/40",
-          "compatibilityDisplay": "83%",
-          "compatibilityMin": 83,
-          "compatibilityMax": 83
         },
         {
           "number": 41,
@@ -968,10 +808,10 @@
           "compatibilityMax": 80
         },
         {
-          "number": 42,
-          "title": "Bump colord from 2.9.3 to 2.10.0",
-          "createdAt": "2026-09-11T08:21:45Z",
-          "updatedAt": "2026-09-11T08:21:46Z",
+          "number": 44,
+          "title": "Bump nanoid from 3.3.16 to 3.3.19",
+          "createdAt": "2026-09-15T15:11:08Z",
+          "updatedAt": "2026-09-15T15:11:09Z",
           "isDependabot": true,
           "isSecurityUpdate": false,
           "autoMergeEnabled": false,
@@ -982,30 +822,10 @@
             "dependencies",
             "javascript"
           ],
-          "url": "https://github.com/kylifornication-code/thedrizzle/pull/42",
-          "compatibilityDisplay": "84%",
-          "compatibilityMin": 84,
-          "compatibilityMax": 84
-        },
-        {
-          "number": 43,
-          "title": "Bump js-yaml from 3.14.2 to 3.15.2",
-          "createdAt": "2026-09-13T10:04:50Z",
-          "updatedAt": "2026-09-13T10:04:50Z",
-          "isDependabot": true,
-          "isSecurityUpdate": false,
-          "autoMergeEnabled": false,
-          "mergeable": null,
-          "mergeableState": "unknown",
-          "isDraft": false,
-          "labels": [
-            "dependencies",
-            "javascript"
-          ],
-          "url": "https://github.com/kylifornication-code/thedrizzle/pull/43",
-          "compatibilityDisplay": "82%",
-          "compatibilityMin": 82,
-          "compatibilityMax": 82
+          "url": "https://github.com/kylifornication-code/thedrizzle/pull/44",
+          "compatibilityDisplay": "79%",
+          "compatibilityMin": 79,
+          "compatibilityMax": 79
         }
       ],
       "ecosystems": [
@@ -1045,9 +865,9 @@
             "python"
           ],
           "url": "https://github.com/kylifornication-code/training-requests/pull/7",
-          "compatibilityDisplay": "50%",
-          "compatibilityMin": 50,
-          "compatibilityMax": 50
+          "compatibilityDisplay": "49%",
+          "compatibilityMin": 49,
+          "compatibilityMax": 49
         }
       ],
       "ecosystems": [
