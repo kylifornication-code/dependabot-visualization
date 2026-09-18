@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-09-17T11:29:57.508Z",
+  "generatedAt": "2026-09-18T11:02:41.015Z",
   "summary": {
-    "totalAlerts": 183,
+    "totalAlerts": 187,
     "bySeverity": {
       "critical": 10,
       "high": 79,
-      "medium": 64,
+      "medium": 68,
       "low": 30,
       "unknown": 0
     },
     "byEcosystem": {
-      "npm": 171,
+      "npm": 175,
       "pip": 12
     },
-    "totalOpenPRs": 31,
+    "totalOpenPRs": 33,
     "reposAffected": 8,
     "reposWithPRs": 8,
     "reposScanned": 8
@@ -28,11 +28,11 @@
       "alertCounts": {
         "critical": 2,
         "high": 23,
-        "medium": 15,
+        "medium": 16,
         "low": 6,
         "unknown": 0
       },
-      "totalAlerts": 46,
+      "totalAlerts": 47,
       "openPRs": 1,
       "prs": [
         {
@@ -70,11 +70,11 @@
       "alertCounts": {
         "critical": 2,
         "high": 16,
-        "medium": 9,
+        "medium": 10,
         "low": 3,
         "unknown": 0
       },
-      "totalAlerts": 30,
+      "totalAlerts": 31,
       "openPRs": 5,
       "prs": [
         {
@@ -376,12 +376,12 @@
       "alertCounts": {
         "critical": 1,
         "high": 8,
-        "medium": 9,
+        "medium": 10,
         "low": 3,
         "unknown": 0
       },
-      "totalAlerts": 21,
-      "openPRs": 7,
+      "totalAlerts": 22,
+      "openPRs": 8,
       "prs": [
         {
           "number": 3,
@@ -439,9 +439,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/ncaa-wrestling-bracket/pull/24",
-          "compatibilityDisplay": "78%",
-          "compatibilityMin": 78,
-          "compatibilityMax": 78
+          "compatibilityDisplay": "81%",
+          "compatibilityMin": 81,
+          "compatibilityMax": 81
         },
         {
           "number": 25,
@@ -479,9 +479,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/ncaa-wrestling-bracket/pull/28",
-          "compatibilityDisplay": "77%",
-          "compatibilityMin": 77,
-          "compatibilityMax": 77
+          "compatibilityDisplay": "81%",
+          "compatibilityMin": 81,
+          "compatibilityMax": 81
         },
         {
           "number": 29,
@@ -519,9 +519,29 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/ncaa-wrestling-bracket/pull/31",
-          "compatibilityDisplay": "80%",
-          "compatibilityMin": 80,
-          "compatibilityMax": 80
+          "compatibilityDisplay": "82%",
+          "compatibilityMin": 82,
+          "compatibilityMax": 82
+        },
+        {
+          "number": 32,
+          "title": "Bump devalue from 5.8.1 to 5.9.2",
+          "createdAt": "2026-09-18T02:26:51Z",
+          "updatedAt": "2026-09-18T02:26:51Z",
+          "isDependabot": true,
+          "isSecurityUpdate": false,
+          "autoMergeEnabled": false,
+          "mergeable": null,
+          "mergeableState": "unknown",
+          "isDraft": false,
+          "labels": [
+            "dependencies",
+            "javascript"
+          ],
+          "url": "https://github.com/kylifornication-code/ncaa-wrestling-bracket/pull/32",
+          "compatibilityDisplay": "81%",
+          "compatibilityMin": 81,
+          "compatibilityMax": 81
         }
       ],
       "ecosystems": [
@@ -538,12 +558,12 @@
       "alertCounts": {
         "critical": 1,
         "high": 6,
-        "medium": 4,
+        "medium": 5,
         "low": 2,
         "unknown": 0
       },
-      "totalAlerts": 13,
-      "openPRs": 3,
+      "totalAlerts": 14,
+      "openPRs": 4,
       "prs": [
         {
           "number": 21,
@@ -561,9 +581,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/lennys-podcast-recapper/pull/21",
-          "compatibilityDisplay": "77%",
-          "compatibilityMin": 77,
-          "compatibilityMax": 77
+          "compatibilityDisplay": "81%",
+          "compatibilityMin": 81,
+          "compatibilityMax": 81
         },
         {
           "number": 22,
@@ -601,9 +621,29 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/lennys-podcast-recapper/pull/24",
-          "compatibilityDisplay": "80%",
-          "compatibilityMin": 80,
-          "compatibilityMax": 80
+          "compatibilityDisplay": "82%",
+          "compatibilityMin": 82,
+          "compatibilityMax": 82
+        },
+        {
+          "number": 25,
+          "title": "Bump devalue from 5.8.1 to 5.9.2",
+          "createdAt": "2026-09-18T06:28:15Z",
+          "updatedAt": "2026-09-18T06:28:15Z",
+          "isDependabot": true,
+          "isSecurityUpdate": false,
+          "autoMergeEnabled": false,
+          "mergeable": null,
+          "mergeableState": "unknown",
+          "isDraft": false,
+          "labels": [
+            "dependencies",
+            "javascript"
+          ],
+          "url": "https://github.com/kylifornication-code/lennys-podcast-recapper/pull/25",
+          "compatibilityDisplay": "81%",
+          "compatibilityMin": 81,
+          "compatibilityMax": 81
         }
       ],
       "ecosystems": [
@@ -723,9 +763,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/thedrizzle/pull/44",
-          "compatibilityDisplay": "80%",
-          "compatibilityMin": 80,
-          "compatibilityMax": 80
+          "compatibilityDisplay": "82%",
+          "compatibilityMin": 82,
+          "compatibilityMax": 82
         },
         {
           "number": 45,
@@ -763,9 +803,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/thedrizzle/pull/46",
-          "compatibilityDisplay": "79%",
-          "compatibilityMin": 79,
-          "compatibilityMax": 79
+          "compatibilityDisplay": "77%",
+          "compatibilityMin": 77,
+          "compatibilityMax": 77
         }
       ],
       "ecosystems": [
@@ -805,9 +845,9 @@
             "python"
           ],
           "url": "https://github.com/kylifornication-code/training-requests/pull/7",
-          "compatibilityDisplay": "51%",
-          "compatibilityMin": 51,
-          "compatibilityMax": 51
+          "compatibilityDisplay": "54%",
+          "compatibilityMin": 54,
+          "compatibilityMax": 54
         }
       ],
       "ecosystems": [
