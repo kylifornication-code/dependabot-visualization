@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-09-29T12:39:00.420Z",
+  "generatedAt": "2026-09-30T05:41:17.803Z",
   "summary": {
-    "totalAlerts": 187,
+    "totalAlerts": 186,
     "bySeverity": {
       "critical": 10,
-      "high": 79,
+      "high": 78,
       "medium": 68,
       "low": 30,
       "unknown": 0
     },
     "byEcosystem": {
-      "npm": 175,
+      "npm": 174,
       "pip": 12
     },
-    "totalOpenPRs": 34,
+    "totalOpenPRs": 29,
     "reposAffected": 8,
     "reposWithPRs": 8,
     "reposScanned": 8
@@ -51,9 +51,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/astro-career-walking-deck/pull/15",
-          "compatibilityDisplay": "41%",
-          "compatibilityMin": 41,
-          "compatibilityMax": 41
+          "compatibilityDisplay": "43%",
+          "compatibilityMin": 43,
+          "compatibilityMax": 43
         }
       ],
       "ecosystems": [
@@ -192,12 +192,12 @@
       "alertCounts": {
         "critical": 2,
         "high": 10,
-        "medium": 8,
+        "medium": 9,
         "low": 1,
         "unknown": 0
       },
-      "totalAlerts": 21,
-      "openPRs": 4,
+      "totalAlerts": 22,
+      "openPRs": 3,
       "prs": [
         {
           "number": 15,
@@ -220,46 +220,6 @@
           "compatibilityMax": null
         },
         {
-          "number": 16,
-          "title": "Bump brace-expansion",
-          "createdAt": "2026-08-07T07:00:30Z",
-          "updatedAt": "2026-09-15T15:22:46Z",
-          "isDependabot": true,
-          "isSecurityUpdate": false,
-          "autoMergeEnabled": false,
-          "mergeable": null,
-          "mergeableState": "unknown",
-          "isDraft": false,
-          "labels": [
-            "dependencies",
-            "javascript"
-          ],
-          "url": "https://github.com/kylifornication-code/ai-fluency-for-teams/pull/16",
-          "compatibilityDisplay": null,
-          "compatibilityMin": null,
-          "compatibilityMax": null
-        },
-        {
-          "number": 20,
-          "title": "Bump fflate from 0.8.2 to 0.8.3",
-          "createdAt": "2026-09-03T21:47:59Z",
-          "updatedAt": "2026-09-26T01:58:51Z",
-          "isDependabot": true,
-          "isSecurityUpdate": false,
-          "autoMergeEnabled": false,
-          "mergeable": null,
-          "mergeableState": "unknown",
-          "isDraft": false,
-          "labels": [
-            "dependencies",
-            "javascript"
-          ],
-          "url": "https://github.com/kylifornication-code/ai-fluency-for-teams/pull/20",
-          "compatibilityDisplay": "81%",
-          "compatibilityMin": 81,
-          "compatibilityMax": 81
-        },
-        {
           "number": 23,
           "title": "Bump sharp and next",
           "createdAt": "2026-09-11T02:58:15Z",
@@ -275,6 +235,26 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/ai-fluency-for-teams/pull/23",
+          "compatibilityDisplay": null,
+          "compatibilityMin": null,
+          "compatibilityMax": null
+        },
+        {
+          "number": 25,
+          "title": "Bump brace-expansion",
+          "createdAt": "2026-09-30T05:34:52Z",
+          "updatedAt": "2026-09-30T05:35:26Z",
+          "isDependabot": true,
+          "isSecurityUpdate": false,
+          "autoMergeEnabled": false,
+          "mergeable": null,
+          "mergeableState": "unknown",
+          "isDraft": false,
+          "labels": [
+            "dependencies",
+            "javascript"
+          ],
+          "url": "https://github.com/kylifornication-code/ai-fluency-for-teams/pull/25",
           "compatibilityDisplay": null,
           "compatibilityMin": null,
           "compatibilityMax": null
@@ -375,13 +355,13 @@
       "language": "JavaScript",
       "alertCounts": {
         "critical": 1,
-        "high": 8,
-        "medium": 10,
+        "high": 7,
+        "medium": 9,
         "low": 3,
         "unknown": 0
       },
-      "totalAlerts": 22,
-      "openPRs": 8,
+      "totalAlerts": 20,
+      "openPRs": 6,
       "prs": [
         {
           "number": 3,
@@ -439,29 +419,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/ncaa-wrestling-bracket/pull/24",
-          "compatibilityDisplay": "76%",
-          "compatibilityMin": 76,
-          "compatibilityMax": 76
-        },
-        {
-          "number": 25,
-          "title": "Bump fflate from 0.8.2 to 0.8.3",
-          "createdAt": "2026-09-03T21:45:01Z",
-          "updatedAt": "2026-09-26T00:49:25Z",
-          "isDependabot": true,
-          "isSecurityUpdate": false,
-          "autoMergeEnabled": false,
-          "mergeable": null,
-          "mergeableState": "unknown",
-          "isDraft": false,
-          "labels": [
-            "dependencies",
-            "javascript"
-          ],
-          "url": "https://github.com/kylifornication-code/ncaa-wrestling-bracket/pull/25",
-          "compatibilityDisplay": "81%",
-          "compatibilityMin": 81,
-          "compatibilityMax": 81
+          "compatibilityDisplay": "77%",
+          "compatibilityMin": 77,
+          "compatibilityMax": 77
         },
         {
           "number": 28,
@@ -479,9 +439,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/ncaa-wrestling-bracket/pull/28",
-          "compatibilityDisplay": "82%",
-          "compatibilityMin": 82,
-          "compatibilityMax": 82
+          "compatibilityDisplay": "79%",
+          "compatibilityMin": 79,
+          "compatibilityMax": 79
         },
         {
           "number": 29,
@@ -504,26 +464,6 @@
           "compatibilityMax": null
         },
         {
-          "number": 31,
-          "title": "Bump nanoid from 3.3.16 to 3.3.19",
-          "createdAt": "2026-09-15T15:07:50Z",
-          "updatedAt": "2026-09-26T00:14:42Z",
-          "isDependabot": true,
-          "isSecurityUpdate": false,
-          "autoMergeEnabled": false,
-          "mergeable": null,
-          "mergeableState": "unknown",
-          "isDraft": false,
-          "labels": [
-            "dependencies",
-            "javascript"
-          ],
-          "url": "https://github.com/kylifornication-code/ncaa-wrestling-bracket/pull/31",
-          "compatibilityDisplay": "85%",
-          "compatibilityMin": 85,
-          "compatibilityMax": 85
-        },
-        {
           "number": 32,
           "title": "Bump devalue from 5.8.1 to 5.9.2",
           "createdAt": "2026-09-18T02:26:51Z",
@@ -539,9 +479,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/ncaa-wrestling-bracket/pull/32",
-          "compatibilityDisplay": "81%",
-          "compatibilityMin": 81,
-          "compatibilityMax": 81
+          "compatibilityDisplay": "80%",
+          "compatibilityMin": 80,
+          "compatibilityMax": 80
         }
       ],
       "ecosystems": [
@@ -557,13 +497,13 @@
       "language": "Python",
       "alertCounts": {
         "critical": 1,
-        "high": 6,
+        "high": 5,
         "medium": 5,
         "low": 2,
         "unknown": 0
       },
-      "totalAlerts": 14,
-      "openPRs": 4,
+      "totalAlerts": 13,
+      "openPRs": 3,
       "prs": [
         {
           "number": 21,
@@ -581,9 +521,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/lennys-podcast-recapper/pull/21",
-          "compatibilityDisplay": "82%",
-          "compatibilityMin": 82,
-          "compatibilityMax": 82
+          "compatibilityDisplay": "79%",
+          "compatibilityMin": 79,
+          "compatibilityMax": 79
         },
         {
           "number": 22,
@@ -606,26 +546,6 @@
           "compatibilityMax": null
         },
         {
-          "number": 24,
-          "title": "Bump nanoid from 3.3.16 to 3.3.19",
-          "createdAt": "2026-09-15T15:07:36Z",
-          "updatedAt": "2026-09-25T23:58:14Z",
-          "isDependabot": true,
-          "isSecurityUpdate": false,
-          "autoMergeEnabled": false,
-          "mergeable": null,
-          "mergeableState": "unknown",
-          "isDraft": false,
-          "labels": [
-            "dependencies",
-            "javascript"
-          ],
-          "url": "https://github.com/kylifornication-code/lennys-podcast-recapper/pull/24",
-          "compatibilityDisplay": "85%",
-          "compatibilityMin": 85,
-          "compatibilityMax": 85
-        },
-        {
           "number": 25,
           "title": "Bump devalue from 5.8.1 to 5.9.2",
           "createdAt": "2026-09-18T06:28:15Z",
@@ -641,9 +561,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/lennys-podcast-recapper/pull/25",
-          "compatibilityDisplay": "81%",
-          "compatibilityMin": 81,
-          "compatibilityMax": 81
+          "compatibilityDisplay": "80%",
+          "compatibilityMin": 80,
+          "compatibilityMax": 80
         }
       ],
       "ecosystems": [
@@ -659,13 +579,13 @@
       "language": "TypeScript",
       "alertCounts": {
         "critical": 0,
-        "high": 6,
+        "high": 7,
         "medium": 8,
         "low": 6,
         "unknown": 0
       },
-      "totalAlerts": 20,
-      "openPRs": 8,
+      "totalAlerts": 21,
+      "openPRs": 7,
       "prs": [
         {
           "number": 34,
@@ -711,7 +631,7 @@
           "number": 38,
           "title": "Bump @ai-sdk/provider-utils, @ai-sdk/react and ai",
           "createdAt": "2026-09-08T18:09:38Z",
-          "updatedAt": "2026-09-15T15:11:21Z",
+          "updatedAt": "2026-09-30T05:31:38Z",
           "isDependabot": true,
           "isSecurityUpdate": false,
           "autoMergeEnabled": false,
@@ -743,9 +663,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/thedrizzle/pull/41",
-          "compatibilityDisplay": "82%",
-          "compatibilityMin": 82,
-          "compatibilityMax": 82
+          "compatibilityDisplay": "80%",
+          "compatibilityMin": 80,
+          "compatibilityMax": 80
         },
         {
           "number": 44,
@@ -768,26 +688,6 @@
           "compatibilityMax": 85
         },
         {
-          "number": 45,
-          "title": "Bump http-proxy-middleware from 2.0.9 to 2.0.10",
-          "createdAt": "2026-09-15T15:11:48Z",
-          "updatedAt": "2026-09-25T22:23:55Z",
-          "isDependabot": true,
-          "isSecurityUpdate": false,
-          "autoMergeEnabled": false,
-          "mergeable": null,
-          "mergeableState": "unknown",
-          "isDraft": false,
-          "labels": [
-            "dependencies",
-            "javascript"
-          ],
-          "url": "https://github.com/kylifornication-code/thedrizzle/pull/45",
-          "compatibilityDisplay": "88%",
-          "compatibilityMin": 88,
-          "compatibilityMax": 88
-        },
-        {
           "number": 46,
           "title": "Bump @babel/core from 7.28.6 to 7.29.7",
           "createdAt": "2026-09-15T15:12:03Z",
@@ -803,15 +703,15 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/thedrizzle/pull/46",
-          "compatibilityDisplay": "77%",
-          "compatibilityMin": 77,
-          "compatibilityMax": 77
+          "compatibilityDisplay": "75%",
+          "compatibilityMin": 75,
+          "compatibilityMax": 75
         },
         {
-          "number": 47,
-          "title": "Bump image-size from 2.0.2 to 2.0.4",
-          "createdAt": "2026-09-24T21:04:45Z",
-          "updatedAt": "2026-09-25T18:37:21Z",
+          "number": 49,
+          "title": "Bump brace-expansion from 1.1.18 to 1.1.21",
+          "createdAt": "2026-09-30T05:28:52Z",
+          "updatedAt": "2026-09-30T05:28:53Z",
           "isDependabot": true,
           "isSecurityUpdate": false,
           "autoMergeEnabled": false,
@@ -822,10 +722,10 @@
             "dependencies",
             "javascript"
           ],
-          "url": "https://github.com/kylifornication-code/thedrizzle/pull/47",
-          "compatibilityDisplay": "84%",
-          "compatibilityMin": 84,
-          "compatibilityMax": 84
+          "url": "https://github.com/kylifornication-code/thedrizzle/pull/49",
+          "compatibilityDisplay": "87%",
+          "compatibilityMin": 87,
+          "compatibilityMax": 87
         }
       ],
       "ecosystems": [
@@ -865,9 +765,9 @@
             "python"
           ],
           "url": "https://github.com/kylifornication-code/training-requests/pull/7",
-          "compatibilityDisplay": "49%",
-          "compatibilityMin": 49,
-          "compatibilityMax": 49
+          "compatibilityDisplay": "50%",
+          "compatibilityMin": 50,
+          "compatibilityMax": 50
         }
       ],
       "ecosystems": [
