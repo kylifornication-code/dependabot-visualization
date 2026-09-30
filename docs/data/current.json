@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-09-30T05:41:17.803Z",
+  "generatedAt": "2026-09-30T06:00:40.698Z",
   "summary": {
-    "totalAlerts": 186,
+    "totalAlerts": 182,
     "bySeverity": {
       "critical": 10,
-      "high": 78,
-      "medium": 68,
+      "high": 75,
+      "medium": 67,
       "low": 30,
       "unknown": 0
     },
     "byEcosystem": {
-      "npm": 174,
+      "npm": 170,
       "pip": 12
     },
-    "totalOpenPRs": 29,
+    "totalOpenPRs": 27,
     "reposAffected": 8,
     "reposWithPRs": 8,
     "reposScanned": 8
@@ -51,9 +51,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/astro-career-walking-deck/pull/15",
-          "compatibilityDisplay": "43%",
-          "compatibilityMin": 43,
-          "compatibilityMax": 43
+          "compatibilityDisplay": "42%",
+          "compatibilityMin": 42,
+          "compatibilityMax": 42
         }
       ],
       "ecosystems": [
@@ -243,7 +243,7 @@
           "number": 25,
           "title": "Bump brace-expansion",
           "createdAt": "2026-09-30T05:34:52Z",
-          "updatedAt": "2026-09-30T05:35:26Z",
+          "updatedAt": "2026-09-30T05:59:02Z",
           "isDependabot": true,
           "isSecurityUpdate": false,
           "autoMergeEnabled": false,
@@ -579,13 +579,13 @@
       "language": "TypeScript",
       "alertCounts": {
         "critical": 0,
-        "high": 7,
-        "medium": 8,
+        "high": 4,
+        "medium": 7,
         "low": 6,
         "unknown": 0
       },
-      "totalAlerts": 21,
-      "openPRs": 7,
+      "totalAlerts": 17,
+      "openPRs": 5,
       "prs": [
         {
           "number": 34,
@@ -668,26 +668,6 @@
           "compatibilityMax": 80
         },
         {
-          "number": 44,
-          "title": "Bump nanoid from 3.3.16 to 3.3.19",
-          "createdAt": "2026-09-15T15:11:08Z",
-          "updatedAt": "2026-09-25T19:04:51Z",
-          "isDependabot": true,
-          "isSecurityUpdate": false,
-          "autoMergeEnabled": false,
-          "mergeable": null,
-          "mergeableState": "unknown",
-          "isDraft": false,
-          "labels": [
-            "dependencies",
-            "javascript"
-          ],
-          "url": "https://github.com/kylifornication-code/thedrizzle/pull/44",
-          "compatibilityDisplay": "85%",
-          "compatibilityMin": 85,
-          "compatibilityMax": 85
-        },
-        {
           "number": 46,
           "title": "Bump @babel/core from 7.28.6 to 7.29.7",
           "createdAt": "2026-09-15T15:12:03Z",
@@ -706,26 +686,6 @@
           "compatibilityDisplay": "75%",
           "compatibilityMin": 75,
           "compatibilityMax": 75
-        },
-        {
-          "number": 49,
-          "title": "Bump brace-expansion from 1.1.18 to 1.1.21",
-          "createdAt": "2026-09-30T05:28:52Z",
-          "updatedAt": "2026-09-30T05:28:53Z",
-          "isDependabot": true,
-          "isSecurityUpdate": false,
-          "autoMergeEnabled": false,
-          "mergeable": null,
-          "mergeableState": "unknown",
-          "isDraft": false,
-          "labels": [
-            "dependencies",
-            "javascript"
-          ],
-          "url": "https://github.com/kylifornication-code/thedrizzle/pull/49",
-          "compatibilityDisplay": "87%",
-          "compatibilityMin": 87,
-          "compatibilityMax": 87
         }
       ],
       "ecosystems": [
