@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-10-04T12:12:48.818Z",
+  "generatedAt": "2026-10-05T14:23:28.329Z",
   "summary": {
-    "totalAlerts": 183,
+    "totalAlerts": 184,
     "bySeverity": {
       "critical": 10,
       "high": 75,
       "medium": 68,
-      "low": 30,
+      "low": 31,
       "unknown": 0
     },
     "byEcosystem": {
-      "npm": 171,
+      "npm": 172,
       "pip": 12
     },
-    "totalOpenPRs": 27,
+    "totalOpenPRs": 28,
     "reposAffected": 8,
     "reposWithPRs": 8,
     "reposScanned": 8
@@ -51,9 +51,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/astro-career-walking-deck/pull/15",
-          "compatibilityDisplay": "42%",
-          "compatibilityMin": 42,
-          "compatibilityMax": 42
+          "compatibilityDisplay": "40%",
+          "compatibilityMin": 40,
+          "compatibilityMax": 40
         }
       ],
       "ecosystems": [
@@ -193,11 +193,11 @@
         "critical": 2,
         "high": 10,
         "medium": 9,
-        "low": 1,
+        "low": 2,
         "unknown": 0
       },
-      "totalAlerts": 22,
-      "openPRs": 3,
+      "totalAlerts": 23,
+      "openPRs": 4,
       "prs": [
         {
           "number": 15,
@@ -258,6 +258,26 @@
           "compatibilityDisplay": null,
           "compatibilityMin": null,
           "compatibilityMax": null
+        },
+        {
+          "number": 26,
+          "title": "Bump dompurify from 3.4.13 to 3.4.16",
+          "createdAt": "2026-10-04T19:40:20Z",
+          "updatedAt": "2026-10-04T19:41:03Z",
+          "isDependabot": true,
+          "isSecurityUpdate": false,
+          "autoMergeEnabled": false,
+          "mergeable": null,
+          "mergeableState": "unknown",
+          "isDraft": false,
+          "labels": [
+            "dependencies",
+            "javascript"
+          ],
+          "url": "https://github.com/kylifornication-code/ai-fluency-for-teams/pull/26",
+          "compatibilityDisplay": "74%",
+          "compatibilityMin": 74,
+          "compatibilityMax": 74
         }
       ],
       "ecosystems": [
@@ -419,9 +439,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/ncaa-wrestling-bracket/pull/24",
-          "compatibilityDisplay": "78%",
-          "compatibilityMin": 78,
-          "compatibilityMax": 78
+          "compatibilityDisplay": "80%",
+          "compatibilityMin": 80,
+          "compatibilityMax": 80
         },
         {
           "number": 28,
@@ -663,9 +683,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/thedrizzle/pull/41",
-          "compatibilityDisplay": "83%",
-          "compatibilityMin": 83,
-          "compatibilityMax": 83
+          "compatibilityDisplay": "81%",
+          "compatibilityMin": 81,
+          "compatibilityMax": 81
         },
         {
           "number": 46,
@@ -683,9 +703,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/thedrizzle/pull/46",
-          "compatibilityDisplay": "78%",
-          "compatibilityMin": 78,
-          "compatibilityMax": 78
+          "compatibilityDisplay": "79%",
+          "compatibilityMin": 79,
+          "compatibilityMax": 79
         }
       ],
       "ecosystems": [
