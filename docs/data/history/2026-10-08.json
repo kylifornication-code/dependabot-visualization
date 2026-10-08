@@ -1,10 +1,10 @@
 {
   "date": "2026-10-08",
-  "generatedAt": "2026-10-08T07:11:15.558Z",
-  "totalAlerts": 214,
+  "generatedAt": "2026-10-08T13:16:45.296Z",
+  "totalAlerts": 215,
   "bySeverity": {
     "critical": 18,
-    "high": 88,
+    "high": 89,
     "medium": 76,
     "low": 32,
     "unknown": 0
