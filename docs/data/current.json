@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-10-21T13:01:56.890Z",
+  "generatedAt": "2026-10-22T11:37:26.455Z",
   "summary": {
-    "totalAlerts": 252,
+    "totalAlerts": 254,
     "bySeverity": {
       "critical": 18,
-      "high": 106,
+      "high": 108,
       "medium": 90,
       "low": 38,
       "unknown": 0
     },
     "byEcosystem": {
-      "npm": 240,
+      "npm": 242,
       "pip": 12
     },
-    "totalOpenPRs": 38,
+    "totalOpenPRs": 39,
     "reposAffected": 8,
     "reposWithPRs": 8,
     "reposScanned": 8
@@ -111,9 +111,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/ai-fluency-for-teams/pull/26",
-          "compatibilityDisplay": "79%",
-          "compatibilityMin": 79,
-          "compatibilityMax": 79
+          "compatibilityDisplay": "82%",
+          "compatibilityMin": 82,
+          "compatibilityMax": 82
         },
         {
           "number": 28,
@@ -131,9 +131,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/ai-fluency-for-teams/pull/28",
-          "compatibilityDisplay": "74%",
-          "compatibilityMin": 74,
-          "compatibilityMax": 74
+          "compatibilityDisplay": "71%",
+          "compatibilityMin": 71,
+          "compatibilityMax": 71
         },
         {
           "number": 29,
@@ -151,9 +151,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/ai-fluency-for-teams/pull/29",
-          "compatibilityDisplay": "92%",
-          "compatibilityMin": 92,
-          "compatibilityMax": 92
+          "compatibilityDisplay": "91%",
+          "compatibilityMin": 91,
+          "compatibilityMax": 91
         }
       ],
       "ecosystems": [
@@ -253,9 +253,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/the-infosec-wheel/pull/15",
-          "compatibilityDisplay": "74%",
-          "compatibilityMin": 74,
-          "compatibilityMax": 74
+          "compatibilityDisplay": "71%",
+          "compatibilityMin": 71,
+          "compatibilityMax": 71
         },
         {
           "number": 16,
@@ -273,57 +273,15 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/the-infosec-wheel/pull/16",
-          "compatibilityDisplay": "92%",
-          "compatibilityMin": 92,
-          "compatibilityMax": 92
+          "compatibilityDisplay": "91%",
+          "compatibilityMin": 91,
+          "compatibilityMax": 91
         }
       ],
       "ecosystems": [
         "npm"
       ],
       "oldestAlert": "2026-05-20T15:06:28Z"
-    },
-    {
-      "repo": "kylifornication-code/astro-career-walking-deck",
-      "name": "astro-career-walking-deck",
-      "owner": "kylifornication-code",
-      "isPrivate": false,
-      "language": "TypeScript",
-      "alertCounts": {
-        "critical": 2,
-        "high": 28,
-        "medium": 19,
-        "low": 7,
-        "unknown": 0
-      },
-      "totalAlerts": 56,
-      "openPRs": 1,
-      "prs": [
-        {
-          "number": 15,
-          "title": "Bump astro from 5.18.1 to 6.1.6 in the npm_and_yarn group across 1 directory",
-          "createdAt": "2026-04-21T22:31:48Z",
-          "updatedAt": "2026-04-22T22:25:38Z",
-          "isDependabot": true,
-          "isSecurityUpdate": false,
-          "autoMergeEnabled": false,
-          "mergeable": null,
-          "mergeableState": "unknown",
-          "isDraft": false,
-          "labels": [
-            "dependencies",
-            "javascript"
-          ],
-          "url": "https://github.com/kylifornication-code/astro-career-walking-deck/pull/15",
-          "compatibilityDisplay": "41%",
-          "compatibilityMin": 41,
-          "compatibilityMax": 41
-        }
-      ],
-      "ecosystems": [
-        "npm"
-      ],
-      "oldestAlert": "2026-04-21T22:25:08Z"
     },
     {
       "repo": "kylifornication-code/thedrizzle",
@@ -333,13 +291,13 @@
       "language": "TypeScript",
       "alertCounts": {
         "critical": 4,
-        "high": 7,
+        "high": 9,
         "medium": 9,
         "low": 4,
         "unknown": 0
       },
-      "totalAlerts": 24,
-      "openPRs": 9,
+      "totalAlerts": 26,
+      "openPRs": 10,
       "prs": [
         {
           "number": 34,
@@ -457,9 +415,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/thedrizzle/pull/51",
-          "compatibilityDisplay": "84%",
-          "compatibilityMin": 84,
-          "compatibilityMax": 84
+          "compatibilityDisplay": "85%",
+          "compatibilityMin": 85,
+          "compatibilityMax": 85
         },
         {
           "number": 52,
@@ -517,15 +475,77 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/thedrizzle/pull/54",
-          "compatibilityDisplay": "92%",
-          "compatibilityMin": 92,
-          "compatibilityMax": 92
+          "compatibilityDisplay": "91%",
+          "compatibilityMin": 91,
+          "compatibilityMax": 91
+        },
+        {
+          "number": 55,
+          "title": "Bump follow-redirects from 1.16.0 to 1.16.1",
+          "createdAt": "2026-10-21T18:53:00Z",
+          "updatedAt": "2026-10-21T18:53:04Z",
+          "isDependabot": true,
+          "isSecurityUpdate": false,
+          "autoMergeEnabled": false,
+          "mergeable": null,
+          "mergeableState": "unknown",
+          "isDraft": false,
+          "labels": [
+            "dependencies",
+            "javascript"
+          ],
+          "url": "https://github.com/kylifornication-code/thedrizzle/pull/55",
+          "compatibilityDisplay": "83%",
+          "compatibilityMin": 83,
+          "compatibilityMax": 83
         }
       ],
       "ecosystems": [
         "npm"
       ],
       "oldestAlert": "2026-03-03T01:38:53Z"
+    },
+    {
+      "repo": "kylifornication-code/astro-career-walking-deck",
+      "name": "astro-career-walking-deck",
+      "owner": "kylifornication-code",
+      "isPrivate": false,
+      "language": "TypeScript",
+      "alertCounts": {
+        "critical": 2,
+        "high": 28,
+        "medium": 19,
+        "low": 7,
+        "unknown": 0
+      },
+      "totalAlerts": 56,
+      "openPRs": 1,
+      "prs": [
+        {
+          "number": 15,
+          "title": "Bump astro from 5.18.1 to 6.1.6 in the npm_and_yarn group across 1 directory",
+          "createdAt": "2026-04-21T22:31:48Z",
+          "updatedAt": "2026-04-22T22:25:38Z",
+          "isDependabot": true,
+          "isSecurityUpdate": false,
+          "autoMergeEnabled": false,
+          "mergeable": null,
+          "mergeableState": "unknown",
+          "isDraft": false,
+          "labels": [
+            "dependencies",
+            "javascript"
+          ],
+          "url": "https://github.com/kylifornication-code/astro-career-walking-deck/pull/15",
+          "compatibilityDisplay": "41%",
+          "compatibilityMin": 41,
+          "compatibilityMax": 41
+        }
+      ],
+      "ecosystems": [
+        "npm"
+      ],
+      "oldestAlert": "2026-04-21T22:25:08Z"
     },
     {
       "repo": "Buffalo-Drinking-Game/buffalo-drinking-game",
@@ -639,9 +659,9 @@
             "javascript"
           ],
           "url": "https://github.com/Buffalo-Drinking-Game/buffalo-drinking-game/pull/41",
-          "compatibilityDisplay": "60%",
-          "compatibilityMin": 60,
-          "compatibilityMax": 60
+          "compatibilityDisplay": "67%",
+          "compatibilityMin": 67,
+          "compatibilityMax": 67
         }
       ],
       "ecosystems": [
@@ -741,9 +761,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/ncaa-wrestling-bracket/pull/34",
-          "compatibilityDisplay": "81%",
-          "compatibilityMin": 81,
-          "compatibilityMax": 81
+          "compatibilityDisplay": "83%",
+          "compatibilityMin": 83,
+          "compatibilityMax": 83
         },
         {
           "number": 35,
@@ -761,9 +781,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/ncaa-wrestling-bracket/pull/35",
-          "compatibilityDisplay": "92%",
-          "compatibilityMin": 92,
-          "compatibilityMax": 92
+          "compatibilityDisplay": "91%",
+          "compatibilityMin": 91,
+          "compatibilityMax": 91
         },
         {
           "number": 36,
@@ -781,9 +801,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/ncaa-wrestling-bracket/pull/36",
-          "compatibilityDisplay": "75%",
-          "compatibilityMin": 75,
-          "compatibilityMax": 75
+          "compatibilityDisplay": "77%",
+          "compatibilityMin": 77,
+          "compatibilityMax": 77
         },
         {
           "number": 37,
@@ -843,9 +863,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/lennys-podcast-recapper/pull/26",
-          "compatibilityDisplay": "81%",
-          "compatibilityMin": 81,
-          "compatibilityMax": 81
+          "compatibilityDisplay": "83%",
+          "compatibilityMin": 83,
+          "compatibilityMax": 83
         },
         {
           "number": 27,
@@ -863,9 +883,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/lennys-podcast-recapper/pull/27",
-          "compatibilityDisplay": "92%",
-          "compatibilityMin": 92,
-          "compatibilityMax": 92
+          "compatibilityDisplay": "91%",
+          "compatibilityMin": 91,
+          "compatibilityMax": 91
         },
         {
           "number": 28,
@@ -903,9 +923,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/lennys-podcast-recapper/pull/29",
-          "compatibilityDisplay": "75%",
-          "compatibilityMin": 75,
-          "compatibilityMax": 75
+          "compatibilityDisplay": "77%",
+          "compatibilityMin": 77,
+          "compatibilityMax": 77
         }
       ],
       "ecosystems": [
@@ -945,9 +965,9 @@
             "python"
           ],
           "url": "https://github.com/kylifornication-code/training-requests/pull/7",
-          "compatibilityDisplay": "57%",
-          "compatibilityMin": 57,
-          "compatibilityMax": 57
+          "compatibilityDisplay": "58%",
+          "compatibilityMin": 58,
+          "compatibilityMax": 58
         }
       ],
       "ecosystems": [
