@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-25",
+  "generatedAt": "2026-10-25T11:11:12.789Z",
+  "totalAlerts": 345,
+  "bySeverity": {
+    "critical": 28,
+    "high": 158,
+    "medium": 121,
+    "low": 38,
+    "unknown": 0
+  },
+  "totalOpenPRs": 41,
+  "reposAffected": 8
+}
