@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-25T11:11:12.789Z",
+  "generatedAt": "2026-10-26T12:45:08.151Z",
   "summary": {
     "totalAlerts": 345,
     "bySeverity": {
       "critical": 28,
-      "high": 158,
-      "medium": 121,
+      "high": 157,
+      "medium": 122,
       "low": 38,
       "unknown": 0
     },
@@ -13,7 +13,7 @@
       "npm": 247,
       "pip": 98
     },
-    "totalOpenPRs": 41,
+    "totalOpenPRs": 42,
     "reposAffected": 8,
     "reposWithPRs": 8,
     "reposScanned": 8
@@ -71,9 +71,9 @@
             "python"
           ],
           "url": "https://github.com/kylifornication-code/training-requests/pull/8",
-          "compatibilityDisplay": "69%",
-          "compatibilityMin": 69,
-          "compatibilityMax": 69
+          "compatibilityDisplay": "68%",
+          "compatibilityMin": 68,
+          "compatibilityMax": 68
         }
       ],
       "ecosystems": [
@@ -173,9 +173,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/ai-fluency-for-teams/pull/26",
-          "compatibilityDisplay": "78%",
-          "compatibilityMin": 78,
-          "compatibilityMax": 78
+          "compatibilityDisplay": "75%",
+          "compatibilityMin": 75,
+          "compatibilityMax": 75
         },
         {
           "number": 28,
@@ -346,6 +346,48 @@
       "oldestAlert": "2026-05-20T15:06:28Z"
     },
     {
+      "repo": "kylifornication-code/astro-career-walking-deck",
+      "name": "astro-career-walking-deck",
+      "owner": "kylifornication-code",
+      "isPrivate": false,
+      "language": "TypeScript",
+      "alertCounts": {
+        "critical": 2,
+        "high": 28,
+        "medium": 19,
+        "low": 7,
+        "unknown": 0
+      },
+      "totalAlerts": 56,
+      "openPRs": 1,
+      "prs": [
+        {
+          "number": 15,
+          "title": "Bump astro from 5.18.1 to 6.1.6 in the npm_and_yarn group across 1 directory",
+          "createdAt": "2026-04-21T22:31:48Z",
+          "updatedAt": "2026-04-22T22:25:38Z",
+          "isDependabot": true,
+          "isSecurityUpdate": false,
+          "autoMergeEnabled": false,
+          "mergeable": null,
+          "mergeableState": "unknown",
+          "isDraft": false,
+          "labels": [
+            "dependencies",
+            "javascript"
+          ],
+          "url": "https://github.com/kylifornication-code/astro-career-walking-deck/pull/15",
+          "compatibilityDisplay": "43%",
+          "compatibilityMin": 43,
+          "compatibilityMax": 43
+        }
+      ],
+      "ecosystems": [
+        "npm"
+      ],
+      "oldestAlert": "2026-04-21T22:25:08Z"
+    },
+    {
       "repo": "kylifornication-code/thedrizzle",
       "name": "thedrizzle",
       "owner": "kylifornication-code",
@@ -353,13 +395,13 @@
       "language": "TypeScript",
       "alertCounts": {
         "critical": 4,
-        "high": 9,
-        "medium": 8,
+        "high": 8,
+        "medium": 9,
         "low": 4,
         "unknown": 0
       },
       "totalAlerts": 25,
-      "openPRs": 10,
+      "openPRs": 11,
       "prs": [
         {
           "number": 34,
@@ -437,9 +479,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/thedrizzle/pull/46",
-          "compatibilityDisplay": "77%",
-          "compatibilityMin": 77,
-          "compatibilityMax": 77
+          "compatibilityDisplay": "79%",
+          "compatibilityMin": 79,
+          "compatibilityMax": 79
         },
         {
           "number": 50,
@@ -457,9 +499,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/thedrizzle/pull/50",
-          "compatibilityDisplay": "89%",
-          "compatibilityMin": 89,
-          "compatibilityMax": 89
+          "compatibilityDisplay": "86%",
+          "compatibilityMin": 86,
+          "compatibilityMax": 86
         },
         {
           "number": 51,
@@ -497,9 +539,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/thedrizzle/pull/52",
-          "compatibilityDisplay": "90%",
-          "compatibilityMin": 90,
-          "compatibilityMax": 90
+          "compatibilityDisplay": "89%",
+          "compatibilityMin": 89,
+          "compatibilityMax": 89
         },
         {
           "number": 53,
@@ -517,9 +559,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/thedrizzle/pull/53",
-          "compatibilityDisplay": "90%",
-          "compatibilityMin": 90,
-          "compatibilityMax": 90
+          "compatibilityDisplay": "89%",
+          "compatibilityMin": 89,
+          "compatibilityMax": 89
         },
         {
           "number": 54,
@@ -557,37 +599,15 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/thedrizzle/pull/55",
-          "compatibilityDisplay": "81%",
-          "compatibilityMin": 81,
-          "compatibilityMax": 81
-        }
-      ],
-      "ecosystems": [
-        "npm"
-      ],
-      "oldestAlert": "2026-03-03T01:38:53Z"
-    },
-    {
-      "repo": "kylifornication-code/astro-career-walking-deck",
-      "name": "astro-career-walking-deck",
-      "owner": "kylifornication-code",
-      "isPrivate": false,
-      "language": "TypeScript",
-      "alertCounts": {
-        "critical": 2,
-        "high": 28,
-        "medium": 19,
-        "low": 7,
-        "unknown": 0
-      },
-      "totalAlerts": 56,
-      "openPRs": 1,
-      "prs": [
+          "compatibilityDisplay": "80%",
+          "compatibilityMin": 80,
+          "compatibilityMax": 80
+        },
         {
-          "number": 15,
-          "title": "Bump astro from 5.18.1 to 6.1.6 in the npm_and_yarn group across 1 directory",
-          "createdAt": "2026-04-21T22:31:48Z",
-          "updatedAt": "2026-04-22T22:25:38Z",
+          "number": 56,
+          "title": "Bump launch-editor from 2.14.1 to 2.14.2",
+          "createdAt": "2026-10-26T12:10:09Z",
+          "updatedAt": "2026-10-26T12:10:12Z",
           "isDependabot": true,
           "isSecurityUpdate": false,
           "autoMergeEnabled": false,
@@ -598,16 +618,16 @@
             "dependencies",
             "javascript"
           ],
-          "url": "https://github.com/kylifornication-code/astro-career-walking-deck/pull/15",
-          "compatibilityDisplay": "46%",
-          "compatibilityMin": 46,
-          "compatibilityMax": 46
+          "url": "https://github.com/kylifornication-code/thedrizzle/pull/56",
+          "compatibilityDisplay": "89%",
+          "compatibilityMin": 89,
+          "compatibilityMax": 89
         }
       ],
       "ecosystems": [
         "npm"
       ],
-      "oldestAlert": "2026-04-21T22:25:08Z"
+      "oldestAlert": "2026-03-03T01:38:53Z"
     },
     {
       "repo": "Buffalo-Drinking-Game/buffalo-drinking-game",
@@ -803,9 +823,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/ncaa-wrestling-bracket/pull/33",
-          "compatibilityDisplay": "69%",
-          "compatibilityMin": 69,
-          "compatibilityMax": 69
+          "compatibilityDisplay": "71%",
+          "compatibilityMin": 71,
+          "compatibilityMax": 71
         },
         {
           "number": 34,
@@ -823,9 +843,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/ncaa-wrestling-bracket/pull/34",
-          "compatibilityDisplay": "83%",
-          "compatibilityMin": 83,
-          "compatibilityMax": 83
+          "compatibilityDisplay": "82%",
+          "compatibilityMin": 82,
+          "compatibilityMax": 82
         },
         {
           "number": 35,
@@ -863,9 +883,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/ncaa-wrestling-bracket/pull/36",
-          "compatibilityDisplay": "78%",
-          "compatibilityMin": 78,
-          "compatibilityMax": 78
+          "compatibilityDisplay": "76%",
+          "compatibilityMin": 76,
+          "compatibilityMax": 76
         },
         {
           "number": 37,
@@ -925,9 +945,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/lennys-podcast-recapper/pull/26",
-          "compatibilityDisplay": "83%",
-          "compatibilityMin": 83,
-          "compatibilityMax": 83
+          "compatibilityDisplay": "82%",
+          "compatibilityMin": 82,
+          "compatibilityMax": 82
         },
         {
           "number": 27,
@@ -985,9 +1005,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/lennys-podcast-recapper/pull/29",
-          "compatibilityDisplay": "78%",
-          "compatibilityMin": 78,
-          "compatibilityMax": 78
+          "compatibilityDisplay": "76%",
+          "compatibilityMin": 76,
+          "compatibilityMax": 76
         },
         {
           "number": 30,
@@ -1005,9 +1025,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/lennys-podcast-recapper/pull/30",
-          "compatibilityDisplay": "74%",
-          "compatibilityMin": 74,
-          "compatibilityMax": 74
+          "compatibilityDisplay": "76%",
+          "compatibilityMin": 76,
+          "compatibilityMax": 76
         }
       ],
       "ecosystems": [
