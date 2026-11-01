@@ -1,10 +1,10 @@
 {
   "date": "2026-11-01",
-  "generatedAt": "2026-11-01T03:22:47.083Z",
-  "totalAlerts": 369,
+  "generatedAt": "2026-11-01T13:08:09.201Z",
+  "totalAlerts": 370,
   "bySeverity": {
     "critical": 30,
-    "high": 156,
+    "high": 157,
     "medium": 137,
     "low": 46,
     "unknown": 0
