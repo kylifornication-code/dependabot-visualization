@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T14:06:14.910Z",
+  "generatedAt": "2026-11-07T12:50:41.236Z",
   "summary": {
     "totalAlerts": 374,
     "bySeverity": {
@@ -71,9 +71,9 @@
             "python"
           ],
           "url": "https://github.com/kylifornication-code/training-requests/pull/8",
-          "compatibilityDisplay": "71%",
-          "compatibilityMin": 71,
-          "compatibilityMax": 71
+          "compatibilityDisplay": "68%",
+          "compatibilityMin": 68,
+          "compatibilityMax": 68
         }
       ],
       "ecosystems": [
@@ -153,9 +153,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/ai-fluency-for-teams/pull/30",
-          "compatibilityDisplay": "69%",
-          "compatibilityMin": 69,
-          "compatibilityMax": 69
+          "compatibilityDisplay": "68%",
+          "compatibilityMin": 68,
+          "compatibilityMax": 68
         },
         {
           "number": 31,
@@ -193,9 +193,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/ai-fluency-for-teams/pull/32",
-          "compatibilityDisplay": "79%",
-          "compatibilityMin": 79,
-          "compatibilityMax": 79
+          "compatibilityDisplay": "80%",
+          "compatibilityMin": 80,
+          "compatibilityMax": 80
         }
       ],
       "ecosystems": [
@@ -295,9 +295,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/the-infosec-wheel/pull/18",
-          "compatibilityDisplay": "79%",
-          "compatibilityMin": 79,
-          "compatibilityMax": 79
+          "compatibilityDisplay": "80%",
+          "compatibilityMin": 80,
+          "compatibilityMax": 80
         }
       ],
       "ecosystems": [
@@ -621,9 +621,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/ncaa-wrestling-bracket/pull/39",
-          "compatibilityDisplay": "71%",
-          "compatibilityMin": 71,
-          "compatibilityMax": 71
+          "compatibilityDisplay": "70%",
+          "compatibilityMin": 70,
+          "compatibilityMax": 70
         },
         {
           "number": 40,
@@ -723,9 +723,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/thedrizzle/pull/46",
-          "compatibilityDisplay": "75%",
-          "compatibilityMin": 75,
-          "compatibilityMax": 75
+          "compatibilityDisplay": "78%",
+          "compatibilityMin": 78,
+          "compatibilityMax": 78
         },
         {
           "number": 55,
@@ -743,9 +743,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/thedrizzle/pull/55",
-          "compatibilityDisplay": "82%",
-          "compatibilityMin": 82,
-          "compatibilityMax": 82
+          "compatibilityDisplay": "81%",
+          "compatibilityMin": 81,
+          "compatibilityMax": 81
         },
         {
           "number": 56,
@@ -763,9 +763,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/thedrizzle/pull/56",
-          "compatibilityDisplay": "90%",
-          "compatibilityMin": 90,
-          "compatibilityMax": 90
+          "compatibilityDisplay": "91%",
+          "compatibilityMin": 91,
+          "compatibilityMax": 91
         },
         {
           "number": 57,
@@ -883,9 +883,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/thedrizzle/pull/63",
-          "compatibilityDisplay": "76%",
-          "compatibilityMin": 76,
-          "compatibilityMax": 76
+          "compatibilityDisplay": "73%",
+          "compatibilityMin": 73,
+          "compatibilityMax": 73
         }
       ],
       "ecosystems": [
@@ -985,9 +985,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/lennys-podcast-recapper/pull/30",
-          "compatibilityDisplay": "77%",
-          "compatibilityMin": 77,
-          "compatibilityMax": 77
+          "compatibilityDisplay": "74%",
+          "compatibilityMin": 74,
+          "compatibilityMax": 74
         },
         {
           "number": 31,
