@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-18T15:30:07.061Z",
+  "generatedAt": "2026-11-19T15:37:37.959Z",
   "summary": {
     "totalAlerts": 395,
     "bySeverity": {
-      "critical": 30,
-      "high": 160,
+      "critical": 28,
+      "high": 158,
       "medium": 152,
-      "low": 53,
+      "low": 57,
       "unknown": 0
     },
     "byEcosystem": {
@@ -51,9 +51,9 @@
             "python"
           ],
           "url": "https://github.com/kylifornication-code/training-requests/pull/7",
-          "compatibilityDisplay": "59%",
-          "compatibilityMin": 59,
-          "compatibilityMax": 59
+          "compatibilityDisplay": "58%",
+          "compatibilityMin": 58,
+          "compatibilityMax": 58
         },
         {
           "number": 8,
@@ -71,9 +71,9 @@
             "python"
           ],
           "url": "https://github.com/kylifornication-code/training-requests/pull/8",
-          "compatibilityDisplay": "72%",
-          "compatibilityMin": 72,
-          "compatibilityMax": 72
+          "compatibilityDisplay": "70%",
+          "compatibilityMin": 70,
+          "compatibilityMax": 70
         },
         {
           "number": 9,
@@ -105,10 +105,10 @@
       "isPrivate": false,
       "language": "TypeScript",
       "alertCounts": {
-        "critical": 6,
-        "high": 14,
+        "critical": 5,
+        "high": 13,
         "medium": 14,
-        "low": 5,
+        "low": 7,
         "unknown": 0
       },
       "totalAlerts": 39,
@@ -170,9 +170,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/ai-fluency-for-teams/pull/30",
-          "compatibilityDisplay": "73%",
-          "compatibilityMin": 73,
-          "compatibilityMax": 73
+          "compatibilityDisplay": "72%",
+          "compatibilityMin": 72,
+          "compatibilityMax": 72
         },
         {
           "number": 31,
@@ -210,9 +210,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/ai-fluency-for-teams/pull/33",
-          "compatibilityDisplay": "62%",
-          "compatibilityMin": 62,
-          "compatibilityMax": 62
+          "compatibilityDisplay": "61%",
+          "compatibilityMin": 61,
+          "compatibilityMax": 61
         }
       ],
       "ecosystems": [
@@ -312,9 +312,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/the-infosec-wheel/pull/19",
-          "compatibilityDisplay": "62%",
-          "compatibilityMin": 62,
-          "compatibilityMax": 62
+          "compatibilityDisplay": "61%",
+          "compatibilityMin": 61,
+          "compatibilityMax": 61
         }
       ],
       "ecosystems": [
@@ -354,9 +354,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/astro-career-walking-deck/pull/15",
-          "compatibilityDisplay": "44%",
-          "compatibilityMin": 44,
-          "compatibilityMax": 44
+          "compatibilityDisplay": "46%",
+          "compatibilityMin": 46,
+          "compatibilityMax": 46
         }
       ],
       "ecosystems": [
@@ -476,9 +476,9 @@
             "javascript"
           ],
           "url": "https://github.com/Buffalo-Drinking-Game/buffalo-drinking-game/pull/41",
-          "compatibilityDisplay": "67%",
-          "compatibilityMin": 67,
-          "compatibilityMax": 67
+          "compatibilityDisplay": "71%",
+          "compatibilityMin": 71,
+          "compatibilityMax": 71
         }
       ],
       "ecosystems": [
@@ -487,16 +487,258 @@
       "oldestAlert": "2026-05-11T20:05:43Z"
     },
     {
+      "repo": "kylifornication-code/thedrizzle",
+      "name": "thedrizzle",
+      "owner": "kylifornication-code",
+      "isPrivate": false,
+      "language": "TypeScript",
+      "alertCounts": {
+        "critical": 2,
+        "high": 9,
+        "medium": 14,
+        "low": 7,
+        "unknown": 0
+      },
+      "totalAlerts": 32,
+      "openPRs": 11,
+      "prs": [
+        {
+          "number": 34,
+          "title": "Bump ws",
+          "createdAt": "2026-08-07T14:38:55Z",
+          "updatedAt": "2026-09-15T15:05:17Z",
+          "isDependabot": true,
+          "isSecurityUpdate": false,
+          "autoMergeEnabled": false,
+          "mergeable": null,
+          "mergeableState": "unknown",
+          "isDraft": false,
+          "labels": [
+            "dependencies",
+            "javascript"
+          ],
+          "url": "https://github.com/kylifornication-code/thedrizzle/pull/34",
+          "compatibilityDisplay": null,
+          "compatibilityMin": null,
+          "compatibilityMax": null
+        },
+        {
+          "number": 38,
+          "title": "Bump @ai-sdk/provider-utils, @ai-sdk/react and ai",
+          "createdAt": "2026-09-08T18:09:38Z",
+          "updatedAt": "2026-10-30T01:36:53Z",
+          "isDependabot": true,
+          "isSecurityUpdate": false,
+          "autoMergeEnabled": false,
+          "mergeable": null,
+          "mergeableState": "unknown",
+          "isDraft": false,
+          "labels": [
+            "dependencies",
+            "javascript"
+          ],
+          "url": "https://github.com/kylifornication-code/thedrizzle/pull/38",
+          "compatibilityDisplay": null,
+          "compatibilityMin": null,
+          "compatibilityMax": null
+        },
+        {
+          "number": 46,
+          "title": "Bump @babel/core from 7.28.6 to 7.29.7",
+          "createdAt": "2026-09-15T15:12:03Z",
+          "updatedAt": "2026-10-30T01:36:53Z",
+          "isDependabot": true,
+          "isSecurityUpdate": false,
+          "autoMergeEnabled": false,
+          "mergeable": null,
+          "mergeableState": "unknown",
+          "isDraft": false,
+          "labels": [
+            "dependencies",
+            "javascript"
+          ],
+          "url": "https://github.com/kylifornication-code/thedrizzle/pull/46",
+          "compatibilityDisplay": "82%",
+          "compatibilityMin": 82,
+          "compatibilityMax": 82
+        },
+        {
+          "number": 55,
+          "title": "Bump follow-redirects from 1.16.0 to 1.16.1",
+          "createdAt": "2026-10-21T18:53:00Z",
+          "updatedAt": "2026-11-01T03:18:50Z",
+          "isDependabot": true,
+          "isSecurityUpdate": false,
+          "autoMergeEnabled": false,
+          "mergeable": null,
+          "mergeableState": "unknown",
+          "isDraft": false,
+          "labels": [
+            "dependencies",
+            "javascript"
+          ],
+          "url": "https://github.com/kylifornication-code/thedrizzle/pull/55",
+          "compatibilityDisplay": "80%",
+          "compatibilityMin": 80,
+          "compatibilityMax": 80
+        },
+        {
+          "number": 56,
+          "title": "Bump launch-editor from 2.14.1 to 2.14.2",
+          "createdAt": "2026-10-26T12:10:09Z",
+          "updatedAt": "2026-11-01T03:08:41Z",
+          "isDependabot": true,
+          "isSecurityUpdate": false,
+          "autoMergeEnabled": false,
+          "mergeable": null,
+          "mergeableState": "unknown",
+          "isDraft": false,
+          "labels": [
+            "dependencies",
+            "javascript"
+          ],
+          "url": "https://github.com/kylifornication-code/thedrizzle/pull/56",
+          "compatibilityDisplay": "88%",
+          "compatibilityMin": 88,
+          "compatibilityMax": 88
+        },
+        {
+          "number": 57,
+          "title": "Bump postcss-selector-parser",
+          "createdAt": "2026-10-30T01:36:52Z",
+          "updatedAt": "2026-11-01T00:24:06Z",
+          "isDependabot": true,
+          "isSecurityUpdate": false,
+          "autoMergeEnabled": false,
+          "mergeable": null,
+          "mergeableState": "unknown",
+          "isDraft": false,
+          "labels": [
+            "dependencies",
+            "javascript"
+          ],
+          "url": "https://github.com/kylifornication-code/thedrizzle/pull/57",
+          "compatibilityDisplay": null,
+          "compatibilityMin": null,
+          "compatibilityMax": null
+        },
+        {
+          "number": 60,
+          "title": "Bump fast-uri from 3.1.8 to 3.1.9",
+          "createdAt": "2026-10-30T01:37:04Z",
+          "updatedAt": "2026-11-01T03:08:24Z",
+          "isDependabot": true,
+          "isSecurityUpdate": false,
+          "autoMergeEnabled": false,
+          "mergeable": null,
+          "mergeableState": "unknown",
+          "isDraft": false,
+          "labels": [
+            "dependencies",
+            "javascript"
+          ],
+          "url": "https://github.com/kylifornication-code/thedrizzle/pull/60",
+          "compatibilityDisplay": "83%",
+          "compatibilityMin": 83,
+          "compatibilityMax": 83
+        },
+        {
+          "number": 58,
+          "title": "Bump body-parser from 1.20.6 to 1.20.9",
+          "createdAt": "2026-10-30T01:37:04Z",
+          "updatedAt": "2026-10-31T22:21:35Z",
+          "isDependabot": true,
+          "isSecurityUpdate": false,
+          "autoMergeEnabled": false,
+          "mergeable": null,
+          "mergeableState": "unknown",
+          "isDraft": false,
+          "labels": [
+            "dependencies",
+            "javascript"
+          ],
+          "url": "https://github.com/kylifornication-code/thedrizzle/pull/58",
+          "compatibilityDisplay": "83%",
+          "compatibilityMin": 83,
+          "compatibilityMax": 83
+        },
+        {
+          "number": 61,
+          "title": "Bump zod from 4.3.5 to 4.6.7",
+          "createdAt": "2026-10-30T01:40:09Z",
+          "updatedAt": "2026-10-31T22:17:34Z",
+          "isDependabot": true,
+          "isSecurityUpdate": false,
+          "autoMergeEnabled": false,
+          "mergeable": null,
+          "mergeableState": "unknown",
+          "isDraft": false,
+          "labels": [
+            "dependencies",
+            "javascript"
+          ],
+          "url": "https://github.com/kylifornication-code/thedrizzle/pull/61",
+          "compatibilityDisplay": "88%",
+          "compatibilityMin": 88,
+          "compatibilityMax": 88
+        },
+        {
+          "number": 62,
+          "title": "Bump qs from 6.14.2 to 6.14.3",
+          "createdAt": "2026-10-30T01:41:31Z",
+          "updatedAt": "2026-11-01T00:23:53Z",
+          "isDependabot": true,
+          "isSecurityUpdate": false,
+          "autoMergeEnabled": false,
+          "mergeable": null,
+          "mergeableState": "unknown",
+          "isDraft": false,
+          "labels": [
+            "dependencies",
+            "javascript"
+          ],
+          "url": "https://github.com/kylifornication-code/thedrizzle/pull/62",
+          "compatibilityDisplay": null,
+          "compatibilityMin": null,
+          "compatibilityMax": null
+        },
+        {
+          "number": 63,
+          "title": "Bump joi from 17.13.7 to 17.13.9",
+          "createdAt": "2026-11-05T00:24:16Z",
+          "updatedAt": "2026-11-09T03:05:34Z",
+          "isDependabot": true,
+          "isSecurityUpdate": false,
+          "autoMergeEnabled": false,
+          "mergeable": null,
+          "mergeableState": "unknown",
+          "isDraft": false,
+          "labels": [
+            "dependencies",
+            "javascript"
+          ],
+          "url": "https://github.com/kylifornication-code/thedrizzle/pull/63",
+          "compatibilityDisplay": "87%",
+          "compatibilityMin": 87,
+          "compatibilityMax": 87
+        }
+      ],
+      "ecosystems": [
+        "npm"
+      ],
+      "oldestAlert": "2026-03-03T01:38:53Z"
+    },
+    {
       "repo": "kylifornication-code/ncaa-wrestling-bracket",
       "name": "ncaa-wrestling-bracket",
       "owner": "kylifornication-code",
       "isPrivate": false,
       "language": "JavaScript",
       "alertCounts": {
-        "critical": 2,
-        "high": 14,
+        "critical": 1,
+        "high": 13,
         "medium": 17,
-        "low": 9,
+        "low": 11,
         "unknown": 0
       },
       "totalAlerts": 42,
@@ -678,257 +920,15 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/ncaa-wrestling-bracket/pull/41",
-          "compatibilityDisplay": "17%",
-          "compatibilityMin": 17,
-          "compatibilityMax": 17
+          "compatibilityDisplay": "18%",
+          "compatibilityMin": 18,
+          "compatibilityMax": 18
         }
       ],
       "ecosystems": [
         "npm"
       ],
       "oldestAlert": "2026-03-26T02:37:09Z"
-    },
-    {
-      "repo": "kylifornication-code/thedrizzle",
-      "name": "thedrizzle",
-      "owner": "kylifornication-code",
-      "isPrivate": false,
-      "language": "TypeScript",
-      "alertCounts": {
-        "critical": 2,
-        "high": 9,
-        "medium": 14,
-        "low": 7,
-        "unknown": 0
-      },
-      "totalAlerts": 32,
-      "openPRs": 11,
-      "prs": [
-        {
-          "number": 34,
-          "title": "Bump ws",
-          "createdAt": "2026-08-07T14:38:55Z",
-          "updatedAt": "2026-09-15T15:05:17Z",
-          "isDependabot": true,
-          "isSecurityUpdate": false,
-          "autoMergeEnabled": false,
-          "mergeable": null,
-          "mergeableState": "unknown",
-          "isDraft": false,
-          "labels": [
-            "dependencies",
-            "javascript"
-          ],
-          "url": "https://github.com/kylifornication-code/thedrizzle/pull/34",
-          "compatibilityDisplay": null,
-          "compatibilityMin": null,
-          "compatibilityMax": null
-        },
-        {
-          "number": 38,
-          "title": "Bump @ai-sdk/provider-utils, @ai-sdk/react and ai",
-          "createdAt": "2026-09-08T18:09:38Z",
-          "updatedAt": "2026-10-30T01:36:53Z",
-          "isDependabot": true,
-          "isSecurityUpdate": false,
-          "autoMergeEnabled": false,
-          "mergeable": null,
-          "mergeableState": "unknown",
-          "isDraft": false,
-          "labels": [
-            "dependencies",
-            "javascript"
-          ],
-          "url": "https://github.com/kylifornication-code/thedrizzle/pull/38",
-          "compatibilityDisplay": null,
-          "compatibilityMin": null,
-          "compatibilityMax": null
-        },
-        {
-          "number": 46,
-          "title": "Bump @babel/core from 7.28.6 to 7.29.7",
-          "createdAt": "2026-09-15T15:12:03Z",
-          "updatedAt": "2026-10-30T01:36:53Z",
-          "isDependabot": true,
-          "isSecurityUpdate": false,
-          "autoMergeEnabled": false,
-          "mergeable": null,
-          "mergeableState": "unknown",
-          "isDraft": false,
-          "labels": [
-            "dependencies",
-            "javascript"
-          ],
-          "url": "https://github.com/kylifornication-code/thedrizzle/pull/46",
-          "compatibilityDisplay": "82%",
-          "compatibilityMin": 82,
-          "compatibilityMax": 82
-        },
-        {
-          "number": 55,
-          "title": "Bump follow-redirects from 1.16.0 to 1.16.1",
-          "createdAt": "2026-10-21T18:53:00Z",
-          "updatedAt": "2026-11-01T03:18:50Z",
-          "isDependabot": true,
-          "isSecurityUpdate": false,
-          "autoMergeEnabled": false,
-          "mergeable": null,
-          "mergeableState": "unknown",
-          "isDraft": false,
-          "labels": [
-            "dependencies",
-            "javascript"
-          ],
-          "url": "https://github.com/kylifornication-code/thedrizzle/pull/55",
-          "compatibilityDisplay": "80%",
-          "compatibilityMin": 80,
-          "compatibilityMax": 80
-        },
-        {
-          "number": 56,
-          "title": "Bump launch-editor from 2.14.1 to 2.14.2",
-          "createdAt": "2026-10-26T12:10:09Z",
-          "updatedAt": "2026-11-01T03:08:41Z",
-          "isDependabot": true,
-          "isSecurityUpdate": false,
-          "autoMergeEnabled": false,
-          "mergeable": null,
-          "mergeableState": "unknown",
-          "isDraft": false,
-          "labels": [
-            "dependencies",
-            "javascript"
-          ],
-          "url": "https://github.com/kylifornication-code/thedrizzle/pull/56",
-          "compatibilityDisplay": "88%",
-          "compatibilityMin": 88,
-          "compatibilityMax": 88
-        },
-        {
-          "number": 57,
-          "title": "Bump postcss-selector-parser",
-          "createdAt": "2026-10-30T01:36:52Z",
-          "updatedAt": "2026-11-01T00:24:06Z",
-          "isDependabot": true,
-          "isSecurityUpdate": false,
-          "autoMergeEnabled": false,
-          "mergeable": null,
-          "mergeableState": "unknown",
-          "isDraft": false,
-          "labels": [
-            "dependencies",
-            "javascript"
-          ],
-          "url": "https://github.com/kylifornication-code/thedrizzle/pull/57",
-          "compatibilityDisplay": null,
-          "compatibilityMin": null,
-          "compatibilityMax": null
-        },
-        {
-          "number": 60,
-          "title": "Bump fast-uri from 3.1.8 to 3.1.9",
-          "createdAt": "2026-10-30T01:37:04Z",
-          "updatedAt": "2026-11-01T03:08:24Z",
-          "isDependabot": true,
-          "isSecurityUpdate": false,
-          "autoMergeEnabled": false,
-          "mergeable": null,
-          "mergeableState": "unknown",
-          "isDraft": false,
-          "labels": [
-            "dependencies",
-            "javascript"
-          ],
-          "url": "https://github.com/kylifornication-code/thedrizzle/pull/60",
-          "compatibilityDisplay": "85%",
-          "compatibilityMin": 85,
-          "compatibilityMax": 85
-        },
-        {
-          "number": 58,
-          "title": "Bump body-parser from 1.20.6 to 1.20.9",
-          "createdAt": "2026-10-30T01:37:04Z",
-          "updatedAt": "2026-10-31T22:21:35Z",
-          "isDependabot": true,
-          "isSecurityUpdate": false,
-          "autoMergeEnabled": false,
-          "mergeable": null,
-          "mergeableState": "unknown",
-          "isDraft": false,
-          "labels": [
-            "dependencies",
-            "javascript"
-          ],
-          "url": "https://github.com/kylifornication-code/thedrizzle/pull/58",
-          "compatibilityDisplay": "81%",
-          "compatibilityMin": 81,
-          "compatibilityMax": 81
-        },
-        {
-          "number": 61,
-          "title": "Bump zod from 4.3.5 to 4.6.7",
-          "createdAt": "2026-10-30T01:40:09Z",
-          "updatedAt": "2026-10-31T22:17:34Z",
-          "isDependabot": true,
-          "isSecurityUpdate": false,
-          "autoMergeEnabled": false,
-          "mergeable": null,
-          "mergeableState": "unknown",
-          "isDraft": false,
-          "labels": [
-            "dependencies",
-            "javascript"
-          ],
-          "url": "https://github.com/kylifornication-code/thedrizzle/pull/61",
-          "compatibilityDisplay": "88%",
-          "compatibilityMin": 88,
-          "compatibilityMax": 88
-        },
-        {
-          "number": 62,
-          "title": "Bump qs from 6.14.2 to 6.14.3",
-          "createdAt": "2026-10-30T01:41:31Z",
-          "updatedAt": "2026-11-01T00:23:53Z",
-          "isDependabot": true,
-          "isSecurityUpdate": false,
-          "autoMergeEnabled": false,
-          "mergeable": null,
-          "mergeableState": "unknown",
-          "isDraft": false,
-          "labels": [
-            "dependencies",
-            "javascript"
-          ],
-          "url": "https://github.com/kylifornication-code/thedrizzle/pull/62",
-          "compatibilityDisplay": null,
-          "compatibilityMin": null,
-          "compatibilityMax": null
-        },
-        {
-          "number": 63,
-          "title": "Bump joi from 17.13.7 to 17.13.9",
-          "createdAt": "2026-11-05T00:24:16Z",
-          "updatedAt": "2026-11-09T03:05:34Z",
-          "isDependabot": true,
-          "isSecurityUpdate": false,
-          "autoMergeEnabled": false,
-          "mergeable": null,
-          "mergeableState": "unknown",
-          "isDraft": false,
-          "labels": [
-            "dependencies",
-            "javascript"
-          ],
-          "url": "https://github.com/kylifornication-code/thedrizzle/pull/63",
-          "compatibilityDisplay": "85%",
-          "compatibilityMin": 85,
-          "compatibilityMax": 85
-        }
-      ],
-      "ecosystems": [
-        "npm"
-      ],
-      "oldestAlert": "2026-03-03T01:38:53Z"
     },
     {
       "repo": "kylifornication-code/lennys-podcast-recapper",
@@ -1022,9 +1022,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/lennys-podcast-recapper/pull/30",
-          "compatibilityDisplay": "76%",
-          "compatibilityMin": 76,
-          "compatibilityMax": 76
+          "compatibilityDisplay": "78%",
+          "compatibilityMin": 78,
+          "compatibilityMax": 78
         },
         {
           "number": 31,
@@ -1042,9 +1042,9 @@
             "javascript"
           ],
           "url": "https://github.com/kylifornication-code/lennys-podcast-recapper/pull/31",
-          "compatibilityDisplay": "78%",
-          "compatibilityMin": 78,
-          "compatibilityMax": 78
+          "compatibilityDisplay": "77%",
+          "compatibilityMin": 77,
+          "compatibilityMax": 77
         },
         {
           "number": 32,
