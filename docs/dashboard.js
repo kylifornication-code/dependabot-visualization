@@ -1,5 +1,17 @@
 /* ── Dependabot Alert Insights — dashboard ─────────────────────────────── */
 
+/** Escape special HTML characters to prevent XSS when inserting into innerHTML. */
+function escapeHtml(str) {
+  if (str == null) return '';
+  return String(str)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#x27;');
+}
+
+
 let currentData = null;
 let historyData = [];
 let chartSeverity = null;
@@ -181,7 +193,7 @@ function renderSeverityDonut() {
   const colors = SEV_ORDER.map(k => SEV_COLOR[k]);
 
   el('legend-severity').innerHTML = SEV_ORDER.map((k, i) => `
-    <li><span class="legend-swatch" style="background:${colors[i]}"></span>${labels[i]}</li>
+    <li><span class="legend-swatch" style="background:${escapeHtml(colors[i])}"></span>${escapeHtml(labels[i])}</li>
   `).join('');
 
   const ctx = el('chart-severity').getContext('2d');
@@ -231,7 +243,7 @@ function renderEcosystemDonut() {
   el('eco-total').textContent = total;
 
   el('legend-ecosystem').innerHTML = entries.map(([name]) => `
-    <li><span class="legend-swatch" style="background:${ecoColor(name)}"></span>${name}</li>
+    <li><span class="legend-swatch" style="background:${escapeHtml(ecoColor(name))}"></span>${escapeHtml(name)}</li>
   `).join('');
 
   const ctx = el('chart-ecosystem').getContext('2d');
@@ -400,10 +412,11 @@ function renderRepoTable() {
         ? `${r.openPRs} open PR${r.openPRs !== 1 ? 's' : ''}`
         : 'No open PRs';
 
-      const ghUrl = `https://github.com/${r.owner}/${r.name}`;
+      const ghUrl = `https://github.com/${encodeURIComponent(r.owner)}/${encodeURIComponent(r.name)}`;
+      const safeName = escapeHtml(r.repo ?? r.name);
       return `<tr>
         <td>
-          <a class="repo-name" href="${ghUrl}" target="_blank" rel="noopener">${r.name}</a>
+          <a class="repo-name" href="${ghUrl}" target="_blank" rel="noopener">${safeName}</a>
           <span class="repo-count-pill">${r.totalAlerts}</span>
         </td>
         <td><div class="bar-stack">${segs || '<div class="bar-stack-seg" style="width:100%;background:#e2e8f0"></div>'}</div></td>
@@ -472,15 +485,16 @@ function renderPRList(filterText = '', filterRepo = '') {
 
     const age = daysOld(pr.createdAt);
 
+    const safePrUrl = /^https:\/\/github\.com\//.test(pr.url) ? pr.url : '#';
     return `
       <div class="pr-item">
         <div>
           <div class="pr-title-row">
-            <a class="pr-title" href="${pr.url}" target="_blank" rel="noopener">#${pr.number} ${pr.title}</a>
+            <a class="pr-title" href="${safePrUrl}" target="_blank" rel="noopener">#${escapeHtml(String(pr.number))} ${escapeHtml(pr.title)}</a>
             ${badges}
           </div>
           <div class="pr-meta">
-            <span class="pr-repo">${pr.repoName}</span>
+            <span class="pr-repo">${escapeHtml(pr.repoName)}</span>
             <span class="pr-age">${age === 0 ? 'today' : `${age}d ago`}</span>
           </div>
         </div>
@@ -495,7 +509,7 @@ function populateRepoFilter() {
   const repos = (currentData.repos ?? []).filter(r => r.openPRs > 0).map(r => r.repo).sort();
   const sel = el('repo-filter');
   sel.innerHTML = '<option value="">All repos</option>'
-    + repos.map(r => `<option value="${r}">${r}</option>`).join('');
+    + repos.map(r => `<option value="${escapeHtml(r)}">${escapeHtml(r)}</option>`).join('');
 }
 
 function render() {
